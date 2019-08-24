@@ -36,6 +36,7 @@ droidbot/adapter/process_monitor.py
 droidbot/adapter/qemu.py
 droidbot/adapter/telnet.py
 droidbot/adapter/user_input_monitor.py
+droidbot/resources/.DS_Store
 droidbot/resources/DroidBoxTests.apk
 droidbot/resources/androcov-1.0.jar
 droidbot/resources/droidbotApp.apk

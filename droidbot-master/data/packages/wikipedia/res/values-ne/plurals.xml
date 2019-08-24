@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d वर्ष पहिले</item>
+        <item quantity="one">गत वर्ष</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d केही दिन अघि</item>
+        <item quantity="one">हिजो</item>
+    </plurals>
+</resources>

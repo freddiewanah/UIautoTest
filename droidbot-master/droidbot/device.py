@@ -832,9 +832,9 @@ class Device(object):
             background_services = self.get_service_names()
             videorecord_path = self.video_path
             # new line
-            thread1 = threading.Thread(target=self.take_video)
-            thread1.start()
-            time.sleep(1)
+            # thread1 = threading.Thread(target=self.take_video)
+            # thread1.start()
+            # time.sleep(1)
             screenshot_path = self.take_screenshot()
             self.logger.debug("finish getting current device state...")
             from .device_state import DeviceState

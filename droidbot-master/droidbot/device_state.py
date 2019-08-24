@@ -176,11 +176,11 @@ class DeviceState(object):
             state_json_file = open(dest_state_json_path, "w")
             state_json_file.write(self.to_json())
             state_json_file.close()
-            # new line
-            data = readfromjson(dest_state_json_path)
-            state_xml_file = open(dest_state_self_path, "w")
-            state_xml_file.write(json2xml.Json2xml(data).to_xml())
-            state_xml_file.close()
+            # # new line
+            # data = readfromjson(dest_state_json_path)
+            # state_xml_file = open(dest_state_self_path, "w")
+            # state_xml_file.write(json2xml.Json2xml(data).to_xml())
+            # state_xml_file.close()
 
 
             import shutil

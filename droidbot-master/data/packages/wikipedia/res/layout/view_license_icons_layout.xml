@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/gallery_license_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="@null" app:tint="@color/white70" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/gallery_license_icon_by" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="@null" android:layout_marginStart="8.0dip" app:tint="@color/white70" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/gallery_license_icon_sa" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="@null" android:layout_marginStart="8.0dip" app:tint="@color/white70" />
+</merge>

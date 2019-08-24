@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="diff_years">
+        <item quantity="other">%d ឆ្នាំមុន</item>
+        <item quantity="one">ឆ្នាំមុន</item>
+    </plurals>
+    <plurals name="view_continue_reading_card_subtitle">
+        <item quantity="other">%d ថ្ងៃមុន</item>
+        <item quantity="one">ម្សិលមិញ</item>
+    </plurals>
+    <plurals name="wikipedia_languages_remove_dialog_title">
+        <item quantity="other">ដកភាសាដែលបានជ្រើសរើសឬ?</item>
+        <item quantity="one">ដកភាសាដែលបានជ្រើសរើសឬ?</item>
+    </plurals>
+</resources>

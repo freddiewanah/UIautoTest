@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="?main_toolbar_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="6.0dip">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/view_description_edit_cancel_button" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dip" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="4.0dip" android:contentDescription="@string/description_edit_cancel_hint" app:srcCompat="@drawable/ic_close_main_themed_24dp" />
+            <LinearLayout android:orientation="vertical" android:id="@id/view_description_edit_header_container" android:padding="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="?main_toolbar_title_color" android:ellipsize="end" android:id="@id/view_description_edit_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/description_edit_edit_description" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+                <TextView android:textSize="14.0sp" android:textColor="?main_toolbar_title_color" android:ellipsize="end" android:id="@id/view_description_edit_page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/view_description_edit_save_button" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dip" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_margin="4.0dip" android:tint="?main_toolbar_title_color" android:contentDescription="@string/description_edit_save" app:srcCompat="@drawable/ic_check_black_24dp" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="bottom" android:id="@id/view_description_edit_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-7.0dip" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0">
+        <org.wikipedia.descriptions.DescriptionEditReviewView android:id="@id/view_description_edit_review_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/view_description_edit_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/view_description_edit_scrollview" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/view_description_edit_read_article_bar_container" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/view_description_edit_page_summary_container" android:background="?selectableItemBackground" android:paddingTop="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_horizontal_padding" android:paddingEnd="@dimen/list_item_horizontal_padding" app:layout_constraintTop_toTopOf="parent">
+                        <TextView android:textSize="12.0sp" android:textColor="?material_theme_de_emphasised_color" android:id="@id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description_edit_article" android:fontFamily="sans-serif-medium" />
+                        <TextView android:textSize="14.0sp" android:textColor="?material_theme_primary_color" android:ellipsize="end" android:gravity="start" android:id="@id/view_description_edit_page_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="4" android:lineSpacingExtra="6.0sp" />
+                        <View android:background="?material_theme_border_color" android:layout_width="@dimen/divider_width_for_article" android:layout_height="1.0dip" android:layout_marginTop="19.0dip" android:layout_marginBottom="2.0dip" />
+                    </LinearLayout>
+                    <FrameLayout android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.textfield.TextInputLayout android:gravity="start" android:id="@id/view_description_edit_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:counterEnabled="true" app:counterMaxLength="@integer/description_max_chars" app:counterOverflowTextAppearance="@style/CounterOverflowTextAppearance">
+                            <org.wikipedia.views.PlainPasteEditText android:textSize="16.0sp" android:id="@id/view_description_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/description_edit_text_hint" android:inputType="textCapSentences|textMultiLine" android:imeOptions="actionDone">
+                                <requestFocus />
+                            </org.wikipedia.views.PlainPasteEditText>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <ImageView android:layout_gravity="end" android:id="@id/view_description_edit_help_button" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dip" android:clickable="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="-10.0dip" android:layout_marginBottom="8.0dip" android:contentDescription="@string/description_edit_help_title" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_info_outline_black_24dp" app:tint="?material_theme_secondary_color" />
+                    </FrameLayout>
+                    <org.wikipedia.descriptions.DescriptionEditLicenseView android:id="@id/view_description_edit_license_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+                </LinearLayout>
+            </ScrollView>
+            <org.wikipedia.descriptions.DescriptionEditReadArticleBarView android:id="@id/view_description_edit_read_article_bar_container" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/view_description_edit_scrollview" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</merge>

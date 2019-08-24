@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <org.wikipedia.views.FaceAndColorDetectImageView android:id="@id/view_page_header_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" app:actualImageScaleType="focusCrop" app:failureImage="?lead_image_drawable" app:failureImageScaleType="centerCrop" app:placeholderImage="?lead_image_drawable" app:placeholderImageScaleType="centerCrop" />
+        <View android:id="@id/view_page_header_image_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/on_this_day_item_title" android:layout_width="fill_parent" android:layout_height="54.0dip" android:maxLines="1" android:fontFamily="sans-serif-medium" android:paddingStart="@dimen/list_item_horizontal_padding" android:paddingEnd="@dimen/list_item_horizontal_padding" />
+    <View android:background="?material_theme_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:id="@id/on_this_day_item_add_to_list" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" android:layout_marginStart="@dimen/list_item_horizontal_padding" android:layout_marginEnd="@dimen/list_item_horizontal_padding" app:srcCompat="@drawable/ic_bookmark_white_24dp" />
+        <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="54.0dip" android:text="@string/menu_page_add_to_list" android:layout_weight="1.0" android:paddingStart="@dimen/list_item_horizontal_padding" android:paddingEnd="@dimen/list_item_horizontal_padding" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/on_this_day_item_share" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?secondary_text_color" android:contentDescription="@null" android:layout_marginStart="@dimen/list_item_horizontal_padding" android:layout_marginEnd="@dimen/list_item_horizontal_padding" app:srcCompat="@drawable/ic_share_black_24dp" />
+        <TextView android:textSize="16.0sp" android:textColor="?primary_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="54.0dip" android:text="@string/on_this_day_page_share" android:layout_weight="1.0" android:paddingStart="@dimen/list_item_horizontal_padding" android:paddingEnd="@dimen/list_item_horizontal_padding" />
+    </LinearLayout>
+</merge>

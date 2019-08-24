@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/appshortcut_ic_search" android:enabled="true" android:shortcutId="shortcutSearch" android:shortcutShortLabel="@string/app_shortcuts_search" android:shortcutLongLabel="@string/app_shortcuts_search">
+        <intent android:targetPackage="org.wikipedia" android:action="ACTION_APP_SHORTCUT" android:targetClass="org.wikipedia.search.SearchActivity">
+            <extra android:name="APP_SHORTCUT_ID" android:value="shortcutSearch" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/appshortcut_ic_random" android:enabled="true" android:shortcutId="shortcutRandom" android:shortcutShortLabel="@string/app_shortcuts_random" android:shortcutLongLabel="@string/app_shortcuts_random">
+        <intent android:targetPackage="org.wikipedia" android:action="ACTION_APP_SHORTCUT" android:targetClass="org.wikipedia.random.RandomActivity">
+            <extra android:name="APP_SHORTCUT_ID" android:value="shortcutRandom" />
+        </intent>
+    </shortcut>
+</shortcuts>
