@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="center" a:layout_gravity="center_horizontal" a:orientation="horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content" a:baselineAligned="false"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <LinearLayout a:gravity="center" a:orientation="horizontal" a:id="@id/pickers" a:layout_width="wrap_content" a:layout_height="wrap_content">
+        <net.simonvt.numberpicker.NumberPicker a:id="@id/month" a:focusable="true" a:focusableInTouchMode="true" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+        <net.simonvt.numberpicker.NumberPicker a:id="@id/day" a:focusable="true" a:focusableInTouchMode="true" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+        <net.simonvt.numberpicker.NumberPicker a:id="@id/year" a:focusable="true" a:focusableInTouchMode="true" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+    </LinearLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

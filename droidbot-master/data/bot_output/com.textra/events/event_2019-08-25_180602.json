@@ -1,0 +1,52 @@
+{
+  "tag": "2019-08-25_180602",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        16
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "android:id/list",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ListView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1808",
+      "signature": "[class]android.widget.ListView[resource_id]android:id/list[text]None[enabled,,]",
+      "view_str": "232fd395737d08d9f45fdae5dd8647ce",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]android:id/list"
+    },
+    "direction": "LEFT"
+  },
+  "start_state": "0613d506849cedc14bcac3b0bfeca885",
+  "stop_state": "c62a34988f5c92ce729d3ca4b7ef6076",
+  "event_str": "ScrollEvent(state=0613d506849cedc14bcac3b0bfeca885, view=232fd395737d08d9f45fdae5dd8647ce, direction=LEFT)"
+}

@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_182827",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "resource_id": "com.textra:id/overflow_item",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 24,
+      "size": "132*154",
+      "signature": "[class]android.widget.ImageView[resource_id]com.textra:id/overflow_item[text]None[enabled,,]",
+      "view_str": "eaff7de140690cfada8802ce4af7a102",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.textra:id/overflow_item"
+    }
+  },
+  "start_state": "81dccd1690f5897820959ad79247ea71",
+  "stop_state": "c2c5bec9b2f1ff5acc3b0a895ca40202",
+  "event_str": "TouchEvent(state=81dccd1690f5897820959ad79247ea71, view=eaff7de140690cfada8802ce4af7a102)"
+}

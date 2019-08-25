@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_221817",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2072,
+          769
+        ],
+        [
+          1080,
+          835
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_overflow_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 58,
+      "temp_id": 63,
+      "size": "-992*66",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_overflow_menu[text]None[enabled,,]",
+      "view_str": "a04005c933ab5058836e7b26e681cc00",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_overflow_menu"
+    }
+  },
+  "start_state": "e6b70d618389adf7ea3d940b7b1f9226",
+  "stop_state": "e6b70d618389adf7ea3d940b7b1f9226",
+  "event_str": "TouchEvent(state=e6b70d618389adf7ea3d940b7b1f9226, view=a04005c933ab5058836e7b26e681cc00)"
+}

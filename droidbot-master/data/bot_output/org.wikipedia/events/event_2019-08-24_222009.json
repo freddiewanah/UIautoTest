@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_222009",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1386
+        ],
+        [
+          1036,
+          1502
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/about_translators",
+      "checked": false,
+      "text": "This app was translated by the volunteer translators at translatewiki.net.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 19,
+      "size": "992*116",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/about_translators[text]None[enabled,,]",
+      "view_str": "996b6be2ad9a8ab17e9c45c069069baf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/about_translators"
+    }
+  },
+  "start_state": "758988b0acd7128a4da45572170fb4dc",
+  "stop_state": "758988b0acd7128a4da45572170fb4dc",
+  "event_str": "TouchEvent(state=758988b0acd7128a4da45572170fb4dc, view=996b6be2ad9a8ab17e9c45c069069baf)"
+}

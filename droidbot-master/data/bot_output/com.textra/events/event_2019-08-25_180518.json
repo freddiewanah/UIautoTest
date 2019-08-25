@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_180518",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          556,
+          1888
+        ],
+        [
+          1079,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "523*140",
+      "signature": "[class]android.widget.ImageView[resource_id]com.textra:id/image[text]None[enabled,,]",
+      "view_str": "be4ff262b1001273bcefb3151a3c55c1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.textra:id/image"
+    }
+  },
+  "start_state": "d63a3672eaa200bba9a1c8878a8a6a5c",
+  "stop_state": "7a89019c22a13d8425016989d320c63a",
+  "event_str": "TouchEvent(state=d63a3672eaa200bba9a1c8878a8a6a5c, view=be4ff262b1001273bcefb3151a3c55c1)"
+}

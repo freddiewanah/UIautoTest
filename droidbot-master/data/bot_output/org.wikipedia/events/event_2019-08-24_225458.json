@@ -1,0 +1,49 @@
+{
+  "tag": "2019-08-24_225458",
+  "event": {
+    "event_type": "set_text",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          198,
+          93
+        ],
+        [
+          1058,
+          192
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_src_text",
+      "checked": false,
+      "text": "Search Wikipedia",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "860*99",
+      "signature": "[class]android.widget.EditText[resource_id]org.wikipedia:id/search_src_text[text]Search Wikipedia[enabled,,]",
+      "view_str": "86746dbc8fc644ca7cf8f39a14383452",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.wikipedia:id/search_src_text"
+    },
+    "text": "HelloWorld"
+  },
+  "start_state": "cb4fb80b64db4ef350c2cd55428cdf28",
+  "stop_state": "b748bf9c5d27d6ef855159d3bdb50477",
+  "event_str": "SetTextEvent(state=cb4fb80b64db4ef350c2cd55428cdf28, view=86746dbc8fc644ca7cf8f39a14383452, text=HelloWorld)"
+}

@@ -1,0 +1,50 @@
+{
+  "tag": "2019-08-24_225219",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          610,
+          369
+        ],
+        [
+          1050,
+          501
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/reading_lists_overflow_refresh",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 8,
+      "size": "440*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/reading_lists_overflow_refresh[text]None[enabled,,]",
+      "view_str": "99fad2d90ad188da104ecd0ae3c82e2d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/reading_lists_overflow_refresh"
+    }
+  },
+  "start_state": "0b1e4458ca08d955d59c416fdf22f21a",
+  "stop_state": "092eff6841ceee8335845e179ad8a20c",
+  "event_str": "TouchEvent(state=0b1e4458ca08d955d59c416fdf22f21a, view=99fad2d90ad188da104ecd0ae3c82e2d)"
+}

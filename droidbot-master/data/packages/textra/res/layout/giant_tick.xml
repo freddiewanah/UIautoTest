@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/giantTick" a:background="@android:color/transparent" a:layout_width="fill_parent" a:layout_height="fill_parent"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:layout_width="fill_parent" a:layout_height="fill_parent" app:tintBackgroundWith="primaryColor">
+        <co.paulburke.textratoast.CheckmarkView a:layout_gravity="center" a:id="@id/checkmark" a:layout_width="96.0dip" a:layout_height="96.0dip" />
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

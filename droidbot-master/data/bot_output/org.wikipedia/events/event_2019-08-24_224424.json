@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_224424",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Decrease text size",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1460
+        ],
+        [
+          132,
+          1548
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/buttonDecreaseTextSize",
+      "checked": false,
+      "text": "T",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "88*88",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/buttonDecreaseTextSize[text]T[enabled,,]",
+      "view_str": "d564cb517df32569ad52f86d23d437fb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/buttonDecreaseTextSize"
+    }
+  },
+  "start_state": "7e221a17a3fced6f27225199d22cfa9a",
+  "stop_state": "d5ba05ca76bc8126fb634f073567a269",
+  "event_str": "TouchEvent(state=7e221a17a3fced6f27225199d22cfa9a, view=d564cb517df32569ad52f86d23d437fb)"
+}

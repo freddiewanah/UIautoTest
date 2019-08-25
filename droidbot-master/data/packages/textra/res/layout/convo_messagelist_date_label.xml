@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/date_label_block" a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_marginTop="0.0dip" a:layout_marginBottom="8.0dip"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <com.mplus.lib.ui.common.base.BaseTextView a:layout_gravity="center_horizontal" a:id="@id/date_label" a:layout_width="wrap_content" a:layout_height="wrap_content" style="?convo_dateLabel" />
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

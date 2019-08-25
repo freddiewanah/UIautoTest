@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout a:id="@id/main" a:fitsSystemWindows="true" a:layout_width="fill_parent" a:layout_height="fill_parent" style="?upgraded_to_pro"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <com.mplus.lib.ui.common.base.BaseLinearLayout a:layout_gravity="center" a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?upgraded_to_pro_container">
+        <com.mplus.lib.ui.common.base.BaseTextView a:layout_gravity="center_horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content" a:text="@string/upgraded_to_pro_title" style="?upgraded_to_pro_title" />
+        <com.mplus.lib.ui.common.base.BaseTextView a:textColor="@color/text_medium_gray_dark" a:layout_gravity="center_horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content" a:text="@string/upgraded_to_pro_no_more_ads" style="?upgraded_to_pro_summary" />
+        <FrameLayout a:layout_gravity="center_horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_marginTop="18.0dip" a:layout_marginBottom="16.0dip">
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/garlandImage" a:layout_width="wrap_content" a:layout_height="wrap_content" style="?upgraded_to_pro_badge_garland" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:layout_width="wrap_content" a:layout_height="wrap_content" style="?upgraded_to_pro_badge_ribbons" />
+        </FrameLayout>
+        <com.mplus.lib.ui.common.base.BaseTextView a:layout_gravity="center_horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content" a:text="@string/upgraded_to_pro_summary" style="?upgraded_to_pro_summary" />
+    </com.mplus.lib.ui.common.base.BaseLinearLayout>
+</FrameLayout>

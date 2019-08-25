@@ -1,0 +1,10 @@
+{
+  "tag": "2019-08-25_181940",
+  "event": {
+    "event_type": "intent",
+    "intent": "am start com.textra/com.mplus.lib.ui.main.Main"
+  },
+  "start_state": "4b476c27fee8a60a29b9ddb99151b7cf",
+  "stop_state": "d63a3672eaa200bba9a1c8878a8a6a5c",
+  "event_str": "IntentEvent(intent='am start com.textra/com.mplus.lib.ui.main.Main')"
+}

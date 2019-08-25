@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="right" a:orientation="vertical" a:id="@id/main" a:fitsSystemWindows="true" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?class0"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_actionbar" />
+    <com.mplus.lib.ui.common.base.BaseTextView a:autoLink="all" a:id="@id/text" a:background="?screen_background" style="?class0_text" />
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:background="?screen_background" a:layout_width="fill_parent" a:layout_height="wrap_content">
+        <com.mplus.lib.ui.common.base.BaseLinearLayout a:layout_gravity="right" style="?common_dialog_buttonPanel"
+          xmlns:a="http://schemas.android.com/apk/res/android">
+            <com.mplus.lib.ui.common.base.BaseButton a:id="@id/saveButton" a:text="@string/class0_saveButton" style="?common_dialog_okButton" />
+        </com.mplus.lib.ui.common.base.BaseLinearLayout>
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

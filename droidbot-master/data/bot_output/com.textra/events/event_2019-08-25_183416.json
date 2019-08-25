@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_183416",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          468,
+          1153
+        ],
+        [
+          710,
+          1253
+        ]
+      ],
+      "resource_id": "com.textra:id/cancel",
+      "checked": false,
+      "text": "CANCEL",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "242*100",
+      "signature": "[class]android.widget.Button[resource_id]com.textra:id/cancel[text]CANCEL[enabled,,]",
+      "view_str": "eff18afa863620a1764d35ebc9ffc671",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.textra:id/cancel"
+    }
+  },
+  "start_state": "e6dbc932935251c817232ec8cb0f4aab",
+  "stop_state": "afa8f055d3e038ff6569288cdb9d5763",
+  "event_str": "TouchEvent(state=e6dbc932935251c817232ec8cb0f4aab, view=eff18afa863620a1764d35ebc9ffc671)"
+}

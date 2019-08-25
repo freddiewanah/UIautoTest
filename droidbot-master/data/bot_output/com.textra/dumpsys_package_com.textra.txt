@@ -1,0 +1,975 @@
+Activity Resolver Table:
+  Full MIME Types:
+      vnd.android-dir/mms-sms:
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter 8775780
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android-dir/mms-sms"
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 671f9fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android-dir/mms-sms"
+      audio/*:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter eefb80a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "audio"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      */*:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 7e0987b
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      video/*:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter a367075
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "video"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      text/x-vcard:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 3389698
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/x-vcard"
+      vnd.android.cursor.dir/mms:
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter c5fac03
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/mms"
+      text/plain:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 127055f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+      image/*:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 7ba6bac
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter c5fac03
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/mms"
+      text:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 127055f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 3389698
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/x-vcard"
+      vnd.android-dir:
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter 8775780
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android-dir/mms-sms"
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 671f9fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android-dir/mms-sms"
+
+  Wild MIME Types:
+      *:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 7e0987b
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      audio:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter eefb80a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "audio"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      image:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 7ba6bac
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      video:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter a367075
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "video"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Schemes:
+      mms:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 47971b9
+          Action: "android.intent.action.SENDTO"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      sms:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 47971b9
+          Action: "android.intent.action.SENDTO"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      mmsto:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 47971b9
+          Action: "android.intent.action.SENDTO"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+      smsto:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 47971b9
+          Action: "android.intent.action.SENDTO"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sms"
+          Scheme: "smsto"
+          Scheme: "mms"
+          Scheme: "mmsto"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter 94844b2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_MESSAGING"
+        7d3530a com.textra/com.mplus.lib.ui.main.Main filter e8a9ef1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c03977b com.textra/com.mplus.lib.Main_ffe57373 filter cd94ad6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9d12998 com.textra/com.mplus.lib.Main_ffef5350 filter 4d64157
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c4b35f1 com.textra/com.mplus.lib.Main_fff44336 filter 76c8444
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        fdb95d6 com.textra/com.mplus.lib.Main_ffe53935 filter a19392d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1aa3057 com.textra/com.mplus.lib.Main_ffd32f2f filter 1f73e62
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a7b4744 com.textra/com.mplus.lib.Main_ffc62828 filter d139bf3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8cc402d com.textra/com.mplus.lib.Main_ffb71c1c filter bcfa0b0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a533962 com.textra/com.mplus.lib.Main_ffd50000 filter 27d3b29
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4b77af3 com.textra/com.mplus.lib.Main_ffff1744 filter 20edeae
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        48793b0 com.textra/com.mplus.lib.Main_ffff5252 filter c2044f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6d9b229 com.textra/com.mplus.lib.Main_fff06292 filter 40617dc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3af89ae com.textra/com.mplus.lib.Main_ffec407a filter 20560e5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        844d34f com.textra/com.mplus.lib.Main_ffe91e63 filter 5ee37ba
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        bca3adc com.textra/com.mplus.lib.Main_ffd81b60 filter f44966b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        53247e5 com.textra/com.mplus.lib.Main_ffc2185b filter 7cad5c8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        86e92ba com.textra/com.mplus.lib.Main_ffad1457 filter f302661
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        da5556b com.textra/com.mplus.lib.Main_ff880e4f filter 3381586
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b2e28c8 com.textra/com.mplus.lib.Main_ffc51162 filter 1142e47
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5c47d61 com.textra/com.mplus.lib.Main_fff50057 filter d9b8674
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ce32086 com.textra/com.mplus.lib.Main_ffff4081 filter fe7c79d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e41dd47 com.textra/com.mplus.lib.Main_ffba68c8 filter 4f00412
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f610974 com.textra/com.mplus.lib.Main_ffab47bc filter 35b67e3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ea8e9d com.textra/com.mplus.lib.Main_ff9c27b0 filter 42495e0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5c0bf12 com.textra/com.mplus.lib.Main_ff8e24aa filter 47e4099
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        73506e3 com.textra/com.mplus.lib.Main_ff7b1fa2 filter c64f5e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3f48e0 com.textra/com.mplus.lib.Main_ff6a1b9a filter 1529f3f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        667799 com.textra/com.mplus.lib.Main_ff4a148c filter 66d300c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d67ba5e com.textra/com.mplus.lib.Main_ffaa00ff filter 6694d55
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2a72e3f com.textra/com.mplus.lib.Main_ffd500f9 filter 524036a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        500130c com.textra/com.mplus.lib.Main_ffe040fb filter 75bf05b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e1df455 com.textra/com.mplus.lib.Main_ff9575cd filter 6c340f8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1f11e6a com.textra/com.mplus.lib.Main_ff7e57c2 filter 6be69d1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        aea6f5b com.textra/com.mplus.lib.Main_ff673ab7 filter bf6ec36
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f2153f8 com.textra/com.mplus.lib.Main_ff5e35b1 filter bdf3737
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        29680d1 com.textra/com.mplus.lib.Main_ff512da8 filter c6774a4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7fab736 com.textra/com.mplus.lib.Main_ff4527a0 filter 86ed20d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        356a637 com.textra/com.mplus.lib.Main_ff311b92 filter e3d95c2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        813b7a4 com.textra/com.mplus.lib.Main_ff6200ea filter 9e60fd3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f31590d com.textra/com.mplus.lib.Main_ff651fff filter ff93710
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e3310c2 com.textra/com.mplus.lib.Main_ff7c4dff filter 2438209
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2e56ed3 com.textra/com.mplus.lib.Main_ff7986cb filter 4534c0e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        da6aa10 com.textra/com.mplus.lib.Main_ff5c6bc0 filter 977d62f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        277909 com.textra/com.mplus.lib.Main_ff3f51b5 filter 2a2b43c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        da5770e com.textra/com.mplus.lib.Main_ff3949ab filter 49935c5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c8e252f com.textra/com.mplus.lib.Main_ff303f9f filter efc1b1a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        934573c com.textra/com.mplus.lib.Main_ff283593 filter 1b5a64b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2459cc5 com.textra/com.mplus.lib.Main_ff1a237e filter c04d828
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2c5f61a com.textra/com.mplus.lib.Main_ff304ffe filter edc6941
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        161e54b com.textra/com.mplus.lib.Main_ff3d5afe filter 530cee6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d8dab28 com.textra/com.mplus.lib.Main_ff536dfe filter b65c27
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8684041 com.textra/com.mplus.lib.Main_ff64b5f6 filter ae34ed4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b3d59e6 com.textra/com.mplus.lib.Main_ff42a5f5 filter c5587d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8678b27 com.textra/com.mplus.lib.Main_ff2196f3 filter 2aaf372
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7a651d4 com.textra/com.mplus.lib.Main_ff1e88e5 filter 52293c3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        cb79f7d com.textra/com.mplus.lib.Main_ff1976d2 filter 4908440
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4752e72 com.textra/com.mplus.lib.Main_ff1565c0 filter 353ff79
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        837b2c3 com.textra/com.mplus.lib.Main_ff0d47a1 filter 330d4be
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e00b740 com.textra/com.mplus.lib.Main_ff2962ff filter 590a91f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9a3b679 com.textra/com.mplus.lib.Main_ff2979ff filter f19a46c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6e3bfbe com.textra/com.mplus.lib.Main_ff448aff filter 58c1a35
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e58b81f com.textra/com.mplus.lib.Main_ff4fc3f7 filter 6a17eca
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ada076c com.textra/com.mplus.lib.Main_ff29b6f6 filter 1a0b83b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6a04135 com.textra/com.mplus.lib.Main_ff03a9f4 filter 2329b58
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a1819ca com.textra/com.mplus.lib.Main_ff039be5 filter 8f124b1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5ab73b com.textra/com.mplus.lib.Main_ff0288d1 filter 9c0bd96
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d162e58 com.textra/com.mplus.lib.Main_ff0277bd filter 8d89d17
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4a0bbb1 com.textra/com.mplus.lib.Main_ff01579b filter ae21504
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d860896 com.textra/com.mplus.lib.Main_ff0091ea filter 9c25aed
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2b38c17 com.textra/com.mplus.lib.Main_ff00b0ff filter fc31d22
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        bebd804 com.textra/com.mplus.lib.Main_ff40c4ff filter 33ff3b3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        65461ed com.textra/com.mplus.lib.Main_ff4dd0e1 filter ded7d70
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2121822 com.textra/com.mplus.lib.Main_ff26c6da filter ef6b8e9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        15ad2b3 com.textra/com.mplus.lib.Main_ff00bcd4 filter 899e96e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9507070 com.textra/com.mplus.lib.Main_ff00acc1 filter 7bc180f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        222fe9 com.textra/com.mplus.lib.Main_ff0097a7 filter 505009c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5d946e com.textra/com.mplus.lib.Main_ff00838f filter df8faa5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        625e70f com.textra/com.mplus.lib.Main_ff006064 filter fff2e7a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f24239c com.textra/com.mplus.lib.Main_ff00b8d4 filter c2c262b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        be4e1a5 com.textra/com.mplus.lib.Main_ff00e5ff filter 2af8a88
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7d2897a com.textra/com.mplus.lib.Main_ff18ffff filter e239c21
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8e3e52b com.textra/com.mplus.lib.Main_ff4db6ac filter 141b846
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        31ddd88 com.textra/com.mplus.lib.Main_ff26a69a filter b44fa07
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c66f321 com.textra/com.mplus.lib.Main_ff009688 filter 8f6c734
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        26fc346 com.textra/com.mplus.lib.Main_ff00897b filter 7fcd95d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        539a907 com.textra/com.mplus.lib.Main_ff00796b filter bd112d2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d774a34 com.textra/com.mplus.lib.Main_ff00695c filter c2d2fa3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c9ea05d com.textra/com.mplus.lib.Main_ff004d40 filter ed322a0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        954cdd2 com.textra/com.mplus.lib.Main_ff00bfa5 filter c32ae59
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        23dcea3 com.textra/com.mplus.lib.Main_ff1de9b6 filter 4898a1e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e58d5a0 com.textra/com.mplus.lib.Main_ff64ffda filter 7d922ff
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6a9e559 com.textra/com.mplus.lib.Main_ff81c784 filter 57c8cc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        60df51e com.textra/com.mplus.lib.Main_ff66bb6a filter e56d715
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7d4b1ff com.textra/com.mplus.lib.Main_ff4caf50 filter fc02a2a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e05abcc com.textra/com.mplus.lib.Main_ff43a047 filter 826f01b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e8a7e15 com.textra/com.mplus.lib.Main_ff388e3c filter 59ea5b8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ca0452a com.textra/com.mplus.lib.Main_ff2e7d32 filter f5acf91
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        dcc6f1b com.textra/com.mplus.lib.Main_ff1b5e20 filter ebef6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3c7b8b8 com.textra/com.mplus.lib.Main_ff00c853 filter cba72f7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ca1e691 com.textra/com.mplus.lib.Main_ff00e676 filter c746564
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a5589f6 com.textra/com.mplus.lib.Main_ff69f0ae filter 3cbd3cd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b8e1f7 com.textra/com.mplus.lib.Main_ffaed581 filter 5dfd482
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f9ba864 com.textra/com.mplus.lib.Main_ff9ccc65 filter 1994793
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3ed5acd com.textra/com.mplus.lib.Main_ff8bc34a filter c473d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5484f82 com.textra/com.mplus.lib.Main_ff7cb342 filter 1cedfc9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        88fa693 com.textra/com.mplus.lib.Main_ff689f38 filter bbab6ce
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        29ce6d0 com.textra/com.mplus.lib.Main_ff558b2f filter 386c9ef
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1d6c9 com.textra/com.mplus.lib.Main_ff33691e filter fc4fcfc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8afe1ce com.textra/com.mplus.lib.Main_ff64dd17 filter 2dcaf85
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d0418ef com.textra/com.mplus.lib.Main_ff76ff03 filter b4f71da
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2319ffc com.textra/com.mplus.lib.Main_ffb2ff59 filter e20160b
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6c81685 com.textra/com.mplus.lib.Main_ffdce775 filter 1e2ece8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9ec4cda com.textra/com.mplus.lib.Main_ffd4e157 filter 53dbf01
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3a3550b com.textra/com.mplus.lib.Main_ffcddc39 filter 742d1a6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1f6bfe8 com.textra/com.mplus.lib.Main_ffc0ca33 filter fb807e7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9f89601 com.textra/com.mplus.lib.Main_ffafb42b filter 76def94
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2525ca6 com.textra/com.mplus.lib.Main_ff9e9d24 filter 9464a3d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3b036e7 com.textra/com.mplus.lib.Main_ff827717 filter 5ba6232
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6bf294 com.textra/com.mplus.lib.Main_ffaeea00 filter ef33b83
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        457913d com.textra/com.mplus.lib.Main_ffc6ff00 filter 4047100
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9b79d32 com.textra/com.mplus.lib.Main_ffeeff41 filter 6524d39
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        bbf5a83 com.textra/com.mplus.lib.Main_fffff176 filter 7a86f7e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        25fa400 com.textra/com.mplus.lib.Main_ffffee58 filter e240cdf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        eb10439 com.textra/com.mplus.lib.Main_ffffeb3b filter 4bf9d2c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        dbe5a7e com.textra/com.mplus.lib.Main_fffdd835 filter 38183f5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5131bdf com.textra/com.mplus.lib.Main_fffbc02d filter 8d8058a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        91b002c com.textra/com.mplus.lib.Main_fff9a825 filter 86697fb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        894aaf5 com.textra/com.mplus.lib.Main_fff57f17 filter d1f6018
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        1e1a08a com.textra/com.mplus.lib.Main_ffffd600 filter 336a71
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b796fb com.textra/com.mplus.lib.Main_ffffea00 filter 4b8f056
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f4df318 com.textra/com.mplus.lib.Main_ffffff00 filter 47cb8d7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d20171 com.textra/com.mplus.lib.Main_ffffd54f filter 6b665c4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4413b56 com.textra/com.mplus.lib.Main_ffffca28 filter 8433cad
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a5ea7d7 com.textra/com.mplus.lib.Main_ffffc107 filter bebbbe2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8bb28c4 com.textra/com.mplus.lib.Main_ffffb300 filter 96a0b73
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9b443ad com.textra/com.mplus.lib.Main_ffffa000 filter f961a30
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        32db6e2 com.textra/com.mplus.lib.Main_ffff8f00 filter 3f6a9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        cfbea73 com.textra/com.mplus.lib.Main_ffff6f00 filter 68db42e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        a40d30 com.textra/com.mplus.lib.Main_ffffab00 filter cfebcf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4fe6da9 com.textra/com.mplus.lib.Main_ffffc400 filter 37aa95c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f745f2e com.textra/com.mplus.lib.Main_ffffd740 filter 3fc5465
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        520bacf com.textra/com.mplus.lib.Main_ffffb74d filter f44e53a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2f4cc5c com.textra/com.mplus.lib.Main_ffffa726 filter 30975eb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3a73b65 com.textra/com.mplus.lib.Main_ffff9800 filter bb6ff48
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        76b403a com.textra/com.mplus.lib.Main_fffb8c00 filter 862d1e1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d1834eb com.textra/com.mplus.lib.Main_fff57c00 filter 30c1b06
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c305248 com.textra/com.mplus.lib.Main_ffef6c00 filter 90785c7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        55528e1 com.textra/com.mplus.lib.Main_ffe65100 filter 1e0c7f4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6bd2606 com.textra/com.mplus.lib.Main_ffff6d00 filter 459ab1d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ec334c7 com.textra/com.mplus.lib.Main_ffff9100 filter 1bee192
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c1c4af4 com.textra/com.mplus.lib.Main_ffffab40 filter fecb763
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        39a721d com.textra/com.mplus.lib.Main_ffff8a65 filter 13c6f60
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        6f59c92 com.textra/com.mplus.lib.Main_ffff7043 filter 4eadc19
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7345663 com.textra/com.mplus.lib.Main_ffff5722 filter b6584de
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        72d2260 com.textra/com.mplus.lib.Main_fff4511e filter a6966bf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4f11319 com.textra/com.mplus.lib.Main_ffe64a19 filter 2e9218c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        cccefde com.textra/com.mplus.lib.Main_ffd84315 filter 3c420d5
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        80bf5bf com.textra/com.mplus.lib.Main_ffbf360c filter 64110ea
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2b2048c com.textra/com.mplus.lib.Main_ffdd2c00 filter bd7afdb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        376c7d5 com.textra/com.mplus.lib.Main_ffff3d00 filter ccca78
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e342bea com.textra/com.mplus.lib.Main_ffff6e40 filter db2f551
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        2942edb com.textra/com.mplus.lib.Main_ffa1887f filter 99751b6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7c0dd78 com.textra/com.mplus.lib.Main_ff8d6e63 filter 9176eb7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        3690c51 com.textra/com.mplus.lib.Main_ff795548 filter b401624
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d211cb6 com.textra/com.mplus.lib.Main_ff6d4c41 filter 4e0958d
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        89cddb7 com.textra/com.mplus.lib.Main_ff5d4037 filter 93ed342
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8e25924 com.textra/com.mplus.lib.Main_ff4e342e filter b2a3f53
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        5611c8d com.textra/com.mplus.lib.Main_ff3e2723 filter d7a7090
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        31a4e42 com.textra/com.mplus.lib.Main_ffffffff filter acdfd89
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f179e53 com.textra/com.mplus.lib.Main_ffe0e0e0 filter deae18e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        67de390 com.textra/com.mplus.lib.Main_ffbdbdbd filter f8f7daf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4ff489 com.textra/com.mplus.lib.Main_ff9e9e9e filter cbe05bc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9830c8e com.textra/com.mplus.lib.Main_ff757575 filter e0fe945
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e73ccaf com.textra/com.mplus.lib.Main_ff616161 filter 637889a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e05a8bc com.textra/com.mplus.lib.Main_ff424242 filter 26045cb
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f3a5045 com.textra/com.mplus.lib.Main_ff212121 filter e43c1a8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        aa7639a com.textra/com.mplus.lib.Main_ff000000 filter 7cad4c1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        cba84cb com.textra/com.mplus.lib.Main_ff90a4ae filter c759466
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        fe294a8 com.textra/com.mplus.lib.Main_ff78909c filter e2b73a7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        eb4abc1 com.textra/com.mplus.lib.Main_ff607d8b filter fe75054
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        7881f66 com.textra/com.mplus.lib.Main_ff546e7a filter 4eefbfd
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d6aa2a7 com.textra/com.mplus.lib.Main_ff455a64 filter d3690f2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        8205354 com.textra/com.mplus.lib.Main_ff37474f filter d91a343
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        61f42fd com.textra/com.mplus.lib.Main_ff263238 filter f931dc0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.MAIN:
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter c5fac03
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android.cursor.dir/mms"
+        ddfceac com.textra/com.mplus.lib.ui.main.MainActivity filter 8775780
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android-dir/mms-sms"
+      android.intent.action.SEND:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 127055f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 7ba6bac
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter a367075
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "video"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter eefb80a
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "audio"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 3389698
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/x-vcard"
+      android.intent.action.VIEW:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 671f9fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "vnd.android-dir/mms-sms"
+      android.intent.action.SEND_MULTIPLE:
+        e4b9775 com.textra/com.mplus.lib.ui.integration.IntegrationActivity filter 7e0987b
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+Receiver Resolver Table:
+  Full MIME Types:
+      application/vnd.wap.mms-message:
+        e66cbf2 com.textra/com.mplus.lib.ea filter 160f68b
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          Type: "application/vnd.wap.mms-message"
+          mPriority=2, mOrder=0, mHasPartialTypes=false
+        e66cbf2 com.textra/com.mplus.lib.ea filter be98368
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          Type: "application/vnd.wap.mms-message"
+        314c243 com.textra/com.mplus.lib.es filter 2e6d381
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          Type: "application/vnd.wap.mms-message"
+          mPriority=2147483647, mOrder=0, mHasPartialTypes=false
+
+  Base MIME Types:
+      application:
+        e66cbf2 com.textra/com.mplus.lib.ea filter 160f68b
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          Type: "application/vnd.wap.mms-message"
+          mPriority=2, mOrder=0, mHasPartialTypes=false
+        e66cbf2 com.textra/com.mplus.lib.ea filter be98368
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          Type: "application/vnd.wap.mms-message"
+        314c243 com.textra/com.mplus.lib.es filter 2e6d381
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          Type: "application/vnd.wap.mms-message"
+          mPriority=2147483647, mOrder=0, mHasPartialTypes=false
+
+  Non-Data Actions:
+      android.intent.action.SERVICE_STATE:
+        5d950c0 com.textra/com.mplus.lib.fa filter d876e14
+          Action: "android.intent.action.SERVICE_STATE"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        5d950c0 com.textra/com.mplus.lib.fa filter 77f8c26
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.provider.Telephony.SMS_DELIVER:
+        8a211f9 com.textra/com.mplus.lib.il filter e7d845a
+          Action: "android.provider.Telephony.SMS_DELIVER"
+      android.intent.action.TIMEZONE_CHANGED:
+        5d950c0 com.textra/com.mplus.lib.fa filter dac26bd
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        5d950c0 com.textra/com.mplus.lib.fa filter 9667067
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.provider.Telephony.SMS_RECEIVED:
+        8a211f9 com.textra/com.mplus.lib.il filter d857c05
+          Action: "android.provider.Telephony.SMS_RECEIVED"
+          mPriority=2, mOrder=0, mHasPartialTypes=false
+
+  MIME Typed Actions:
+      android.provider.Telephony.WAP_PUSH_DELIVER:
+        e66cbf2 com.textra/com.mplus.lib.ea filter be98368
+          Action: "android.provider.Telephony.WAP_PUSH_DELIVER"
+          Type: "application/vnd.wap.mms-message"
+      android.provider.Telephony.WAP_PUSH_RECEIVED:
+        e66cbf2 com.textra/com.mplus.lib.ea filter 160f68b
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          Type: "application/vnd.wap.mms-message"
+          mPriority=2, mOrder=0, mHasPartialTypes=false
+        314c243 com.textra/com.mplus.lib.es filter 2e6d381
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          Type: "application/vnd.wap.mms-message"
+          mPriority=2147483647, mOrder=0, mHasPartialTypes=false
+
+Service Resolver Table:
+  Schemes:
+      sms:
+        e11b53e com.textra/com.mplus.lib.eg filter 26be449 permission android.permission.SEND_RESPOND_VIA_MESSAGE
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+      smsto:
+        e11b53e com.textra/com.mplus.lib.eg filter 26be449 permission android.permission.SEND_RESPOND_VIA_MESSAGE
+          Action: "android.intent.action.RESPOND_VIA_MESSAGE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "sms"
+          Scheme: "smsto"
+
+  Non-Data Actions:
+      com.pushbullet.android.extension.MessagingExtension:
+        eb73f9f com.textra/com.mplus.lib.bp filter 972b7c permission com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA
+          Action: "com.pushbullet.android.extension.MessagingExtension"
+      com.google.android.apps.dashclock.Extension:
+        d62b8ec com.textra/com.mplus.lib.extension.dashclock.TextraDashClockExtension filter f4a14e permission com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA
+          Action: "com.google.android.apps.dashclock.Extension"
+      android.service.chooser.ChooserTargetService:
+        9e8d4b5 com.textra/com.mplus.lib.service.misc.DirectShareService filter 1a2a26f permission android.permission.BIND_CHOOSER_TARGET_SERVICE
+          Action: "android.service.chooser.ChooserTargetService"
+
+Registered ContentProviders:
+  com.textra/com.mplus.lib.io:
+    Provider{1efe74a com.textra/com.mplus.lib.io}
+  com.textra/com.mplus.lib.xi:
+    Provider{8da36bb com.textra/com.mplus.lib.xi}
+  com.textra/com.mplus.lib.xu:
+    Provider{13877d8 com.textra/com.mplus.lib.xu}
+  com.textra/android.support.v4.content.FileProvider:
+    Provider{29f0731 com.textra/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [com.textra.files]:
+    Provider{29f0731 com.textra/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{2cd2e16 com.textra}
+  [mplus]:
+    Provider{13877d8 com.textra/com.mplus.lib.xu}
+      applicationInfo=ApplicationInfo{2cd2e16 com.textra}
+  [com.textra]:
+    Provider{1efe74a com.textra/com.mplus.lib.io}
+      applicationInfo=ApplicationInfo{2cd2e16 com.textra}
+  [com.textra.internal]:
+    Provider{8da36bb com.textra/com.mplus.lib.xi}
+      applicationInfo=ApplicationInfo{2cd2e16 com.textra}
+
+Key Set Manager:
+  [com.textra]
+      Signing KeySets: 30
+
+Packages:
+  Package [com.textra] (6b8397):
+    userId=10086
+    pkg=Package{da93984 com.textra}
+    codePath=/data/app/com.textra-TohRS1lFZvmd_svCuQ4VPQ==
+    resourcePath=/data/app/com.textra-TohRS1lFZvmd_svCuQ4VPQ==
+    legacyNativeLibraryDir=/data/app/com.textra-TohRS1lFZvmd_svCuQ4VPQ==/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=41693 minSdk=16 targetSdk=26
+    versionName=4.16
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{2cd2e16 com.textra}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ]
+    dataDir=/data/user/0/com.textra
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.boot.jar
+    timeStamp=2019-08-25 17:38:53
+    firstInstallTime=2019-08-25 17:38:53
+    lastUpdateTime=2019-08-25 17:38:53
+    signatures=PackageSignatures{abe56d version:1, signatures:[a24257b], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.EXPAND_STATUS_BAR
+      android.permission.WAKE_LOCK
+      android.permission.READ_SMS
+      android.permission.WRITE_SMS
+      android.permission.RECEIVE_SMS
+      android.permission.RECEIVE_MMS
+      android.permission.SEND_SMS
+      android.permission.READ_CONTACTS
+      android.permission.WRITE_CONTACTS
+      android.permission.VIBRATE
+      android.permission.GET_TASKS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.CALL_PHONE
+      android.permission.RECORD_AUDIO
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.DISABLE_KEYGUARD
+      android.permission.GET_ACCOUNTS
+      android.permission.ACCESS_COARSE_LOCATION
+      com.android.vending.BILLING
+      com.android.launcher.permission.READ_SETTINGS
+      com.android.launcher.permission.WRITE_SETTINGS
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.htc.launcher.permission.WRITE_SETTINGS
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.CAMERA
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      com.android.vending.BILLING: granted=true
+      android.permission.WRITE_SMS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=-4294843556 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3002, 3003]
+      runtime permissions:
+
+Package Changes:
+  Sequence number=9
+  User 0:
+    seq=0, package=com.google.android.setupwizard
+    seq=6, package=com.google.android.gms
+    seq=7, package=io.github.ylimit.droidbotapp
+    seq=8, package=com.textra
+
+
+Dexopt state:
+  [com.textra]
+    path: /data/app/com.textra-TohRS1lFZvmd_svCuQ4VPQ==/base.apk
+      x86: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [com.textra]
+     base.apk - 960

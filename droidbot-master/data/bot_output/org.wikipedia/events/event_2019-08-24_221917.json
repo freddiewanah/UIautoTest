@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_221917",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          497,
+          1246
+        ],
+        [
+          739,
+          1378
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_announcement_action_negative",
+      "checked": false,
+      "text": "GOT IT",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "242*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_action_negative[text]GOT IT[enabled,,]",
+      "view_str": "e7a2a88b70636b6bb252a710cf3043c6",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_action_negative"
+    }
+  },
+  "start_state": "e6b70d618389adf7ea3d940b7b1f9226",
+  "stop_state": "4c4a8e03ec999b726ec72daa8564abc3",
+  "event_str": "TouchEvent(state=e6b70d618389adf7ea3d940b7b1f9226, view=e7a2a88b70636b6bb252a710cf3043c6)"
+}

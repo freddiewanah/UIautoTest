@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223256",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          531,
+          1288
+        ],
+        [
+          975,
+          1420
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "LOG IN / SIGN UP",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 17,
+      "size": "444*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]LOG IN / SIGN UP[enabled,,]",
+      "view_str": "0c92643e4c66b99056e93d79bfeefc43",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "dd1540b147b315effc86a353410c5815",
+  "stop_state": "e07b2f0d832f2148c55139475322584f",
+  "event_str": "TouchEvent(state=dd1540b147b315effc86a353410c5815, view=0c92643e4c66b99056e93d79bfeefc43)"
+}

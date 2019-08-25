@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_221132",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          765,
+          1896
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_onboarding_done_button",
+      "checked": false,
+      "text": "GET STARTED",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "315*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/fragment_onboarding_done_button[text]GET STARTED[enabled,,]",
+      "view_str": "9ce41f108ea3644160cac18ae55780b6",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/fragment_onboarding_done_button"
+    }
+  },
+  "start_state": "125b6fcae99075fc4820eab7b9ee0c14",
+  "stop_state": "e6b70d618389adf7ea3d940b7b1f9226",
+  "event_str": "TouchEvent(state=125b6fcae99075fc4820eab7b9ee0c14, view=9ce41f108ea3644160cac18ae55780b6)"
+}

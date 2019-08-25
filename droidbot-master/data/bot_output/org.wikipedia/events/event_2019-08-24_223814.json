@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223814",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1910
+        ],
+        [
+          1036,
+          1984
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/theme_chooser_dark_mode_dim_images_switch",
+      "checked": false,
+      "text": "Image dimming (in Dark theme) OFF",
+      "class": "android.widget.Switch",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 29,
+      "size": "992*74",
+      "signature": "[class]android.widget.Switch[resource_id]org.wikipedia:id/theme_chooser_dark_mode_dim_images_switch[text]Image dimming (in Dark theme) OFF[enabled,,]",
+      "view_str": "56a0cf83fa8b0d23d63f9c36a1f0d68b",
+      "content_free_signature": "[class]android.widget.Switch[resource_id]org.wikipedia:id/theme_chooser_dark_mode_dim_images_switch"
+    }
+  },
+  "start_state": "c4f93c36fefa95ddf483954cf979bf94",
+  "stop_state": "4f3c624127f44f19d22a42259672deb6",
+  "event_str": "TouchEvent(state=c4f93c36fefa95ddf483954cf979bf94, view=56a0cf83fa8b0d23d63f9c36a1f0d68b)"
+}

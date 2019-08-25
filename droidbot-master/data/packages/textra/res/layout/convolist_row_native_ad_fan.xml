@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="center_vertical" a:orientation="horizontal" a:id="@id/row" a:paddingTop="0.0dip" a:layout_width="fill_parent" a:layout_height="wrap_content" app:shadow="bottomHairLine" style="?convoList_rowMain"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseConstraintLayout a:layout_width="fill_parent" a:layout_height="wrap_content">
+        <LinearLayout a:gravity="center_vertical" a:orientation="horizontal" a:paddingTop="16.0sp" a:layout_width="fill_parent" a:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="?convoList_maincontent">
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/contactPhoto" a:layout_width="@dimen/thumb_contact_pic_size" a:layout_height="@dimen/thumb_contact_pic_size" style="?convoList_ContactPhoto" />
+            <LinearLayout a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="wrap_content">
+                <com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="bottom" a:orientation="horizontal" a:id="@id/topLineHolder" a:layout_width="fill_parent" a:layout_height="wrap_content" a:baselineAligned="true" style="?convoList_summaryLine">
+                    <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/theWordAd" a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_marginLeft="0.0dip" a:layout_marginRight="4.0dip" a:text="@string/convolist_sponsored2" style="?convoList_dateLabel" />
+                    <com.mplus.lib.ui.common.base.BaseTextView a:ellipsize="end" a:id="@id/displayName" a:layout_width="0.0dip" a:layout_height="wrap_content" a:maxLines="1" a:layout_weight="1.0" app:emojify="true" style="?convoList_displayName" />
+                    <com.mplus.lib.ui.common.base.BaseImageView a:layout_gravity="bottom" a:id="@id/adChoicesIcon" a:layout_width="10.0sp" a:layout_height="10.0sp" a:layout_marginLeft="4.0dip" a:baseline="10.0sp" style="?convoList_adChoicesIcon" />
+                </com.mplus.lib.ui.common.base.BaseLinearLayout>
+                <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/lastMessageTextHolder" a:layout_width="fill_parent" a:layout_height="wrap_content">
+                    <com.mplus.lib.ui.common.SimpleScrollView a:id="@id/lastMessageTextScroller" a:fadingEdgeLength="6.0dip" a:layout_width="fill_parent" a:layout_height="wrap_content" a:requiresFadingEdge="horizontal">
+                        <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/lastMessageText" a:layout_width="wrap_content" a:layout_height="wrap_content" app:emojify="true" style="?convoList_lastMessageText" />
+                    </com.mplus.lib.ui.common.SimpleScrollView>
+                    <com.mplus.lib.ui.common.SimpleScrollView a:layout_gravity="bottom|center|right" a:id="@id/callToActionScroller" a:fadingEdgeLength="6.0dip" a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_marginLeft="6.0dip" a:requiresFadingEdge="horizontal" app:maxWidth="126.0dip">
+                        <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/callToAction" a:layout_width="wrap_content" a:layout_height="wrap_content" style="?convoList_nativeAd_callToAction" />
+                    </com.mplus.lib.ui.common.SimpleScrollView>
+                </com.mplus.lib.ui.common.base.BaseFrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.mplus.lib.ui.common.base.BaseConstraintLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

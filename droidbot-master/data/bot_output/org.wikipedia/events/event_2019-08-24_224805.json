@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_224805",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          55,
+          1874
+        ],
+        [
+          864,
+          2005
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/snackbar_text",
+      "checked": false,
+      "text": "Java applet closed.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "809*131",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/snackbar_text[text]Java applet closed.[enabled,,]",
+      "view_str": "440f0c9ddb210d505ef8e5441c93799a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/snackbar_text"
+    }
+  },
+  "start_state": "969ebb9c5dd4d61070ada3e44b7b6dbd",
+  "stop_state": "969ebb9c5dd4d61070ada3e44b7b6dbd",
+  "event_str": "TouchEvent(state=969ebb9c5dd4d61070ada3e44b7b6dbd, view=440f0c9ddb210d505ef8e5441c93799a)"
+}

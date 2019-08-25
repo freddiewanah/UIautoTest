@@ -1,0 +1,53 @@
+{
+  "tag": "2019-08-25_183641",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        17,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          352
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/pager",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v4.view.ViewPager",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 14,
+      "size": "1080*1676",
+      "signature": "[class]android.support.v4.view.ViewPager[resource_id]com.textra:id/pager[text]None[enabled,,]",
+      "view_str": "079dd8567b91a400ac1ddb088231df2e",
+      "content_free_signature": "[class]android.support.v4.view.ViewPager[resource_id]com.textra:id/pager"
+    },
+    "direction": "DOWN"
+  },
+  "start_state": "8413e95d7d7152acf85f618a3e1d979c",
+  "stop_state": "8413e95d7d7152acf85f618a3e1d979c",
+  "event_str": "ScrollEvent(state=8413e95d7d7152acf85f618a3e1d979c, view=079dd8567b91a400ac1ddb088231df2e, direction=DOWN)"
+}

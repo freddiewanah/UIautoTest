@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223503",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Font and theme",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          528,
+          1896
+        ],
+        [
+          660,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/article_menu_font_and_theme",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 441,
+      "temp_id": 446,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/article_menu_font_and_theme[text]None[enabled,,]",
+      "view_str": "cf05e00a19276522f8d34547cf8aa632",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/article_menu_font_and_theme"
+    }
+  },
+  "start_state": "c39b5768d7a323d9c7a32b3f46df8289",
+  "stop_state": "01ba787cbc1740812707ff4c0fc9a812",
+  "event_str": "TouchEvent(state=c39b5768d7a323d9c7a32b3f46df8289, view=cf05e00a19276522f8d34547cf8aa632)"
+}

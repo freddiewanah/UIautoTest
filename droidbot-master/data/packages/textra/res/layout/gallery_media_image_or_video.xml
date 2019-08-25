@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:layout_width="fill_parent" a:layout_height="fill_parent"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <com.mplus.lib.ui.common.AnimatedImageView a:layout_gravity="center" a:id="@id/imageView" a:layout_width="fill_parent" a:layout_height="fill_parent" a:adjustViewBounds="true" />
+    <com.mplus.lib.ui.convo.gallery.MediaPlayerView a:layout_gravity="center" a:id="@id/mediaPlayerView" a:layout_width="fill_parent" a:layout_height="fill_parent" />
+    <com.mplus.lib.ui.common.base.BaseTextView a:textSize="16.0sp" a:textColor="?text_medium_gray" a:gravity="center" a:layout_gravity="center" a:id="@id/stageFrightProtected" a:visibility="gone" a:layout_width="fill_parent" a:layout_height="fill_parent" a:layout_marginLeft="16.0dip" a:layout_marginTop="50.0dip" a:layout_marginRight="16.0dip" a:text="@string/stagefright_protected" />
+    <ProgressBar a:layout_gravity="center" a:id="@id/progressCircle" a:layout_width="50.0dip" a:layout_height="50.0dip" a:indeterminate="true" />
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

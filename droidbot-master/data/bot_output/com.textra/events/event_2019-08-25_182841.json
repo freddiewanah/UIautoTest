@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_182841",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          878,
+          287
+        ]
+      ],
+      "resource_id": "com.textra:id/searchField",
+      "checked": false,
+      "text": "For conversations & messages",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 27,
+      "temp_id": 28,
+      "size": "878*67",
+      "signature": "[class]android.widget.EditText[resource_id]com.textra:id/searchField[text]For conversations & messages[enabled,,]",
+      "view_str": "e2cf1b165c26474693dbdd35da86bd8f",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.textra:id/searchField"
+    }
+  },
+  "start_state": "486613d0f467121cf6651cae9602e549",
+  "stop_state": "486613d0f467121cf6651cae9602e549",
+  "event_str": "TouchEvent(state=486613d0f467121cf6651cae9602e549, view=e2cf1b165c26474693dbdd35da86bd8f)"
+}

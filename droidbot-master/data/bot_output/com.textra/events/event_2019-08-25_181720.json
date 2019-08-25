@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_181720",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          668
+        ],
+        [
+          226,
+          743
+        ]
+      ],
+      "resource_id": "com.textra:id/title",
+      "checked": false,
+      "text": "ALCOHOL",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 16,
+      "size": "226*75",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/title[text]ALCOHOL[enabled,,]",
+      "view_str": "f73f78d1ea231ec82ede084172e2995b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/title"
+    }
+  },
+  "start_state": "d63a3672eaa200bba9a1c8878a8a6a5c",
+  "stop_state": "09abcece8b897661ad17396ae20fd0bd",
+  "event_str": "TouchEvent(state=d63a3672eaa200bba9a1c8878a8a6a5c, view=f73f78d1ea231ec82ede084172e2995b)"
+}

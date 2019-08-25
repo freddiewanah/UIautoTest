@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Material_Primary_ffe57373" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e57373</item>
+        <item name="android:colorPrimary">#ffe57373</item>
+        <item name="themeColor">#ffe57373</item>
+    </style>
+    <style name="Material_Primary_ffef5350" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ef5350</item>
+        <item name="android:colorPrimary">#ffef5350</item>
+        <item name="themeColor">#ffef5350</item>
+    </style>
+    <style name="Material_Primary_fff44336" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f44336</item>
+        <item name="android:colorPrimary">#fff44336</item>
+        <item name="themeColor">#fff44336</item>
+    </style>
+    <style name="Material_Primary_ffe53935" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e53935</item>
+        <item name="android:colorPrimary">#ffe53935</item>
+        <item name="themeColor">#ffe53935</item>
+    </style>
+    <style name="Material_Primary_ffd32f2f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66d32f2f</item>
+        <item name="android:colorPrimary">#ffd32f2f</item>
+        <item name="themeColor">#ffd32f2f</item>
+    </style>
+    <style name="Material_Primary_ffc62828" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66c62828</item>
+        <item name="android:colorPrimary">#ffc62828</item>
+        <item name="themeColor">#ffc62828</item>
+    </style>
+    <style name="Material_Primary_ffb71c1c" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66b71c1c</item>
+        <item name="android:colorPrimary">#ffb71c1c</item>
+        <item name="themeColor">#ffb71c1c</item>
+    </style>
+    <style name="Material_Primary_ffd50000" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66d50000</item>
+        <item name="android:colorPrimary">#ffd50000</item>
+        <item name="themeColor">#ffd50000</item>
+    </style>
+    <style name="Material_Primary_ffff1744" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff1744</item>
+        <item name="android:colorPrimary">#ffff1744</item>
+        <item name="themeColor">#ffff1744</item>
+    </style>
+    <style name="Material_Primary_ffff5252" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff5252</item>
+        <item name="android:colorPrimary">#ffff5252</item>
+        <item name="themeColor">#ffff5252</item>
+    </style>
+    <style name="Material_Primary_fff06292" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f06292</item>
+        <item name="android:colorPrimary">#fff06292</item>
+        <item name="themeColor">#fff06292</item>
+    </style>
+    <style name="Material_Primary_ffec407a" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ec407a</item>
+        <item name="android:colorPrimary">#ffec407a</item>
+        <item name="themeColor">#ffec407a</item>
+    </style>
+    <style name="Material_Primary_ffe91e63" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e91e63</item>
+        <item name="android:colorPrimary">#ffe91e63</item>
+        <item name="themeColor">#ffe91e63</item>
+    </style>
+    <style name="Material_Primary_ffd81b60" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66d81b60</item>
+        <item name="android:colorPrimary">#ffd81b60</item>
+        <item name="themeColor">#ffd81b60</item>
+    </style>
+    <style name="Material_Primary_ffc2185b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66c2185b</item>
+        <item name="android:colorPrimary">#ffc2185b</item>
+        <item name="themeColor">#ffc2185b</item>
+    </style>
+    <style name="Material_Primary_ffad1457" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ad1457</item>
+        <item name="android:colorPrimary">#ffad1457</item>
+        <item name="themeColor">#ffad1457</item>
+    </style>
+    <style name="Material_Primary_ff880e4f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66880e4f</item>
+        <item name="android:colorPrimary">#ff880e4f</item>
+        <item name="themeColor">#ff880e4f</item>
+    </style>
+    <style name="Material_Primary_ffc51162" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66c51162</item>
+        <item name="android:colorPrimary">#ffc51162</item>
+        <item name="themeColor">#ffc51162</item>
+    </style>
+    <style name="Material_Primary_fff50057" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f50057</item>
+        <item name="android:colorPrimary">#fff50057</item>
+        <item name="themeColor">#fff50057</item>
+    </style>
+    <style name="Material_Primary_ffff4081" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff4081</item>
+        <item name="android:colorPrimary">#ffff4081</item>
+        <item name="themeColor">#ffff4081</item>
+    </style>
+    <style name="Material_Primary_ffba68c8" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ba68c8</item>
+        <item name="android:colorPrimary">#ffba68c8</item>
+        <item name="themeColor">#ffba68c8</item>
+    </style>
+    <style name="Material_Primary_ffab47bc" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ab47bc</item>
+        <item name="android:colorPrimary">#ffab47bc</item>
+        <item name="themeColor">#ffab47bc</item>
+    </style>
+    <style name="Material_Primary_ff9c27b0" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#669c27b0</item>
+        <item name="android:colorPrimary">#ff9c27b0</item>
+        <item name="themeColor">#ff9c27b0</item>
+    </style>
+    <style name="Material_Primary_ff8e24aa" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#668e24aa</item>
+        <item name="android:colorPrimary">#ff8e24aa</item>
+        <item name="themeColor">#ff8e24aa</item>
+    </style>
+    <style name="Material_Primary_ff7b1fa2" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#667b1fa2</item>
+        <item name="android:colorPrimary">#ff7b1fa2</item>
+        <item name="themeColor">#ff7b1fa2</item>
+    </style>
+    <style name="Material_Primary_ff6a1b9a" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#666a1b9a</item>
+        <item name="android:colorPrimary">#ff6a1b9a</item>
+        <item name="themeColor">#ff6a1b9a</item>
+    </style>
+    <style name="Material_Primary_ff4a148c" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664a148c</item>
+        <item name="android:colorPrimary">#ff4a148c</item>
+        <item name="themeColor">#ff4a148c</item>
+    </style>
+    <style name="Material_Primary_ffaa00ff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66aa00ff</item>
+        <item name="android:colorPrimary">#ffaa00ff</item>
+        <item name="themeColor">#ffaa00ff</item>
+    </style>
+    <style name="Material_Primary_ffd500f9" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66d500f9</item>
+        <item name="android:colorPrimary">#ffd500f9</item>
+        <item name="themeColor">#ffd500f9</item>
+    </style>
+    <style name="Material_Primary_ffe040fb" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e040fb</item>
+        <item name="android:colorPrimary">#ffe040fb</item>
+        <item name="themeColor">#ffe040fb</item>
+    </style>
+    <style name="Material_Primary_ff9575cd" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#669575cd</item>
+        <item name="android:colorPrimary">#ff9575cd</item>
+        <item name="themeColor">#ff9575cd</item>
+    </style>
+    <style name="Material_Primary_ff7e57c2" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#667e57c2</item>
+        <item name="android:colorPrimary">#ff7e57c2</item>
+        <item name="themeColor">#ff7e57c2</item>
+    </style>
+    <style name="Material_Primary_ff673ab7" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66673ab7</item>
+        <item name="android:colorPrimary">#ff673ab7</item>
+        <item name="themeColor">#ff673ab7</item>
+    </style>
+    <style name="Material_Primary_ff5e35b1" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#665e35b1</item>
+        <item name="android:colorPrimary">#ff5e35b1</item>
+        <item name="themeColor">#ff5e35b1</item>
+    </style>
+    <style name="Material_Primary_ff512da8" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66512da8</item>
+        <item name="android:colorPrimary">#ff512da8</item>
+        <item name="themeColor">#ff512da8</item>
+    </style>
+    <style name="Material_Primary_ff4527a0" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664527a0</item>
+        <item name="android:colorPrimary">#ff4527a0</item>
+        <item name="themeColor">#ff4527a0</item>
+    </style>
+    <style name="Material_Primary_ff311b92" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66311b92</item>
+        <item name="android:colorPrimary">#ff311b92</item>
+        <item name="themeColor">#ff311b92</item>
+    </style>
+    <style name="Material_Primary_ff6200ea" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#666200ea</item>
+        <item name="android:colorPrimary">#ff6200ea</item>
+        <item name="themeColor">#ff6200ea</item>
+    </style>
+    <style name="Material_Primary_ff651fff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66651fff</item>
+        <item name="android:colorPrimary">#ff651fff</item>
+        <item name="themeColor">#ff651fff</item>
+    </style>
+    <style name="Material_Primary_ff7c4dff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#667c4dff</item>
+        <item name="android:colorPrimary">#ff7c4dff</item>
+        <item name="themeColor">#ff7c4dff</item>
+    </style>
+    <style name="Material_Primary_ff7986cb" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#667986cb</item>
+        <item name="android:colorPrimary">#ff7986cb</item>
+        <item name="themeColor">#ff7986cb</item>
+    </style>
+    <style name="Material_Primary_ff5c6bc0" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#665c6bc0</item>
+        <item name="android:colorPrimary">#ff5c6bc0</item>
+        <item name="themeColor">#ff5c6bc0</item>
+    </style>
+    <style name="Material_Primary_ff3f51b5" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#663f51b5</item>
+        <item name="android:colorPrimary">#ff3f51b5</item>
+        <item name="themeColor">#ff3f51b5</item>
+    </style>
+    <style name="Material_Primary_ff3949ab" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#663949ab</item>
+        <item name="android:colorPrimary">#ff3949ab</item>
+        <item name="themeColor">#ff3949ab</item>
+    </style>
+    <style name="Material_Primary_ff303f9f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66303f9f</item>
+        <item name="android:colorPrimary">#ff303f9f</item>
+        <item name="themeColor">#ff303f9f</item>
+    </style>
+    <style name="Material_Primary_ff283593" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66283593</item>
+        <item name="android:colorPrimary">#ff283593</item>
+        <item name="themeColor">#ff283593</item>
+    </style>
+    <style name="Material_Primary_ff1a237e" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#661a237e</item>
+        <item name="android:colorPrimary">#ff1a237e</item>
+        <item name="themeColor">#ff1a237e</item>
+    </style>
+    <style name="Material_Primary_ff304ffe" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66304ffe</item>
+        <item name="android:colorPrimary">#ff304ffe</item>
+        <item name="themeColor">#ff304ffe</item>
+    </style>
+    <style name="Material_Primary_ff3d5afe" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#663d5afe</item>
+        <item name="android:colorPrimary">#ff3d5afe</item>
+        <item name="themeColor">#ff3d5afe</item>
+    </style>
+    <style name="Material_Primary_ff536dfe" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66536dfe</item>
+        <item name="android:colorPrimary">#ff536dfe</item>
+        <item name="themeColor">#ff536dfe</item>
+    </style>
+    <style name="Material_Primary_ff64b5f6" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6664b5f6</item>
+        <item name="android:colorPrimary">#ff64b5f6</item>
+        <item name="themeColor">#ff64b5f6</item>
+    </style>
+    <style name="Material_Primary_ff42a5f5" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6642a5f5</item>
+        <item name="android:colorPrimary">#ff42a5f5</item>
+        <item name="themeColor">#ff42a5f5</item>
+    </style>
+    <style name="Material_Primary_ff2196f3" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#662196f3</item>
+        <item name="android:colorPrimary">#ff2196f3</item>
+        <item name="themeColor">#ff2196f3</item>
+    </style>
+    <style name="Material_Primary_ff1e88e5" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#661e88e5</item>
+        <item name="android:colorPrimary">#ff1e88e5</item>
+        <item name="themeColor">#ff1e88e5</item>
+    </style>
+    <style name="Material_Primary_ff1976d2" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#661976d2</item>
+        <item name="android:colorPrimary">#ff1976d2</item>
+        <item name="themeColor">#ff1976d2</item>
+    </style>
+    <style name="Material_Primary_ff1565c0" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#661565c0</item>
+        <item name="android:colorPrimary">#ff1565c0</item>
+        <item name="themeColor">#ff1565c0</item>
+    </style>
+    <style name="Material_Primary_ff0d47a1" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#660d47a1</item>
+        <item name="android:colorPrimary">#ff0d47a1</item>
+        <item name="themeColor">#ff0d47a1</item>
+    </style>
+    <style name="Material_Primary_ff2962ff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#662962ff</item>
+        <item name="android:colorPrimary">#ff2962ff</item>
+        <item name="themeColor">#ff2962ff</item>
+    </style>
+    <style name="Material_Primary_ff2979ff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#662979ff</item>
+        <item name="android:colorPrimary">#ff2979ff</item>
+        <item name="themeColor">#ff2979ff</item>
+    </style>
+    <style name="Material_Primary_ff448aff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66448aff</item>
+        <item name="android:colorPrimary">#ff448aff</item>
+        <item name="themeColor">#ff448aff</item>
+    </style>
+    <style name="Material_Primary_ff4fc3f7" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664fc3f7</item>
+        <item name="android:colorPrimary">#ff4fc3f7</item>
+        <item name="themeColor">#ff4fc3f7</item>
+    </style>
+    <style name="Material_Primary_ff29b6f6" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6629b6f6</item>
+        <item name="android:colorPrimary">#ff29b6f6</item>
+        <item name="themeColor">#ff29b6f6</item>
+    </style>
+    <style name="Material_Primary_ff03a9f4" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6603a9f4</item>
+        <item name="android:colorPrimary">#ff03a9f4</item>
+        <item name="themeColor">#ff03a9f4</item>
+    </style>
+    <style name="Material_Primary_ff039be5" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66039be5</item>
+        <item name="android:colorPrimary">#ff039be5</item>
+        <item name="themeColor">#ff039be5</item>
+    </style>
+    <style name="Material_Primary_ff0288d1" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#660288d1</item>
+        <item name="android:colorPrimary">#ff0288d1</item>
+        <item name="themeColor">#ff0288d1</item>
+    </style>
+    <style name="Material_Primary_ff0277bd" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#660277bd</item>
+        <item name="android:colorPrimary">#ff0277bd</item>
+        <item name="themeColor">#ff0277bd</item>
+    </style>
+    <style name="Material_Primary_ff01579b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6601579b</item>
+        <item name="android:colorPrimary">#ff01579b</item>
+        <item name="themeColor">#ff01579b</item>
+    </style>
+    <style name="Material_Primary_ff0091ea" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#660091ea</item>
+        <item name="android:colorPrimary">#ff0091ea</item>
+        <item name="themeColor">#ff0091ea</item>
+    </style>
+    <style name="Material_Primary_ff00b0ff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600b0ff</item>
+        <item name="android:colorPrimary">#ff00b0ff</item>
+        <item name="themeColor">#ff00b0ff</item>
+    </style>
+    <style name="Material_Primary_ff40c4ff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6640c4ff</item>
+        <item name="android:colorPrimary">#ff40c4ff</item>
+        <item name="themeColor">#ff40c4ff</item>
+    </style>
+    <style name="Material_Primary_ff4dd0e1" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664dd0e1</item>
+        <item name="android:colorPrimary">#ff4dd0e1</item>
+        <item name="themeColor">#ff4dd0e1</item>
+    </style>
+    <style name="Material_Primary_ff26c6da" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6626c6da</item>
+        <item name="android:colorPrimary">#ff26c6da</item>
+        <item name="themeColor">#ff26c6da</item>
+    </style>
+    <style name="Material_Primary_ff00bcd4" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600bcd4</item>
+        <item name="android:colorPrimary">#ff00bcd4</item>
+        <item name="themeColor">#ff00bcd4</item>
+    </style>
+    <style name="Material_Primary_ff00acc1" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600acc1</item>
+        <item name="android:colorPrimary">#ff00acc1</item>
+        <item name="themeColor">#ff00acc1</item>
+    </style>
+    <style name="Material_Primary_ff0097a7" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#660097a7</item>
+        <item name="android:colorPrimary">#ff0097a7</item>
+        <item name="themeColor">#ff0097a7</item>
+    </style>
+    <style name="Material_Primary_ff00838f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600838f</item>
+        <item name="android:colorPrimary">#ff00838f</item>
+        <item name="themeColor">#ff00838f</item>
+    </style>
+    <style name="Material_Primary_ff006064" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66006064</item>
+        <item name="android:colorPrimary">#ff006064</item>
+        <item name="themeColor">#ff006064</item>
+    </style>
+    <style name="Material_Primary_ff00b8d4" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600b8d4</item>
+        <item name="android:colorPrimary">#ff00b8d4</item>
+        <item name="themeColor">#ff00b8d4</item>
+    </style>
+    <style name="Material_Primary_ff00e5ff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600e5ff</item>
+        <item name="android:colorPrimary">#ff00e5ff</item>
+        <item name="themeColor">#ff00e5ff</item>
+    </style>
+    <style name="Material_Primary_ff18ffff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6618ffff</item>
+        <item name="android:colorPrimary">#ff18ffff</item>
+        <item name="themeColor">#ff18ffff</item>
+    </style>
+    <style name="Material_Primary_ff4db6ac" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664db6ac</item>
+        <item name="android:colorPrimary">#ff4db6ac</item>
+        <item name="themeColor">#ff4db6ac</item>
+    </style>
+    <style name="Material_Primary_ff26a69a" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6626a69a</item>
+        <item name="android:colorPrimary">#ff26a69a</item>
+        <item name="themeColor">#ff26a69a</item>
+    </style>
+    <style name="Material_Primary_ff009688" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66009688</item>
+        <item name="android:colorPrimary">#ff009688</item>
+        <item name="themeColor">#ff009688</item>
+    </style>
+    <style name="Material_Primary_ff00897b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600897b</item>
+        <item name="android:colorPrimary">#ff00897b</item>
+        <item name="themeColor">#ff00897b</item>
+    </style>
+    <style name="Material_Primary_ff00796b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600796b</item>
+        <item name="android:colorPrimary">#ff00796b</item>
+        <item name="themeColor">#ff00796b</item>
+    </style>
+    <style name="Material_Primary_ff00695c" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600695c</item>
+        <item name="android:colorPrimary">#ff00695c</item>
+        <item name="themeColor">#ff00695c</item>
+    </style>
+    <style name="Material_Primary_ff004d40" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66004d40</item>
+        <item name="android:colorPrimary">#ff004d40</item>
+        <item name="themeColor">#ff004d40</item>
+    </style>
+    <style name="Material_Primary_ff00bfa5" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600bfa5</item>
+        <item name="android:colorPrimary">#ff00bfa5</item>
+        <item name="themeColor">#ff00bfa5</item>
+    </style>
+    <style name="Material_Primary_ff1de9b6" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#661de9b6</item>
+        <item name="android:colorPrimary">#ff1de9b6</item>
+        <item name="themeColor">#ff1de9b6</item>
+    </style>
+    <style name="Material_Primary_ff64ffda" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6664ffda</item>
+        <item name="android:colorPrimary">#ff64ffda</item>
+        <item name="themeColor">#ff64ffda</item>
+    </style>
+    <style name="Material_Primary_ff81c784" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6681c784</item>
+        <item name="android:colorPrimary">#ff81c784</item>
+        <item name="themeColor">#ff81c784</item>
+    </style>
+    <style name="Material_Primary_ff66bb6a" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6666bb6a</item>
+        <item name="android:colorPrimary">#ff66bb6a</item>
+        <item name="themeColor">#ff66bb6a</item>
+    </style>
+    <style name="Material_Primary_ff4caf50" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664caf50</item>
+        <item name="android:colorPrimary">#ff4caf50</item>
+        <item name="themeColor">#ff4caf50</item>
+    </style>
+    <style name="Material_Primary_ff43a047" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6643a047</item>
+        <item name="android:colorPrimary">#ff43a047</item>
+        <item name="themeColor">#ff43a047</item>
+    </style>
+    <style name="Material_Primary_ff388e3c" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66388e3c</item>
+        <item name="android:colorPrimary">#ff388e3c</item>
+        <item name="themeColor">#ff388e3c</item>
+    </style>
+    <style name="Material_Primary_ff2e7d32" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#662e7d32</item>
+        <item name="android:colorPrimary">#ff2e7d32</item>
+        <item name="themeColor">#ff2e7d32</item>
+    </style>
+    <style name="Material_Primary_ff1b5e20" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#661b5e20</item>
+        <item name="android:colorPrimary">#ff1b5e20</item>
+        <item name="themeColor">#ff1b5e20</item>
+    </style>
+    <style name="Material_Primary_ff00c853" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600c853</item>
+        <item name="android:colorPrimary">#ff00c853</item>
+        <item name="themeColor">#ff00c853</item>
+    </style>
+    <style name="Material_Primary_ff00e676" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6600e676</item>
+        <item name="android:colorPrimary">#ff00e676</item>
+        <item name="themeColor">#ff00e676</item>
+    </style>
+    <style name="Material_Primary_ff69f0ae" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6669f0ae</item>
+        <item name="android:colorPrimary">#ff69f0ae</item>
+        <item name="themeColor">#ff69f0ae</item>
+    </style>
+    <style name="Material_Primary_ffaed581" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66aed581</item>
+        <item name="android:colorPrimary">#ffaed581</item>
+        <item name="themeColor">#ffaed581</item>
+    </style>
+    <style name="Material_Primary_ff9ccc65" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#669ccc65</item>
+        <item name="android:colorPrimary">#ff9ccc65</item>
+        <item name="themeColor">#ff9ccc65</item>
+    </style>
+    <style name="Material_Primary_ff8bc34a" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#668bc34a</item>
+        <item name="android:colorPrimary">#ff8bc34a</item>
+        <item name="themeColor">#ff8bc34a</item>
+    </style>
+    <style name="Material_Primary_ff7cb342" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#667cb342</item>
+        <item name="android:colorPrimary">#ff7cb342</item>
+        <item name="themeColor">#ff7cb342</item>
+    </style>
+    <style name="Material_Primary_ff689f38" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66689f38</item>
+        <item name="android:colorPrimary">#ff689f38</item>
+        <item name="themeColor">#ff689f38</item>
+    </style>
+    <style name="Material_Primary_ff558b2f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66558b2f</item>
+        <item name="android:colorPrimary">#ff558b2f</item>
+        <item name="themeColor">#ff558b2f</item>
+    </style>
+    <style name="Material_Primary_ff33691e" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6633691e</item>
+        <item name="android:colorPrimary">#ff33691e</item>
+        <item name="themeColor">#ff33691e</item>
+    </style>
+    <style name="Material_Primary_ff64dd17" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6664dd17</item>
+        <item name="android:colorPrimary">#ff64dd17</item>
+        <item name="themeColor">#ff64dd17</item>
+    </style>
+    <style name="Material_Primary_ff76ff03" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6676ff03</item>
+        <item name="android:colorPrimary">#ff76ff03</item>
+        <item name="themeColor">#ff76ff03</item>
+    </style>
+    <style name="Material_Primary_ffb2ff59" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66b2ff59</item>
+        <item name="android:colorPrimary">#ffb2ff59</item>
+        <item name="themeColor">#ffb2ff59</item>
+    </style>
+    <style name="Material_Primary_ffdce775" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66dce775</item>
+        <item name="android:colorPrimary">#ffdce775</item>
+        <item name="themeColor">#ffdce775</item>
+    </style>
+    <style name="Material_Primary_ffd4e157" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66d4e157</item>
+        <item name="android:colorPrimary">#ffd4e157</item>
+        <item name="themeColor">#ffd4e157</item>
+    </style>
+    <style name="Material_Primary_ffcddc39" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66cddc39</item>
+        <item name="android:colorPrimary">#ffcddc39</item>
+        <item name="themeColor">#ffcddc39</item>
+    </style>
+    <style name="Material_Primary_ffc0ca33" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66c0ca33</item>
+        <item name="android:colorPrimary">#ffc0ca33</item>
+        <item name="themeColor">#ffc0ca33</item>
+    </style>
+    <style name="Material_Primary_ffafb42b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66afb42b</item>
+        <item name="android:colorPrimary">#ffafb42b</item>
+        <item name="themeColor">#ffafb42b</item>
+    </style>
+    <style name="Material_Primary_ff9e9d24" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#669e9d24</item>
+        <item name="android:colorPrimary">#ff9e9d24</item>
+        <item name="themeColor">#ff9e9d24</item>
+    </style>
+    <style name="Material_Primary_ff827717" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66827717</item>
+        <item name="android:colorPrimary">#ff827717</item>
+        <item name="themeColor">#ff827717</item>
+    </style>
+    <style name="Material_Primary_ffaeea00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66aeea00</item>
+        <item name="android:colorPrimary">#ffaeea00</item>
+        <item name="themeColor">#ffaeea00</item>
+    </style>
+    <style name="Material_Primary_ffc6ff00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66c6ff00</item>
+        <item name="android:colorPrimary">#ffc6ff00</item>
+        <item name="themeColor">#ffc6ff00</item>
+    </style>
+    <style name="Material_Primary_ffeeff41" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66eeff41</item>
+        <item name="android:colorPrimary">#ffeeff41</item>
+        <item name="themeColor">#ffeeff41</item>
+    </style>
+    <style name="Material_Primary_fffff176" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66fff176</item>
+        <item name="android:colorPrimary">#fffff176</item>
+        <item name="themeColor">#fffff176</item>
+    </style>
+    <style name="Material_Primary_ffffee58" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffee58</item>
+        <item name="android:colorPrimary">#ffffee58</item>
+        <item name="themeColor">#ffffee58</item>
+    </style>
+    <style name="Material_Primary_ffffeb3b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffeb3b</item>
+        <item name="android:colorPrimary">#ffffeb3b</item>
+        <item name="themeColor">#ffffeb3b</item>
+    </style>
+    <style name="Material_Primary_fffdd835" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66fdd835</item>
+        <item name="android:colorPrimary">#fffdd835</item>
+        <item name="themeColor">#fffdd835</item>
+    </style>
+    <style name="Material_Primary_fffbc02d" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66fbc02d</item>
+        <item name="android:colorPrimary">#fffbc02d</item>
+        <item name="themeColor">#fffbc02d</item>
+    </style>
+    <style name="Material_Primary_fff9a825" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f9a825</item>
+        <item name="android:colorPrimary">#fff9a825</item>
+        <item name="themeColor">#fff9a825</item>
+    </style>
+    <style name="Material_Primary_fff57f17" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f57f17</item>
+        <item name="android:colorPrimary">#fff57f17</item>
+        <item name="themeColor">#fff57f17</item>
+    </style>
+    <style name="Material_Primary_ffffd600" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffd600</item>
+        <item name="android:colorPrimary">#ffffd600</item>
+        <item name="themeColor">#ffffd600</item>
+    </style>
+    <style name="Material_Primary_ffffea00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffea00</item>
+        <item name="android:colorPrimary">#ffffea00</item>
+        <item name="themeColor">#ffffea00</item>
+    </style>
+    <style name="Material_Primary_ffffff00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffff00</item>
+        <item name="android:colorPrimary">#ffffff00</item>
+        <item name="themeColor">#ffffff00</item>
+    </style>
+    <style name="Material_Primary_ffffd54f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffd54f</item>
+        <item name="android:colorPrimary">#ffffd54f</item>
+        <item name="themeColor">#ffffd54f</item>
+    </style>
+    <style name="Material_Primary_ffffca28" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffca28</item>
+        <item name="android:colorPrimary">#ffffca28</item>
+        <item name="themeColor">#ffffca28</item>
+    </style>
+    <style name="Material_Primary_ffffc107" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffc107</item>
+        <item name="android:colorPrimary">#ffffc107</item>
+        <item name="themeColor">#ffffc107</item>
+    </style>
+    <style name="Material_Primary_ffffb300" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffb300</item>
+        <item name="android:colorPrimary">#ffffb300</item>
+        <item name="themeColor">#ffffb300</item>
+    </style>
+    <style name="Material_Primary_ffffa000" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffa000</item>
+        <item name="android:colorPrimary">#ffffa000</item>
+        <item name="themeColor">#ffffa000</item>
+    </style>
+    <style name="Material_Primary_ffff8f00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff8f00</item>
+        <item name="android:colorPrimary">#ffff8f00</item>
+        <item name="themeColor">#ffff8f00</item>
+    </style>
+    <style name="Material_Primary_ffff6f00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff6f00</item>
+        <item name="android:colorPrimary">#ffff6f00</item>
+        <item name="themeColor">#ffff6f00</item>
+    </style>
+    <style name="Material_Primary_ffffab00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffab00</item>
+        <item name="android:colorPrimary">#ffffab00</item>
+        <item name="themeColor">#ffffab00</item>
+    </style>
+    <style name="Material_Primary_ffffc400" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffc400</item>
+        <item name="android:colorPrimary">#ffffc400</item>
+        <item name="themeColor">#ffffc400</item>
+    </style>
+    <style name="Material_Primary_ffffd740" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffd740</item>
+        <item name="android:colorPrimary">#ffffd740</item>
+        <item name="themeColor">#ffffd740</item>
+    </style>
+    <style name="Material_Primary_ffffb74d" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffb74d</item>
+        <item name="android:colorPrimary">#ffffb74d</item>
+        <item name="themeColor">#ffffb74d</item>
+    </style>
+    <style name="Material_Primary_ffffa726" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffa726</item>
+        <item name="android:colorPrimary">#ffffa726</item>
+        <item name="themeColor">#ffffa726</item>
+    </style>
+    <style name="Material_Primary_ffff9800" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff9800</item>
+        <item name="android:colorPrimary">#ffff9800</item>
+        <item name="themeColor">#ffff9800</item>
+    </style>
+    <style name="Material_Primary_fffb8c00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66fb8c00</item>
+        <item name="android:colorPrimary">#fffb8c00</item>
+        <item name="themeColor">#fffb8c00</item>
+    </style>
+    <style name="Material_Primary_fff57c00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f57c00</item>
+        <item name="android:colorPrimary">#fff57c00</item>
+        <item name="themeColor">#fff57c00</item>
+    </style>
+    <style name="Material_Primary_ffef6c00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ef6c00</item>
+        <item name="android:colorPrimary">#ffef6c00</item>
+        <item name="themeColor">#ffef6c00</item>
+    </style>
+    <style name="Material_Primary_ffe65100" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e65100</item>
+        <item name="android:colorPrimary">#ffe65100</item>
+        <item name="themeColor">#ffe65100</item>
+    </style>
+    <style name="Material_Primary_ffff6d00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff6d00</item>
+        <item name="android:colorPrimary">#ffff6d00</item>
+        <item name="themeColor">#ffff6d00</item>
+    </style>
+    <style name="Material_Primary_ffff9100" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff9100</item>
+        <item name="android:colorPrimary">#ffff9100</item>
+        <item name="themeColor">#ffff9100</item>
+    </style>
+    <style name="Material_Primary_ffffab40" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffab40</item>
+        <item name="android:colorPrimary">#ffffab40</item>
+        <item name="themeColor">#ffffab40</item>
+    </style>
+    <style name="Material_Primary_ffff8a65" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff8a65</item>
+        <item name="android:colorPrimary">#ffff8a65</item>
+        <item name="themeColor">#ffff8a65</item>
+    </style>
+    <style name="Material_Primary_ffff7043" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff7043</item>
+        <item name="android:colorPrimary">#ffff7043</item>
+        <item name="themeColor">#ffff7043</item>
+    </style>
+    <style name="Material_Primary_ffff5722" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff5722</item>
+        <item name="android:colorPrimary">#ffff5722</item>
+        <item name="themeColor">#ffff5722</item>
+    </style>
+    <style name="Material_Primary_fff4511e" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66f4511e</item>
+        <item name="android:colorPrimary">#fff4511e</item>
+        <item name="themeColor">#fff4511e</item>
+    </style>
+    <style name="Material_Primary_ffe64a19" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e64a19</item>
+        <item name="android:colorPrimary">#ffe64a19</item>
+        <item name="themeColor">#ffe64a19</item>
+    </style>
+    <style name="Material_Primary_ffd84315" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66d84315</item>
+        <item name="android:colorPrimary">#ffd84315</item>
+        <item name="themeColor">#ffd84315</item>
+    </style>
+    <style name="Material_Primary_ffbf360c" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66bf360c</item>
+        <item name="android:colorPrimary">#ffbf360c</item>
+        <item name="themeColor">#ffbf360c</item>
+    </style>
+    <style name="Material_Primary_ffdd2c00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66dd2c00</item>
+        <item name="android:colorPrimary">#ffdd2c00</item>
+        <item name="themeColor">#ffdd2c00</item>
+    </style>
+    <style name="Material_Primary_ffff3d00" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff3d00</item>
+        <item name="android:colorPrimary">#ffff3d00</item>
+        <item name="themeColor">#ffff3d00</item>
+    </style>
+    <style name="Material_Primary_ffff6e40" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ff6e40</item>
+        <item name="android:colorPrimary">#ffff6e40</item>
+        <item name="themeColor">#ffff6e40</item>
+    </style>
+    <style name="Material_Primary_ffa1887f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66a1887f</item>
+        <item name="android:colorPrimary">#ffa1887f</item>
+        <item name="themeColor">#ffa1887f</item>
+    </style>
+    <style name="Material_Primary_ff8d6e63" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#668d6e63</item>
+        <item name="android:colorPrimary">#ff8d6e63</item>
+        <item name="themeColor">#ff8d6e63</item>
+    </style>
+    <style name="Material_Primary_ff795548" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66795548</item>
+        <item name="android:colorPrimary">#ff795548</item>
+        <item name="themeColor">#ff795548</item>
+    </style>
+    <style name="Material_Primary_ff6d4c41" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#666d4c41</item>
+        <item name="android:colorPrimary">#ff6d4c41</item>
+        <item name="themeColor">#ff6d4c41</item>
+    </style>
+    <style name="Material_Primary_ff5d4037" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#665d4037</item>
+        <item name="android:colorPrimary">#ff5d4037</item>
+        <item name="themeColor">#ff5d4037</item>
+    </style>
+    <style name="Material_Primary_ff4e342e" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#664e342e</item>
+        <item name="android:colorPrimary">#ff4e342e</item>
+        <item name="themeColor">#ff4e342e</item>
+    </style>
+    <style name="Material_Primary_ff3e2723" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#663e2723</item>
+        <item name="android:colorPrimary">#ff3e2723</item>
+        <item name="themeColor">#ff3e2723</item>
+    </style>
+    <style name="Material_Primary_ffffffff" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66ffffff</item>
+        <item name="android:colorPrimary">#ffb2b2b2</item>
+        <item name="themeColor">#ffb2b2b2</item>
+    </style>
+    <style name="Material_Primary_ffe0e0e0" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66e0e0e0</item>
+        <item name="android:colorPrimary">#ffe0e0e0</item>
+        <item name="themeColor">#ffe0e0e0</item>
+    </style>
+    <style name="Material_Primary_ffbdbdbd" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66bdbdbd</item>
+        <item name="android:colorPrimary">#ffbdbdbd</item>
+        <item name="themeColor">#ffbdbdbd</item>
+    </style>
+    <style name="Material_Primary_ff9e9e9e" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#669e9e9e</item>
+        <item name="android:colorPrimary">#ff9e9e9e</item>
+        <item name="themeColor">#ff9e9e9e</item>
+    </style>
+    <style name="Material_Primary_ff757575" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66757575</item>
+        <item name="android:colorPrimary">#ff757575</item>
+        <item name="themeColor">#ff757575</item>
+    </style>
+    <style name="Material_Primary_ff616161" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66616161</item>
+        <item name="android:colorPrimary">#ff616161</item>
+        <item name="themeColor">#ff616161</item>
+    </style>
+    <style name="Material_Primary_ff424242" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66424242</item>
+        <item name="android:colorPrimary">#ff424242</item>
+        <item name="themeColor">#ff424242</item>
+    </style>
+    <style name="Material_Primary_ff212121" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66212121</item>
+        <item name="android:colorPrimary">#ff212121</item>
+        <item name="themeColor">#ff212121</item>
+    </style>
+    <style name="Material_Primary_ff000000" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66000000</item>
+        <item name="android:colorControlHighlight">#ff666666</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="themeColor">#ff000000</item>
+    </style>
+    <style name="Material_Primary_ff90a4ae" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6690a4ae</item>
+        <item name="android:colorPrimary">#ff90a4ae</item>
+        <item name="themeColor">#ff90a4ae</item>
+    </style>
+    <style name="Material_Primary_ff78909c" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6678909c</item>
+        <item name="android:colorPrimary">#ff78909c</item>
+        <item name="themeColor">#ff78909c</item>
+    </style>
+    <style name="Material_Primary_ff607d8b" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66607d8b</item>
+        <item name="android:colorPrimary">#ff607d8b</item>
+        <item name="themeColor">#ff607d8b</item>
+    </style>
+    <style name="Material_Primary_ff546e7a" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66546e7a</item>
+        <item name="android:colorPrimary">#ff546e7a</item>
+        <item name="themeColor">#ff546e7a</item>
+    </style>
+    <style name="Material_Primary_ff455a64" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66455a64</item>
+        <item name="android:colorPrimary">#ff455a64</item>
+        <item name="themeColor">#ff455a64</item>
+    </style>
+    <style name="Material_Primary_ff37474f" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#6637474f</item>
+        <item name="android:colorPrimary">#ff37474f</item>
+        <item name="themeColor">#ff37474f</item>
+    </style>
+    <style name="Material_Primary_ff263238" parent="@style/AppThemeBaseMaterial">
+        <item name="android:textColorHighlight">#66263238</item>
+        <item name="android:colorPrimary">#ff263238</item>
+        <item name="themeColor">#ff263238</item>
+    </style>
+    <style name="Material_Accent_ffe57373">
+        <item name="android:colorControlActivated">#ffe57373</item>
+        <item name="android:colorAccent">#ffe57373</item>
+    </style>
+    <style name="Material_Accent_ffef5350">
+        <item name="android:colorControlActivated">#ffef5350</item>
+        <item name="android:colorAccent">#ffef5350</item>
+    </style>
+    <style name="Material_Accent_fff44336">
+        <item name="android:colorControlActivated">#fff44336</item>
+        <item name="android:colorAccent">#fff44336</item>
+    </style>
+    <style name="Material_Accent_ffe53935">
+        <item name="android:colorControlActivated">#ffe53935</item>
+        <item name="android:colorAccent">#ffe53935</item>
+    </style>
+    <style name="Material_Accent_ffd32f2f">
+        <item name="android:colorControlActivated">#ffd32f2f</item>
+        <item name="android:colorAccent">#ffd32f2f</item>
+    </style>
+    <style name="Material_Accent_ffc62828">
+        <item name="android:colorControlActivated">#ffc62828</item>
+        <item name="android:colorAccent">#ffc62828</item>
+    </style>
+    <style name="Material_Accent_ffb71c1c">
+        <item name="android:colorControlActivated">#ffb71c1c</item>
+        <item name="android:colorAccent">#ffb71c1c</item>
+    </style>
+    <style name="Material_Accent_ffd50000">
+        <item name="android:colorControlActivated">#ffd50000</item>
+        <item name="android:colorAccent">#ffd50000</item>
+    </style>
+    <style name="Material_Accent_ffff1744">
+        <item name="android:colorControlActivated">#ffff1744</item>
+        <item name="android:colorAccent">#ffff1744</item>
+    </style>
+    <style name="Material_Accent_ffff5252">
+        <item name="android:colorControlActivated">#ffff5252</item>
+        <item name="android:colorAccent">#ffff5252</item>
+    </style>
+    <style name="Material_Accent_fff06292">
+        <item name="android:colorControlActivated">#fff06292</item>
+        <item name="android:colorAccent">#fff06292</item>
+    </style>
+    <style name="Material_Accent_ffec407a">
+        <item name="android:colorControlActivated">#ffec407a</item>
+        <item name="android:colorAccent">#ffec407a</item>
+    </style>
+    <style name="Material_Accent_ffe91e63">
+        <item name="android:colorControlActivated">#ffe91e63</item>
+        <item name="android:colorAccent">#ffe91e63</item>
+    </style>
+    <style name="Material_Accent_ffd81b60">
+        <item name="android:colorControlActivated">#ffd81b60</item>
+        <item name="android:colorAccent">#ffd81b60</item>
+    </style>
+    <style name="Material_Accent_ffc2185b">
+        <item name="android:colorControlActivated">#ffc2185b</item>
+        <item name="android:colorAccent">#ffc2185b</item>
+    </style>
+    <style name="Material_Accent_ffad1457">
+        <item name="android:colorControlActivated">#ffad1457</item>
+        <item name="android:colorAccent">#ffad1457</item>
+    </style>
+    <style name="Material_Accent_ff880e4f">
+        <item name="android:colorControlActivated">#ff880e4f</item>
+        <item name="android:colorAccent">#ff880e4f</item>
+    </style>
+    <style name="Material_Accent_ffc51162">
+        <item name="android:colorControlActivated">#ffc51162</item>
+        <item name="android:colorAccent">#ffc51162</item>
+    </style>
+    <style name="Material_Accent_fff50057">
+        <item name="android:colorControlActivated">#fff50057</item>
+        <item name="android:colorAccent">#fff50057</item>
+    </style>
+    <style name="Material_Accent_ffff4081">
+        <item name="android:colorControlActivated">#ffff4081</item>
+        <item name="android:colorAccent">#ffff4081</item>
+    </style>
+    <style name="Material_Accent_ffba68c8">
+        <item name="android:colorControlActivated">#ffba68c8</item>
+        <item name="android:colorAccent">#ffba68c8</item>
+    </style>
+    <style name="Material_Accent_ffab47bc">
+        <item name="android:colorControlActivated">#ffab47bc</item>
+        <item name="android:colorAccent">#ffab47bc</item>
+    </style>
+    <style name="Material_Accent_ff9c27b0">
+        <item name="android:colorControlActivated">#ff9c27b0</item>
+        <item name="android:colorAccent">#ff9c27b0</item>
+    </style>
+    <style name="Material_Accent_ff8e24aa">
+        <item name="android:colorControlActivated">#ff8e24aa</item>
+        <item name="android:colorAccent">#ff8e24aa</item>
+    </style>
+    <style name="Material_Accent_ff7b1fa2">
+        <item name="android:colorControlActivated">#ff7b1fa2</item>
+        <item name="android:colorAccent">#ff7b1fa2</item>
+    </style>
+    <style name="Material_Accent_ff6a1b9a">
+        <item name="android:colorControlActivated">#ff6a1b9a</item>
+        <item name="android:colorAccent">#ff6a1b9a</item>
+    </style>
+    <style name="Material_Accent_ff4a148c">
+        <item name="android:colorControlActivated">#ff4a148c</item>
+        <item name="android:colorAccent">#ff4a148c</item>
+    </style>
+    <style name="Material_Accent_ffaa00ff">
+        <item name="android:colorControlActivated">#ffaa00ff</item>
+        <item name="android:colorAccent">#ffaa00ff</item>
+    </style>
+    <style name="Material_Accent_ffd500f9">
+        <item name="android:colorControlActivated">#ffd500f9</item>
+        <item name="android:colorAccent">#ffd500f9</item>
+    </style>
+    <style name="Material_Accent_ffe040fb">
+        <item name="android:colorControlActivated">#ffe040fb</item>
+        <item name="android:colorAccent">#ffe040fb</item>
+    </style>
+    <style name="Material_Accent_ff9575cd">
+        <item name="android:colorControlActivated">#ff9575cd</item>
+        <item name="android:colorAccent">#ff9575cd</item>
+    </style>
+    <style name="Material_Accent_ff7e57c2">
+        <item name="android:colorControlActivated">#ff7e57c2</item>
+        <item name="android:colorAccent">#ff7e57c2</item>
+    </style>
+    <style name="Material_Accent_ff673ab7">
+        <item name="android:colorControlActivated">#ff673ab7</item>
+        <item name="android:colorAccent">#ff673ab7</item>
+    </style>
+    <style name="Material_Accent_ff5e35b1">
+        <item name="android:colorControlActivated">#ff5e35b1</item>
+        <item name="android:colorAccent">#ff5e35b1</item>
+    </style>
+    <style name="Material_Accent_ff512da8">
+        <item name="android:colorControlActivated">#ff512da8</item>
+        <item name="android:colorAccent">#ff512da8</item>
+    </style>
+    <style name="Material_Accent_ff4527a0">
+        <item name="android:colorControlActivated">#ff4527a0</item>
+        <item name="android:colorAccent">#ff4527a0</item>
+    </style>
+    <style name="Material_Accent_ff311b92">
+        <item name="android:colorControlActivated">#ff311b92</item>
+        <item name="android:colorAccent">#ff311b92</item>
+    </style>
+    <style name="Material_Accent_ff6200ea">
+        <item name="android:colorControlActivated">#ff6200ea</item>
+        <item name="android:colorAccent">#ff6200ea</item>
+    </style>
+    <style name="Material_Accent_ff651fff">
+        <item name="android:colorControlActivated">#ff651fff</item>
+        <item name="android:colorAccent">#ff651fff</item>
+    </style>
+    <style name="Material_Accent_ff7c4dff">
+        <item name="android:colorControlActivated">#ff7c4dff</item>
+        <item name="android:colorAccent">#ff7c4dff</item>
+    </style>
+    <style name="Material_Accent_ff7986cb">
+        <item name="android:colorControlActivated">#ff7986cb</item>
+        <item name="android:colorAccent">#ff7986cb</item>
+    </style>
+    <style name="Material_Accent_ff5c6bc0">
+        <item name="android:colorControlActivated">#ff5c6bc0</item>
+        <item name="android:colorAccent">#ff5c6bc0</item>
+    </style>
+    <style name="Material_Accent_ff3f51b5">
+        <item name="android:colorControlActivated">#ff3f51b5</item>
+        <item name="android:colorAccent">#ff3f51b5</item>
+    </style>
+    <style name="Material_Accent_ff3949ab">
+        <item name="android:colorControlActivated">#ff3949ab</item>
+        <item name="android:colorAccent">#ff3949ab</item>
+    </style>
+    <style name="Material_Accent_ff303f9f">
+        <item name="android:colorControlActivated">#ff303f9f</item>
+        <item name="android:colorAccent">#ff303f9f</item>
+    </style>
+    <style name="Material_Accent_ff283593">
+        <item name="android:colorControlActivated">#ff283593</item>
+        <item name="android:colorAccent">#ff283593</item>
+    </style>
+    <style name="Material_Accent_ff1a237e">
+        <item name="android:colorControlActivated">#ff1a237e</item>
+        <item name="android:colorAccent">#ff1a237e</item>
+    </style>
+    <style name="Material_Accent_ff304ffe">
+        <item name="android:colorControlActivated">#ff304ffe</item>
+        <item name="android:colorAccent">#ff304ffe</item>
+    </style>
+    <style name="Material_Accent_ff3d5afe">
+        <item name="android:colorControlActivated">#ff3d5afe</item>
+        <item name="android:colorAccent">#ff3d5afe</item>
+    </style>
+    <style name="Material_Accent_ff536dfe">
+        <item name="android:colorControlActivated">#ff536dfe</item>
+        <item name="android:colorAccent">#ff536dfe</item>
+    </style>
+    <style name="Material_Accent_ff64b5f6">
+        <item name="android:colorControlActivated">#ff64b5f6</item>
+        <item name="android:colorAccent">#ff64b5f6</item>
+    </style>
+    <style name="Material_Accent_ff42a5f5">
+        <item name="android:colorControlActivated">#ff42a5f5</item>
+        <item name="android:colorAccent">#ff42a5f5</item>
+    </style>
+    <style name="Material_Accent_ff2196f3">
+        <item name="android:colorControlActivated">#ff2196f3</item>
+        <item name="android:colorAccent">#ff2196f3</item>
+    </style>
+    <style name="Material_Accent_ff1e88e5">
+        <item name="android:colorControlActivated">#ff1e88e5</item>
+        <item name="android:colorAccent">#ff1e88e5</item>
+    </style>
+    <style name="Material_Accent_ff1976d2">
+        <item name="android:colorControlActivated">#ff1976d2</item>
+        <item name="android:colorAccent">#ff1976d2</item>
+    </style>
+    <style name="Material_Accent_ff1565c0">
+        <item name="android:colorControlActivated">#ff1565c0</item>
+        <item name="android:colorAccent">#ff1565c0</item>
+    </style>
+    <style name="Material_Accent_ff0d47a1">
+        <item name="android:colorControlActivated">#ff0d47a1</item>
+        <item name="android:colorAccent">#ff0d47a1</item>
+    </style>
+    <style name="Material_Accent_ff2962ff">
+        <item name="android:colorControlActivated">#ff2962ff</item>
+        <item name="android:colorAccent">#ff2962ff</item>
+    </style>
+    <style name="Material_Accent_ff2979ff">
+        <item name="android:colorControlActivated">#ff2979ff</item>
+        <item name="android:colorAccent">#ff2979ff</item>
+    </style>
+    <style name="Material_Accent_ff448aff">
+        <item name="android:colorControlActivated">#ff448aff</item>
+        <item name="android:colorAccent">#ff448aff</item>
+    </style>
+    <style name="Material_Accent_ff4fc3f7">
+        <item name="android:colorControlActivated">#ff4fc3f7</item>
+        <item name="android:colorAccent">#ff4fc3f7</item>
+    </style>
+    <style name="Material_Accent_ff29b6f6">
+        <item name="android:colorControlActivated">#ff29b6f6</item>
+        <item name="android:colorAccent">#ff29b6f6</item>
+    </style>
+    <style name="Material_Accent_ff03a9f4">
+        <item name="android:colorControlActivated">#ff03a9f4</item>
+        <item name="android:colorAccent">#ff03a9f4</item>
+    </style>
+    <style name="Material_Accent_ff039be5">
+        <item name="android:colorControlActivated">#ff039be5</item>
+        <item name="android:colorAccent">#ff039be5</item>
+    </style>
+    <style name="Material_Accent_ff0288d1">
+        <item name="android:colorControlActivated">#ff0288d1</item>
+        <item name="android:colorAccent">#ff0288d1</item>
+    </style>
+    <style name="Material_Accent_ff0277bd">
+        <item name="android:colorControlActivated">#ff0277bd</item>
+        <item name="android:colorAccent">#ff0277bd</item>
+    </style>
+    <style name="Material_Accent_ff01579b">
+        <item name="android:colorControlActivated">#ff01579b</item>
+        <item name="android:colorAccent">#ff01579b</item>
+    </style>
+    <style name="Material_Accent_ff0091ea">
+        <item name="android:colorControlActivated">#ff0091ea</item>
+        <item name="android:colorAccent">#ff0091ea</item>
+    </style>
+    <style name="Material_Accent_ff00b0ff">
+        <item name="android:colorControlActivated">#ff00b0ff</item>
+        <item name="android:colorAccent">#ff00b0ff</item>
+    </style>
+    <style name="Material_Accent_ff40c4ff">
+        <item name="android:colorControlActivated">#ff40c4ff</item>
+        <item name="android:colorAccent">#ff40c4ff</item>
+    </style>
+    <style name="Material_Accent_ff4dd0e1">
+        <item name="android:colorControlActivated">#ff4dd0e1</item>
+        <item name="android:colorAccent">#ff4dd0e1</item>
+    </style>
+    <style name="Material_Accent_ff26c6da">
+        <item name="android:colorControlActivated">#ff26c6da</item>
+        <item name="android:colorAccent">#ff26c6da</item>
+    </style>
+    <style name="Material_Accent_ff00bcd4">
+        <item name="android:colorControlActivated">#ff00bcd4</item>
+        <item name="android:colorAccent">#ff00bcd4</item>
+    </style>
+    <style name="Material_Accent_ff00acc1">
+        <item name="android:colorControlActivated">#ff00acc1</item>
+        <item name="android:colorAccent">#ff00acc1</item>
+    </style>
+    <style name="Material_Accent_ff0097a7">
+        <item name="android:colorControlActivated">#ff0097a7</item>
+        <item name="android:colorAccent">#ff0097a7</item>
+    </style>
+    <style name="Material_Accent_ff00838f">
+        <item name="android:colorControlActivated">#ff00838f</item>
+        <item name="android:colorAccent">#ff00838f</item>
+    </style>
+    <style name="Material_Accent_ff006064">
+        <item name="android:colorControlActivated">#ff006064</item>
+        <item name="android:colorAccent">#ff006064</item>
+    </style>
+    <style name="Material_Accent_ff00b8d4">
+        <item name="android:colorControlActivated">#ff00b8d4</item>
+        <item name="android:colorAccent">#ff00b8d4</item>
+    </style>
+    <style name="Material_Accent_ff00e5ff">
+        <item name="android:colorControlActivated">#ff00e5ff</item>
+        <item name="android:colorAccent">#ff00e5ff</item>
+    </style>
+    <style name="Material_Accent_ff18ffff">
+        <item name="android:colorControlActivated">#ff18ffff</item>
+        <item name="android:colorAccent">#ff18ffff</item>
+    </style>
+    <style name="Material_Accent_ff4db6ac">
+        <item name="android:colorControlActivated">#ff4db6ac</item>
+        <item name="android:colorAccent">#ff4db6ac</item>
+    </style>
+    <style name="Material_Accent_ff26a69a">
+        <item name="android:colorControlActivated">#ff26a69a</item>
+        <item name="android:colorAccent">#ff26a69a</item>
+    </style>
+    <style name="Material_Accent_ff009688">
+        <item name="android:colorControlActivated">#ff009688</item>
+        <item name="android:colorAccent">#ff009688</item>
+    </style>
+    <style name="Material_Accent_ff00897b">
+        <item name="android:colorControlActivated">#ff00897b</item>
+        <item name="android:colorAccent">#ff00897b</item>
+    </style>
+    <style name="Material_Accent_ff00796b">
+        <item name="android:colorControlActivated">#ff00796b</item>
+        <item name="android:colorAccent">#ff00796b</item>
+    </style>
+    <style name="Material_Accent_ff00695c">
+        <item name="android:colorControlActivated">#ff00695c</item>
+        <item name="android:colorAccent">#ff00695c</item>
+    </style>
+    <style name="Material_Accent_ff004d40">
+        <item name="android:colorControlActivated">#ff004d40</item>
+        <item name="android:colorAccent">#ff004d40</item>
+    </style>
+    <style name="Material_Accent_ff00bfa5">
+        <item name="android:colorControlActivated">#ff00bfa5</item>
+        <item name="android:colorAccent">#ff00bfa5</item>
+    </style>
+    <style name="Material_Accent_ff1de9b6">
+        <item name="android:colorControlActivated">#ff1de9b6</item>
+        <item name="android:colorAccent">#ff1de9b6</item>
+    </style>
+    <style name="Material_Accent_ff64ffda">
+        <item name="android:colorControlActivated">#ff64ffda</item>
+        <item name="android:colorAccent">#ff64ffda</item>
+    </style>
+    <style name="Material_Accent_ff81c784">
+        <item name="android:colorControlActivated">#ff81c784</item>
+        <item name="android:colorAccent">#ff81c784</item>
+    </style>
+    <style name="Material_Accent_ff66bb6a">
+        <item name="android:colorControlActivated">#ff66bb6a</item>
+        <item name="android:colorAccent">#ff66bb6a</item>
+    </style>
+    <style name="Material_Accent_ff4caf50">
+        <item name="android:colorControlActivated">#ff4caf50</item>
+        <item name="android:colorAccent">#ff4caf50</item>
+    </style>
+    <style name="Material_Accent_ff43a047">
+        <item name="android:colorControlActivated">#ff43a047</item>
+        <item name="android:colorAccent">#ff43a047</item>
+    </style>
+    <style name="Material_Accent_ff388e3c">
+        <item name="android:colorControlActivated">#ff388e3c</item>
+        <item name="android:colorAccent">#ff388e3c</item>
+    </style>
+    <style name="Material_Accent_ff2e7d32">
+        <item name="android:colorControlActivated">#ff2e7d32</item>
+        <item name="android:colorAccent">#ff2e7d32</item>
+    </style>
+    <style name="Material_Accent_ff1b5e20">
+        <item name="android:colorControlActivated">#ff1b5e20</item>
+        <item name="android:colorAccent">#ff1b5e20</item>
+    </style>
+    <style name="Material_Accent_ff00c853">
+        <item name="android:colorControlActivated">#ff00c853</item>
+        <item name="android:colorAccent">#ff00c853</item>
+    </style>
+    <style name="Material_Accent_ff00e676">
+        <item name="android:colorControlActivated">#ff00e676</item>
+        <item name="android:colorAccent">#ff00e676</item>
+    </style>
+    <style name="Material_Accent_ff69f0ae">
+        <item name="android:colorControlActivated">#ff69f0ae</item>
+        <item name="android:colorAccent">#ff69f0ae</item>
+    </style>
+    <style name="Material_Accent_ffaed581">
+        <item name="android:colorControlActivated">#ffaed581</item>
+        <item name="android:colorAccent">#ffaed581</item>
+    </style>
+    <style name="Material_Accent_ff9ccc65">
+        <item name="android:colorControlActivated">#ff9ccc65</item>
+        <item name="android:colorAccent">#ff9ccc65</item>
+    </style>
+    <style name="Material_Accent_ff8bc34a">
+        <item name="android:colorControlActivated">#ff8bc34a</item>
+        <item name="android:colorAccent">#ff8bc34a</item>
+    </style>
+    <style name="Material_Accent_ff7cb342">
+        <item name="android:colorControlActivated">#ff7cb342</item>
+        <item name="android:colorAccent">#ff7cb342</item>
+    </style>
+    <style name="Material_Accent_ff689f38">
+        <item name="android:colorControlActivated">#ff689f38</item>
+        <item name="android:colorAccent">#ff689f38</item>
+    </style>
+    <style name="Material_Accent_ff558b2f">
+        <item name="android:colorControlActivated">#ff558b2f</item>
+        <item name="android:colorAccent">#ff558b2f</item>
+    </style>
+    <style name="Material_Accent_ff33691e">
+        <item name="android:colorControlActivated">#ff33691e</item>
+        <item name="android:colorAccent">#ff33691e</item>
+    </style>
+    <style name="Material_Accent_ff64dd17">
+        <item name="android:colorControlActivated">#ff64dd17</item>
+        <item name="android:colorAccent">#ff64dd17</item>
+    </style>
+    <style name="Material_Accent_ff76ff03">
+        <item name="android:colorControlActivated">#ff76ff03</item>
+        <item name="android:colorAccent">#ff76ff03</item>
+    </style>
+    <style name="Material_Accent_ffb2ff59">
+        <item name="android:colorControlActivated">#ffb2ff59</item>
+        <item name="android:colorAccent">#ffb2ff59</item>
+    </style>
+    <style name="Material_Accent_ffdce775">
+        <item name="android:colorControlActivated">#ffdce775</item>
+        <item name="android:colorAccent">#ffdce775</item>
+    </style>
+    <style name="Material_Accent_ffd4e157">
+        <item name="android:colorControlActivated">#ffd4e157</item>
+        <item name="android:colorAccent">#ffd4e157</item>
+    </style>
+    <style name="Material_Accent_ffcddc39">
+        <item name="android:colorControlActivated">#ffcddc39</item>
+        <item name="android:colorAccent">#ffcddc39</item>
+    </style>
+    <style name="Material_Accent_ffc0ca33">
+        <item name="android:colorControlActivated">#ffc0ca33</item>
+        <item name="android:colorAccent">#ffc0ca33</item>
+    </style>
+    <style name="Material_Accent_ffafb42b">
+        <item name="android:colorControlActivated">#ffafb42b</item>
+        <item name="android:colorAccent">#ffafb42b</item>
+    </style>
+    <style name="Material_Accent_ff9e9d24">
+        <item name="android:colorControlActivated">#ff9e9d24</item>
+        <item name="android:colorAccent">#ff9e9d24</item>
+    </style>
+    <style name="Material_Accent_ff827717">
+        <item name="android:colorControlActivated">#ff827717</item>
+        <item name="android:colorAccent">#ff827717</item>
+    </style>
+    <style name="Material_Accent_ffaeea00">
+        <item name="android:colorControlActivated">#ffaeea00</item>
+        <item name="android:colorAccent">#ffaeea00</item>
+    </style>
+    <style name="Material_Accent_ffc6ff00">
+        <item name="android:colorControlActivated">#ffc6ff00</item>
+        <item name="android:colorAccent">#ffc6ff00</item>
+    </style>
+    <style name="Material_Accent_ffeeff41">
+        <item name="android:colorControlActivated">#ffeeff41</item>
+        <item name="android:colorAccent">#ffeeff41</item>
+    </style>
+    <style name="Material_Accent_fffff176">
+        <item name="android:colorControlActivated">#fffff176</item>
+        <item name="android:colorAccent">#fffff176</item>
+    </style>
+    <style name="Material_Accent_ffffee58">
+        <item name="android:colorControlActivated">#ffffee58</item>
+        <item name="android:colorAccent">#ffffee58</item>
+    </style>
+    <style name="Material_Accent_ffffeb3b">
+        <item name="android:colorControlActivated">#ffffeb3b</item>
+        <item name="android:colorAccent">#ffffeb3b</item>
+    </style>
+    <style name="Material_Accent_fffdd835">
+        <item name="android:colorControlActivated">#fffdd835</item>
+        <item name="android:colorAccent">#fffdd835</item>
+    </style>
+    <style name="Material_Accent_fffbc02d">
+        <item name="android:colorControlActivated">#fffbc02d</item>
+        <item name="android:colorAccent">#fffbc02d</item>
+    </style>
+    <style name="Material_Accent_fff9a825">
+        <item name="android:colorControlActivated">#fff9a825</item>
+        <item name="android:colorAccent">#fff9a825</item>
+    </style>
+    <style name="Material_Accent_fff57f17">
+        <item name="android:colorControlActivated">#fff57f17</item>
+        <item name="android:colorAccent">#fff57f17</item>
+    </style>
+    <style name="Material_Accent_ffffd600">
+        <item name="android:colorControlActivated">#ffffd600</item>
+        <item name="android:colorAccent">#ffffd600</item>
+    </style>
+    <style name="Material_Accent_ffffea00">
+        <item name="android:colorControlActivated">#ffffea00</item>
+        <item name="android:colorAccent">#ffffea00</item>
+    </style>
+    <style name="Material_Accent_ffffff00">
+        <item name="android:colorControlActivated">#ffffff00</item>
+        <item name="android:colorAccent">#ffffff00</item>
+    </style>
+    <style name="Material_Accent_ffffd54f">
+        <item name="android:colorControlActivated">#ffffd54f</item>
+        <item name="android:colorAccent">#ffffd54f</item>
+    </style>
+    <style name="Material_Accent_ffffca28">
+        <item name="android:colorControlActivated">#ffffca28</item>
+        <item name="android:colorAccent">#ffffca28</item>
+    </style>
+    <style name="Material_Accent_ffffc107">
+        <item name="android:colorControlActivated">#ffffc107</item>
+        <item name="android:colorAccent">#ffffc107</item>
+    </style>
+    <style name="Material_Accent_ffffb300">
+        <item name="android:colorControlActivated">#ffffb300</item>
+        <item name="android:colorAccent">#ffffb300</item>
+    </style>
+    <style name="Material_Accent_ffffa000">
+        <item name="android:colorControlActivated">#ffffa000</item>
+        <item name="android:colorAccent">#ffffa000</item>
+    </style>
+    <style name="Material_Accent_ffff8f00">
+        <item name="android:colorControlActivated">#ffff8f00</item>
+        <item name="android:colorAccent">#ffff8f00</item>
+    </style>
+    <style name="Material_Accent_ffff6f00">
+        <item name="android:colorControlActivated">#ffff6f00</item>
+        <item name="android:colorAccent">#ffff6f00</item>
+    </style>
+    <style name="Material_Accent_ffffab00">
+        <item name="android:colorControlActivated">#ffffab00</item>
+        <item name="android:colorAccent">#ffffab00</item>
+    </style>
+    <style name="Material_Accent_ffffc400">
+        <item name="android:colorControlActivated">#ffffc400</item>
+        <item name="android:colorAccent">#ffffc400</item>
+    </style>
+    <style name="Material_Accent_ffffd740">
+        <item name="android:colorControlActivated">#ffffd740</item>
+        <item name="android:colorAccent">#ffffd740</item>
+    </style>
+    <style name="Material_Accent_ffffb74d">
+        <item name="android:colorControlActivated">#ffffb74d</item>
+        <item name="android:colorAccent">#ffffb74d</item>
+    </style>
+    <style name="Material_Accent_ffffa726">
+        <item name="android:colorControlActivated">#ffffa726</item>
+        <item name="android:colorAccent">#ffffa726</item>
+    </style>
+    <style name="Material_Accent_ffff9800">
+        <item name="android:colorControlActivated">#ffff9800</item>
+        <item name="android:colorAccent">#ffff9800</item>
+    </style>
+    <style name="Material_Accent_fffb8c00">
+        <item name="android:colorControlActivated">#fffb8c00</item>
+        <item name="android:colorAccent">#fffb8c00</item>
+    </style>
+    <style name="Material_Accent_fff57c00">
+        <item name="android:colorControlActivated">#fff57c00</item>
+        <item name="android:colorAccent">#fff57c00</item>
+    </style>
+    <style name="Material_Accent_ffef6c00">
+        <item name="android:colorControlActivated">#ffef6c00</item>
+        <item name="android:colorAccent">#ffef6c00</item>
+    </style>
+    <style name="Material_Accent_ffe65100">
+        <item name="android:colorControlActivated">#ffe65100</item>
+        <item name="android:colorAccent">#ffe65100</item>
+    </style>
+    <style name="Material_Accent_ffff6d00">
+        <item name="android:colorControlActivated">#ffff6d00</item>
+        <item name="android:colorAccent">#ffff6d00</item>
+    </style>
+    <style name="Material_Accent_ffff9100">
+        <item name="android:colorControlActivated">#ffff9100</item>
+        <item name="android:colorAccent">#ffff9100</item>
+    </style>
+    <style name="Material_Accent_ffffab40">
+        <item name="android:colorControlActivated">#ffffab40</item>
+        <item name="android:colorAccent">#ffffab40</item>
+    </style>
+    <style name="Material_Accent_ffff8a65">
+        <item name="android:colorControlActivated">#ffff8a65</item>
+        <item name="android:colorAccent">#ffff8a65</item>
+    </style>
+    <style name="Material_Accent_ffff7043">
+        <item name="android:colorControlActivated">#ffff7043</item>
+        <item name="android:colorAccent">#ffff7043</item>
+    </style>
+    <style name="Material_Accent_ffff5722">
+        <item name="android:colorControlActivated">#ffff5722</item>
+        <item name="android:colorAccent">#ffff5722</item>
+    </style>
+    <style name="Material_Accent_fff4511e">
+        <item name="android:colorControlActivated">#fff4511e</item>
+        <item name="android:colorAccent">#fff4511e</item>
+    </style>
+    <style name="Material_Accent_ffe64a19">
+        <item name="android:colorControlActivated">#ffe64a19</item>
+        <item name="android:colorAccent">#ffe64a19</item>
+    </style>
+    <style name="Material_Accent_ffd84315">
+        <item name="android:colorControlActivated">#ffd84315</item>
+        <item name="android:colorAccent">#ffd84315</item>
+    </style>
+    <style name="Material_Accent_ffbf360c">
+        <item name="android:colorControlActivated">#ffbf360c</item>
+        <item name="android:colorAccent">#ffbf360c</item>
+    </style>
+    <style name="Material_Accent_ffdd2c00">
+        <item name="android:colorControlActivated">#ffdd2c00</item>
+        <item name="android:colorAccent">#ffdd2c00</item>
+    </style>
+    <style name="Material_Accent_ffff3d00">
+        <item name="android:colorControlActivated">#ffff3d00</item>
+        <item name="android:colorAccent">#ffff3d00</item>
+    </style>
+    <style name="Material_Accent_ffff6e40">
+        <item name="android:colorControlActivated">#ffff6e40</item>
+        <item name="android:colorAccent">#ffff6e40</item>
+    </style>
+    <style name="Material_Accent_ffa1887f">
+        <item name="android:colorControlActivated">#ffa1887f</item>
+        <item name="android:colorAccent">#ffa1887f</item>
+    </style>
+    <style name="Material_Accent_ff8d6e63">
+        <item name="android:colorControlActivated">#ff8d6e63</item>
+        <item name="android:colorAccent">#ff8d6e63</item>
+    </style>
+    <style name="Material_Accent_ff795548">
+        <item name="android:colorControlActivated">#ff795548</item>
+        <item name="android:colorAccent">#ff795548</item>
+    </style>
+    <style name="Material_Accent_ff6d4c41">
+        <item name="android:colorControlActivated">#ff6d4c41</item>
+        <item name="android:colorAccent">#ff6d4c41</item>
+    </style>
+    <style name="Material_Accent_ff5d4037">
+        <item name="android:colorControlActivated">#ff5d4037</item>
+        <item name="android:colorAccent">#ff5d4037</item>
+    </style>
+    <style name="Material_Accent_ff4e342e">
+        <item name="android:colorControlActivated">#ff4e342e</item>
+        <item name="android:colorAccent">#ff4e342e</item>
+    </style>
+    <style name="Material_Accent_ff3e2723">
+        <item name="android:colorControlActivated">#ff3e2723</item>
+        <item name="android:colorAccent">#ff3e2723</item>
+    </style>
+    <style name="Material_Accent_ffffffff">
+        <item name="android:colorControlActivated">#8affffff</item>
+        <item name="android:colorAccent">#ffffffff</item>
+    </style>
+    <style name="Material_Accent_ffe0e0e0">
+        <item name="android:colorControlActivated">#ffe0e0e0</item>
+        <item name="android:colorAccent">#ffe0e0e0</item>
+    </style>
+    <style name="Material_Accent_ffbdbdbd">
+        <item name="android:colorControlActivated">#ffbdbdbd</item>
+        <item name="android:colorAccent">#ffbdbdbd</item>
+    </style>
+    <style name="Material_Accent_ff9e9e9e">
+        <item name="android:colorControlActivated">#ff9e9e9e</item>
+        <item name="android:colorAccent">#ff9e9e9e</item>
+    </style>
+    <style name="Material_Accent_ff757575">
+        <item name="android:colorControlActivated">#ff757575</item>
+        <item name="android:colorAccent">#ff757575</item>
+    </style>
+    <style name="Material_Accent_ff616161">
+        <item name="android:colorControlActivated">#ff616161</item>
+        <item name="android:colorAccent">#ff616161</item>
+    </style>
+    <style name="Material_Accent_ff424242">
+        <item name="android:colorControlActivated">#ff424242</item>
+        <item name="android:colorAccent">#ff424242</item>
+    </style>
+    <style name="Material_Accent_ff212121">
+        <item name="android:colorControlActivated">#ff212121</item>
+        <item name="android:colorAccent">#ff212121</item>
+    </style>
+    <style name="Material_Accent_ff000000">
+        <item name="android:colorControlActivated">#8a000000</item>
+        <item name="android:colorAccent">#ff000000</item>
+    </style>
+    <style name="Material_Accent_ff90a4ae">
+        <item name="android:colorControlActivated">#ff90a4ae</item>
+        <item name="android:colorAccent">#ff90a4ae</item>
+    </style>
+    <style name="Material_Accent_ff78909c">
+        <item name="android:colorControlActivated">#ff78909c</item>
+        <item name="android:colorAccent">#ff78909c</item>
+    </style>
+    <style name="Material_Accent_ff607d8b">
+        <item name="android:colorControlActivated">#ff607d8b</item>
+        <item name="android:colorAccent">#ff607d8b</item>
+    </style>
+    <style name="Material_Accent_ff546e7a">
+        <item name="android:colorControlActivated">#ff546e7a</item>
+        <item name="android:colorAccent">#ff546e7a</item>
+    </style>
+    <style name="Material_Accent_ff455a64">
+        <item name="android:colorControlActivated">#ff455a64</item>
+        <item name="android:colorAccent">#ff455a64</item>
+    </style>
+    <style name="Material_Accent_ff37474f">
+        <item name="android:colorControlActivated">#ff37474f</item>
+        <item name="android:colorAccent">#ff37474f</item>
+    </style>
+    <style name="Material_Accent_ff263238">
+        <item name="android:colorControlActivated">#ff263238</item>
+        <item name="android:colorAccent">#ff263238</item>
+    </style>
+    <style name="actionOverflowMenuStyle" parent="@android:style/Widget.Material.PopupMenu.Overflow">
+        <item name="android:popupBackground">?common_dropshadow</item>
+    </style>
+    <style name="PlatformTheme" parent="@android:style/Theme.Material.Light">
+        <item name="actionbar_item_background">?android:selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="PlatformTheme.UserVoice" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorControlHighlight">#40ffffff</item>
+        <item name="actionbar_item_background">?android:selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="PlatformTheme.Translucent.NoTitleBar" parent="@android:style/Theme.Material.NoActionBar.TranslucentDecor" />
+    <style name="PlatformTheme.Widget.ActionMode" parent="@android:style/Widget.Material.ActionMode" />
+    <style name="PlatformTheme.TextAppearance.Widget.ActionMode.Title" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title" />
+    <style name="PlaformTheme.TextAppearance.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="AppThemeBaseMaterial">
+        <item name="android:contentInsetStart">0.0dip</item>
+    </style>
+    <style name="AppThemeBase" parent="@style/PlatformTheme">
+        <item name="android:windowBackground">@color/startupColor</item>
+        <item name="android:windowContentOverlay">@drawable/ab_solid_shadow_holo</item>
+        <item name="android:windowTitleSize">0.0dip</item>
+        <item name="android:dropDownListViewStyle">@style/dropDownListViewStyle</item>
+        <item name="android:listViewStyle">@style/listViewStyle</item>
+        <item name="android:itemBackground">@drawable/common_item_background</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:actionModeBackground">@android:color/black</item>
+        <item name="android:actionModeCloseDrawable">@drawable/actionbar_cross</item>
+        <item name="android:actionBarSize">?initialActionbarHeight</item>
+        <item name="android:actionOverflowButtonStyle">@style/actionOverflowButtonStyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/actionModeCloseButtonStyle</item>
+        <item name="android:popupMenuStyle">@style/popupMenuStyle</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/textAppearanceLargePopupMenu</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_leftarrow</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:actionModeStyle">@style/actionModeStyle</item>
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarItemBackground">?actionbar_item_background</item>
+        <item name="android:actionOverflowMenuStyle">@style/actionOverflowMenuStyle</item>
+        <item name="android:navigationBarColor">@color/startupColor</item>
+        <item name="numberPickerStyle">@style/numberPickerStyle</item>
+        <item name="useSystemBarTinting">true</item>
+        <item name="actionBarTitleStyle">@style/actionBarTitleStyle</item>
+        <item name="custom_actionbar_text_untinted">@style/custom_actionbar_text_untinted</item>
+        <item name="custom_actionbar_icon_untinted">@style/custom_actionbar_icon_untinted</item>
+        <item name="custom_actionbar_contactphoto">@style/custom_actionbar_contactphoto</item>
+        <item name="custom_actionbar_text_primaryTextColorTinted">@style/custom_actionbar_text_primaryTextColorTinted</item>
+        <item name="common_actionbar_customview_title">@style/common_actionbar_customview_title</item>
+        <item name="customPopupMenu_item">@style/customPopupMenu_item</item>
+        <item name="initialSync_startUsing">@style/initialSync_startUsing</item>
+        <item name="convoList_list">@style/convoList_list</item>
+        <item name="convoList_rowMain">@style/convoList_rowMain</item>
+        <item name="convoList_maincontent">@style/convoList_maincontent</item>
+        <item name="convoList_checkbox">@style/convoList_checkbox</item>
+        <item name="convoList_buttons_left">@style/convoList_buttons_left</item>
+        <item name="convoList_deleteButton">@style/convoList_deleteButton</item>
+        <item name="convoList_buttons_right">@style/convoList_buttons_right</item>
+        <item name="convoList_callButton">@style/convoList_callButton</item>
+        <item name="convoList_messageCount">@style/convoList_messageCount</item>
+        <item name="convoList_messageCountSubtitle">@style/convoList_messageCountSubtitle</item>
+        <item name="convoList_ContactPhoto">@style/convoList_ContactPhoto</item>
+        <item name="convoList_summaryLine">@style/convoList_summaryLine</item>
+        <item name="convoList_displayName">@style/convoList_displayName</item>
+        <item name="convoList_dateLabel">@style/convoList_dateLabel</item>
+        <item name="convoList_adChoicesIcon">@style/convoList_adChoicesIcon</item>
+        <item name="convoList_lastMessageText">@style/convoList_lastMessageText</item>
+        <item name="convoList_nativeAd_callToAction">@style/convoList_nativeAd_callToAction</item>
+        <item name="convoList_noData_text">@style/convoList_noData_text</item>
+        <item name="convoList_trial_license_expired_text">@style/convoList_trial_license_expired_text</item>
+        <item name="convo">@style/convo</item>
+        <item name="convo_stillSynching_holder">@style/convo_stillSynching_holder</item>
+        <item name="convo_stillSynching">@style/convo_stillSynching</item>
+        <item name="convo_floatingDateLabel_bar">@style/convo_floatingDateLabel_bar</item>
+        <item name="convo_floatingDateLabel">@style/convo_floatingDateLabel</item>
+        <item name="convo_row">@style/convo_row</item>
+        <item name="convo_dateLabel">@style/convo_dateLabel</item>
+        <item name="convo_originator">@style/convo_originator</item>
+        <item name="convo_checkbox">@style/convo_checkbox</item>
+        <item name="convo_bubbleIncoming">@style/convo_bubbleIncoming</item>
+        <item name="convo_bubbleOutgoing">@style/convo_bubbleOutgoing</item>
+        <item name="convo_bubbleOutgoing_sending">@style/convo_bubbleOutgoing_sending</item>
+        <item name="convo_bubbleOutgoing_mmsIndText">@style/convo_bubbleOutgoing_mmsIndText</item>
+        <item name="convo_timestampsHolder">@style/convo_timestampsHolder</item>
+        <item name="convo_messageCenterTimestamp">@style/convo_messageCenterTimestamp</item>
+        <item name="convo_bubbleSendingIndicator">@style/convo_bubbleSendingIndicator</item>
+        <item name="convo_scheduledAt">@style/convo_scheduledAt</item>
+        <item name="convo_scheduledIndicator">@style/convo_scheduledIndicator</item>
+        <item name="convo_bubbleStatusText">@style/convo_bubbleStatusText</item>
+        <item name="newMessage_chooseRecipients_to">@style/newMessage_chooseRecipients_to</item>
+        <item name="newMessage_chooseRecipients_recipientChip">@style/newMessage_chooseRecipients_recipientChip</item>
+        <item name="newMessage_chooseRecipients_recipientChip_photo">@style/newMessage_chooseRecipients_recipientChip_photo</item>
+        <item name="newMessage_chooseRecipients_recipientChip_contactName">@style/newMessage_chooseRecipients_recipientChip_contactName</item>
+        <item name="newMessage_chooseRecipients_toField">@style/newMessage_chooseRecipients_toField</item>
+        <item name="newMessage_row">@style/newMessage_row</item>
+        <item name="newMessage_contactImage">@style/newMessage_contactImage</item>
+        <item name="newMessage_displayName">@style/newMessage_displayName</item>
+        <item name="newMessage_typeLabel">@style/newMessage_typeLabel</item>
+        <item name="newMessage_contactNumber">@style/newMessage_contactNumber</item>
+        <item name="newMessage_noMatchingContacts">@style/newMessage_noMatchingContacts</item>
+        <item name="newMessage_favsHintText">@style/newMessage_favsHintText</item>
+        <item name="upgraded_to_pro">@style/upgraded_to_pro</item>
+        <item name="upgraded_to_pro_container">@style/upgraded_to_pro_container</item>
+        <item name="upgraded_to_pro_title">@style/upgraded_to_pro_title</item>
+        <item name="upgraded_to_pro_badge_garland">@style/upgraded_to_pro_badge_garland</item>
+        <item name="upgraded_to_pro_badge_ribbons">@style/upgraded_to_pro_badge_ribbons</item>
+        <item name="upgraded_to_pro_summary">@style/upgraded_to_pro_summary</item>
+        <item name="common_pickContacts">@style/common_pickContacts</item>
+        <item name="common_pickContacts_contactsListFragment">@style/common_pickContacts_contactsListFragment</item>
+        <item name="common_pickContacts_tabs">@style/common_pickContacts_tabs</item>
+        <item name="common_pickContacts_sms">@style/common_pickContacts_sms</item>
+        <item name="common_pickContacts_mms">@style/common_pickContacts_mms</item>
+        <item name="common_pickContacts_contactsListFragment_list">@style/common_pickContacts_contactsListFragment_list</item>
+        <item name="common_pickContacts_contactsList_searchField">@style/common_pickContacts_contactsList_searchField</item>
+        <item name="common_pickContacts_contactsList_row">@style/common_pickContacts_contactsList_row</item>
+        <item name="common_pickContacts_contactsList_checkbox">@style/common_pickContacts_contactsList_checkbox</item>
+        <item name="common_pickContacts_contactsList_displayName">@style/common_pickContacts_contactsList_displayName</item>
+        <item name="common_pickContacts_contactsList_typeLabel">@style/common_pickContacts_contactsList_typeLabel</item>
+        <item name="common_pickContacts_contactsList_contactNumber">@style/common_pickContacts_contactsList_contactNumber</item>
+        <item name="common_pickContacts_groupsListFragment">@style/common_pickContacts_groupsListFragment</item>
+        <item name="common_pickContacts_groupsListFragment_list">@style/common_pickContacts_groupsListFragment_list</item>
+        <item name="common_pickContacts_groupsList_row">@style/common_pickContacts_groupsList_row</item>
+        <item name="common_pickContacts_groupsList_checkbox">@style/common_pickContacts_groupsList_checkbox</item>
+        <item name="common_pickContacts_groupsList_displayName">@style/common_pickContacts_groupsList_displayName</item>
+        <item name="common_pickContacts_groupsLists_expandContactButton">@style/common_pickContacts_groupsLists_expandContactButton</item>
+        <item name="common_sendarea_plus_button">@style/common_sendarea_plus_button</item>
+        <item name="common_sendarea_text_holder">@style/common_sendarea_text_holder</item>
+        <item name="common_sendarea_text">@style/common_sendarea_text</item>
+        <item name="common_sendarea_signature">@style/common_sendarea_signature</item>
+        <item name="common_sendarea_charcounter">@style/common_sendarea_charcounter</item>
+        <item name="common_sendarea_record_or_send_button">@style/common_sendarea_record_or_send_button</item>
+        <item name="common_sendarea_scheduled_indicator_overlay">@style/common_sendarea_scheduled_indicator_overlay</item>
+        <item name="common_sendarea_insert_vcard">@style/common_sendarea_insert_vcard</item>
+        <item name="common_sendarea_signature_edit_dialog_text">@style/common_sendarea_signature_edit_dialog_text</item>
+        <item name="signatures_empty">@style/signatures_empty</item>
+        <item name="class0">@style/class0</item>
+        <item name="class0_text">@style/class0_text</item>
+        <item name="plusPanel">@style/plusPanel</item>
+        <item name="plusPanel_subtitle">@style/plusPanel_subtitle</item>
+        <item name="plusPanel_tabButton">@style/plusPanel_tabButton</item>
+        <item name="plusCamera_Button">@style/plusCamera_Button</item>
+        <item name="plusCamera_placeholderButton">@style/plusCamera_placeholderButton</item>
+        <item name="plusPanel_recentlyUsedHelpText">@style/plusPanel_recentlyUsedHelpText</item>
+        <item name="plusPanel_downloadEmojis">@style/plusPanel_downloadEmojis</item>
+        <item name="plusPanel_downloadEmojisText">@style/plusPanel_downloadEmojisText</item>
+        <item name="plusPanel_audioCapture_progressContent_icon">@style/plusPanel_audioCapture_progressContent_icon</item>
+        <item name="plusPanel_audioCapture_progressContent_text">@style/plusPanel_audioCapture_progressContent_text</item>
+        <item name="plusPanel_emojisPanel">@style/plusPanel_emojisPanel</item>
+        <item name="plusPanel_emojisGroup_title">@style/plusPanel_emojisGroup_title</item>
+        <item name="plusPanel_schedulePanel_cancelButton">@style/plusPanel_schedulePanel_cancelButton</item>
+        <item name="plusPanel_schedulePanel_datetime_container">@style/plusPanel_schedulePanel_datetime_container</item>
+        <item name="plusPanel_schedulePanel_pickedDatetime">@style/plusPanel_schedulePanel_pickedDatetime</item>
+        <item name="plusPanel_schedulePanel_hint">@style/plusPanel_schedulePanel_hint</item>
+        <item name="plusPanel_schedulePanel_title">@style/plusPanel_schedulePanel_title</item>
+        <item name="plusPanel_schedulePanel_picked_value_label">@style/plusPanel_schedulePanel_picked_value_label</item>
+        <item name="plusPanel_schedulePanel_landscape_time_field_container">@style/plusPanel_schedulePanel_landscape_time_field_container</item>
+        <item name="plusPanel_schedulePanel_picked_value">@style/plusPanel_schedulePanel_picked_value</item>
+        <item name="pickAttachment_list">@style/pickAttachment_list</item>
+        <item name="pickAttachment_row_text">@style/pickAttachment_row_text</item>
+        <item name="common_giphy">@style/common_giphy</item>
+        <item name="common_giphy_categoryGridFragment">@style/common_giphy_categoryGridFragment</item>
+        <item name="common_giphy_actionbar_customview_search_view">@style/common_giphy_actionbar_customview_search_view</item>
+        <item name="common_giphy_categoryGridFragment_grid">@style/common_giphy_categoryGridFragment_grid</item>
+        <item name="common_giphy_categorygrid_cell">@style/common_giphy_categorygrid_cell</item>
+        <item name="common_giphy_categorygrid_cell_image">@style/common_giphy_categorygrid_cell_image</item>
+        <item name="common_giphy_categorygrid_cell_label">@style/common_giphy_categorygrid_cell_label</item>
+        <item name="common_giphy_gifListFragment">@style/common_giphy_gifListFragment</item>
+        <item name="common_giphy_gifListFragment_list">@style/common_giphy_gifListFragment_list</item>
+        <item name="common_giphy_giflist_row">@style/common_giphy_giflist_row</item>
+        <item name="common_giphy_giflist_image">@style/common_giphy_giflist_image</item>
+        <item name="common_giphy_gifListFragment_footer_progress">@style/common_giphy_gifListFragment_footer_progress</item>
+        <item name="common_giphy_gifListFragment_progress">@style/common_giphy_gifListFragment_progress</item>
+        <item name="common_giphy_gifListFragment_progressLabel">@style/common_giphy_gifListFragment_progressLabel</item>
+        <item name="common_giphy_gifListFragment_footer_no_more_results">@style/common_giphy_gifListFragment_footer_no_more_results</item>
+        <item name="floatification_message">@style/floatification_message</item>
+        <item name="floatification_displayName">@style/floatification_displayName</item>
+        <item name="floatification_dateLabel">@style/floatification_dateLabel</item>
+        <item name="floatification_messageText">@style/floatification_messageText</item>
+        <item name="convo_settings_row">@style/convo_settings_row</item>
+        <item name="settings_actionbar_extension">@style/settings_actionbar_extension</item>
+        <item name="settings_footer">@style/settings_footer</item>
+        <item name="settings_list">@style/settings_list</item>
+        <item name="settings_row">@style/settings_row</item>
+        <item name="settings_rowTitle">@style/settings_rowTitle</item>
+        <item name="settings_rowSummary">@style/settings_rowSummary</item>
+        <item name="settings_preference_value_text">@style/settings_preference_value_text</item>
+        <item name="settings_rowTitle_multiline">@style/settings_rowTitle_multiline</item>
+        <item name="settings_actionbar_extension_item">@style/settings_actionbar_extension_item</item>
+        <item name="settings_category">@style/settings_category</item>
+        <item name="settings_note">@style/settings_note</item>
+        <item name="settings_base_checkbox_preference">@style/settings_base_checkbox_preference</item>
+        <item name="settings_base_menubutton_preference">@style/settings_base_menubutton_preference</item>
+        <item name="settings_base_radiobutton_preference">@style/settings_base_radiobutton_preference</item>
+        <item name="settings_listpreference_dialog_list">@style/settings_listpreference_dialog_list</item>
+        <item name="settings_listpreference_dialog_row">@style/settings_listpreference_dialog_row</item>
+        <item name="settings_pro_badge_garland">@style/settings_pro_badge_garland</item>
+        <item name="settings_pro_badge_ribbons">@style/settings_pro_badge_ribbons</item>
+        <item name="settings_support_card">@style/settings_support_card</item>
+        <item name="settings_support_tabs">@style/settings_support_tabs</item>
+        <item name="settings_support_viewpager">@style/settings_support_viewpager</item>
+        <item name="settings_support_help">@style/settings_support_help</item>
+        <item name="settings_support_search_icon">@style/settings_support_search_icon</item>
+        <item name="settings_support_search">@style/settings_support_search</item>
+        <item name="settings_support_row">@style/settings_support_row</item>
+        <item name="settings_support_row_title">@style/settings_support_row_title</item>
+        <item name="settings_support_row_summary">@style/settings_support_row_summary</item>
+        <item name="settings_support_row_button">@style/settings_support_row_button</item>
+        <item name="settings_support_contact_us">@style/settings_support_contact_us</item>
+        <item name="settings_support_contact_us_question">@style/settings_support_contact_us_question</item>
+        <item name="settings_support_hint_title">@style/settings_support_hint_title</item>
+        <item name="settings_support_contact_us_email_address">@style/settings_support_contact_us_email_address</item>
+        <item name="settings_support_contact_us_name">@style/settings_support_contact_us_name</item>
+        <item name="settings_support_idea_votes_label">@style/settings_support_idea_votes_label</item>
+        <item name="settings_support_signin_email_address">@style/settings_support_signin_email_address</item>
+        <item name="settings_support_signin_name">@style/settings_support_signin_name</item>
+        <item name="settings_support_post_idea">@style/settings_support_post_idea</item>
+        <item name="settings_support_post_idea_title">@style/settings_support_post_idea_title</item>
+        <item name="settings_support_post_idea_separator">@style/settings_support_post_idea_separator</item>
+        <item name="settings_support_post_idea_description">@style/settings_support_post_idea_description</item>
+        <item name="settings_messageLimit_amount">@style/settings_messageLimit_amount</item>
+        <item name="settings_messageLimit_scope">@style/settings_messageLimit_scope</item>
+        <item name="settings_resetDefaultsButton_holder">@style/settings_resetDefaultsButton_holder</item>
+        <item name="settings_resetDefaultsButton_initialButton">@style/settings_resetDefaultsButton_initialButton</item>
+        <item name="settings_resetDefaultsButton_dangerousButton">@style/settings_resetDefaultsButton_dangerousButton</item>
+        <item name="settings_bubbleColorsDialog_tabs">@style/settings_bubbleColorsDialog_tabs</item>
+        <item name="settings_bubbleColorsDialog_tab">@style/settings_bubbleColorsDialog_tab</item>
+        <item name="settings_bubbleColorsDialog_textColorOptions">@style/settings_bubbleColorsDialog_textColorOptions</item>
+        <item name="settings_bubbleColorsDialog_textColorOption">@style/settings_bubbleColorsDialog_textColorOption</item>
+        <item name="settings_makeVibratePattern_tapToRecord">@style/settings_makeVibratePattern_tapToRecord</item>
+        <item name="settings_nameVibratePatternDialog_text">@style/settings_nameVibratePatternDialog_text</item>
+        <item name="settings_textSizeDialog_a">@style/settings_textSizeDialog_a</item>
+        <item name="settings_screenColorPreference_value">@style/settings_screenColorPreference_value</item>
+        <item name="mmsNetworkSettings_mmsSendSizePreference_value">@style/mmsNetworkSettings_mmsSendSizePreference_value</item>
+        <item name="settings_changelog">@style/settings_changelog</item>
+        <item name="blacklisted_layout">@style/blacklisted_layout</item>
+        <item name="blacklisted_list">@style/blacklisted_list</item>
+        <item name="blacklist_empty">@style/blacklist_empty</item>
+        <item name="blacklisted_row">@style/blacklisted_row</item>
+        <item name="blacklisted_checkbox">@style/blacklisted_checkbox</item>
+        <item name="blacklisted_displayName">@style/blacklisted_displayName</item>
+        <item name="blacklisted_contactNumber">@style/blacklisted_contactNumber</item>
+        <item name="notificationStyle_icondialog_iconholder_value_icon">@style/notificationStyle_icondialog_iconholder_value_icon</item>
+        <item name="shareDialog_list">@style/shareDialog_list</item>
+        <item name="shareDialog_row">@style/shareDialog_row</item>
+        <item name="shareDialog_appTitle">@style/shareDialog_appTitle</item>
+        <item name="appIconChangedDialog_titleHolder">@style/appIconChangedDialog_titleHolder</item>
+        <item name="appIconChangedDialog_textBody">@style/appIconChangedDialog_textBody</item>
+        <item name="appIconChangedDialog_icon">@style/appIconChangedDialog_icon</item>
+        <item name="adConsentDialog_titleHolder">@style/adConsentDialog_titleHolder</item>
+        <item name="adConsentDialog_textBody">@style/adConsentDialog_textBody</item>
+        <item name="enableDrawOverOtherAppsDialog_textBody">@style/enableDrawOverOtherAppsDialog_textBody</item>
+        <item name="search_text">@style/search_text</item>
+        <item name="search_noResults">@style/search_noResults</item>
+        <item name="search_row">@style/search_row</item>
+        <item name="search_contactImage">@style/search_contactImage</item>
+        <item name="search_displayName">@style/search_displayName</item>
+        <item name="search_summaryText">@style/search_summaryText</item>
+        <item name="search_dateLabel">@style/search_dateLabel</item>
+        <item name="message_dialog_details">@style/message_dialog_details</item>
+        <item name="message_dialog_details_title">@style/message_dialog_details_title</item>
+        <item name="message_dialog_details_detail">@style/message_dialog_details_detail</item>
+        <item name="text_selector_left">@style/text_selector_left</item>
+        <item name="text_selector_right">@style/text_selector_right</item>
+        <item name="common_actionbar_customview">@style/common_actionbar_customview</item>
+        <item name="common_actionbar_customview_button">@style/common_actionbar_customview_button</item>
+        <item name="common_actionbar_customview_left_arrow_image">@style/common_actionbar_customview_left_arrow_image</item>
+        <item name="common_dialog_outer">@style/common_dialog_outer</item>
+        <item name="common_dialog_holder">@style/common_dialog_holder</item>
+        <item name="common_dialog">@style/common_dialog</item>
+        <item name="common_dialog_inner">@style/common_dialog_inner</item>
+        <item name="common_dialog_titleholder">@style/common_dialog_titleholder</item>
+        <item name="common_dialog_title">@style/common_dialog_title</item>
+        <item name="common_dialog_text">@style/common_dialog_text</item>
+        <item name="common_dialog_mainholder">@style/common_dialog_mainholder</item>
+        <item name="common_dialog_buttonPanel">@style/common_dialog_buttonPanel</item>
+        <item name="common_dialog_okButton">@style/common_dialog_okButton</item>
+        <item name="common_dialog_editText">@style/common_dialog_editText</item>
+        <item name="common_dialog_buttonCommon">@style/common_dialog_buttonCommon</item>
+        <item name="common_dialog_buttonCommon_squashable">@style/common_dialog_buttonCommon_squashable</item>
+        <item name="common_dialog_buttonCommon_dangerous">@style/common_dialog_buttonCommon_dangerous</item>
+        <item name="common_raised_button_themecolor">@style/common_raised_button_themecolor</item>
+        <item name="common_raised_button_per_contact_themecolor">@style/common_raised_button_per_contact_themecolor</item>
+        <item name="common_tab_title">@style/common_tab_title</item>
+        <item name="common_drawerMenu_list">@style/common_drawerMenu_list</item>
+        <item name="common_drawerMenu_item_heading">@style/common_drawerMenu_item_heading</item>
+        <item name="common_drawerMenu_item_heading_label">@style/common_drawerMenu_item_heading_label</item>
+        <item name="common_drawerMenu_item_heading_divider">@style/common_drawerMenu_item_heading_divider</item>
+        <item name="common_drawerMenu_item_entry">@style/common_drawerMenu_item_entry</item>
+        <item name="common_drawerMenu_item_entry_label">@style/common_drawerMenu_item_entry_label</item>
+        <item name="common_sheet_button_container">@style/common_sheet_button_container</item>
+        <item name="common_sheet_button">@style/common_sheet_button</item>
+        <item name="common_sheet_button_dangerous">@style/common_sheet_button_dangerous</item>
+        <item name="minimenu_menu">@style/minimenu_menu</item>
+        <item name="minimenu_item">@style/minimenu_item</item>
+        <item name="minimenu_itemImageButton">@style/minimenu_itemImageButton</item>
+        <item name="minimenu_emoji_menu">@style/minimenu_emoji_menu</item>
+        <item name="minimenu_emoji_item">@style/minimenu_emoji_item</item>
+        <item name="calendar_chevronButton">@style/calendar_chevronButton</item>
+        <item name="calendar_title">@style/calendar_title</item>
+        <item name="calendar_weekDay">@style/calendar_weekDay</item>
+        <item name="calendar_day">@style/calendar_day</item>
+        <item name="common_linearlayout_orientation">@style/common_linearlayout_orientation</item>
+        <item name="screen_background">@color/screen_background</item>
+        <item name="screen_background_trans">@color/screen_background_trans</item>
+        <item name="font_light">fonts/Roboto-Light.ttf</item>
+        <item name="font_medium">fonts/Roboto-Medium.ttf</item>
+        <item name="font_regular">fonts/Roboto-Regular.ttf</item>
+        <item name="text_dark_gray">@color/text_dark_gray</item>
+        <item name="text_medium_gray">@color/text_medium_gray</item>
+        <item name="text_dark_gray_disableable">@color/text_dark_gray_disableable</item>
+        <item name="text_dark_gray_selectable">@color/text_dark_gray_selectable</item>
+        <item name="icon_gray">@color/icon_gray</item>
+        <item name="surface_dark_gray">@color/surface_dark_gray</item>
+        <item name="surface_light_gray">@color/surface_light_gray</item>
+        <item name="surface_light_gray_trans">@color/surface_light_gray_trans</item>
+        <item name="card_hairline_gray">@color/card_hairline_gray</item>
+        <item name="floatingButton_shadowColor">@color/floatingButton_shadowColor</item>
+        <item name="listview_divider_color">@color/listview_divider_color</item>
+        <item name="convo_dateLabel_textColor">#ff7b828c</item>
+        <item name="convo_dateLabel_textColor_blacker">#ff7b828c</item>
+        <item name="common_dropshadow">@drawable/common_dropshadow</item>
+        <item name="common_sendarea_signature_background">@drawable/common_sendarea_signature_background</item>
+        <item name="pickcontacts_contactslist_searchfield_background">@drawable/pickcontacts_contactslist_searchfield_background</item>
+        <item name="actionOverflowMenuStyle">@style/actionOverflowMenuStyle</item>
+        <item name="initialActionbarHeight">56.0dip</item>
+        <item name="actionBarBackground">@android:color/holo_purple</item>
+    </style>
+    <style name="AppTheme.InitialSyncActivity" parent="@style/AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_intro</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:colorButtonNormal">@android:color/white</item>
+        <item name="android:colorControlHighlight">?android:colorPrimary</item>
+        <item name="useSystemBarTinting">false</item>
+    </style>
+    <style name="AppTheme.GalleryActivity" parent="@style/AppTheme.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor">@color/screen_background_black</item>
+        <item name="useSystemBarTinting">false</item>
+    </style>
+    <style name="AppTheme.Class0" parent="@style/AppTheme.QuickConvo">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="actionBarBackground">@drawable/rounded_corners_top</item>
+    </style>
+    <style name="AppTheme.UpgradedToProTheme" parent="@style/AppTheme.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/UpgradedToProAnimation</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/screen_background_black</item>
+    </style>
+    <style name="UserVoiceTheme" parent="@style/PlatformTheme.UserVoice">
+        <item name="android:buttonStyle">@style/buttonStyle.UserVoice</item>
+        <item name="android:itemBackground">@drawable/common_item_background</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle.UserVoice</item>
+        <item name="android:actionBarSize">56.0dip</item>
+        <item name="android:actionBarItemBackground">?actionbar_item_background</item>
+        <item name="android:contentInsetStart">0.0dip</item>
+        <item name="common_actionbar_customview_title">@style/common_actionbar_customview_title</item>
+        <item name="common_actionbar_customview">@style/common_actionbar_customview</item>
+        <item name="common_actionbar_customview_left_arrow_image">@style/common_actionbar_customview_left_arrow_image</item>
+        <item name="text_dark_gray">@color/text_dark_gray</item>
+        <item name="initialActionbarHeight">56.0dip</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+    <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
+    <style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time" />
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+    <style name="Widget.Compat.NotificationActionContainer" parent="">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="PlatformDialogLightTheme" parent="@android:style/Theme.Material.Light.Dialog" />
+    <style name="PlatformDialogDarkTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="datetimePickerDialogDarkTheme" parent="@style/baseDialogDarkTheme">
+        <item name="android:datePickerStyle">@style/datePickerStyleDark</item>
+        <item name="android:timePickerStyle">@style/timePickerStyleDark</item>
+    </style>
+    <style name="datetimePickerDialogLightTheme" parent="@style/baseDialogLightTheme">
+        <item name="android:datePickerStyle">@style/datePickerStyleLight</item>
+        <item name="android:timePickerStyle">@style/timePickerStyleLight</item>
+    </style>
+    <style name="baseDialogDarkTheme" parent="@style/PlatformDialogDarkTheme">
+        <item name="android:colorBackground">?screen_background</item>
+        <item name="android:textColorPrimary">@color/android_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/android_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/android_primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/android_secondary_text_material_dark</item>
+        <item name="android:buttonBarButtonStyle">@style/buttonBarButtonStyle</item>
+        <item name="android:calendarViewStyle">@style/calendarViewStyleDark</item>
+        <item name="android:colorControlHighlight">@color/android_ripple_material_dark</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/negativeButtonBarButtonStyle</item>
+    </style>
+    <style name="baseDialogLightTheme" parent="@style/PlatformDialogLightTheme">
+        <item name="android:colorBackground">?screen_background</item>
+        <item name="android:textColorPrimary">@color/android_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/android_secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/android_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/android_secondary_text_material_light</item>
+        <item name="android:buttonBarButtonStyle">@style/buttonBarButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/negativeButtonBarButtonStyle</item>
+    </style>
+    <style name="datePickerStyleDark" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:headerBackground">?screen_background</item>
+    </style>
+    <style name="datePickerStyleLight" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="android:headerBackground">?screen_background</item>
+    </style>
+    <style name="timePickerStyleDark" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">?screen_background</item>
+        <item name="android:numbersTextColor">?android:textColorPrimary</item>
+        <item name="android:numbersBackgroundColor">?screen_background</item>
+    </style>
+    <style name="timePickerStyleLight" parent="@android:style/Widget.Material.Light.TimePicker">
+        <item name="android:headerBackground">?screen_background</item>
+        <item name="android:numbersBackgroundColor">?screen_background</item>
+    </style>
+    <style name="buttonBarButtonStyle" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+        <item name="android:textStyle">bold</item>
+        <item name="calligraphyFontPath">?font_medium</item>
+    </style>
+    <style name="negativeButtonBarButtonStyle" parent="@style/buttonBarButtonStyle">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="calendarViewStyleDark" parent="@android:style/Widget.Material.CalendarView">
+        <item name="android:dateTextAppearance">@style/dateTextAppearanceDark</item>
+    </style>
+    <style name="dateTextAppearanceDark">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fontPath" format="string" />
+    <attr name="numberPickerStyle" format="reference" />
+    <attr name="solidColor" format="reference|color" />
+    <attr name="selectionDivider" format="reference" />
+    <attr name="selectionDividerHeight" format="dimension" />
+    <attr name="selectionDividersDistance" format="dimension" />
+    <attr name="internalMinHeight" format="dimension" />
+    <attr name="internalMaxHeight" format="dimension" />
+    <attr name="internalMinWidth" format="dimension" />
+    <attr name="internalMaxWidth" format="dimension" />
+    <attr name="internalLayout" format="reference" />
+    <attr name="virtualButtonPressedDrawable" format="reference" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="fadeOutDelay" format="integer" />
+    <attr name="fadeOutDuration" format="integer" />
+    <attr name="textColorSelected" format="color" />
+    <attr name="lineColor" format="color" />
+    <attr name="lineColorSelected" format="color" />
+    <attr name="lineHeight" format="dimension" />
+    <attr name="lineHeightSelected" format="dimension" />
+    <attr name="dividerColor" format="color" />
+    <attr name="dividerMarginTop" format="dimension" />
+    <attr name="dividerMarginBottom" format="dimension" />
+    <attr name="dividerDrawable" format="reference" />
+    <attr name="outsideOffset" format="dimension" />
+    <attr name="calligraphyFontPath" format="string" />
+    <attr name="coverWidth" format="dimension" />
+    <attr name="coverHeight" format="dimension" />
+    <attr name="spacing" format="float" />
+    <attr name="rotationThreshold" format="float" />
+    <attr name="scalingThreshold" format="float" />
+    <attr name="adjustPositionThreshold" format="float" />
+    <attr name="adjustPositionMultiplier" format="float" />
+    <attr name="maxRotationAngle" format="float" />
+    <attr name="maxScaleFactor" format="float" />
+    <attr name="circlePathRadius" format="float" />
+    <attr name="circlePathRadiusInMatrixSpace" format="float" />
+    <attr name="reflectionHeight" format="float" />
+    <attr name="reflectionGap" format="dimension" />
+    <attr name="reflectionOpacity" format="integer" />
+    <attr name="tunningWidgetSize" format="dimension" />
+    <attr name="verticalPaddingTop" format="dimension" />
+    <attr name="verticalPaddingBottom" format="dimension" />
+    <attr name="is_group" format="boolean" />
+    <attr name="emojify" format="boolean" />
+    <attr name="flatButtonBackgroundSelector">
+        <enum name="lighten" value="3" />
+        <enum name="lightenMore" value="6" />
+        <enum name="none" value="0" />
+        <enum name="onAccentColor" value="4" />
+        <enum name="onScreenColor" value="2" />
+        <enum name="onScreenColorMore" value="5" />
+        <enum name="onThemeColor" value="1" />
+    </attr>
+    <attr name="flatButtonRippleBorderBehaviour">
+        <enum name="borderless" value="1" />
+        <enum name="round" value="2" />
+        <enum name="stopAtBorder" value="0" />
+    </attr>
+    <attr name="raisedButtonBackgroundSelector">
+        <enum name="none" value="0" />
+        <enum name="accentColorBackground" value="3" />
+        <enum name="themeColorBackground" value="2" />
+        <enum name="whiteBackground" value="1" />
+    </attr>
+    <attr name="useSystemBarTinting" format="boolean" />
+    <attr name="transparentSystemBarTinting" format="boolean" />
+    <attr name="useScrollIndicatorBottom" format="boolean" />
+    <attr name="useScrollIndicatorTop" format="boolean" />
+    <attr name="useAdditivePadding" format="boolean" />
+    <attr name="limitMaxLinesIfClipped" format="boolean" />
+    <attr name="addScrollingMovementMethod" format="boolean" />
+    <attr name="removeFontPaddingWhenLarger" format="boolean" />
+    <attr name="transparentToTouches" format="boolean" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="applyEqualLayoutWeight" format="boolean" />
+    <attr name="limitWhenLargeFont">
+        <flag name="paddingBottom" value="0x00000002" />
+        <flag name="paddingTop" value="0x00000001" />
+    </attr>
+    <attr name="shadow">
+        <flag name="bottomHairLine" value="0x00000008" />
+        <flag name="bottomLine" value="0x00000004" />
+        <flag name="navbarLine" value="0x00000010" />
+        <flag name="top" value="0x00000001" />
+        <flag name="topHeavy" value="0x00000002" />
+    </attr>
+    <attr name="shadowWidthPercent" format="integer" />
+    <attr name="tintWith">
+        <enum name="none" value="-1" />
+        <enum name="accentColor" value="1" />
+        <enum name="accentIconColor" value="15" />
+        <enum name="accentTextColor" value="10" />
+        <enum name="cardHairlineGray" value="20" />
+        <enum name="grayColoredBubble" value="18" />
+        <enum name="primaryColor" value="3" />
+        <enum name="primaryColorOrScrim" value="16" />
+        <enum name="primaryIconColor" value="21" />
+        <enum name="primarySecondaryTextColor" value="6" />
+        <enum name="primaryTextColor" value="4" />
+        <enum name="screenBackgroundColor" value="5" />
+        <enum name="screenBackgroundColorTrans" value="12" />
+        <enum name="surfaceDarkGray" value="0" />
+        <enum name="surfaceLightGray" value="9" />
+        <enum name="surfaceLightGrayTrans" value="11" />
+        <enum name="textDarkGray" value="2" />
+        <enum name="textMediumGray" value="7" />
+        <enum name="white" value="17" />
+    </attr>
+    <attr name="tintBackgroundWith">
+        <enum name="none" value="-1" />
+        <enum name="accentColor" value="1" />
+        <enum name="accentIconColor" value="15" />
+        <enum name="accentTextColor" value="10" />
+        <enum name="cardHairlineGray" value="20" />
+        <enum name="grayColoredBubble" value="18" />
+        <enum name="primaryColor" value="3" />
+        <enum name="primaryColorOrScrim" value="16" />
+        <enum name="primaryIconColor" value="21" />
+        <enum name="primarySecondaryTextColor" value="6" />
+        <enum name="primaryTextColor" value="4" />
+        <enum name="screenBackgroundColor" value="5" />
+        <enum name="screenBackgroundColorTrans" value="12" />
+        <enum name="surfaceDarkGray" value="0" />
+        <enum name="surfaceLightGray" value="9" />
+        <enum name="surfaceLightGrayTrans" value="11" />
+        <enum name="textDarkGray" value="2" />
+        <enum name="textMediumGray" value="7" />
+        <enum name="white" value="17" />
+    </attr>
+    <attr name="drawableTintWith">
+        <enum name="none" value="-1" />
+        <enum name="accentColor" value="1" />
+        <enum name="accentIconColor" value="15" />
+        <enum name="accentTextColor" value="10" />
+        <enum name="cardHairlineGray" value="20" />
+        <enum name="grayColoredBubble" value="18" />
+        <enum name="primaryColor" value="3" />
+        <enum name="primaryColorOrScrim" value="16" />
+        <enum name="primaryIconColor" value="21" />
+        <enum name="primarySecondaryTextColor" value="6" />
+        <enum name="primaryTextColor" value="4" />
+        <enum name="screenBackgroundColor" value="5" />
+        <enum name="screenBackgroundColorTrans" value="12" />
+        <enum name="surfaceDarkGray" value="0" />
+        <enum name="surfaceLightGray" value="9" />
+        <enum name="surfaceLightGrayTrans" value="11" />
+        <enum name="textDarkGray" value="2" />
+        <enum name="textMediumGray" value="7" />
+        <enum name="white" value="17" />
+    </attr>
+    <attr name="supportWrapContent" format="boolean" />
+    <attr name="srcVector" format="reference" />
+    <attr name="drawableLeftVector" format="reference" />
+    <attr name="drawableRightVector" format="reference" />
+    <attr name="highlightColorFollowsTextColor" format="boolean" />
+    <attr name="hintColorFollowsTextColor" format="boolean" />
+    <attr name="linkTextColorFollowsTextColor" format="boolean" />
+    <attr name="drawable0" format="reference" />
+    <attr name="drawable1" format="reference" />
+    <attr name="drawable2" format="reference" />
+    <attr name="animationDuration" format="integer" />
+    <attr name="maxWidthPercentage" format="integer" />
+    <attr name="maxHeightPercentage" format="integer" />
+    <attr name="topSpacePercentage" format="integer" />
+    <attr name="sliderHeight" format="dimension" />
+    <attr name="sliderColor" format="reference|color" />
+    <attr name="actionBarTitleStyle" format="reference" />
+    <attr name="custom_actionbar_text_untinted" format="reference" />
+    <attr name="custom_actionbar_icon_untinted" format="reference" />
+    <attr name="custom_actionbar_contactphoto" format="reference" />
+    <attr name="custom_actionbar_text_primaryTextColorTinted" format="reference" />
+    <attr name="common_actionbar_customview_title" format="reference" />
+    <attr name="customPopupMenu_item" format="reference" />
+    <attr name="initialSync_startUsing" format="reference" />
+    <attr name="convoList_list" format="reference" />
+    <attr name="convoList_rowMain" format="reference" />
+    <attr name="convoList_maincontent" format="reference" />
+    <attr name="convoList_checkbox" format="reference" />
+    <attr name="convoList_buttons_left" format="reference" />
+    <attr name="convoList_deleteButton" format="reference" />
+    <attr name="convoList_buttons_right" format="reference" />
+    <attr name="convoList_callButton" format="reference" />
+    <attr name="convoList_messageCount" format="reference" />
+    <attr name="convoList_messageCountSubtitle" format="reference" />
+    <attr name="convoList_ContactPhoto" format="reference" />
+    <attr name="convoList_summaryLine" format="reference" />
+    <attr name="convoList_displayName" format="reference" />
+    <attr name="convoList_dateLabel" format="reference" />
+    <attr name="convoList_adChoicesIcon" format="reference" />
+    <attr name="convoList_lastMessageText" format="reference" />
+    <attr name="convoList_nativeAd_callToAction" format="reference" />
+    <attr name="convoList_noData_text" format="reference" />
+    <attr name="convoList_trial_license_expired_text" format="reference" />
+    <attr name="convo" format="reference" />
+    <attr name="convo_stillSynching_holder" format="reference" />
+    <attr name="convo_stillSynching" format="reference" />
+    <attr name="convo_floatingDateLabel_bar" format="reference" />
+    <attr name="convo_floatingDateLabel" format="reference" />
+    <attr name="convo_row" format="reference" />
+    <attr name="convo_dateLabel" format="reference" />
+    <attr name="convo_originator" format="reference" />
+    <attr name="convo_checkbox" format="reference" />
+    <attr name="convo_bubbleIncoming" format="reference" />
+    <attr name="convo_bubbleOutgoing" format="reference" />
+    <attr name="convo_bubbleOutgoing_sending" format="reference" />
+    <attr name="convo_bubbleOutgoing_mmsIndText" format="reference" />
+    <attr name="convo_timestampsHolder" format="reference" />
+    <attr name="convo_messageCenterTimestamp" format="reference" />
+    <attr name="convo_bubbleSendingIndicator" format="reference" />
+    <attr name="convo_scheduledAt" format="reference" />
+    <attr name="convo_scheduledIndicator" format="reference" />
+    <attr name="convo_bubbleStatusText" format="reference" />
+    <attr name="newMessage_chooseRecipients_to" format="reference" />
+    <attr name="newMessage_chooseRecipients_recipientChip" format="reference" />
+    <attr name="newMessage_chooseRecipients_recipientChip_photo" format="reference" />
+    <attr name="newMessage_chooseRecipients_recipientChip_contactName" format="reference" />
+    <attr name="newMessage_chooseRecipients_toField" format="reference" />
+    <attr name="newMessage_row" format="reference" />
+    <attr name="newMessage_contactImage" format="reference" />
+    <attr name="newMessage_displayName" format="reference" />
+    <attr name="newMessage_typeLabel" format="reference" />
+    <attr name="newMessage_contactNumber" format="reference" />
+    <attr name="newMessage_noMatchingContacts" format="reference" />
+    <attr name="newMessage_favsHintText" format="reference" />
+    <attr name="upgraded_to_pro" format="reference" />
+    <attr name="upgraded_to_pro_container" format="reference" />
+    <attr name="upgraded_to_pro_title" format="reference" />
+    <attr name="upgraded_to_pro_badge_garland" format="reference" />
+    <attr name="upgraded_to_pro_badge_ribbons" format="reference" />
+    <attr name="upgraded_to_pro_summary" format="reference" />
+    <attr name="common_pickContacts" format="reference" />
+    <attr name="common_pickContacts_contactsListFragment" format="reference" />
+    <attr name="common_pickContacts_tabs" format="reference" />
+    <attr name="common_pickContacts_sms" format="reference" />
+    <attr name="common_pickContacts_mms" format="reference" />
+    <attr name="common_pickContacts_contactsListFragment_list" format="reference" />
+    <attr name="common_pickContacts_contactsList_searchField" format="reference" />
+    <attr name="common_pickContacts_contactsList_row" format="reference" />
+    <attr name="common_pickContacts_contactsList_checkbox" format="reference" />
+    <attr name="common_pickContacts_contactsList_displayName" format="reference" />
+    <attr name="common_pickContacts_contactsList_typeLabel" format="reference" />
+    <attr name="common_pickContacts_contactsList_contactNumber" format="reference" />
+    <attr name="common_pickContacts_groupsListFragment" format="reference" />
+    <attr name="common_pickContacts_groupsListFragment_list" format="reference" />
+    <attr name="common_pickContacts_groupsList_row" format="reference" />
+    <attr name="common_pickContacts_groupsList_checkbox" format="reference" />
+    <attr name="common_pickContacts_groupsList_displayName" format="reference" />
+    <attr name="common_pickContacts_groupsLists_expandContactButton" format="reference" />
+    <attr name="common_sendarea_plus_button" format="reference" />
+    <attr name="common_sendarea_text_holder" format="reference" />
+    <attr name="common_sendarea_text" format="reference" />
+    <attr name="common_sendarea_signature" format="reference" />
+    <attr name="common_sendarea_charcounter" format="reference" />
+    <attr name="common_sendarea_record_or_send_button" format="reference" />
+    <attr name="common_sendarea_scheduled_indicator_overlay" format="reference" />
+    <attr name="common_sendarea_insert_vcard" format="reference" />
+    <attr name="common_base_button" format="reference" />
+    <attr name="common_sendarea_signature_edit_dialog_text" format="reference" />
+    <attr name="signatures_empty" format="reference" />
+    <attr name="convoContent" format="reference" />
+    <attr name="convoContentControlledHeight" format="reference" />
+    <attr name="class0" format="reference" />
+    <attr name="class0_landscape" format="reference" />
+    <attr name="class0_text" format="reference" />
+    <attr name="plusPanel" format="reference" />
+    <attr name="plusPanel_subtitle" format="reference" />
+    <attr name="plusPanel_tabButton" format="reference" />
+    <attr name="plusCamera_Button" format="reference" />
+    <attr name="plusCamera_placeholderButton" format="reference" />
+    <attr name="plusPanel_recentlyUsedHelpText" format="reference" />
+    <attr name="plusPanel_downloadEmojis" format="reference" />
+    <attr name="plusPanel_downloadEmojisText" format="reference" />
+    <attr name="plusPanel_audioCapture_progressContent_icon" format="reference" />
+    <attr name="plusPanel_audioCapture_progressContent_text" format="reference" />
+    <attr name="plusPanel_emojisPanel" format="reference" />
+    <attr name="plusPanel_emojisGroup_title" format="reference" />
+    <attr name="plusPanel_schedulePanel_cancelButton" format="reference" />
+    <attr name="plusPanel_schedulePanel_datetime_container" format="reference" />
+    <attr name="plusPanel_schedulePanel_pickedDatetime" format="reference" />
+    <attr name="plusPanel_schedulePanel_hint" format="reference" />
+    <attr name="plusPanel_schedulePanel_title" format="reference" />
+    <attr name="plusPanel_schedulePanel_picked_value_label" format="reference" />
+    <attr name="plusPanel_schedulePanel_landscape_time_field_container" format="reference" />
+    <attr name="plusPanel_schedulePanel_picked_value" format="reference" />
+    <attr name="pickAttachment_list" format="reference" />
+    <attr name="pickAttachment_row_text" format="reference" />
+    <attr name="common_giphy" format="reference" />
+    <attr name="common_giphy_categoryGridFragment" format="reference" />
+    <attr name="common_giphy_actionbar_customview_search_view" format="reference" />
+    <attr name="common_giphy_categoryGridFragment_grid" format="reference" />
+    <attr name="common_giphy_categorygrid_cell" format="reference" />
+    <attr name="common_giphy_categorygrid_cell_image" format="reference" />
+    <attr name="common_giphy_categorygrid_cell_label" format="reference" />
+    <attr name="common_giphy_gifListFragment" format="reference" />
+    <attr name="common_giphy_gifListFragment_list" format="reference" />
+    <attr name="common_giphy_giflist_row" format="reference" />
+    <attr name="common_giphy_giflist_image" format="reference" />
+    <attr name="common_giphy_gifListFragment_footer_progress" format="reference" />
+    <attr name="common_giphy_gifListFragment_progress" format="reference" />
+    <attr name="common_giphy_gifListFragment_progressLabel" format="reference" />
+    <attr name="common_giphy_gifListFragment_footer_no_more_results" format="reference" />
+    <attr name="floatification_message" format="reference" />
+    <attr name="floatification_displayName" format="reference" />
+    <attr name="floatification_dateLabel" format="reference" />
+    <attr name="floatification_messageText" format="reference" />
+    <attr name="convo_settings_row" format="reference" />
+    <attr name="settings_actionbar_extension" format="reference" />
+    <attr name="settings_footer" format="reference" />
+    <attr name="settings_list" format="reference" />
+    <attr name="settings_row" format="reference" />
+    <attr name="settings_rowTitle" format="reference" />
+    <attr name="settings_rowSummary" format="reference" />
+    <attr name="settings_preference_value_text" format="reference" />
+    <attr name="settings_rowTitle_multiline" format="reference" />
+    <attr name="settings_actionbar_extension_item" format="reference" />
+    <attr name="settings_category" format="reference" />
+    <attr name="settings_note" format="reference" />
+    <attr name="settings_base_checkbox_preference" format="reference" />
+    <attr name="settings_base_menubutton_preference" format="reference" />
+    <attr name="settings_base_radiobutton_preference" format="reference" />
+    <attr name="settings_listpreference_dialog_list" format="reference" />
+    <attr name="settings_listpreference_dialog_row" format="reference" />
+    <attr name="settings_pro_badge_garland" format="reference" />
+    <attr name="settings_pro_badge_ribbons" format="reference" />
+    <attr name="settings_support_card" format="reference" />
+    <attr name="settings_support_tabs" format="reference" />
+    <attr name="settings_support_viewpager" format="reference" />
+    <attr name="settings_support_help" format="reference" />
+    <attr name="settings_support_search_icon" format="reference" />
+    <attr name="settings_support_search" format="reference" />
+    <attr name="settings_support_row" format="reference" />
+    <attr name="settings_support_row_title" format="reference" />
+    <attr name="settings_support_row_summary" format="reference" />
+    <attr name="settings_support_row_button" format="reference" />
+    <attr name="settings_support_contact_us" format="reference" />
+    <attr name="settings_support_contact_us_question" format="reference" />
+    <attr name="settings_support_hint_title" format="reference" />
+    <attr name="settings_support_contact_us_email_address" format="reference" />
+    <attr name="settings_support_contact_us_name" format="reference" />
+    <attr name="settings_support_idea_vote_count" format="reference" />
+    <attr name="settings_support_idea_row_title_row" format="reference" />
+    <attr name="settings_support_idea_votes_label" format="reference" />
+    <attr name="settings_support_signin_email_address" format="reference" />
+    <attr name="settings_support_signin_name" format="reference" />
+    <attr name="settings_support_post_idea" format="reference" />
+    <attr name="settings_support_post_idea_title" format="reference" />
+    <attr name="settings_support_post_idea_separator" format="reference" />
+    <attr name="settings_support_post_idea_description" format="reference" />
+    <attr name="settings_messageLimit_amount" format="reference" />
+    <attr name="settings_messageLimit_scope" format="reference" />
+    <attr name="settings_resetDefaultsButton_holder" format="reference" />
+    <attr name="settings_resetDefaultsButton_initialButton" format="reference" />
+    <attr name="settings_resetDefaultsButton_dangerousButton" format="reference" />
+    <attr name="settings_bubbleColorsDialog_tabs" format="reference" />
+    <attr name="settings_bubbleColorsDialog_tab" format="reference" />
+    <attr name="settings_bubbleColorsDialog_textColorOptions" format="reference" />
+    <attr name="settings_bubbleColorsDialog_textColorOption" format="reference" />
+    <attr name="settings_makeVibratePattern_tapToRecord" format="reference" />
+    <attr name="settings_nameVibratePatternDialog_text" format="reference" />
+    <attr name="settings_textSizeDialog_a" format="reference" />
+    <attr name="settings_screenColorPreference_value" format="reference" />
+    <attr name="mmsNetworkSettings_mmsSendSizePreference_value" format="reference" />
+    <attr name="settings_changelog" format="reference" />
+    <attr name="blacklisted_layout" format="reference" />
+    <attr name="blacklisted_list" format="reference" />
+    <attr name="blacklist_empty" format="reference" />
+    <attr name="blacklisted_row" format="reference" />
+    <attr name="blacklisted_checkbox" format="reference" />
+    <attr name="blacklisted_displayName" format="reference" />
+    <attr name="blacklisted_contactNumber" format="reference" />
+    <attr name="notificationStyle_icondialog_iconholder_value_icon" format="reference" />
+    <attr name="shareDialog_list" format="reference" />
+    <attr name="shareDialog_row" format="reference" />
+    <attr name="shareDialog_appTitle" format="reference" />
+    <attr name="appIconChangedDialog_titleHolder" format="reference" />
+    <attr name="appIconChangedDialog_textBody" format="reference" />
+    <attr name="appIconChangedDialog_icon" format="reference" />
+    <attr name="adConsentDialog_titleHolder" format="reference" />
+    <attr name="adConsentDialog_textBody" format="reference" />
+    <attr name="enableDrawOverOtherAppsDialog_textBody" format="reference" />
+    <attr name="search_text" format="reference" />
+    <attr name="search_noResults" format="reference" />
+    <attr name="search_row" format="reference" />
+    <attr name="search_contactImage" format="reference" />
+    <attr name="search_displayName" format="reference" />
+    <attr name="search_summaryText" format="reference" />
+    <attr name="search_dateLabel" format="reference" />
+    <attr name="message_dialog_details" format="reference" />
+    <attr name="message_dialog_details_title" format="reference" />
+    <attr name="message_dialog_details_detail" format="reference" />
+    <attr name="text_selector_left" format="reference" />
+    <attr name="text_selector_right" format="reference" />
+    <attr name="common_actionbar_customview" format="reference" />
+    <attr name="common_actionbar_customview_button" format="reference" />
+    <attr name="common_actionbar_customview_left_arrow_image" format="reference" />
+    <attr name="common_dialog_outer" format="reference" />
+    <attr name="common_dialog_holder" format="reference" />
+    <attr name="common_dialog" format="reference" />
+    <attr name="common_dialog_content" format="reference" />
+    <attr name="common_dialog_inner" format="reference" />
+    <attr name="common_dialog_titleholder" format="reference" />
+    <attr name="common_dialog_title" format="reference" />
+    <attr name="common_dialog_text" format="reference" />
+    <attr name="common_dialog_mainholder" format="reference" />
+    <attr name="common_dialog_buttonPanel" format="reference" />
+    <attr name="common_dialog_okButton" format="reference" />
+    <attr name="common_dialog_editText" format="reference" />
+    <attr name="common_dialog_buttonCommon" format="reference" />
+    <attr name="common_dialog_buttonCommon_squashable" format="reference" />
+    <attr name="common_dialog_buttonCommon_dangerous" format="reference" />
+    <attr name="common_raised_button_themecolor" format="reference" />
+    <attr name="common_raised_button_per_contact_themecolor" format="reference" />
+    <attr name="common_tab_title" format="reference" />
+    <attr name="common_drawerMenu_list" format="reference" />
+    <attr name="common_drawerMenu_item_heading" format="reference" />
+    <attr name="common_drawerMenu_item_heading_label" format="reference" />
+    <attr name="common_drawerMenu_item_heading_divider" format="reference" />
+    <attr name="common_drawerMenu_item_entry" format="reference" />
+    <attr name="common_drawerMenu_item_entry_label" format="reference" />
+    <attr name="common_sheet_button_container" format="reference" />
+    <attr name="common_sheet_button" format="reference" />
+    <attr name="common_sheet_button_dangerous" format="reference" />
+    <attr name="minimenu_menu" format="reference" />
+    <attr name="minimenu_item" format="reference" />
+    <attr name="minimenu_itemImageButton" format="reference" />
+    <attr name="minimenu_emoji_menu" format="reference" />
+    <attr name="minimenu_emoji_item" format="reference" />
+    <attr name="calendar_chevronButton" format="reference" />
+    <attr name="calendar_title" format="reference" />
+    <attr name="calendar_weekDay" format="reference" />
+    <attr name="calendar_day" format="reference" />
+    <attr name="common_linearlayout_orientation" format="reference" />
+    <attr name="screen_background" format="reference" />
+    <attr name="screen_background_trans" format="reference" />
+    <attr name="font_light" format="string" />
+    <attr name="font_medium" format="string" />
+    <attr name="font_regular" format="string" />
+    <attr name="themeColor" format="color" />
+    <attr name="text_dark_gray" format="reference" />
+    <attr name="text_medium_gray" format="reference|color" />
+    <attr name="text_dark_gray_disableable" format="reference|color" />
+    <attr name="text_dark_gray_selectable" format="reference|color" />
+    <attr name="icon_gray" format="reference" />
+    <attr name="surface_dark_gray" format="reference" />
+    <attr name="surface_light_gray" format="reference" />
+    <attr name="surface_light_gray_trans" format="reference" />
+    <attr name="card_hairline_gray" format="reference|color" />
+    <attr name="floatingButton_shadowColor" format="reference|color" />
+    <attr name="listview_divider_color" format="reference|color" />
+    <attr name="convo_dateLabel_textColor" format="reference|color" />
+    <attr name="convo_dateLabel_textColor_blacker" format="reference|color" />
+    <attr name="common_dropshadow" format="reference" />
+    <attr name="common_sendarea_signature_background" format="reference" />
+    <attr name="pickcontacts_contactslist_searchfield_background" format="reference" />
+    <attr name="actionbar_item_background" format="reference" />
+    <attr name="actionOverflowMenuStyle" format="reference" />
+    <attr name="initialActionbarHeight" format="reference|dimension" />
+    <attr name="actionBarBackground" format="reference" />
+    <attr name="sendDelayProgressBarBackground" format="reference" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="autoReloadFrequency" format="integer" />
+    <attr name="autoReloadEnabled" format="boolean" />
+    <attr name="loadNewBanner" format="boolean" />
+    <attr name="locationUpdateEnabled" format="boolean" />
+    <attr name="keywordList" format="string" />
+    <attr name="searchQuery" format="string" />
+    <attr name="region" format="string" />
+    <attr name="country" format="string" />
+    <attr name="city" format="string" />
+    <attr name="latitude" format="float" />
+    <attr name="longitude" format="float" />
+    <attr name="age" format="integer" />
+    <attr name="gender" format="string" />
+    <attr name="userProfileEnabled" format="boolean" />
+    <attr name="adDimension" format="string" />
+    <attr name="bannerWidth" format="integer" />
+    <attr name="bannerHeight" format="integer" />
+    <attr name="AdType" format="string" />
+    <attr name="adSpaceId" format="integer" />
+    <attr name="publisherId" format="integer" />
+    <attr name="barrierAllowsGoneWidgets" format="boolean" />
+    <attr name="barrierDirection">
+        <enum name="top" value="2" />
+        <enum name="bottom" value="3" />
+        <enum name="end" value="6" />
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+        <enum name="start" value="5" />
+    </attr>
+    <attr name="chainUseRtl" format="boolean" />
+    <attr name="constraintSet" format="reference" />
+    <attr name="constraint_referenced_ids" format="string" />
+    <attr name="content" format="reference" />
+    <attr name="emptyVisibility">
+        <enum name="gone" value="0" />
+        <enum name="invisible" value="1" />
+    </attr>
+    <attr name="layout_constrainedHeight" format="boolean" />
+    <attr name="layout_constrainedWidth" format="boolean" />
+    <attr name="layout_constraintBaseline_creator" format="integer" />
+    <attr name="layout_constraintBaseline_toBaselineOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintBottom_creator" format="integer" />
+    <attr name="layout_constraintBottom_toBottomOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintBottom_toTopOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintCircle" format="reference" />
+    <attr name="layout_constraintCircleAngle" format="integer" />
+    <attr name="layout_constraintCircleRadius" format="dimension" />
+    <attr name="layout_constraintDimensionRatio" format="string" />
+    <attr name="layout_constraintEnd_toEndOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintEnd_toStartOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintGuide_begin" format="dimension" />
+    <attr name="layout_constraintGuide_end" format="dimension" />
+    <attr name="layout_constraintGuide_percent" format="float" />
+    <attr name="layout_constraintHeight_default">
+        <enum name="percent" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="layout_constraintHeight_max" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintHeight_min" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintHeight_percent" format="float" />
+    <attr name="layout_constraintHorizontal_bias" format="float" />
+    <attr name="layout_constraintHorizontal_chainStyle">
+        <enum name="spread" value="0" />
+        <enum name="packed" value="2" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="layout_constraintHorizontal_weight" format="float" />
+    <attr name="layout_constraintLeft_creator" format="integer" />
+    <attr name="layout_constraintLeft_toLeftOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintLeft_toRightOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintRight_creator" format="integer" />
+    <attr name="layout_constraintRight_toLeftOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintRight_toRightOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintStart_toEndOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintStart_toStartOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintTop_creator" format="integer" />
+    <attr name="layout_constraintTop_toBottomOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintTop_toTopOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintVertical_bias" format="float" />
+    <attr name="layout_constraintVertical_chainStyle">
+        <enum name="spread" value="0" />
+        <enum name="packed" value="2" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="layout_constraintVertical_weight" format="float" />
+    <attr name="layout_constraintWidth_default">
+        <enum name="percent" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="layout_constraintWidth_max" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintWidth_min" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintWidth_percent" format="float" />
+    <attr name="layout_editor_absoluteX" format="dimension" />
+    <attr name="layout_editor_absoluteY" format="dimension" />
+    <attr name="layout_goneMarginBottom" format="dimension" />
+    <attr name="layout_goneMarginEnd" format="dimension" />
+    <attr name="layout_goneMarginLeft" format="dimension" />
+    <attr name="layout_goneMarginRight" format="dimension" />
+    <attr name="layout_goneMarginStart" format="dimension" />
+    <attr name="layout_goneMarginTop" format="dimension" />
+    <attr name="layout_optimizationLevel">
+        <flag name="none" value="0x00000000" />
+        <flag name="barrier" value="0x00000002" />
+        <flag name="chains" value="0x00000004" />
+        <flag name="dimensions" value="0x00000008" />
+        <flag name="direct" value="0x00000001" />
+        <flag name="groups" value="0x00000020" />
+        <flag name="standard" value="0x00000007" />
+    </attr>
+    <attr name="imageAspectRatioAdjust">
+        <enum name="none" value="0" />
+        <enum name="adjust_height" value="2" />
+        <enum name="adjust_width" value="1" />
+    </attr>
+    <attr name="imageAspectRatio" format="float" />
+    <attr name="circleCrop" format="boolean" />
+    <attr name="buttonSize" format="reference">
+        <enum name="standard" value="0" />
+        <enum name="icon_only" value="2" />
+        <enum name="wide" value="1" />
+    </attr>
+    <attr name="colorScheme" format="reference">
+        <enum name="auto" value="2" />
+        <enum name="dark" value="0" />
+        <enum name="light" value="1" />
+    </attr>
+    <attr name="scopeUris" format="reference|string" />
+    <attr name="cardViewStyle" format="reference" />
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="contentPadding" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="alpha" format="float" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="font" format="reference" />
+    <attr name="fontWeight" format="integer" />
+    <attr name="fontVariationSettings" format="string" />
+    <attr name="ttcIndex" format="integer" />
+    <attr name="layoutManager" format="string" />
+    <attr name="spanCount" format="integer" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="fastScrollEnabled" format="boolean" />
+    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
+    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+</resources>

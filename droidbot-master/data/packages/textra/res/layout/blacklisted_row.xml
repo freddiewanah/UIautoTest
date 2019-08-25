@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="center_vertical" a:orientation="horizontal" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?blacklisted_row"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseCheckBox a:id="@id/contactCheckbox" a:focusable="false" style="?blacklisted_checkbox" />
+    <LinearLayout a:orientation="vertical" a:paddingLeft="16.0dip" a:layout_width="fill_parent" a:layout_height="wrap_content">
+        <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/contactDisplayName" a:layout_width="fill_parent" a:layout_height="wrap_content" app:emojify="true" style="?blacklisted_displayName" />
+        <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/contactNumber" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?blacklisted_contactNumber" />
+    </LinearLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

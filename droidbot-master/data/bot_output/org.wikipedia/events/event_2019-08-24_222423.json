@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_222423",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          954
+        ],
+        [
+          1008,
+          1145
+        ]
+      ],
+      "resource_id": "android:id/message",
+      "checked": false,
+      "text": "This will delete all of your browsing history, and close any currently open tabs. Are you sure?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "936*191",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/message[text]None[enabled,,]",
+      "view_str": "9304a6835600e5d4c646c66fa98c3628",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/message"
+    }
+  },
+  "start_state": "d2a57b43a50128ec658de322d76021d8",
+  "stop_state": "d2a57b43a50128ec658de322d76021d8",
+  "event_str": "TouchEvent(state=d2a57b43a50128ec658de322d76021d8, view=9304a6835600e5d4c646c66fa98c3628)"
+}

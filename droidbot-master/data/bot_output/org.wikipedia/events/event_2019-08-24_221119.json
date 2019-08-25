@@ -1,0 +1,10 @@
+{
+  "tag": "2019-08-24_221119",
+  "event": {
+    "event_type": "key",
+    "name": "HOME"
+  },
+  "start_state": "e13e323770d8a7ff39140eaa07cd6029",
+  "stop_state": "9fa897bca2af05f56844bee42561e814",
+  "event_str": "KeyEvent(state=e13e323770d8a7ff39140eaa07cd6029, name=HOME)"
+}

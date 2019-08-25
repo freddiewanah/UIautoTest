@@ -1,0 +1,192 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: textra.apk
+compressionType: false
+doNotCompress:
+- arsc
+- res/drawable-hdpi-v4/ab_solid_shadow_holo.9.png
+- png
+- res/drawable-hdpi-v4/bubble_incoming_allo.9.png
+- res/drawable-hdpi-v4/bubble_incoming_chomp.9.png
+- res/drawable-hdpi-v4/bubble_incoming_default.9.png
+- res/drawable-hdpi-v4/bubble_incoming_googlemessenger.9.png
+- res/drawable-hdpi-v4/bubble_incoming_hangout.9.png
+- res/drawable-hdpi-v4/bubble_incoming_ios.9.png
+- res/drawable-hdpi-v4/bubble_incoming_textra.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_allo.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_chomp.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_default.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_googlemessenger.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_hangout.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_ios.9.png
+- res/drawable-hdpi-v4/bubble_outgoing_textra.9.png
+- res/drawable-hdpi-v4/common_dropshadow.9.png
+- res/drawable-hdpi-v4/common_dropshadow_black.9.png
+- res/drawable-hdpi-v4/common_dropshadow_dark.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-hdpi-v4/common_sendarea_signature_background.9.png
+- res/drawable-hdpi-v4/common_sendarea_signature_background_dark.9.png
+- res/drawable-hdpi-v4/list_focused_holo.9.png
+- res/drawable-hdpi-v4/list_longpressed_holo.9.png
+- res/drawable-hdpi-v4/list_pressed_holo_dark.9.png
+- res/drawable-hdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-hdpi-v4/list_selector_disabled_holo_dark.9.png
+- res/drawable-hdpi-v4/list_selector_disabled_holo_light.9.png
+- res/drawable-hdpi-v4/mini_menu_background.9.png
+- res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-hdpi-v4/notification_bg_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-hdpi-v4/pickcontacts_contactslist_searchfield_background.9.png
+- res/drawable-hdpi-v4/pickcontacts_contactslist_searchfield_background_dark.9.png
+- res/drawable-hdpi-v4/rounded_corners_bottom.9.png
+- res/drawable-hdpi-v4/rounded_corners_top.9.png
+- res/drawable-hdpi-v4/switch_to_on_mtrl_00001.9.png
+- res/drawable-hdpi-v4/switch_to_on_mtrl_00012.9.png
+- res/drawable-hdpi-v4/switch_track_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/ab_solid_shadow_holo.9.png
+- res/drawable-mdpi-v4/bubble_incoming_allo.9.png
+- res/drawable-mdpi-v4/bubble_incoming_chomp.9.png
+- res/drawable-mdpi-v4/bubble_incoming_default.9.png
+- res/drawable-mdpi-v4/bubble_incoming_googlemessenger.9.png
+- res/drawable-mdpi-v4/bubble_incoming_hangout.9.png
+- res/drawable-mdpi-v4/bubble_incoming_ios.9.png
+- res/drawable-mdpi-v4/bubble_incoming_textra.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_allo.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_chomp.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_default.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_googlemessenger.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_hangout.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_ios.9.png
+- res/drawable-mdpi-v4/bubble_outgoing_textra.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-mdpi-v4/list_focused_holo.9.png
+- res/drawable-mdpi-v4/list_longpressed_holo.9.png
+- res/drawable-mdpi-v4/list_pressed_holo_dark.9.png
+- res/drawable-mdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-mdpi-v4/list_selector_disabled_holo_dark.9.png
+- res/drawable-mdpi-v4/list_selector_disabled_holo_light.9.png
+- res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-mdpi-v4/notification_bg_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi-v4/ab_solid_shadow_holo.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_allo.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_chomp.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_default.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_googlemessenger.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_hangout.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_ios.9.png
+- res/drawable-xhdpi-v4/bubble_incoming_textra.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_allo.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_chomp.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_default.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_googlemessenger.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_hangout.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_ios.9.png
+- res/drawable-xhdpi-v4/bubble_outgoing_textra.9.png
+- res/drawable-xhdpi-v4/common_dropshadow.9.png
+- res/drawable-xhdpi-v4/common_dropshadow_black.9.png
+- res/drawable-xhdpi-v4/common_dropshadow_dark.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xhdpi-v4/common_raised_button_shadow.9.png
+- res/drawable-xhdpi-v4/list_focused_holo.9.png
+- res/drawable-xhdpi-v4/list_longpressed_holo.9.png
+- res/drawable-xhdpi-v4/list_pressed_holo_dark.9.png
+- res/drawable-xhdpi-v4/list_pressed_holo_light.9.png
+- res/drawable-xhdpi-v4/list_selector_disabled_holo_dark.9.png
+- res/drawable-xhdpi-v4/list_selector_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/mini_menu_background.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xhdpi-v4/rounded_corners_bottom.9.png
+- res/drawable-xhdpi-v4/rounded_corners_top.9.png
+- res/drawable-xhdpi-v4/switch_to_on_mtrl_00001.9.png
+- res/drawable-xhdpi-v4/switch_to_on_mtrl_00012.9.png
+- res/drawable-xhdpi-v4/switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_allo.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_chomp.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_default.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_googlemessenger.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_hangout.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_ios.9.png
+- res/drawable-xxhdpi-v4/bubble_incoming_textra.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_allo.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_chomp.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_default.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_googlemessenger.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_hangout.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_ios.9.png
+- res/drawable-xxhdpi-v4/bubble_outgoing_textra.9.png
+- res/drawable-xxhdpi-v4/common_dropshadow.9.png
+- res/drawable-xxhdpi-v4/common_dropshadow_black.9.png
+- res/drawable-xxhdpi-v4/common_dropshadow_dark.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xxhdpi-v4/mini_menu_background.9.png
+- res/drawable-xxhdpi-v4/rounded_corners_bottom.9.png
+- res/drawable-xxhdpi-v4/rounded_corners_top.9.png
+- res/drawable-xxhdpi-v4/switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi-v4/switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi-v4/switch_track_mtrl_alpha.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_allo.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_chomp.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_default.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_googlemessenger.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_hangout.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_ios.9.png
+- res/drawable-xxxhdpi-v4/bubble_incoming_textra.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_allo.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_chomp.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_default.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_googlemessenger.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_hangout.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_ios.9.png
+- res/drawable-xxxhdpi-v4/bubble_outgoing_textra.9.png
+- res/drawable-xxxhdpi-v4/common_dropshadow.9.png
+- res/drawable-xxxhdpi-v4/common_dropshadow_black.9.png
+- res/drawable-xxxhdpi-v4/common_dropshadow_dark.9.png
+- gif
+- res/drawable-xxxhdpi-v4/mini_menu_background.9.png
+- res/drawable-xxxhdpi-v4/rounded_corners_bottom.9.png
+- res/drawable-xxxhdpi-v4/rounded_corners_top.9.png
+- res/drawable-xxxhdpi-v4/switch_to_on_mtrl_00001.9.png
+- res/drawable-xxxhdpi-v4/switch_to_on_mtrl_00012.9.png
+- res/drawable-xxxhdpi-v4/switch_track_mtrl_alpha.9.png
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  NOTICE.txt: '8'
+  play-services-ads-identifier.properties: '0'
+  play-services-audience.properties: '0'
+  play-services-base.properties: '0'
+  play-services-basement.properties: '0'
+  play-services-tasks.properties: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0
+versionInfo:
+  versionCode: '41693'
+  versionName: '4.16'

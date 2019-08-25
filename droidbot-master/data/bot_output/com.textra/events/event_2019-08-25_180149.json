@@ -1,0 +1,58 @@
+{
+  "tag": "2019-08-25_180149",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 8,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        17,
+        20,
+        23,
+        26,
+        29,
+        32,
+        35
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/grid",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.GridView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1808",
+      "signature": "[class]android.widget.GridView[resource_id]com.textra:id/grid[text]None[enabled,,]",
+      "view_str": "d6585cc12822ce4208d909aeac3bb59d",
+      "content_free_signature": "[class]android.widget.GridView[resource_id]com.textra:id/grid"
+    },
+    "direction": "RIGHT"
+  },
+  "start_state": "d63a3672eaa200bba9a1c8878a8a6a5c",
+  "stop_state": "b058372f136bb467a5635a27fcca4b7f",
+  "event_str": "ScrollEvent(state=d63a3672eaa200bba9a1c8878a8a6a5c, view=d6585cc12822ce4208d909aeac3bb59d, direction=RIGHT)"
+}

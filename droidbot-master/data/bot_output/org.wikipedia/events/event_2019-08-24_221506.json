@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_221506",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          55,
+          1874
+        ],
+        [
+          864,
+          2005
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/snackbar_text",
+      "checked": false,
+      "text": "Null Island closed.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "809*131",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/snackbar_text[text]Null Island closed.[enabled,,]",
+      "view_str": "a5e74491aab1ae081548b2557848ed3f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/snackbar_text"
+    }
+  },
+  "start_state": "884cd01b41152fdc5dece7ac96d8346c",
+  "stop_state": "884cd01b41152fdc5dece7ac96d8346c",
+  "event_str": "TouchEvent(state=884cd01b41152fdc5dece7ac96d8346c, view=a5e74491aab1ae081548b2557848ed3f)"
+}

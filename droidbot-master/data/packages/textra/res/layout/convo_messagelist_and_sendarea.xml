@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseRelativeLayout a:id="@id/messageListAndSendArea" a:clipChildren="false" a:layout_width="fill_parent" a:layout_height="fill_parent"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.convo.MessageListView a:id="@id/messageList" a:clipChildren="false" a:clipToPadding="false" a:layout_width="fill_parent" a:layout_height="fill_parent" a:layout_above="@id/sendarea" style="?convo" />
+    <com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="center_vertical" a:layout_gravity="bottom" a:orientation="horizontal" a:id="@id/sendarea" a:clipChildren="false" a:layout_width="fill_parent" a:layout_height="wrap_content" a:baselineAligned="false" a:layout_alignParentBottom="true">
+        <com.mplus.lib.ui.common.sendarea.PlusPanelButton a:layout_gravity="bottom" a:id="@id/plus_button" a:layout_width="52.0dip" a:layout_height="48.0dip" style="?common_sendarea_plus_button" />
+        <com.mplus.lib.ui.common.base.BaseFrameLayout a:paddingTop="3.0dip" a:paddingBottom="6.0dip" a:clipChildren="false" a:layout_width="0.0dip" a:layout_height="wrap_content" a:layout_weight="1.0">
+            <LinearLayout a:gravity="center_vertical" a:layout_gravity="center_vertical" a:orientation="vertical" a:clipChildren="false" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?common_sendarea_text_holder">
+                <com.mplus.lib.ui.common.SendText a:id="@id/send_text" a:layout_width="fill_parent" a:layout_height="wrap_content" a:layerType="software" app:emojify="true" style="?common_sendarea_text" />
+                <com.mplus.lib.ui.common.sendarea.SignatureText a:ellipsize="end" a:gravity="right" a:id="@id/signature" a:focusable="false" a:visibility="gone" a:layout_width="fill_parent" a:layout_height="wrap_content" a:singleLine="true" app:emojify="true" style="?common_sendarea_signature" />
+            </LinearLayout>
+        </com.mplus.lib.ui.common.base.BaseFrameLayout>
+        <com.mplus.lib.ui.common.base.BaseImageView a:gravity="center_horizontal" a:layout_gravity="bottom" a:id="@id/sim_chooser" a:visibility="gone" a:layout_width="48.0dip" a:layout_height="48.0dip" a:layout_marginRight="-12.0dip" a:scaleType="center" app:flatButtonBackgroundSelector="onScreenColor" app:flatButtonRippleBorderBehaviour="round" app:tintWith="surfaceDarkGray" />
+        <LinearLayout a:layout_gravity="bottom" a:orientation="vertical" a:layout_width="wrap_content" a:layout_height="wrap_content">
+            <com.mplus.lib.ui.common.base.BaseTextView a:layout_gravity="right" a:id="@id/char_counter" a:visibility="gone" a:layout_width="wrap_content" a:layout_height="wrap_content" style="?common_sendarea_charcounter" />
+            <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/rhsButtonHolder" a:layout_width="56.0dip" a:layout_height="48.0dip">
+                <com.mplus.lib.ui.common.sendarea.RhsButton a:id="@id/rhs_button" a:layout_width="fill_parent" a:layout_height="fill_parent" style="?common_sendarea_record_or_send_button" />
+                <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/scheduled_indicator_overlay" a:visibility="gone" a:layout_width="fill_parent" a:layout_height="fill_parent" app:transparentToTouches="true" style="?common_sendarea_scheduled_indicator_overlay" />
+            </com.mplus.lib.ui.common.base.BaseFrameLayout>
+        </LinearLayout>
+    </com.mplus.lib.ui.common.base.BaseLinearLayout>
+</com.mplus.lib.ui.common.base.BaseRelativeLayout>

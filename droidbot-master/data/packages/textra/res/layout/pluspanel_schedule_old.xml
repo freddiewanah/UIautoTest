@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:layout_width="fill_parent" a:layout_height="fill_parent" app:shadow="top"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:gravity="center" a:id="@id/schedule_details" a:layout_width="fill_parent" a:layout_height="fill_parent">
+        <LinearLayout a:layout_gravity="center" a:orientation="horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_marginTop="-8.0dip">
+            <FrameLayout a:id="@id/picker_date" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+            <FrameLayout a:id="@id/picker_time" a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+        <com.mplus.lib.ui.common.base.BaseLinearLayout a:id="@id/picked_datetime_container" a:visibility="gone" style="?plusPanel_schedulePanel_datetime_container">
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/picked_datetime" a:layout_width="wrap_content" a:layout_height="wrap_content" style="?plusPanel_schedulePanel_pickedDatetime" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/cancel_button" a:layout_width="40.0dip" a:layout_height="40.0dip" a:layout_marginLeft="8.0dip" style="?plusPanel_schedulePanel_cancelButton" />
+        </com.mplus.lib.ui.common.base.BaseLinearLayout>
+        <com.mplus.lib.ui.common.base.BaseLinearLayout a:id="@id/pickedHintContainer" a:visibility="gone" a:layout_height="40.0dip" style="?plusPanel_schedulePanel_datetime_container">
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/pickedHint" a:layout_width="wrap_content" a:layout_height="wrap_content" a:text="@string/sendarea_scheduledetails_hint" style="?plusPanel_schedulePanel_hint" />
+        </com.mplus.lib.ui.common.base.BaseLinearLayout>
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

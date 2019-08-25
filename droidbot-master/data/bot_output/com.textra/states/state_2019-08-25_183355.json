@@ -1,0 +1,1026 @@
+{
+  "tag": "2019-08-25_183355",
+  "state_str": "e6dbc932935251c817232ec8cb0f4aab",
+  "state_str_content_free": "5ee1c63f1bd433399b48e7fcd558ad2c",
+  "foreground_activity": "com.textra/com.mplus.lib.ui.settings.sections.look.SettingsCustomiseLookActivity",
+  "activity_stack": [
+    "com.textra/com.mplus.lib.ui.settings.sections.look.SettingsCustomiseLookActivity",
+    "com.textra/com.mplus.lib.ui.settings.sections.main.SettingsActivity",
+    "com.textra/com.mplus.lib.ui.main.Main"
+  ],
+  "background_services": [
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.google.android.gms/com.google.android.location.places.service.PlaceDetectionAsyncService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.reporting.service.ReportingAndroidService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.smspush/.WapPushManager",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.google.android.gms/.lockbox.service.LockboxBrokerService",
+    "android/com.android.server.content.SyncJobService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.mms.service/.MmsService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.videos/.service.pinning.TransferService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService"
+  ],
+  "views": [
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1,
+          66
+        ],
+        [
+          1079,
+          2027
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1078*1961",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "8d8b167c606bfbbcb08bcb41a10dff4e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1,
+          66
+        ],
+        [
+          1079,
+          2027
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1078*1961",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b18316715597329fcff2540349dee5e1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1,
+          66
+        ],
+        [
+          1079,
+          2027
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1078*1961",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "4b11f7ecbced01cdc09c9ed6402525b3",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1,
+          66
+        ],
+        [
+          1079,
+          2027
+        ]
+      ],
+      "resource_id": "com.textra:id/common_dialog_outer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1078*1961",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.textra:id/common_dialog_outer[text]None[enabled,,]",
+      "view_str": "1ba055d5f17e14de2d40661bf66fdbc1",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.textra:id/common_dialog_outer"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1,
+          499
+        ],
+        [
+          1079,
+          1377
+        ]
+      ],
+      "resource_id": "com.textra:id/common_dialog_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1078*878",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.textra:id/common_dialog_holder[text]None[enabled,,]",
+      "view_str": "318bf32b024c2da4b6a11476cc0fa201",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.textra:id/common_dialog_holder"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          56,
+          554
+        ],
+        [
+          1024,
+          1322
+        ]
+      ],
+      "resource_id": "com.textra:id/common_dialog",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "968*768",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.textra:id/common_dialog[text]None[enabled,,]",
+      "view_str": "48f2ec98d180ab66f01a9874616cd900",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.textra:id/common_dialog"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          562
+        ],
+        [
+          996,
+          1297
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "912*735",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "41fb4af9762622164a644af4f81a689e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          562
+        ],
+        [
+          996,
+          724
+        ]
+      ],
+      "resource_id": "com.textra:id/titleHolder",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "912*162",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.textra:id/titleHolder[text]None[enabled,,]",
+      "view_str": "676f799ed402fbdd532356a713606dd1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.textra:id/titleHolder"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          128,
+          606
+        ],
+        [
+          952,
+          680
+        ]
+      ],
+      "resource_id": "com.textra:id/title",
+      "checked": false,
+      "text": "Text Font",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "824*74",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/title[text]Text Font[enabled,,]",
+      "view_str": "0beb856a0bc7ba6e334ce2a498b47b75",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/title"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          724
+        ],
+        [
+          996,
+          1297
+        ]
+      ],
+      "resource_id": "com.textra:id/common_dialog_inner",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 9,
+      "size": "912*573",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.textra:id/common_dialog_inner[text]None[enabled,,]",
+      "view_str": "4f48becac5af3dfa1847bec6dee2d957",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.textra:id/common_dialog_inner"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          724
+        ],
+        [
+          996,
+          1297
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "912*573",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "6703184053de8f1e5f7f1fd76ad4a792",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        13,
+        16,
+        19
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          84,
+          724
+        ],
+        [
+          996,
+          1123
+        ]
+      ],
+      "resource_id": "com.textra:id/list",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ListView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "912*399",
+      "signature": "[class]android.widget.ListView[resource_id]com.textra:id/list[text]None[enabled,,]",
+      "view_str": "aea8ca56cf711e67792cb26d4ba9657e",
+      "content_free_signature": "[class]android.widget.ListView[resource_id]com.textra:id/list"
+    },
+    {
+      "package": "com.textra",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": false,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          724
+        ],
+        [
+          84,
+          724
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "0*0",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[,,]",
+      "view_str": "17d45751c51f1265089838c9884740bf",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          725
+        ],
+        [
+          996,
+          857
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "912*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "82bdadd1632e669726a5ed8272acad3e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          128,
+          756
+        ],
+        [
+          864,
+          823
+        ]
+      ],
+      "resource_id": "com.textra:id/text",
+      "checked": false,
+      "text": "Textra",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "736*67",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/text[text]Textra[enabled,,]",
+      "view_str": "616c2ca7a534b0453eb2bdfbc4d2590f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/text"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          745
+        ],
+        [
+          952,
+          833
+        ]
+      ],
+      "resource_id": "com.textra:id/radioButton",
+      "checked": true,
+      "text": null,
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "88*88",
+      "signature": "[class]android.widget.RadioButton[resource_id]com.textra:id/radioButton[text]None[enabled,checked,]",
+      "view_str": "4aeea7e4a5047357c929d691367c9784",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.textra:id/radioButton"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          858
+        ],
+        [
+          996,
+          990
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 16,
+      "size": "912*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "86224a959c084d5bdb99177c08a53a6c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          128,
+          892
+        ],
+        [
+          864,
+          952
+        ]
+      ],
+      "resource_id": "com.textra:id/text",
+      "checked": false,
+      "text": "Gilroy",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "736*60",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/text[text]Gilroy[enabled,,]",
+      "view_str": "371f8c0ee8e91e89617864855b69d374",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/text"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          878
+        ],
+        [
+          952,
+          966
+        ]
+      ],
+      "resource_id": "com.textra:id/radioButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "88*88",
+      "signature": "[class]android.widget.RadioButton[resource_id]com.textra:id/radioButton[text]None[enabled,,]",
+      "view_str": "91855264301797b0be9f2cff25355045",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.textra:id/radioButton"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20,
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          84,
+          991
+        ],
+        [
+          996,
+          1123
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 19,
+      "size": "912*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3a9cdf7f859e4586bee83f376226f18e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          128,
+          1022
+        ],
+        [
+          864,
+          1089
+        ]
+      ],
+      "resource_id": "com.textra:id/text",
+      "checked": false,
+      "text": "System",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "736*67",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/text[text]System[enabled,,]",
+      "view_str": "aced2b3502161e4f5c1eaab6bb822600",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/text"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          864,
+          1011
+        ],
+        [
+          952,
+          1099
+        ]
+      ],
+      "resource_id": "com.textra:id/radioButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RadioButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "88*88",
+      "signature": "[class]android.widget.RadioButton[resource_id]com.textra:id/radioButton[text]None[enabled,,]",
+      "view_str": "91855264301797b0be9f2cff25355045",
+      "content_free_signature": "[class]android.widget.RadioButton[resource_id]com.textra:id/radioButton"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          468,
+          1123
+        ],
+        [
+          996,
+          1297
+        ]
+      ],
+      "resource_id": "com.textra:id/dialogButtonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 22,
+      "size": "528*174",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.textra:id/dialogButtonPanel[text]None[enabled,,]",
+      "view_str": "983c7918e8dccc60bd0961e9c0e943cd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.textra:id/dialogButtonPanel"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          468,
+          1153
+        ],
+        [
+          710,
+          1253
+        ]
+      ],
+      "resource_id": "com.textra:id/cancel",
+      "checked": false,
+      "text": "CANCEL",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "242*100",
+      "signature": "[class]android.widget.Button[resource_id]com.textra:id/cancel[text]CANCEL[enabled,,]",
+      "view_str": "eff18afa863620a1764d35ebc9ffc671",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.textra:id/cancel"
+    },
+    {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          710,
+          1153
+        ],
+        [
+          952,
+          1253
+        ]
+      ],
+      "resource_id": "com.textra:id/ok",
+      "checked": false,
+      "text": "OKAY",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 24,
+      "size": "242*100",
+      "signature": "[class]android.widget.Button[resource_id]com.textra:id/ok[text]OKAY[enabled,,]",
+      "view_str": "065102c29ae0d74a818346e6896a459b",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.textra:id/ok"
+    }
+  ]
+}

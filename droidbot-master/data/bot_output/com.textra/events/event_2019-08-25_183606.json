@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_183606",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1058,
+          1806
+        ],
+        [
+          1080,
+          1831
+        ]
+      ],
+      "resource_id": "com.textra:id/timestamps_holder",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 32,
+      "size": "22*25",
+      "signature": "[class]android.view.View[resource_id]com.textra:id/timestamps_holder[text]None[enabled,,]",
+      "view_str": "4f9f17a27e2a0cd0ca4c89421551259a",
+      "content_free_signature": "[class]android.view.View[resource_id]com.textra:id/timestamps_holder"
+    }
+  },
+  "start_state": "2bb9b65ab1c256d17ba5727dcfc8e9fd",
+  "stop_state": "f184af36ff001376ca262ef1a7fd096a",
+  "event_str": "TouchEvent(state=2bb9b65ab1c256d17ba5727dcfc8e9fd, view=4f9f17a27e2a0cd0ca4c89421551259a)"
+}

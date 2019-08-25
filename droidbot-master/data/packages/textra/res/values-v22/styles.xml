@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="convo_bubble">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:paddingLeft">8.0sp</item>
+        <item name="android:paddingTop">4.0sp</item>
+        <item name="android:paddingRight">8.0sp</item>
+        <item name="android:paddingBottom">4.0sp</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="removeFontPaddingWhenLarger">true</item>
+        <item name="highlightColorFollowsTextColor">true</item>
+    </style>
+    <style name="appIconChangedDialog_textBody">
+        <item name="android:textSize">@dimen/settingsTitle_textSize</item>
+        <item name="android:textColor">?text_dark_gray</item>
+        <item name="android:breakStrategy">simple</item>
+    </style>
+    <style name="adConsentDialog_textBody">
+        <item name="android:textSize">@dimen/settingsTitle_textSize</item>
+        <item name="android:textColor">?text_dark_gray</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:breakStrategy">simple</item>
+    </style>
+    <style name="baseDialogDarkTheme" parent="@style/PlatformDialogDarkTheme">
+        <item name="android:colorBackground">?screen_background</item>
+        <item name="android:textColorPrimary">@color/android_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/android_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/android_primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/android_secondary_text_material_dark</item>
+        <item name="android:buttonBarButtonStyle">@style/buttonBarButtonStyle</item>
+        <item name="android:calendarViewStyle">@style/calendarViewStyleDark</item>
+        <item name="android:colorControlHighlight">@color/android_ripple_material_dark</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/negativeButtonBarButtonStyle</item>
+        <item name="android:colorBackgroundFloating">?screen_background</item>
+    </style>
+    <style name="baseDialogLightTheme" parent="@style/PlatformDialogLightTheme">
+        <item name="android:colorBackground">?screen_background</item>
+        <item name="android:textColorPrimary">@color/android_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/android_secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/android_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/android_secondary_text_material_light</item>
+        <item name="android:buttonBarButtonStyle">@style/buttonBarButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/negativeButtonBarButtonStyle</item>
+        <item name="android:colorBackgroundFloating">?screen_background</item>
+    </style>
+    <style name="timePickerStyleDark" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">?screen_background</item>
+        <item name="android:numbersTextColor">?android:textColorPrimary</item>
+        <item name="android:numbersBackgroundColor">?screen_background</item>
+        <item name="android:numbersInnerTextColor">?android:textColorSecondary</item>
+    </style>
+</resources>

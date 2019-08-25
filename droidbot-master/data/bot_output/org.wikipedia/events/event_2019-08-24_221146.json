@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_221146",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          253,
+          2946
+        ],
+        [
+          826,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/about_wmf",
+      "checked": false,
+      "text": "A product of the Wikimedia Foundation",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 26,
+      "size": "573*-918",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/about_wmf[text]A product of the Wikimedia Foundation[enabled,,]",
+      "view_str": "e6a045e2aac0d177974a2bbbff709472",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/about_wmf"
+    }
+  },
+  "start_state": "758988b0acd7128a4da45572170fb4dc",
+  "stop_state": "758988b0acd7128a4da45572170fb4dc",
+  "event_str": "TouchEvent(state=758988b0acd7128a4da45572170fb4dc, view=e6a045e2aac0d177974a2bbbff709472)"
+}

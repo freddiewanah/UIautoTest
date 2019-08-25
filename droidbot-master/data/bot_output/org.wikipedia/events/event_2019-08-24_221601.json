@@ -1,0 +1,53 @@
+{
+  "tag": "2019-08-24_221601",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        37,
+        42
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_main_view_pager",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*1654",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]org.wikipedia:id/fragment_main_view_pager[text]None[enabled,,]",
+      "view_str": "d4b85c934a25bbff4aaae827c3ab790d",
+      "content_free_signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]org.wikipedia:id/fragment_main_view_pager"
+    },
+    "direction": "RIGHT"
+  },
+  "start_state": "ca903571ccc6863ac517bc3da61ef112",
+  "stop_state": "ca903571ccc6863ac517bc3da61ef112",
+  "event_str": "ScrollEvent(state=ca903571ccc6863ac517bc3da61ef112, view=d4b85c934a25bbff4aaae827c3ab790d, direction=RIGHT)"
+}

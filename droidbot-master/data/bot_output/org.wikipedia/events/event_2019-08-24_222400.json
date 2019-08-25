@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_222400",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          910,
+          264
+        ],
+        [
+          1030,
+          384
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/close_tab_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 20,
+      "size": "120*120",
+      "signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/close_tab_button[text]None[enabled,,selected]",
+      "view_str": "a132ffb975bdaafa0bf020bd2ee2d248",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/close_tab_button"
+    }
+  },
+  "start_state": "7010b6cf2d6e5bdff4274f5b5564ff91",
+  "stop_state": "3b3739f839571daff079e004596e44fa",
+  "event_str": "TouchEvent(state=7010b6cf2d6e5bdff4274f5b5564ff91, view=a132ffb975bdaafa0bf020bd2ee2d248)"
+}

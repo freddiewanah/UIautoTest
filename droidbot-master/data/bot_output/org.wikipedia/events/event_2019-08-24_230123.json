@@ -1,0 +1,51 @@
+{
+  "tag": "2019-08-24_230123",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "History",
+      "children": [
+        92,
+        93
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          1874
+        ],
+        [
+          810,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 84,
+      "temp_id": 91,
+      "size": "270*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "73f758b618d9c16ccf89412ecb1e7199",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    }
+  },
+  "start_state": "03e4b58ce7d98629932091bfe7747594",
+  "stop_state": "03e4b58ce7d98629932091bfe7747594",
+  "event_str": "TouchEvent(state=03e4b58ce7d98629932091bfe7747594, view=73f758b618d9c16ccf89412ecb1e7199)"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/main" a:fitsSystemWindows="true" a:layout_width="fill_parent" a:layout_height="fill_parent"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/viewPagerHolder" a:layout_width="fill_parent" a:layout_height="fill_parent">
+        <com.mplus.lib.ui.common.base.BaseViewPager a:id="@id/viewPager" a:layout_width="fill_parent" a:layout_height="fill_parent" />
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+    <include layout="@layout/common_actionbar" />
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

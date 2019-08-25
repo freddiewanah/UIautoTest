@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:a="http://schemas.android.com/apk/res/android" a:compileSdkVersion="28" a:compileSdkVersionCodename="9" a:versionCode="41693" a:versionName="4.16" package="com.textra" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission a:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission a:name="android.permission.WAKE_LOCK"/>
+    <uses-permission a:name="android.permission.READ_SMS"/>
+    <uses-permission a:name="android.permission.WRITE_SMS"/>
+    <uses-permission a:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission a:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission a:name="android.permission.SEND_SMS"/>
+    <uses-permission a:name="android.permission.READ_CONTACTS"/>
+    <uses-permission a:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission a:name="android.permission.VIBRATE"/>
+    <uses-permission a:name="android.permission.GET_TASKS"/>
+    <uses-permission a:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission a:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission a:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission a:name="android.permission.BLUETOOTH"/>
+    <uses-permission a:name="android.permission.INTERNET"/>
+    <uses-permission a:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission a:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission a:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission a:name="android.permission.CALL_PHONE"/>
+    <uses-permission a:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission a:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission a:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission a:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission a:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission a:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission a:name="com.android.vending.BILLING"/>
+    <uses-permission a:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission a:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission a:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission a:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission a:name="com.htc.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission a:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission a:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission a:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission a:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission a:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission a:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission a:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-feature a:name="android.hardware.screen.portrait" a:required="false"/>
+    <uses-feature a:name="android.hardware.location" a:required="false"/>
+    <uses-feature a:name="android.hardware.location.network" a:required="false"/>
+    <uses-permission a:name="android.permission.CAMERA"/>
+    <uses-feature a:name="android.hardware.camera" a:required="false"/>
+    <uses-feature a:name="android.hardware.camera.autofocus" a:required="false"/>
+    <application a:allowBackup="true" a:hardwareAccelerated="true" a:icon="@drawable/icon_ff1976d2" a:label="@string/app_name" a:largeHeap="true" a:name="com.mplus.lib.ui.main.AppShell" a:roundIcon="@drawable/round_icon_ff1976d2" a:theme="@style/AppTheme">
+        <activity a:clearTaskOnLaunch="true" a:label="@string/app_name" a:name="com.mplus.lib.ui.main.MainActivity" a:theme="@style/AppTheme.ConvoList">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <category a:name="android.intent.category.APP_MESSAGING"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="vnd.android.cursor.dir/mms"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="vnd.android-dir/mms-sms"/>
+            </intent-filter>
+        </activity>
+        <activity a:name="com.mplus.lib.ui.common.ServiceStarterActivity" a:taskAffinity="com.mplus.lib.ui.common.ServiceStarterActivity" a:theme="@style/AppTheme.DummyActivity"/>
+        <activity a:name="com.mplus.lib.ui.initialsync.InitialSyncActivity" a:screenOrientation="portrait" a:theme="@style/AppTheme.InitialSyncActivity"/>
+        <activity a:name="com.mplus.lib.ui.convo.ConvoActivity" a:theme="@style/AppTheme.ConvoActivity"/>
+        <activity a:name="com.mplus.lib.ui.convo.media.ConvoMediaActivity" a:theme="@style/AppTheme.ConvoMediaActivity"/>
+        <activity a:name="com.mplus.lib.ui.common.plus.giphy.GiphyActivity" a:screenOrientation="portrait" a:theme="@style/AppTheme.GiphyActivity" a:windowSoftInputMode="stateHidden"/>
+        <activity a:name="com.mplus.lib.ui.convo.gallery.GalleryActivity" a:theme="@style/AppTheme.GalleryActivity" a:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity a:name="com.mplus.lib.ui.common.pick.contacts.PickContactsActivity" a:theme="@style/AppTheme.PickContacts" a:windowSoftInputMode="adjustResize"/>
+        <activity a:name="com.mplus.lib.ui.common.UpgradedToProActivity" a:theme="@style/AppTheme.UpgradedToProTheme"/>
+        <activity a:name="com.mplus.lib.ui.quick.QuickConvoActivity" a:screenOrientation="user" a:taskAffinity="" a:theme="@style/AppTheme.QuickConvo"/>
+        <activity a:name="com.mplus.lib.ui.class0.Class0Activity" a:screenOrientation="portrait" a:taskAffinity="" a:theme="@style/AppTheme.Class0" a:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.main.SettingsActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.main.ManageAdsActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.support.SettingsSupportActivity" a:theme="@style/AppTheme.Settings" a:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.support.help.ContactUsActivity" a:theme="@style/AppTheme.Settings" a:windowSoftInputMode="stateVisible"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.support.ideas.PostIdeaActivity" a:theme="@style/AppTheme.Settings" a:windowSoftInputMode="stateVisible"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.about.SettingsAboutActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.about.ChangeLogActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.signature.ChooseSignatureActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.main.SettingsPerContactActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.look.SettingsCustomiseLookActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.notificationstyle.ChooseVibratePatternActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.notificationstyle.MakeVibratePatternActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.MmsSettingsActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.SmsSettingsActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.notificationstyle.NotificationStyleActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.notificationstyle.DefineActionsActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:name="com.mplus.lib.ui.settings.sections.blacklist.BlacklistedActivity" a:theme="@style/AppTheme.Settings"/>
+        <activity a:exported="true" a:name="com.mplus.lib.ui.integration.IntegrationActivity" a:taskAffinity="" a:theme="@style/AppTheme.IntegrationActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.SENDTO"/>
+                <action a:name="android.intent.action.VIEW"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <category a:name="android.intent.category.BROWSABLE"/>
+                <data a:scheme="sms"/>
+                <data a:scheme="smsto"/>
+                <data a:scheme="mms"/>
+                <data a:scheme="mmsto"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.VIEW"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="vnd.android-dir/mms-sms"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SEND"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SEND"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SEND"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SEND"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="audio/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SEND_MULTIPLE"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SEND"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:mimeType="text/x-vcard"/>
+            </intent-filter>
+            <meta-data a:name="android.service.chooser.chooser_target_service" a:value="com.mplus.lib.service.misc.DirectShareService"/>
+        </activity>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.amazon.device.ads.AdActivity"/>
+        <activity a:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" a:name="com.flurry.android.FlurryFullscreenTakeoverActivity" a:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity a:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" a:hardwareAccelerated="true" a:name="com.inmobi.rendering.InMobiAdActivity" a:resizeableActivity="false" a:theme="@android:style/Theme.NoTitleBar"/>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.facebook.ads.InterstitialAdActivity"/>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.smaato.soma.ExpandedBannerActivity"/>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.mopub.common.privacy.ConsentDialogActivity"/>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.mopub.common.MoPubBrowser"/>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.mopub.mobileads.RewardedMraidActivity"/>
+        <activity a:configChanges="keyboardHidden|orientation|screenSize" a:name="com.mopub.mobileads.MraidVideoPlayerActivity"/>
+        <receiver a:name="com.mplus.lib.il" a:permission="android.permission.BROADCAST_SMS">
+            <intent-filter a:priority="2">
+                <action a:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver a:name="com.mplus.lib.ea" a:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter a:priority="2">
+                <action a:name="android.provider.Telephony.WAP_PUSH_RECEIVED"/>
+                <data a:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+                <data a:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+        </receiver>
+        <receiver a:name="com.mplus.lib.es" a:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter a:priority="2147483647">
+                <action a:name="android.provider.Telephony.WAP_PUSH_RECEIVED"/>
+                <data a:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+        </receiver>
+        <receiver a:name="com.mplus.lib.fa">
+            <intent-filter>
+                <action a:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.SERVICE_STATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action a:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver a:name="com.mplus.lib.fe"/>
+        <receiver a:name="com.mplus.lib.uy"/>
+        <receiver a:name="com.mplus.lib.iu"/>
+        <receiver a:name="com.mplus.lib.qt"/>
+        <receiver a:name="com.mplus.lib.xn"/>
+        <receiver a:name="com.mplus.lib.ir"/>
+        <receiver a:name="com.mplus.lib.mn"/>
+        <receiver a:name="com.mplus.lib.re"/>
+        <receiver a:name="com.mplus.lib.oq"/>
+        <service a:name="com.mplus.lib.a" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service a:name="com.mplus.lib.yi" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service a:name="com.mplus.lib.oe" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service a:exported="true" a:name="com.mplus.lib.eg" a:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action a:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+                <category a:name="android.intent.category.DEFAULT"/>
+                <data a:scheme="sms"/>
+                <data a:scheme="smsto"/>
+            </intent-filter>
+        </service>
+        <service a:name="com.mplus.lib.oe0"/>
+        <service a:name="com.mplus.lib.op" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service a:name="com.mplus.lib.op0"/>
+        <service a:name="com.mplus.lib.ot" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service a:icon="@drawable/icon_dashclock" a:label="@string/app_name" a:name="com.mplus.lib.extension.dashclock.TextraDashClockExtension" a:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
+            <intent-filter>
+                <action a:name="com.google.android.apps.dashclock.Extension"/>
+            </intent-filter>
+            <meta-data a:name="protocolVersion" a:value="2"/>
+            <meta-data a:name="worldReadable" a:value="true"/>
+            <meta-data a:name="description" a:value="@string/dashclock_extension_description"/>
+        </service>
+        <service a:label="@string/app_name" a:name="com.mplus.lib.service.misc.DirectShareService" a:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action a:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <service a:name="com.mplus.lib.bp" a:permission="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA">
+            <intent-filter>
+                <action a:name="com.pushbullet.android.extension.MessagingExtension"/>
+            </intent-filter>
+            <meta-data a:name="protocolVersion" a:value="1"/>
+        </service>
+        <service a:name="com.mplus.lib.ow" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service a:name="com.mplus.lib.da" a:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider a:authorities="com.textra" a:exported="true" a:name="com.mplus.lib.io"/>
+        <provider a:authorities="mplus" a:exported="false" a:name="com.mplus.lib.xu"/>
+        <provider a:authorities="com.textra.internal" a:exported="false" a:name="com.mplus.lib.xi"/>
+        <provider a:authorities="@string/file_provider_authority" a:exported="false" a:grantUriPermissions="true" a:name="android.support.v4.content.FileProvider">
+            <meta-data a:name="android.support.FILE_PROVIDER_PATHS" a:resource="@xml/file_paths"/>
+        </provider>
+        <meta-data a:name="com.google.android.gms.version" a:value="@integer/google_play_services_version"/>
+        <meta-data a:name="com.google.android.gms.car.application" a:resource="@xml/android_auto"/>
+        <meta-data a:name="android.max_aspect" a:value="2.1"/>
+        <activity-alias a:enabled="true" a:icon="@drawable/icon_ff1976d2" a:label="@string/app_name" a:name="com.mplus.lib.ui.main.Main" a:roundIcon="@drawable/round_icon_ff1976d2" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe57373" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe57373" a:roundIcon="@drawable/round_icon_ffe57373" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffef5350" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffef5350" a:roundIcon="@drawable/round_icon_ffef5350" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff44336" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff44336" a:roundIcon="@drawable/round_icon_fff44336" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe53935" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe53935" a:roundIcon="@drawable/round_icon_ffe53935" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffd32f2f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffd32f2f" a:roundIcon="@drawable/round_icon_ffd32f2f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffc62828" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffc62828" a:roundIcon="@drawable/round_icon_ffc62828" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffb71c1c" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffb71c1c" a:roundIcon="@drawable/round_icon_ffb71c1c" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffd50000" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffd50000" a:roundIcon="@drawable/round_icon_ffd50000" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff1744" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff1744" a:roundIcon="@drawable/round_icon_ffff1744" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff5252" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff5252" a:roundIcon="@drawable/round_icon_ffff5252" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff06292" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff06292" a:roundIcon="@drawable/round_icon_fff06292" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffec407a" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffec407a" a:roundIcon="@drawable/round_icon_ffec407a" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe91e63" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe91e63" a:roundIcon="@drawable/round_icon_ffe91e63" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffd81b60" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffd81b60" a:roundIcon="@drawable/round_icon_ffd81b60" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffc2185b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffc2185b" a:roundIcon="@drawable/round_icon_ffc2185b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffad1457" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffad1457" a:roundIcon="@drawable/round_icon_ffad1457" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff880e4f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff880e4f" a:roundIcon="@drawable/round_icon_ff880e4f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffc51162" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffc51162" a:roundIcon="@drawable/round_icon_ffc51162" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff50057" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff50057" a:roundIcon="@drawable/round_icon_fff50057" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff4081" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff4081" a:roundIcon="@drawable/round_icon_ffff4081" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffba68c8" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffba68c8" a:roundIcon="@drawable/round_icon_ffba68c8" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffab47bc" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffab47bc" a:roundIcon="@drawable/round_icon_ffab47bc" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff9c27b0" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff9c27b0" a:roundIcon="@drawable/round_icon_ff9c27b0" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff8e24aa" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff8e24aa" a:roundIcon="@drawable/round_icon_ff8e24aa" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff7b1fa2" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff7b1fa2" a:roundIcon="@drawable/round_icon_ff7b1fa2" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff6a1b9a" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff6a1b9a" a:roundIcon="@drawable/round_icon_ff6a1b9a" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4a148c" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4a148c" a:roundIcon="@drawable/round_icon_ff4a148c" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffaa00ff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffaa00ff" a:roundIcon="@drawable/round_icon_ffaa00ff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffd500f9" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffd500f9" a:roundIcon="@drawable/round_icon_ffd500f9" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe040fb" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe040fb" a:roundIcon="@drawable/round_icon_ffe040fb" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff9575cd" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff9575cd" a:roundIcon="@drawable/round_icon_ff9575cd" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff7e57c2" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff7e57c2" a:roundIcon="@drawable/round_icon_ff7e57c2" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff673ab7" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff673ab7" a:roundIcon="@drawable/round_icon_ff673ab7" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff5e35b1" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff5e35b1" a:roundIcon="@drawable/round_icon_ff5e35b1" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff512da8" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff512da8" a:roundIcon="@drawable/round_icon_ff512da8" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4527a0" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4527a0" a:roundIcon="@drawable/round_icon_ff4527a0" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff311b92" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff311b92" a:roundIcon="@drawable/round_icon_ff311b92" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff6200ea" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff6200ea" a:roundIcon="@drawable/round_icon_ff6200ea" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff651fff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff651fff" a:roundIcon="@drawable/round_icon_ff651fff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff7c4dff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff7c4dff" a:roundIcon="@drawable/round_icon_ff7c4dff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff7986cb" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff7986cb" a:roundIcon="@drawable/round_icon_ff7986cb" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff5c6bc0" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff5c6bc0" a:roundIcon="@drawable/round_icon_ff5c6bc0" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff3f51b5" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff3f51b5" a:roundIcon="@drawable/round_icon_ff3f51b5" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff3949ab" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff3949ab" a:roundIcon="@drawable/round_icon_ff3949ab" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff303f9f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff303f9f" a:roundIcon="@drawable/round_icon_ff303f9f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff283593" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff283593" a:roundIcon="@drawable/round_icon_ff283593" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff1a237e" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff1a237e" a:roundIcon="@drawable/round_icon_ff1a237e" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff304ffe" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff304ffe" a:roundIcon="@drawable/round_icon_ff304ffe" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff3d5afe" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff3d5afe" a:roundIcon="@drawable/round_icon_ff3d5afe" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff536dfe" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff536dfe" a:roundIcon="@drawable/round_icon_ff536dfe" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff64b5f6" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff64b5f6" a:roundIcon="@drawable/round_icon_ff64b5f6" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff42a5f5" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff42a5f5" a:roundIcon="@drawable/round_icon_ff42a5f5" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff2196f3" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff2196f3" a:roundIcon="@drawable/round_icon_ff2196f3" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff1e88e5" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff1e88e5" a:roundIcon="@drawable/round_icon_ff1e88e5" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff1976d2" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff1976d2" a:roundIcon="@drawable/round_icon_ff1976d2" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff1565c0" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff1565c0" a:roundIcon="@drawable/round_icon_ff1565c0" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff0d47a1" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff0d47a1" a:roundIcon="@drawable/round_icon_ff0d47a1" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff2962ff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff2962ff" a:roundIcon="@drawable/round_icon_ff2962ff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff2979ff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff2979ff" a:roundIcon="@drawable/round_icon_ff2979ff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff448aff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff448aff" a:roundIcon="@drawable/round_icon_ff448aff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4fc3f7" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4fc3f7" a:roundIcon="@drawable/round_icon_ff4fc3f7" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff29b6f6" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff29b6f6" a:roundIcon="@drawable/round_icon_ff29b6f6" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff03a9f4" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff03a9f4" a:roundIcon="@drawable/round_icon_ff03a9f4" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff039be5" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff039be5" a:roundIcon="@drawable/round_icon_ff039be5" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff0288d1" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff0288d1" a:roundIcon="@drawable/round_icon_ff0288d1" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff0277bd" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff0277bd" a:roundIcon="@drawable/round_icon_ff0277bd" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff01579b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff01579b" a:roundIcon="@drawable/round_icon_ff01579b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff0091ea" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff0091ea" a:roundIcon="@drawable/round_icon_ff0091ea" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00b0ff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00b0ff" a:roundIcon="@drawable/round_icon_ff00b0ff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff40c4ff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff40c4ff" a:roundIcon="@drawable/round_icon_ff40c4ff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4dd0e1" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4dd0e1" a:roundIcon="@drawable/round_icon_ff4dd0e1" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff26c6da" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff26c6da" a:roundIcon="@drawable/round_icon_ff26c6da" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00bcd4" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00bcd4" a:roundIcon="@drawable/round_icon_ff00bcd4" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00acc1" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00acc1" a:roundIcon="@drawable/round_icon_ff00acc1" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff0097a7" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff0097a7" a:roundIcon="@drawable/round_icon_ff0097a7" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00838f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00838f" a:roundIcon="@drawable/round_icon_ff00838f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff006064" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff006064" a:roundIcon="@drawable/round_icon_ff006064" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00b8d4" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00b8d4" a:roundIcon="@drawable/round_icon_ff00b8d4" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00e5ff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00e5ff" a:roundIcon="@drawable/round_icon_ff00e5ff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff18ffff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff18ffff" a:roundIcon="@drawable/round_icon_ff18ffff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4db6ac" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4db6ac" a:roundIcon="@drawable/round_icon_ff4db6ac" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff26a69a" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff26a69a" a:roundIcon="@drawable/round_icon_ff26a69a" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff009688" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff009688" a:roundIcon="@drawable/round_icon_ff009688" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00897b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00897b" a:roundIcon="@drawable/round_icon_ff00897b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00796b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00796b" a:roundIcon="@drawable/round_icon_ff00796b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00695c" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00695c" a:roundIcon="@drawable/round_icon_ff00695c" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff004d40" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff004d40" a:roundIcon="@drawable/round_icon_ff004d40" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00bfa5" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00bfa5" a:roundIcon="@drawable/round_icon_ff00bfa5" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff1de9b6" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff1de9b6" a:roundIcon="@drawable/round_icon_ff1de9b6" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff64ffda" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff64ffda" a:roundIcon="@drawable/round_icon_ff64ffda" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff81c784" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff81c784" a:roundIcon="@drawable/round_icon_ff81c784" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff66bb6a" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff66bb6a" a:roundIcon="@drawable/round_icon_ff66bb6a" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4caf50" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4caf50" a:roundIcon="@drawable/round_icon_ff4caf50" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff43a047" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff43a047" a:roundIcon="@drawable/round_icon_ff43a047" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff388e3c" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff388e3c" a:roundIcon="@drawable/round_icon_ff388e3c" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff2e7d32" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff2e7d32" a:roundIcon="@drawable/round_icon_ff2e7d32" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff1b5e20" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff1b5e20" a:roundIcon="@drawable/round_icon_ff1b5e20" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00c853" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00c853" a:roundIcon="@drawable/round_icon_ff00c853" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff00e676" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff00e676" a:roundIcon="@drawable/round_icon_ff00e676" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff69f0ae" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff69f0ae" a:roundIcon="@drawable/round_icon_ff69f0ae" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffaed581" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffaed581" a:roundIcon="@drawable/round_icon_ffaed581" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff9ccc65" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff9ccc65" a:roundIcon="@drawable/round_icon_ff9ccc65" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff8bc34a" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff8bc34a" a:roundIcon="@drawable/round_icon_ff8bc34a" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff7cb342" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff7cb342" a:roundIcon="@drawable/round_icon_ff7cb342" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff689f38" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff689f38" a:roundIcon="@drawable/round_icon_ff689f38" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff558b2f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff558b2f" a:roundIcon="@drawable/round_icon_ff558b2f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff33691e" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff33691e" a:roundIcon="@drawable/round_icon_ff33691e" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff64dd17" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff64dd17" a:roundIcon="@drawable/round_icon_ff64dd17" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff76ff03" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff76ff03" a:roundIcon="@drawable/round_icon_ff76ff03" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffb2ff59" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffb2ff59" a:roundIcon="@drawable/round_icon_ffb2ff59" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffdce775" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffdce775" a:roundIcon="@drawable/round_icon_ffdce775" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffd4e157" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffd4e157" a:roundIcon="@drawable/round_icon_ffd4e157" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffcddc39" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffcddc39" a:roundIcon="@drawable/round_icon_ffcddc39" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffc0ca33" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffc0ca33" a:roundIcon="@drawable/round_icon_ffc0ca33" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffafb42b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffafb42b" a:roundIcon="@drawable/round_icon_ffafb42b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff9e9d24" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff9e9d24" a:roundIcon="@drawable/round_icon_ff9e9d24" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff827717" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff827717" a:roundIcon="@drawable/round_icon_ff827717" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffaeea00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffaeea00" a:roundIcon="@drawable/round_icon_ffaeea00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffc6ff00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffc6ff00" a:roundIcon="@drawable/round_icon_ffc6ff00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffeeff41" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffeeff41" a:roundIcon="@drawable/round_icon_ffeeff41" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fffff176" a:label="@string/app_name" a:name="com.mplus.lib.Main_fffff176" a:roundIcon="@drawable/round_icon_fffff176" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffee58" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffee58" a:roundIcon="@drawable/round_icon_ffffee58" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffeb3b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffeb3b" a:roundIcon="@drawable/round_icon_ffffeb3b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fffdd835" a:label="@string/app_name" a:name="com.mplus.lib.Main_fffdd835" a:roundIcon="@drawable/round_icon_fffdd835" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fffbc02d" a:label="@string/app_name" a:name="com.mplus.lib.Main_fffbc02d" a:roundIcon="@drawable/round_icon_fffbc02d" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff9a825" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff9a825" a:roundIcon="@drawable/round_icon_fff9a825" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff57f17" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff57f17" a:roundIcon="@drawable/round_icon_fff57f17" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffd600" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffd600" a:roundIcon="@drawable/round_icon_ffffd600" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffea00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffea00" a:roundIcon="@drawable/round_icon_ffffea00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffff00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffff00" a:roundIcon="@drawable/round_icon_ffffff00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffd54f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffd54f" a:roundIcon="@drawable/round_icon_ffffd54f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffca28" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffca28" a:roundIcon="@drawable/round_icon_ffffca28" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffc107" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffc107" a:roundIcon="@drawable/round_icon_ffffc107" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffb300" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffb300" a:roundIcon="@drawable/round_icon_ffffb300" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffa000" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffa000" a:roundIcon="@drawable/round_icon_ffffa000" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff8f00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff8f00" a:roundIcon="@drawable/round_icon_ffff8f00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff6f00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff6f00" a:roundIcon="@drawable/round_icon_ffff6f00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffab00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffab00" a:roundIcon="@drawable/round_icon_ffffab00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffc400" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffc400" a:roundIcon="@drawable/round_icon_ffffc400" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffd740" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffd740" a:roundIcon="@drawable/round_icon_ffffd740" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffb74d" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffb74d" a:roundIcon="@drawable/round_icon_ffffb74d" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffa726" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffa726" a:roundIcon="@drawable/round_icon_ffffa726" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff9800" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff9800" a:roundIcon="@drawable/round_icon_ffff9800" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fffb8c00" a:label="@string/app_name" a:name="com.mplus.lib.Main_fffb8c00" a:roundIcon="@drawable/round_icon_fffb8c00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff57c00" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff57c00" a:roundIcon="@drawable/round_icon_fff57c00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffef6c00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffef6c00" a:roundIcon="@drawable/round_icon_ffef6c00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe65100" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe65100" a:roundIcon="@drawable/round_icon_ffe65100" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff6d00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff6d00" a:roundIcon="@drawable/round_icon_ffff6d00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff9100" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff9100" a:roundIcon="@drawable/round_icon_ffff9100" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffab40" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffab40" a:roundIcon="@drawable/round_icon_ffffab40" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff8a65" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff8a65" a:roundIcon="@drawable/round_icon_ffff8a65" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff7043" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff7043" a:roundIcon="@drawable/round_icon_ffff7043" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff5722" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff5722" a:roundIcon="@drawable/round_icon_ffff5722" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_fff4511e" a:label="@string/app_name" a:name="com.mplus.lib.Main_fff4511e" a:roundIcon="@drawable/round_icon_fff4511e" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe64a19" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe64a19" a:roundIcon="@drawable/round_icon_ffe64a19" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffd84315" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffd84315" a:roundIcon="@drawable/round_icon_ffd84315" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffbf360c" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffbf360c" a:roundIcon="@drawable/round_icon_ffbf360c" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffdd2c00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffdd2c00" a:roundIcon="@drawable/round_icon_ffdd2c00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff3d00" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff3d00" a:roundIcon="@drawable/round_icon_ffff3d00" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffff6e40" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffff6e40" a:roundIcon="@drawable/round_icon_ffff6e40" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffa1887f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffa1887f" a:roundIcon="@drawable/round_icon_ffa1887f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff8d6e63" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff8d6e63" a:roundIcon="@drawable/round_icon_ff8d6e63" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff795548" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff795548" a:roundIcon="@drawable/round_icon_ff795548" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff6d4c41" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff6d4c41" a:roundIcon="@drawable/round_icon_ff6d4c41" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff5d4037" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff5d4037" a:roundIcon="@drawable/round_icon_ff5d4037" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff4e342e" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff4e342e" a:roundIcon="@drawable/round_icon_ff4e342e" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff3e2723" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff3e2723" a:roundIcon="@drawable/round_icon_ff3e2723" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffffffff" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffffffff" a:roundIcon="@drawable/round_icon_ffffffff" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffe0e0e0" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffe0e0e0" a:roundIcon="@drawable/round_icon_ffe0e0e0" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ffbdbdbd" a:label="@string/app_name" a:name="com.mplus.lib.Main_ffbdbdbd" a:roundIcon="@drawable/round_icon_ffbdbdbd" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff9e9e9e" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff9e9e9e" a:roundIcon="@drawable/round_icon_ff9e9e9e" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff757575" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff757575" a:roundIcon="@drawable/round_icon_ff757575" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff616161" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff616161" a:roundIcon="@drawable/round_icon_ff616161" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff424242" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff424242" a:roundIcon="@drawable/round_icon_ff424242" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff212121" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff212121" a:roundIcon="@drawable/round_icon_ff212121" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff000000" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff000000" a:roundIcon="@drawable/round_icon_ff000000" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff90a4ae" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff90a4ae" a:roundIcon="@drawable/round_icon_ff90a4ae" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff78909c" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff78909c" a:roundIcon="@drawable/round_icon_ff78909c" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff607d8b" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff607d8b" a:roundIcon="@drawable/round_icon_ff607d8b" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff546e7a" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff546e7a" a:roundIcon="@drawable/round_icon_ff546e7a" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff455a64" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff455a64" a:roundIcon="@drawable/round_icon_ff455a64" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff37474f" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff37474f" a:roundIcon="@drawable/round_icon_ff37474f" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias a:enabled="false" a:icon="@drawable/icon_ff263238" a:label="@string/app_name" a:name="com.mplus.lib.Main_ff263238" a:roundIcon="@drawable/round_icon_ff263238" a:targetActivity="com.mplus.lib.ui.main.MainActivity">
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN"/>
+                <category a:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+    </application>
+</manifest>

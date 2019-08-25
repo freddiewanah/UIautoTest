@@ -1,0 +1,50 @@
+{
+  "tag": "2019-08-24_221238",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Showing a Map created with Mapbox. Scroll by dragging two fingers. Zoom by pinching two fingers.",
+      "children": [
+        80
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/mapview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 78,
+      "temp_id": 79,
+      "size": "0*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/mapview[text]None[enabled,,]",
+      "view_str": "0228b0a09a8c013a3e9c234fea48d981",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/mapview"
+    }
+  },
+  "start_state": "c4487783ae935b296285a1191f99c7a4",
+  "stop_state": "c4487783ae935b296285a1191f99c7a4",
+  "event_str": "TouchEvent(state=c4487783ae935b296285a1191f99c7a4, view=0228b0a09a8c013a3e9c234fea48d981)"
+}

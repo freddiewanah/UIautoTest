@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_225309",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          878,
+          118
+        ],
+        [
+          928,
+          168
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/tabs_count_text",
+      "checked": false,
+      "text": "0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "50*50",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/tabs_count_text[text]0[enabled,,]",
+      "view_str": "30192cccc227c3fbfae1d8786d589a23",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/tabs_count_text"
+    }
+  },
+  "start_state": "abe8952a9d897f0e76af069fe13ea7aa",
+  "stop_state": "dd52edca3afa8bac9b89e638b30d81ce",
+  "event_str": "TouchEvent(state=abe8952a9d897f0e76af069fe13ea7aa, view=30192cccc227c3fbfae1d8786d589a23)"
+}

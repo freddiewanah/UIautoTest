@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/main" a:fitsSystemWindows="true" a:layout_width="fill_parent" a:layout_height="fill_parent" app:shadow="navbarLine"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/layer_1" a:paddingTop="?initialActionbarHeight" a:layout_width="fill_parent" a:layout_height="fill_parent">
+        <LinearLayout a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="fill_parent">
+            <com.mplus.lib.ui.common.base.BaseRecyclerView a:id="@id/list" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" app:shadow="topHeavy" style="?convoList_list" />
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/empty" a:visibility="gone" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" style="?convoList_noData_text" />
+            <ViewStub a:id="@id/sheets" a:layout="@layout/convolist_sheets" a:layout_width="fill_parent" a:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.mplus.lib.ui.common.fab.FloatingActionButtonBackground a:layout_gravity="bottom|center|right" a:id="@id/floating_button_background" a:visibility="gone" a:layout_width="72.0dip" a:layout_height="72.0dip" a:layout_marginRight="8.0dip" a:layout_marginBottom="8.0dip">
+            <com.mplus.lib.ui.convolist.FloatingButton a:layout_gravity="center" a:id="@id/floating_button" a:layout_width="fill_parent" a:layout_height="fill_parent" a:scaleType="center" />
+        </com.mplus.lib.ui.common.fab.FloatingActionButtonBackground>
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+    <include layout="@layout/common_actionbar" />
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

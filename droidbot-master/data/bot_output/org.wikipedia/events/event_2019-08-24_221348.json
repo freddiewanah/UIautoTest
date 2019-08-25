@@ -1,0 +1,49 @@
+{
+  "tag": "2019-08-24_221348",
+  "event": {
+    "event_type": "long_touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          264
+        ],
+        [
+          1080,
+          308
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/osm_license",
+      "checked": false,
+      "text": "\u00a9 \u00a0OpenStreetMap contributors",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 78,
+      "temp_id": 81,
+      "size": "-44*44",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/osm_license[text]\u00a9 \u00a0OpenStreetMap contributors[enabled,,]",
+      "view_str": "1061dd3bed8a4fd9865e3b1eaead9257",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/osm_license"
+    },
+    "duration": 2000
+  },
+  "start_state": "c4487783ae935b296285a1191f99c7a4",
+  "stop_state": "c4487783ae935b296285a1191f99c7a4",
+  "event_str": "LongTouchEvent(state=c4487783ae935b296285a1191f99c7a4, view=1061dd3bed8a4fd9865e3b1eaead9257, duration=2000)"
+}

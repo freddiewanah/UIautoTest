@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?settings_resetDefaultsButton_holder"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View a:background="@drawable/listview_divider" a:layout_width="fill_parent" a:layout_height="0.5dip" a:layout_marginTop="16.0dip" />
+    <com.mplus.lib.ui.common.base.BaseButton a:id="@id/initial_button" a:text="@string/settings_resetbutton_reset" style="?settings_resetDefaultsButton_initialButton" />
+    <com.mplus.lib.ui.common.base.BaseButton a:id="@id/dangerous_button" a:visibility="gone" a:text="@string/settings_resetbutton_really_reset" app:tintWith="accentColor" style="?settings_resetDefaultsButton_dangerousButton" />
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

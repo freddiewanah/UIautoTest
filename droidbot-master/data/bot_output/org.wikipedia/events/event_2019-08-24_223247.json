@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223247",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/menu_overflow_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 82,
+      "temp_id": 86,
+      "size": "132*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_overflow_button[text]None[enabled,,]",
+      "view_str": "a63972cdbb5b1e3587297acac830aeca",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_overflow_button"
+    }
+  },
+  "start_state": "7a30657db72d6e88297d5fc46edcd580",
+  "stop_state": "0b1e4458ca08d955d59c416fdf22f21a",
+  "event_str": "TouchEvent(state=7a30657db72d6e88297d5fc46edcd580, view=a63972cdbb5b1e3587297acac830aeca)"
+}

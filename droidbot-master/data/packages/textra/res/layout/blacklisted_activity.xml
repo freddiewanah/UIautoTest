@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:orientation="vertical" a:id="@id/main" a:fitsSystemWindows="true" a:layout_width="fill_parent" a:layout_height="fill_parent" app:shadow="navbarLine" style="?blacklisted_layout"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/common_actionbar" />
+    <com.mplus.lib.ui.common.base.BaseListView a:id="@id/list" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" app:shadow="topHeavy" style="?blacklisted_list" />
+    <com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="center_vertical" a:orientation="vertical" a:id="@id/explain" a:paddingBottom="60.0dip" a:visibility="gone" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" app:shadow="topHeavy">
+        <com.mplus.lib.ui.common.base.BaseTextView a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/blacklist_empty2" style="?blacklist_empty" />
+        <com.mplus.lib.ui.common.base.BaseTextView a:layout_width="fill_parent" a:layout_height="wrap_content" a:layout_marginTop="16.0dip" a:text="@string/blacklist_empty" style="?blacklist_empty" />
+    </com.mplus.lib.ui.common.base.BaseLinearLayout>
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/unblacklist_button_container" style="?common_sheet_button_container">
+        <com.mplus.lib.ui.common.BaseSheetButton a:id="@id/unblacklist_button" a:text="@string/blacklisted_button_unblacklist" style="?common_sheet_button" />
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

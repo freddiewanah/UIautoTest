@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.share.ShareRow a:layout_width="fill_parent" a:layout_height="wrap_content" style="?shareDialog_row"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/shareDialog_appIcon" a:layout_width="30.0dip" a:layout_height="30.0dip" />
+    <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/shareDialog_appTitle" a:layout_width="wrap_content" a:layout_height="wrap_content" style="?shareDialog_appTitle" />
+</com.mplus.lib.ui.common.share.ShareRow>

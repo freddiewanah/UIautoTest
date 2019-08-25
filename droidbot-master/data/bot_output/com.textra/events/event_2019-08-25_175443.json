@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_175443",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          738,
+          1896
+        ],
+        [
+          870,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/giphy_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 56,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.textra:id/giphy_button[text]None[enabled,,]",
+      "view_str": "ed20ec7a2282a1023623a79a81ff4b83",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.textra:id/giphy_button"
+    }
+  },
+  "start_state": "59c026461f780e3af5560221e14cfa7d",
+  "stop_state": "7a89019c22a13d8425016989d320c63a",
+  "event_str": "TouchEvent(state=59c026461f780e3af5560221e14cfa7d, view=ed20ec7a2282a1023623a79a81ff4b83)"
+}

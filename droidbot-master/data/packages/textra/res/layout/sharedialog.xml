@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout style="?common_dialog_mainholder"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <com.mplus.lib.ui.common.base.BaseListView a:id="@id/list" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?shareDialog_list" />
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

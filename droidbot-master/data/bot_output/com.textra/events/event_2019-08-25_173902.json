@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_173902",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.android.settings",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          799,
+          1120
+        ],
+        [
+          975,
+          1252
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "YES",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "176*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]YES[enabled,,]",
+      "view_str": "63ea346d3cd4611e169b12eea780080a",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  },
+  "start_state": "f2ca3407130a9d30a2edfaa805b47071",
+  "stop_state": "de0a70edf0b81f20eb94f47e144632b5",
+  "event_str": "TouchEvent(state=f2ca3407130a9d30a2edfaa805b47071, view=63ea346d3cd4611e169b12eea780080a)"
+}

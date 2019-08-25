@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_222933",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Delete selected items",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/menu_delete_selected",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "132*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_delete_selected[text]None[enabled,,]",
+      "view_str": "425469216874199e1c722bf9df50a564",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_delete_selected"
+    }
+  },
+  "start_state": "1d064c7b5ccd8a5632a106b5751a2d86",
+  "stop_state": "3cba137b9c4f164d9555ec2437613899",
+  "event_str": "TouchEvent(state=1d064c7b5ccd8a5632a106b5751a2d86, view=425469216874199e1c722bf9df50a564)"
+}

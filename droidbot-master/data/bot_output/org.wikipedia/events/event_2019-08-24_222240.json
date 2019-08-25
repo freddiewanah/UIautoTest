@@ -1,0 +1,49 @@
+{
+  "tag": "2019-08-24_222240",
+  "event": {
+    "event_type": "long_touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1604
+        ],
+        [
+          430,
+          1736
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/send_feedback_text",
+      "checked": false,
+      "text": "SEND APP FEEDBACK",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 24,
+      "size": "386*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/send_feedback_text[text]SEND APP FEEDBACK[enabled,,]",
+      "view_str": "718d7cde9705d6a7872e1adb076163fd",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/send_feedback_text"
+    },
+    "duration": 2000
+  },
+  "start_state": "758988b0acd7128a4da45572170fb4dc",
+  "stop_state": "8a6d95b701a821fac653b17d9fb236e0",
+  "event_str": "LongTouchEvent(state=758988b0acd7128a4da45572170fb4dc, view=718d7cde9705d6a7872e1adb076163fd, duration=2000)"
+}

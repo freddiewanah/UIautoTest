@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_173859",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          281,
+          1088
+        ],
+        [
+          800,
+          1210
+        ]
+      ],
+      "resource_id": "com.textra:id/startButton",
+      "checked": false,
+      "text": "START USING TEXTRA",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 9,
+      "size": "519*122",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/startButton[text]START USING TEXTRA[enabled,,]",
+      "view_str": "2112e8de0e22c9a4f81ade26b7ab8011",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/startButton"
+    }
+  },
+  "start_state": "95bf59a2c3ffdcb6c6c4fb157158996b",
+  "stop_state": "f2ca3407130a9d30a2edfaa805b47071",
+  "event_str": "TouchEvent(state=95bf59a2c3ffdcb6c6c4fb157158996b, view=2112e8de0e22c9a4f81ade26b7ab8011)"
+}

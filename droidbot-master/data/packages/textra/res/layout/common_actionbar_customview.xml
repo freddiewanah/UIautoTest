@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseRelativeLayout a:id="@id/actionBarCustomView" a:layout_width="fill_parent" a:layout_height="fill_parent"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <LinearLayout a:layout_width="fill_parent" a:layout_height="fill_parent" style="?common_actionbar_customview">
+        <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/up" a:visibility="gone" style="?common_actionbar_customview_left_arrow_image" />
+        <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/title" style="?common_actionbar_customview_title" />
+    </LinearLayout>
+</com.mplus.lib.ui.common.base.BaseRelativeLayout>

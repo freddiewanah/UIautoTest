@@ -1,0 +1,10 @@
+{
+  "tag": "2019-08-24_221141",
+  "event": {
+    "event_type": "intent",
+    "intent": "am start org.wikipedia/org.wikipedia.main.MainActivity"
+  },
+  "start_state": "0bcee1830b7d172b41d8ad5d6be0454c",
+  "stop_state": "4b1137b0f0cc5f8aeb03c7900218d03a",
+  "event_str": "IntentEvent(intent='am start org.wikipedia/org.wikipedia.main.MainActivity')"
+}

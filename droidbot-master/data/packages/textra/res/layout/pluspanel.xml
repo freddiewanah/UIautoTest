@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:orientation="vertical" a:id="@id/pluspanel" a:layout_width="fill_parent" a:layout_height="fill_parent" style="?plusPanel"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/content" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" />
+    <com.mplus.lib.ui.common.base.BaseFrameLayout a:orientation="horizontal" a:id="@id/tabsContainer" a:layout_width="fill_parent" a:layout_height="48.0dip" app:shadow="top">
+        <com.mplus.lib.ui.common.base.BaseLinearLayout a:gravity="center" a:layout_gravity="center_horizontal" a:orientation="horizontal" a:id="@id/tabs" a:layout_width="wrap_content" a:layout_height="48.0dip">
+            <com.mplus.lib.ui.common.base.BaseFrameLayout a:layout_width="wrap_content" a:layout_height="wrap_content">
+                <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/emojis_button" style="?plusPanel_tabButton" />
+                <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/showKeyboardButton" a:visibility="gone" style="?plusPanel_tabButton" />
+            </com.mplus.lib.ui.common.base.BaseFrameLayout>
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/camera_button" style="?plusPanel_tabButton" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/images_button" style="?plusPanel_tabButton" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/schedule_button" style="?plusPanel_tabButton" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/contact_button" style="?plusPanel_tabButton" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/giphy_button" style="?plusPanel_tabButton" />
+            <com.mplus.lib.ui.common.base.BaseImageView a:id="@id/backspaceButton" style="?plusPanel_tabButton" />
+        </com.mplus.lib.ui.common.base.BaseLinearLayout>
+    </com.mplus.lib.ui.common.base.BaseFrameLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

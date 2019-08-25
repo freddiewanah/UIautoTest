@@ -1,0 +1,50 @@
+{
+  "tag": "2019-08-24_222211",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        76
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          66
+        ],
+        [
+          143,
+          220
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/drawer_icon_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 75,
+      "size": "99*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/drawer_icon_layout[text]None[enabled,,]",
+      "view_str": "b11c34f9650789fc6eae6b0ce16f63e5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/drawer_icon_layout"
+    }
+  },
+  "start_state": "6c3bbe43049191a815bb32bd23eb69b4",
+  "stop_state": "b2a44779a538a62319c5b2202b23d01f",
+  "event_str": "TouchEvent(state=6c3bbe43049191a815bb32bd23eb69b4, view=b11c34f9650789fc6eae6b0ce16f63e5)"
+}

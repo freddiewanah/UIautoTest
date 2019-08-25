@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_221153",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          2324
+        ],
+        [
+          1036,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/about_app_license",
+      "checked": false,
+      "text": "Source code available on Gerrit and GitHub under the Apache 2.0 License. Unless otherwise specified, content is available under a Creative Commons Attribution-ShareAlike License.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 23,
+      "size": "992*-296",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/about_app_license[text]None[enabled,,]",
+      "view_str": "24a2a737a2d1126e0011d19e2b977adb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/about_app_license"
+    }
+  },
+  "start_state": "758988b0acd7128a4da45572170fb4dc",
+  "stop_state": "758988b0acd7128a4da45572170fb4dc",
+  "event_str": "TouchEvent(state=758988b0acd7128a4da45572170fb4dc, view=24a2a737a2d1126e0011d19e2b977adb)"
+}

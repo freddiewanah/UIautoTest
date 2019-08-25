@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/main" a:fitsSystemWindows="true" a:layout_width="fill_parent" a:layout_height="fill_parent" app:shadow="navbarLine"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseLinearLayout a:orientation="vertical" a:id="@id/support_content" a:layout_width="fill_parent" a:layout_height="fill_parent" a:layout_marginTop="?initialActionbarHeight">
+        <com.mplus.lib.ui.common.base.BaseFrameLayout a:id="@id/actionbar_extension" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?settings_actionbar_extension" />
+        <com.mplus.lib.ui.common.tabs.FixedTabsViewWithSlider a:id="@id/tabs" a:layout_width="fill_parent" a:layout_height="48.0dip" style="?settings_support_tabs" />
+        <com.mplus.lib.ui.common.base.BaseViewPager a:id="@id/pager" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" style="?settings_support_viewpager" />
+    </com.mplus.lib.ui.common.base.BaseLinearLayout>
+    <include layout="@layout/common_actionbar" />
+</com.mplus.lib.ui.common.base.BaseFrameLayout>

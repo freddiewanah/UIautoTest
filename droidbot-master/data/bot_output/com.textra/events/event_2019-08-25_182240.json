@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_182240",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          513,
+          340
+        ],
+        [
+          1052,
+          473
+        ]
+      ],
+      "resource_id": "com.textra:id/tell_your_friends_item",
+      "checked": false,
+      "text": "Tell your Friends",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 7,
+      "size": "539*133",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/tell_your_friends_item[text]Tell your Friends[enabled,,]",
+      "view_str": "1a3db35485339fb1c1af948b6767c2a3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/tell_your_friends_item"
+    }
+  },
+  "start_state": "c2c5bec9b2f1ff5acc3b0a895ca40202",
+  "stop_state": "82e8d189fd6c691561fa07a59080f3c7",
+  "event_str": "TouchEvent(state=c2c5bec9b2f1ff5acc3b0a895ca40202, view=1a3db35485339fb1c1af948b6767c2a3)"
+}

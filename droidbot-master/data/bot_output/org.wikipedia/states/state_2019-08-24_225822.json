@@ -1,0 +1,4421 @@
+{
+  "tag": "2019-08-24_225822",
+  "state_str": "b2bf509d26f8bbfcda339c82500a8ef3",
+  "state_str_content_free": "86025e80cbef4863f73bb50dcecb0016",
+  "foreground_activity": "org.wikipedia/.main.MainActivity",
+  "activity_stack": [
+    "org.wikipedia/.main.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.music/.dial.DialMediaRouteProviderService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.google.android.gms/com.google.android.location.places.service.PlaceDetectionAsyncService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService10",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService11",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gm/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.messaging/.fcm.BugleFirebaseInstanceIDService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService4",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService5",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService6",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService7",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService8",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.reporting.service.ReportingAndroidService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.smspush/.WapPushManager",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.google.android.gms/.lockbox.service.LockboxBrokerService",
+    "android/com.android.server.content.SyncJobService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.videos/.service.pinning.TransferService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "org.wikipedia/com.mapbox.android.telemetry.TelemetryService"
+  ],
+  "views": [
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        111,
+        112
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2160
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2160",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3f522b586e630571b1af42c2dbdc8ddb",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2028",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3be83ff0db2d039d78b1042d646e7f05",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d62e0d00c9151e80eacec89837a2c565",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4,
+        102
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "4d169a2861e4e8df936dad911e1973a9",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/action_bar_root"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "4d75c8a751cc0fa9fbf38c01281a4890",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/navigation_drawer",
+      "checked": false,
+      "text": null,
+      "class": "androidx.drawerlayout.widget.DrawerLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1962",
+      "signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]org.wikipedia:id/navigation_drawer[text]None[enabled,,]",
+      "view_str": "4d0376f949da436fc9537db8d68aca5c",
+      "content_free_signature": "[class]androidx.drawerlayout.widget.DrawerLayout[resource_id]org.wikipedia:id/navigation_drawer"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        95
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ec6bfe8a7b8d5bb6495df4c18cfb60c2",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/fragment_container[text]None[enabled,,]",
+      "view_str": "295cf36cc40f829d4a5993cc48b7fd3e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/fragment_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_main_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/fragment_main_container[text]None[enabled,,]",
+      "view_str": "4cf55a7b0746c11876ebbac3b6dfb2dd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/fragment_main_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        80
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1080*1808",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "bcf08d68fa1d76b358d386f3d835715e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_main_coordinator",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "1080*1654",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/fragment_main_coordinator[text]None[enabled,,]",
+      "view_str": "87a8145c2c87a8d32c1069766392eee3",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/fragment_main_coordinator"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        28,
+        53,
+        74
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_main_view_pager",
+      "checked": false,
+      "text": null,
+      "class": "androidx.viewpager.widget.ViewPager",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*1654",
+      "signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]org.wikipedia:id/fragment_main_view_pager[text]None[enabled,,]",
+      "view_str": "3ce0d6762c2e9b50cd08fc7948caf066",
+      "content_free_signature": "[class]androidx.viewpager.widget.ViewPager[resource_id]org.wikipedia:id/fragment_main_view_pager"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          0,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/feed_swipe_refresh_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "0*1654",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/feed_swipe_refresh_layout[text]None[enabled,,]",
+      "view_str": "c34bdd9ad96485b09beaab3681db251d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/feed_swipe_refresh_layout"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          0,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "0*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9938c449698cfdc7229eb7c11debbb0d",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        15,
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          0,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_feed_feed",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "0*1654",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.wikipedia:id/fragment_feed_feed[text]None[enabled,,]",
+      "view_str": "5f55ed11aaabe36a83bc7c5f4e76c20d",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.wikipedia:id/fragment_feed_feed"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          242
+        ],
+        [
+          -22,
+          374
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 15,
+      "size": "-22*132",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "af38bce063edec98607ce2a00b0d1d31",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        18,
+        19
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          242
+        ],
+        [
+          -22,
+          374
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "-22*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_container[text]None[enabled,,]",
+      "view_str": "db379f6a98cc71330d6015d9599b4632",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Search Wikipedia",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          242
+        ],
+        [
+          -926,
+          374
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "-926*132",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "ebac9c1d19c38939981bf9bfb9dedb00",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          281
+        ],
+        [
+          -154,
+          334
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Search Wikipedia",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "-154*53",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]Search Wikipedia[enabled,,]",
+      "view_str": "42f3ab4b32b9074ba3774c5ed7e29505",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search Wikipedia",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          242
+        ],
+        [
+          -22,
+          374
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/voice_search_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 16,
+      "temp_id": 19,
+      "size": "-22*132",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/voice_search_button[text]None[enabled,,]",
+      "view_str": "be3b53b89dd05faed107c8822320aeca",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/voice_search_button"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          440
+        ],
+        [
+          -22,
+          1366
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 14,
+      "temp_id": 20,
+      "size": "-22*926",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "716a4f71b7da027d5924acf54499568b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        22,
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          440
+        ],
+        [
+          -22,
+          1366
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "-22*926",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1857d5143ff15a6cd8bc04312d5de24f",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          440
+        ],
+        [
+          -22,
+          880
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_announcement_header_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 22,
+      "size": "-22*440",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/view_announcement_header_image[text]None[enabled,,]",
+      "view_str": "139280ca0fb72c1a103a76e06a622960",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/view_announcement_header_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          924
+        ],
+        [
+          -22,
+          1146
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_announcement_text",
+      "checked": false,
+      "text": "Customize your Explore feed\n\nYou can now choose what to show on your feed, and also prioritize your favorite types of content.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "-22*222",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_text[text]None[enabled,,]",
+      "view_str": "16dd606e8924da5c9c856e1af5adcb0c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_text"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25,
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1179
+        ],
+        [
+          -22,
+          1333
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 24,
+      "size": "-22*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "7d7a7bb70d39a541dd14cb4eed1a97d5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1190
+        ],
+        [
+          -402,
+          1322
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_announcement_action_negative",
+      "checked": false,
+      "text": "GOT IT",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "-402*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_action_negative[text]GOT IT[enabled,,]",
+      "view_str": "e7a2a88b70636b6bb252a710cf3043c6",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_action_negative"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1190
+        ],
+        [
+          -77,
+          1322
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_announcement_action_positive",
+      "checked": false,
+      "text": "CUSTOMIZE",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 26,
+      "size": "-77*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_action_positive[text]CUSTOMIZE[enabled,,]",
+      "view_str": "b66ef5931b2d225dfeb1f1064818796b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_announcement_action_positive"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          0,
+          418
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_feed_header",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 27,
+      "size": "0*198",
+      "signature": "[class]android.view.View[resource_id]org.wikipedia:id/fragment_feed_header[text]None[enabled,,]",
+      "view_str": "a9f01fe7a8973b99855cd903cf68e709",
+      "content_free_signature": "[class]android.view.View[resource_id]org.wikipedia:id/fragment_feed_header"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/reading_list_swipe_refresh",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 28,
+      "size": "1080*1654",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/reading_list_swipe_refresh[text]None[enabled,,]",
+      "view_str": "236cc37c6209a94924aebdaed61a972d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/reading_list_swipe_refresh"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30,
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "1080*1654",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "43babbd25fbeb794e545fb0ef0ac8084",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31,
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          990
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/reading_list_content_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "1080*770",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/reading_list_content_container[text]None[enabled,,]",
+      "view_str": "9d933e77d7046837303b24d13dfad672",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/reading_list_content_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          724
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/reading_list_onboarding_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "1080*504",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/reading_list_onboarding_container[text]None[enabled,,]",
+      "view_str": "6b20add559c42fa288621d55ac6124fd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/reading_list_onboarding_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        33,
+        34,
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          220
+        ],
+        [
+          1080,
+          724
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "1080*504",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "5c9b5b9c11723aa3c5fec9bc8622b406",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          264
+        ],
+        [
+          1080,
+          317
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_onboarding_title",
+      "checked": false,
+      "text": "Sync reading lists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 33,
+      "size": "1080*53",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_title[text]Sync reading lists[enabled,,]",
+      "view_str": "ce5273fc83658038033ba6271a5cacbe",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          350
+        ],
+        [
+          1080,
+          515
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_onboarding_text",
+      "checked": false,
+      "text": "Reading lists can now be synced across devices. Log in to your Wikipedia account and allow your lists to be saved.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 32,
+      "temp_id": 34,
+      "size": "1080*165",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_text[text]None[enabled,,]",
+      "view_str": "58b7cff508dd544fff18b58bd47335e4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_text"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36,
+        37
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          486,
+          548
+        ],
+        [
+          1080,
+          702
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 32,
+      "temp_id": 35,
+      "size": "594*154",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "725ffe8970af4864b588f61fe134088c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          530,
+          559
+        ],
+        [
+          772,
+          691
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_onboarding_action_negative",
+      "checked": false,
+      "text": "GOT IT",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "242*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_action_negative[text]GOT IT[enabled,,]",
+      "view_str": "ca0b451fbc0ac2bfb5c7ce2842843bef",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_action_negative"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          794,
+          559
+        ],
+        [
+          1036,
+          691
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/view_onboarding_action_positive",
+      "checked": false,
+      "text": "LOG IN",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 37,
+      "size": "242*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_action_positive[text]LOG IN[enabled,,]",
+      "view_str": "a730f09a071517279d5c2eb951ce12de",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/view_onboarding_action_positive"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          724
+        ],
+        [
+          1080,
+          990
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/reading_list_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 38,
+      "size": "1080*266",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.wikipedia:id/reading_list_list[text]None[enabled,,]",
+      "view_str": "ded1bbc3a9c17b8abd49335cf8d51e32",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.wikipedia:id/reading_list_list"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 9,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          725
+        ],
+        [
+          1080,
+          989
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "1080*264",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "5c7e9d5bc3030d16a1271484f6dffa04",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          769
+        ],
+        [
+          201,
+          926
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/default_list_empty_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "157*157",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/default_list_empty_image[text]None[enabled,,]",
+      "view_str": "d43a7984017438f1212cc1c6b54032e5",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/default_list_empty_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          769
+        ],
+        [
+          121,
+          846
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_image_1",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 41,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_1[text]None[enabled,,]",
+      "view_str": "5ee0e134550f5a886e1f1384cdd0ad51",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_1"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          122,
+          769
+        ],
+        [
+          199,
+          846
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_image_2",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 42,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_2[text]None[enabled,,]",
+      "view_str": "49f0fbcc3eaa95265613f8fe1c3279a9",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_2"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          243,
+          769
+        ],
+        [
+          948,
+          828
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_title",
+      "checked": false,
+      "text": "Saved",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 43,
+      "size": "705*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/item_title[text]Saved[enabled,,]",
+      "view_str": "02fa9e30581f50fab2603af19730a6de",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          992,
+          769
+        ],
+        [
+          1058,
+          835
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_overflow_menu",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 44,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_overflow_menu[text]None[enabled,,]",
+      "view_str": "a04005c933ab5058836e7b26e681cc00",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_overflow_menu"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          847
+        ],
+        [
+          121,
+          924
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_image_3",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 45,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_3[text]None[enabled,,]",
+      "view_str": "3865f98c3d494b969ba16082834f181e",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_3"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          122,
+          847
+        ],
+        [
+          199,
+          924
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_image_4",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 46,
+      "size": "77*77",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_4[text]None[enabled,,]",
+      "view_str": "a6e773222e3ffab5f9669427941d53b4",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/item_image_4"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          243,
+          828
+        ],
+        [
+          948,
+          881
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_reading_list_statistical_description",
+      "checked": false,
+      "text": "0 articles, 0.00 MB",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 47,
+      "size": "705*53",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/item_reading_list_statistical_description[text]0 articles, 0.00 MB[enabled,,]",
+      "view_str": "af13748b0ba32334d5e1815c184b8ccf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/item_reading_list_statistical_description"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          243,
+          892
+        ],
+        [
+          948,
+          945
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/item_description",
+      "checked": false,
+      "text": "Default list for your saved articles",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 48,
+      "size": "705*53",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/item_description[text]Default list for your saved articles[enabled,,]",
+      "view_str": "9742c70c5c9455c80a3a01b7c758ad5c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/item_description"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        50
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          990
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/empty_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 49,
+      "size": "1080*884",
+      "signature": "[class]android.widget.ScrollView[resource_id]org.wikipedia:id/empty_container[text]None[enabled,,]",
+      "view_str": "7035ca1e1013475cf6afb59218e6098d",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]org.wikipedia:id/empty_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        51,
+        52
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          83,
+          990
+        ],
+        [
+          997,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "914*884",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "a51a7f8f9997a9dfaf2a1c7b7a68f67e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          298,
+          1284
+        ],
+        [
+          781,
+          1358
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/empty_title",
+      "checked": false,
+      "text": "No saved pages yet",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 51,
+      "size": "483*74",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/empty_title[text]No saved pages yet[enabled,,]",
+      "view_str": "8f24462ea00c6f2cf293b142594667ca",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/empty_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          83,
+          1446
+        ],
+        [
+          997,
+          1579
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/empty_message",
+      "checked": false,
+      "text": "Add articles to a list for reading later, even when you're offline.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 50,
+      "temp_id": 52,
+      "size": "914*133",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/empty_message[text]None[enabled,,]",
+      "view_str": "8a60a7f2d1dec347c0f0bc8e38bcf1ad",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/empty_message"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        54
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 53,
+      "size": "0*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "780a524e5e8a0a2978b0bb337795aca6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 6,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        55,
+        59,
+        62,
+        65,
+        68,
+        71
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/history_list",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 53,
+      "temp_id": 54,
+      "size": "0*1654",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.wikipedia:id/history_list[text]None[enabled,,]",
+      "view_str": "801f31d2e1f371dea6c3e08c1989aa3b",
+      "content_free_signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]org.wikipedia:id/history_list"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        56,
+        57,
+        58
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          220
+        ],
+        [
+          1080,
+          515
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "0*295",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "870e0540ef173f7054f4f50ff4c8d3b2",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          264
+        ],
+        [
+          1080,
+          361
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_header_text",
+      "checked": false,
+      "text": "Aug 24, 2019",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 56,
+      "size": "0*97",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_header_text[text]Aug 24, 2019[enabled,,]",
+      "view_str": "9eb1876d93cfa942acf2786800698865",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_header_text"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          361
+        ],
+        [
+          1080,
+          471
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 57,
+      "size": "-44*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image[text]None[enabled,,]",
+      "view_str": "00a365d986fbbfed7bece9a6a44b0cdd",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1278,
+          387
+        ],
+        [
+          1080,
+          446
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_title",
+      "checked": false,
+      "text": "Googleplex",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 55,
+      "temp_id": 58,
+      "size": "-198*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title[text]Googleplex[enabled,,]",
+      "view_str": "09ddc2d4d76ba5f34d73a713bed2d92b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        60,
+        61
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          515
+        ],
+        [
+          1080,
+          713
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 54,
+      "temp_id": 59,
+      "size": "0*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "acf0f2d7e79a3c4f5fee14bfb7cb02a4",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          559
+        ],
+        [
+          1080,
+          669
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 60,
+      "size": "-44*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image[text]None[enabled,,]",
+      "view_str": "00a365d986fbbfed7bece9a6a44b0cdd",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1278,
+          585
+        ],
+        [
+          1080,
+          644
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_title",
+      "checked": false,
+      "text": "Hello World (Scandal album)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 59,
+      "temp_id": 61,
+      "size": "-198*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title[text]Hello World (Scandal album)[enabled,,]",
+      "view_str": "3d5913e4411d4916adf112ca80daf44d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        63,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          713
+        ],
+        [
+          1080,
+          911
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 54,
+      "temp_id": 62,
+      "size": "0*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "7c5c59581da37cfcb1de0666e29b8129",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          757
+        ],
+        [
+          1080,
+          867
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "-44*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image[text]None[enabled,,]",
+      "view_str": "00a365d986fbbfed7bece9a6a44b0cdd",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1278,
+          783
+        ],
+        [
+          1080,
+          842
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_title",
+      "checked": false,
+      "text": "Googleplex",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 64,
+      "size": "-198*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title[text]Googleplex[enabled,,]",
+      "view_str": "09ddc2d4d76ba5f34d73a713bed2d92b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        66,
+        67
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          911
+        ],
+        [
+          1080,
+          1109
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 54,
+      "temp_id": 65,
+      "size": "0*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "38c201de0c32f1eccb4d49faa0536447",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          955
+        ],
+        [
+          1080,
+          1065
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 66,
+      "size": "-44*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image[text]None[enabled,,]",
+      "view_str": "00a365d986fbbfed7bece9a6a44b0cdd",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1278,
+          981
+        ],
+        [
+          1080,
+          1040
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_title",
+      "checked": false,
+      "text": "Main Page",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 67,
+      "size": "-198*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title[text]Main Page[enabled,,]",
+      "view_str": "c6fa0fa98e83b59e5aded766b5de312b",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        69,
+        70
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          1109
+        ],
+        [
+          1080,
+          1307
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 54,
+      "temp_id": 68,
+      "size": "0*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "ca8e906c3a6db1159b84ae6a16bdf37f",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          1153
+        ],
+        [
+          1080,
+          1263
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 68,
+      "temp_id": 69,
+      "size": "-44*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image[text]None[enabled,,]",
+      "view_str": "00a365d986fbbfed7bece9a6a44b0cdd",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1278,
+          1179
+        ],
+        [
+          1080,
+          1238
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_title",
+      "checked": false,
+      "text": "Hello World! (composition)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 68,
+      "temp_id": 70,
+      "size": "-198*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title[text]Hello World! (composition)[enabled,,]",
+      "view_str": "ff8b78cea79de9032168597e4935edd4",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        72,
+        73
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          1307
+        ],
+        [
+          1080,
+          1505
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 54,
+      "temp_id": 71,
+      "size": "0*198",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "3907f45e89ec71a8c3d1820677efa428",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1124,
+          1351
+        ],
+        [
+          1080,
+          1461
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 72,
+      "size": "-44*110",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image[text]None[enabled,,]",
+      "view_str": "00a365d986fbbfed7bece9a6a44b0cdd",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_list_item_image"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1278,
+          1377
+        ],
+        [
+          1080,
+          1436
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_list_item_title",
+      "checked": false,
+      "text": "Java applet",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 71,
+      "temp_id": 73,
+      "size": "-198*59",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title[text]Java applet[enabled,,]",
+      "view_str": "f382cde188107536185f5564835d69b3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/page_list_item_title"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        75
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 74,
+      "size": "-1080*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "fa02c90c37387a427c4b8be1e09e963e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        76,
+        78,
+        79
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 75,
+      "size": "-1080*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f5c216226e8980f7809c968c6815e130",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Showing a Map created with Mapbox. Scroll by dragging two fingers. Zoom by pinching two fingers.",
+      "children": [
+        77
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/mapview",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 75,
+      "temp_id": 76,
+      "size": "-1080*1654",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/mapview[text]None[enabled,,]",
+      "view_str": "0228b0a09a8c013a3e9c234fea48d981",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/mapview"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2160,
+          220
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 76,
+      "temp_id": 77,
+      "size": "-1080*1654",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "5f49db6e8eb4a2fb650792f468a523e6",
+      "content_free_signature": "[class]android.view.View[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          2204,
+          264
+        ],
+        [
+          1080,
+          308
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/osm_license",
+      "checked": false,
+      "text": "\u00a9 \u00a0OpenStreetMap contributors",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 75,
+      "temp_id": 78,
+      "size": "-1124*44",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/osm_license[text]\u00a9 \u00a0OpenStreetMap contributors[enabled,,]",
+      "view_str": "1061dd3bed8a4fd9865e3b1eaead9257",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/osm_license"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Zoom to a location on the map",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          3030,
+          1636
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/user_location_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 79,
+      "size": "-1950*238",
+      "signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/user_location_button[text]None[enabled,,]",
+      "view_str": "80e450890a26db2b98cf403b452ee0d3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/user_location_button"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        81
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1874
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/fragment_main_nav_tab_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 80,
+      "size": "1080*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/fragment_main_nav_tab_layout[text]None[enabled,,]",
+      "view_str": "ca8c3f36995d983421164a0ec6559640",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/fragment_main_nav_tab_layout"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 4,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        82,
+        85,
+        89,
+        92
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1874
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "1080*154",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "70b0f72db83ec57097967b7f3e563306",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Explore",
+      "children": [
+        83,
+        84
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1874
+        ],
+        [
+          270,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 82,
+      "size": "270*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "968bf8f9163b6a69d5ed21709bbc0e5b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          54,
+          1965
+        ],
+        [
+          215,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 82,
+      "temp_id": 83,
+      "size": "161*63",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "a4ea53fd5967b708ba05f530b2740714",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1918
+        ],
+        [
+          168,
+          1984
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 82,
+      "temp_id": 84,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon[text]None[enabled,,]",
+      "view_str": "34c10675b229ca4878c222797d4d202c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "My lists",
+      "children": [
+        86,
+        87
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          270,
+          1874
+        ],
+        [
+          540,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 85,
+      "size": "270*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "73f758b618d9c16ccf89412ecb1e7199",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          372,
+          1896
+        ],
+        [
+          438,
+          1962
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 85,
+      "temp_id": 86,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon[text]None[enabled,,selected]",
+      "view_str": "9540ecebb343430af8b4bd56c5ebd5e0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        88
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          322,
+          1965
+        ],
+        [
+          488,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 85,
+      "temp_id": 87,
+      "size": "166*63",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,selected]",
+      "view_str": "8e9771b7de9613fcf46d8147ddc1eb6d",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          322,
+          1965
+        ],
+        [
+          488,
+          2009
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/largeLabel",
+      "checked": false,
+      "text": "My lists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 87,
+      "temp_id": 88,
+      "size": "166*44",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/largeLabel[text]My lists[enabled,,selected]",
+      "view_str": "3ce190061a2e70042c47ca9c390b38eb",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/largeLabel"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "History",
+      "children": [
+        90,
+        91
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          540,
+          1874
+        ],
+        [
+          810,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 89,
+      "size": "270*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "968bf8f9163b6a69d5ed21709bbc0e5b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          596,
+          1965
+        ],
+        [
+          753,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 89,
+      "temp_id": 90,
+      "size": "157*63",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "a4ea53fd5967b708ba05f530b2740714",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          642,
+          1918
+        ],
+        [
+          708,
+          1984
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 89,
+      "temp_id": 91,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon[text]None[enabled,,]",
+      "view_str": "34c10675b229ca4878c222797d4d202c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Nearby",
+      "children": [
+        93,
+        94
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          810,
+          1874
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 81,
+      "temp_id": 92,
+      "size": "270*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "968bf8f9163b6a69d5ed21709bbc0e5b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          867,
+          1965
+        ],
+        [
+          1023,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 93,
+      "size": "156*63",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "a4ea53fd5967b708ba05f530b2740714",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          912,
+          1918
+        ],
+        [
+          978,
+          1984
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 92,
+      "temp_id": 94,
+      "size": "66*66",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon[text]None[enabled,,]",
+      "view_str": "34c10675b229ca4878c222797d4d202c",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/icon"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        96,
+        97
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/single_fragment_toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 95,
+      "size": "1080*154",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/single_fragment_toolbar[text]None[enabled,,]",
+      "view_str": "6000cf285dc49c4f1efb1ab1197eb668",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/single_fragment_toolbar"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          106
+        ],
+        [
+          243,
+          180
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "My lists",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 95,
+      "temp_id": 96,
+      "size": "199*74",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]My lists[enabled,,]",
+      "view_str": "a35fe4458910a9ef103d554289347f65",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        98,
+        100,
+        101
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          684,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 95,
+      "temp_id": 97,
+      "size": "396*154",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "6bbf9278db72d61561a8562acff9b0cd",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        99
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          684,
+          66
+        ],
+        [
+          816,
+          220
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/menu_tabs",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 97,
+      "temp_id": 98,
+      "size": "132*154",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/menu_tabs[text]None[enabled,,]",
+      "view_str": "43e47e55390dbd38f2b15cf1a3b2182d",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.wikipedia:id/menu_tabs"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          725,
+          118
+        ],
+        [
+          775,
+          168
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/tabs_count_text",
+      "checked": false,
+      "text": "1",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 98,
+      "temp_id": 99,
+      "size": "50*50",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/tabs_count_text[text]1[enabled,,]",
+      "view_str": "7d377017ebde035d9e033b4bb9b822ca",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/tabs_count_text"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search my lists and articles",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          816,
+          77
+        ],
+        [
+          948,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/menu_search_lists",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 97,
+      "temp_id": 100,
+      "size": "132*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_search_lists[text]None[enabled,,]",
+      "view_str": "4488f2daa329398deeefa46f23ba9890",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_search_lists"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/menu_overflow_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 97,
+      "temp_id": 101,
+      "size": "132*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_overflow_button[text]None[enabled,,]",
+      "view_str": "a63972cdbb5b1e3587297acac830aeca",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/menu_overflow_button"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        103,
+        104
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          220
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/action_mode_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 102,
+      "size": "1080*154",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/action_mode_bar[text]None[enabled,,]",
+      "view_str": "d3b73e4ee2f9259a82be6cecc9eb2037",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.wikipedia:id/action_mode_bar"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Done",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          77
+        ],
+        [
+          154,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/action_mode_close_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 102,
+      "temp_id": 103,
+      "size": "154*132",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/action_mode_close_button[text]None[enabled,,]",
+      "view_str": "9a6cd0f724e96215782615f3545caead",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/action_mode_close_button"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        105
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 102,
+      "temp_id": 104,
+      "size": "882*132",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "6dcd968429e75a09a1988c0f3a9c2360",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        106
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 104,
+      "temp_id": 105,
+      "size": "882*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_container[text]None[enabled,,]",
+      "view_str": "487d5d22fa476a948e76d026d267efad",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_container"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        107
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_input",
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 105,
+      "temp_id": 106,
+      "size": "882*132",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]org.wikipedia:id/search_input[text]None[enabled,,]",
+      "view_str": "f1c8ee9be9e0ffd78f7dc8c2d61dad65",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]org.wikipedia:id/search_input"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        108
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          77
+        ],
+        [
+          1080,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_bar",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 107,
+      "size": "882*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_bar[text]None[enabled,,]",
+      "view_str": "18a3a408fe32933b3bd492804e1005b8",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_bar"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        109
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          77
+        ],
+        [
+          1058,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_edit_frame",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 107,
+      "temp_id": 108,
+      "size": "860*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_edit_frame[text]None[enabled,,]",
+      "view_str": "35f43940718a4a605dbc39291fa237cd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_edit_frame"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        110
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          198,
+          77
+        ],
+        [
+          1058,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_plate",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 108,
+      "temp_id": 109,
+      "size": "860*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_plate[text]None[enabled,,]",
+      "view_str": "40e2d6556e370ce1e430804287ee054a",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.wikipedia:id/search_plate"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          198,
+          92
+        ],
+        [
+          1058,
+          191
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/search_src_text",
+      "checked": false,
+      "text": "Search my lists and articles",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 109,
+      "temp_id": 110,
+      "size": "860*99",
+      "signature": "[class]android.widget.EditText[resource_id]org.wikipedia:id/search_src_text[text]Search my lists and articles[enabled,,]",
+      "view_str": "f0630433180a6dde5da4448bb5f36dd9",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]org.wikipedia:id/search_src_text"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          66
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 111,
+      "size": "1080*66",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "726e1f7de3c10c61fca07200790ed4d2",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2028
+        ],
+        [
+          1080,
+          2160
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 112,
+      "size": "1080*132",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "b2251cbfbd6f400b55543f8060212e07",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

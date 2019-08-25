@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_183423",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          576,
+          1415
+        ],
+        [
+          1058,
+          1537
+        ]
+      ],
+      "resource_id": "com.textra:id/download_button",
+      "checked": false,
+      "text": "DOWNLOAD LATEST",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 68,
+      "temp_id": 69,
+      "size": "482*122",
+      "signature": "[class]android.widget.Button[resource_id]com.textra:id/download_button[text]DOWNLOAD LATEST[enabled,,]",
+      "view_str": "e9ef2ed610d2026276c3acb4dd6172ca",
+      "content_free_signature": "[class]android.widget.Button[resource_id]com.textra:id/download_button"
+    }
+  },
+  "start_state": "afa8f055d3e038ff6569288cdb9d5763",
+  "stop_state": "4c424f3ec17542014fa7fcd49910d0b9",
+  "event_str": "TouchEvent(state=afa8f055d3e038ff6569288cdb9d5763, view=e9ef2ed610d2026276c3acb4dd6172ca)"
+}

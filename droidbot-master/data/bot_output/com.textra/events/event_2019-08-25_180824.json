@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_180824",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          926,
+          1896
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/rhs_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "154*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.textra:id/rhs_button[text]None[enabled,,]",
+      "view_str": "8ddc753ff34a71a5f1d9db68bfcdd4e0",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.textra:id/rhs_button"
+    }
+  },
+  "start_state": "2f1aab0b1a1bfb83a78ce3bd9b9cf0d8",
+  "stop_state": "f7bc516386bcc859542226ec45a2b65c",
+  "event_str": "TouchEvent(state=2f1aab0b1a1bfb83a78ce3bd9b9cf0d8, view=8ddc753ff34a71a5f1d9db68bfcdd4e0)"
+}

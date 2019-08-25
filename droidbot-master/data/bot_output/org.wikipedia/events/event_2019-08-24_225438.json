@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_225438",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Clear recent searches",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          375
+        ],
+        [
+          1080,
+          507
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/recent_searches_delete_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 70,
+      "temp_id": 72,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/recent_searches_delete_button[text]None[enabled,,]",
+      "view_str": "afaaea86bbc8db5601d325e23c12fa54",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/recent_searches_delete_button"
+    }
+  },
+  "start_state": "7c38c9791b54ca04bad2076b0e572bc2",
+  "stop_state": "b5835966b0fce9e6740cb4d2162b6049",
+  "event_str": "TouchEvent(state=7c38c9791b54ca04bad2076b0e572bc2, view=afaaea86bbc8db5601d325e23c12fa54)"
+}

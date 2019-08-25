@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_224006",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Increase text size",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          948,
+          1460
+        ],
+        [
+          1036,
+          1548
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/buttonIncreaseTextSize",
+      "checked": false,
+      "text": "T",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 13,
+      "temp_id": 16,
+      "size": "88*88",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/buttonIncreaseTextSize[text]T[enabled,,]",
+      "view_str": "fb7312d0593f05b469e8d9fff185d6a9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/buttonIncreaseTextSize"
+    }
+  },
+  "start_state": "da6e3f48d0bc9d333fb20b0fa40eb89b",
+  "stop_state": "b8d82d319c0f7816eb19279441571952",
+  "event_str": "TouchEvent(state=da6e3f48d0bc9d333fb20b0fa40eb89b, view=fb7312d0593f05b469e8d9fff185d6a9)"
+}

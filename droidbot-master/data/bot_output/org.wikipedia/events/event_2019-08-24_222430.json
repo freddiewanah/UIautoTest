@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_222430",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          837
+        ],
+        [
+          942,
+          911
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/alertTitle",
+      "checked": false,
+      "text": "Clear browsing history",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "804*74",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/alertTitle[text]Clear browsing history[enabled,,]",
+      "view_str": "c83b58c2101aaf0e83497dbedec456f8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/alertTitle"
+    }
+  },
+  "start_state": "d2a57b43a50128ec658de322d76021d8",
+  "stop_state": "d2a57b43a50128ec658de322d76021d8",
+  "event_str": "TouchEvent(state=d2a57b43a50128ec658de322d76021d8, view=c83b58c2101aaf0e83497dbedec456f8)"
+}

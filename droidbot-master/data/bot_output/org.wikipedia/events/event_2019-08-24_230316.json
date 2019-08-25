@@ -1,0 +1,53 @@
+{
+  "tag": "2019-08-24_230316",
+  "event": {
+    "event_type": "long_touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58,
+        59,
+        60
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1694
+        ],
+        [
+          1080,
+          1826
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 14,
+      "temp_id": 57,
+      "size": "1080*132",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffb04a129c864e94556eefcf3a5a000c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    "duration": 2000
+  },
+  "start_state": "179a6133db632edc06fdd28e4ea285b5",
+  "stop_state": "cd8fcb02aa8f7371501e985e6565cdd6",
+  "event_str": "LongTouchEvent(state=179a6133db632edc06fdd28e4ea285b5, view=ffb04a129c864e94556eefcf3a5a000c, duration=2000)"
+}

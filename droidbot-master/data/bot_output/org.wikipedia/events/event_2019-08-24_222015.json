@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_222015",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          734
+        ],
+        [
+          1036,
+          1228
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "Adam Baso, Amir E. Aharoni, Anirudh S, Anthony Borba, Bernd Sitzmann, Brion Vibber, Cooltey Feng, Dan Garry, Dmitry Brant, Elena Tonkovidova, Kaity Hammerstein, Kenan Wang, Maryana Pinchuk, Matanya Moses, Max Semenik, Michael Holloway, Moiz Syed, Monte Hurd, Mun May Tee, Nicole Borrelli, Niklas Laxstro\u0308m, Rita Ho, Rummana Yasmeen, Sharvani Haran, Stephen Niedzielski, Thomas PT, Tomasz Finc, Vibha Bamba, Yuvi Panda.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 12,
+      "temp_id": 17,
+      "size": "992*494",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "f979c544e4dd6f4598ace4276bd08b0f",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    }
+  },
+  "start_state": "758988b0acd7128a4da45572170fb4dc",
+  "stop_state": "758988b0acd7128a4da45572170fb4dc",
+  "event_str": "TouchEvent(state=758988b0acd7128a4da45572170fb4dc, view=f979c544e4dd6f4598ace4276bd08b0f)"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout style="?common_dialog_mainholder"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseScrollView a:scrollbars="vertical" a:layout_width="fill_parent" a:layout_height="0.0dip" a:layout_weight="1.0" app:useScrollIndicatorBottom="true">
+        <com.mplus.lib.ui.common.base.BaseLinearLayout a:orientation="vertical" a:layout_width="fill_parent" a:layout_height="wrap_content" style="?adConsentDialog_titleHolder">
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/text1" a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/ad_consent_dialog_body1" style="?adConsentDialog_textBody" />
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/text2" a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/ad_consent_dialog_body2" style="?adConsentDialog_textBody" />
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/text3" a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/ad_consent_dialog_body3" style="?adConsentDialog_textBody" />
+            <com.mplus.lib.ui.common.base.BaseTextView a:id="@id/text4" a:layout_width="fill_parent" a:layout_height="wrap_content" a:text="@string/ad_consent_dialog_body4" style="?adConsentDialog_textBody" />
+        </com.mplus.lib.ui.common.base.BaseLinearLayout>
+    </com.mplus.lib.ui.common.base.BaseScrollView>
+    <com.mplus.lib.ui.common.base.BaseLinearLayout a:id="@id/dialogButtonPanel" style="?common_dialog_buttonPanel">
+        <com.mplus.lib.ui.common.base.BaseButton a:id="@id/agreedButton" a:text="@string/ad_consent_agreed_button" style="?common_dialog_buttonCommon" />
+        <com.mplus.lib.ui.common.base.BaseButton a:id="@id/upgradeToProButton" a:text="@string/convolist_upgrade_to_pro" style="?common_dialog_buttonCommon" />
+    </com.mplus.lib.ui.common.base.BaseLinearLayout>
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

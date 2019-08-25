@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View a:background="@drawable/listview_divider" a:layout_width="fill_parent" a:layout_height="0.5dip"
+  xmlns:a="http://schemas.android.com/apk/res/android" />

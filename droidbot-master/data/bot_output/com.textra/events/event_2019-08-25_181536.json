@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_181536",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          556,
+          668
+        ],
+        [
+          719,
+          743
+        ]
+      ],
+      "resource_id": "com.textra:id/title",
+      "checked": false,
+      "text": "APPLE",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 19,
+      "size": "163*75",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/title[text]APPLE[enabled,,]",
+      "view_str": "1b5523edf1dd71669f381b0d8c159093",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/title"
+    }
+  },
+  "start_state": "d63a3672eaa200bba9a1c8878a8a6a5c",
+  "stop_state": "fc2179c53f0fa4029ef8642263ec9cbd",
+  "event_str": "TouchEvent(state=d63a3672eaa200bba9a1c8878a8a6a5c, view=1b5523edf1dd71669f381b0d8c159093)"
+}

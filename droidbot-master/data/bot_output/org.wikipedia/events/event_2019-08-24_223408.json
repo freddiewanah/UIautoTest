@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223408",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Zoom to a location on the map",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1950,
+          1636
+        ],
+        [
+          1080,
+          1874
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/user_location_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 60,
+      "temp_id": 64,
+      "size": "-870*238",
+      "signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/user_location_button[text]None[enabled,,]",
+      "view_str": "80e450890a26db2b98cf403b452ee0d3",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/user_location_button"
+    }
+  },
+  "start_state": "1042992db0cc44b6ab1623478d1f2bb0",
+  "stop_state": "1042992db0cc44b6ab1623478d1f2bb0",
+  "event_str": "TouchEvent(state=1042992db0cc44b6ab1623478d1f2bb0, view=80e450890a26db2b98cf403b452ee0d3)"
+}

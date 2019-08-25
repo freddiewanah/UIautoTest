@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223948",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          286,
+          1734
+        ],
+        [
+          539,
+          1866
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/button_theme_sepia",
+      "checked": false,
+      "text": "SEPIA",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 22,
+      "temp_id": 23,
+      "size": "253*132",
+      "signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/button_theme_sepia[text]SEPIA[enabled,,]",
+      "view_str": "2edf4702a8c7568a94cdfa77f89e5eef",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.wikipedia:id/button_theme_sepia"
+    }
+  },
+  "start_state": "0daa12cf894ff1ab1b282fa4324b565d",
+  "stop_state": "da1ef25dd5f0b36adf546d0e05639d19",
+  "event_str": "TouchEvent(state=0daa12cf894ff1ab1b282fa4324b565d, view=2edf4702a8c7568a94cdfa77f89e5eef)"
+}

@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_183536",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          474,
+          1896
+        ],
+        [
+          606,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/schedule_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 54,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.textra:id/schedule_button[text]None[enabled,,]",
+      "view_str": "07d3cb59e93ba7e8cf24cf1f694fe809",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.textra:id/schedule_button"
+    }
+  },
+  "start_state": "61ab20f141f3e2abf8c5a6fe24848547",
+  "stop_state": "68530e82048b3250d55aad3c7537656d",
+  "event_str": "TouchEvent(state=61ab20f141f3e2abf8c5a6fe24848547, view=07d3cb59e93ba7e8cf24cf1f694fe809)"
+}

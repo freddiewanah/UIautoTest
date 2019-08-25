@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_223326",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          926,
+          220
+        ],
+        [
+          1047,
+          341
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/page_scroller_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 444,
+      "size": "121*121",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_scroller_button[text]None[enabled,,]",
+      "view_str": "d2da5a6c3ce2505bc4ebf30842229631",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/page_scroller_button"
+    }
+  },
+  "start_state": "e9c6a81431f0e8688b2629482fe3bf06",
+  "stop_state": "e9c6a81431f0e8688b2629482fe3bf06",
+  "event_str": "TouchEvent(state=e9c6a81431f0e8688b2629482fe3bf06, view=d2da5a6c3ce2505bc4ebf30842229631)"
+}

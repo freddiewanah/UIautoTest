@@ -1,0 +1,51 @@
+{
+  "tag": "2019-08-24_223429",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          221
+        ],
+        [
+          885,
+          353
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/horizontal_scroll_languages",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.HorizontalScrollView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "885*132",
+      "signature": "[class]android.widget.HorizontalScrollView[resource_id]org.wikipedia:id/horizontal_scroll_languages[text]None[enabled,,]",
+      "view_str": "ad0c3c9b9ce09a3eaa4f236f51aaed71",
+      "content_free_signature": "[class]android.widget.HorizontalScrollView[resource_id]org.wikipedia:id/horizontal_scroll_languages"
+    },
+    "direction": "UP"
+  },
+  "start_state": "cb4fb80b64db4ef350c2cd55428cdf28",
+  "stop_state": "04fcd22d91077685395adc5762298e1a",
+  "event_str": "ScrollEvent(state=cb4fb80b64db4ef350c2cd55428cdf28, view=ad0c3c9b9ce09a3eaa4f236f51aaed71, direction=UP)"
+}

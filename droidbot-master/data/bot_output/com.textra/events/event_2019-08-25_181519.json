@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_181519",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          870,
+          1896
+        ],
+        [
+          1002,
+          2028
+        ]
+      ],
+      "resource_id": "com.textra:id/backspaceButton",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 53,
+      "temp_id": 61,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageView[resource_id]com.textra:id/backspaceButton[text]None[enabled,,]",
+      "view_str": "7163f0ae396e4add26b9f225effe45c1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]com.textra:id/backspaceButton"
+    }
+  },
+  "start_state": "025531e82bf1b578b574f168f8d8d173",
+  "stop_state": "025531e82bf1b578b574f168f8d8d173",
+  "event_str": "TouchEvent(state=025531e82bf1b578b574f168f8d8d173, view=7163f0ae396e4add26b9f225effe45c1)"
+}

@@ -1,0 +1,49 @@
+{
+  "tag": "2019-08-25_182536",
+  "event": {
+    "event_type": "long_touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          143,
+          1928
+        ],
+        [
+          885,
+          2001
+        ]
+      ],
+      "resource_id": "com.textra:id/send_text",
+      "checked": false,
+      "text": "Message Bot",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "742*73",
+      "signature": "[class]android.widget.EditText[resource_id]com.textra:id/send_text[text]Message Bot[enabled,,]",
+      "view_str": "58a5970c1941bbc1d2a7d919a919834f",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]com.textra:id/send_text"
+    },
+    "duration": 2000
+  },
+  "start_state": "2bb9b65ab1c256d17ba5727dcfc8e9fd",
+  "stop_state": "2bb9b65ab1c256d17ba5727dcfc8e9fd",
+  "event_str": "LongTouchEvent(state=2bb9b65ab1c256d17ba5727dcfc8e9fd, view=58a5970c1941bbc1d2a7d919a919834f, duration=2000)"
+}

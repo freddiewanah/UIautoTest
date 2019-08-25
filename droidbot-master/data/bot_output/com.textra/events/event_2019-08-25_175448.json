@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-25_175448",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.textra",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          132,
+          106
+        ],
+        [
+          948,
+          180
+        ]
+      ],
+      "resource_id": "com.textra:id/title",
+      "checked": false,
+      "text": "brownies",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 7,
+      "size": "816*74",
+      "signature": "[class]android.widget.TextView[resource_id]com.textra:id/title[text]brownies[enabled,,]",
+      "view_str": "4e7a7716bc9a49720d764f478ce0ac54",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.textra:id/title"
+    }
+  },
+  "start_state": "7a89019c22a13d8425016989d320c63a",
+  "stop_state": "7a89019c22a13d8425016989d320c63a",
+  "event_str": "TouchEvent(state=7a89019c22a13d8425016989d320c63a, view=4e7a7716bc9a49720d764f478ce0ac54)"
+}

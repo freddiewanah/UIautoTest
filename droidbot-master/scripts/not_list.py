@@ -119,5 +119,6 @@ notList = [
     'ViewStub',
     'include',
     'AutoCompleteTextView',
-    'WebView'
+    'WebView',
+    'fragment'
 ]

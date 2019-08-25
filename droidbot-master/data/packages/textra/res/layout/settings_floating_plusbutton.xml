@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.fab.FloatingActionButtonBackground a:layout_gravity="bottom|center|right" a:layout_width="@dimen/floatingButtonSize" a:layout_height="@dimen/floatingButtonSize" a:layout_marginRight="8.0dip" a:layout_marginBottom="8.0dip"
+  xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mplus.lib.ui.common.base.BaseImageView a:layout_gravity="center" a:id="@id/plusButton" a:background="@null" a:layout_width="fill_parent" a:layout_height="fill_parent" a:scaleType="center" app:srcVector="@drawable/ic_add_black_24dp" />
+</com.mplus.lib.ui.common.fab.FloatingActionButtonBackground>

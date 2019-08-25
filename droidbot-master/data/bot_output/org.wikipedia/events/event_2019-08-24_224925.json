@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_224925",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Done",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          77
+        ],
+        [
+          154,
+          209
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/action_mode_close_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 95,
+      "temp_id": 96,
+      "size": "154*132",
+      "signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/action_mode_close_button[text]None[enabled,,]",
+      "view_str": "9a6cd0f724e96215782615f3545caead",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.wikipedia:id/action_mode_close_button"
+    }
+  },
+  "start_state": "5f7f7f02bb2cb07bc1b153516ee805a6",
+  "stop_state": "d44a1fa2c647fabf095367d2c730008e",
+  "event_str": "TouchEvent(state=5f7f7f02bb2cb07bc1b153516ee805a6, view=9a6cd0f724e96215782615f3545caead)"
+}

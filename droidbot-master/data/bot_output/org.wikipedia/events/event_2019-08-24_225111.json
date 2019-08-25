@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_225111",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Show password",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          904,
+          655
+        ],
+        [
+          1036,
+          787
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/text_input_password_toggle",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "132*132",
+      "signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/text_input_password_toggle[text]None[enabled,,]",
+      "view_str": "0eb9636eada90ae1e4d28751faf740c4",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]org.wikipedia:id/text_input_password_toggle"
+    }
+  },
+  "start_state": "e07b2f0d832f2148c55139475322584f",
+  "stop_state": "40867db394b5faddef00c4c5da179b00",
+  "event_str": "TouchEvent(state=e07b2f0d832f2148c55139475322584f, view=0eb9636eada90ae1e4d28751faf740c4)"
+}

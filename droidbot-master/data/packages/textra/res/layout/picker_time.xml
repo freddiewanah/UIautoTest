@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mplus.lib.ui.common.base.BaseLinearLayout a:layout_gravity="center_horizontal" a:orientation="horizontal" a:id="@id/timePickerLayout" a:layout_width="wrap_content" a:layout_height="wrap_content"
+  xmlns:a="http://schemas.android.com/apk/res/android">
+    <LinearLayout a:orientation="horizontal" a:layout_width="wrap_content" a:layout_height="wrap_content">
+        <net.simonvt.numberpicker.NumberPicker a:id="@id/hour" a:focusable="true" a:focusableInTouchMode="true" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+        <net.simonvt.numberpicker.NumberPicker a:id="@id/minute" a:focusable="true" a:focusableInTouchMode="true" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+    </LinearLayout>
+    <net.simonvt.numberpicker.NumberPicker a:id="@id/amPm" a:focusable="true" a:focusableInTouchMode="true" a:layout_width="wrap_content" a:layout_height="wrap_content" />
+</com.mplus.lib.ui.common.base.BaseLinearLayout>

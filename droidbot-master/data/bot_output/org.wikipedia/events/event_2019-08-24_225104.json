@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-24_225104",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.wikipedia",
+      "visible": true,
+      "checkable": true,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          130,
+          1145
+        ],
+        [
+          708,
+          1233
+        ]
+      ],
+      "resource_id": "org.wikipedia:id/dialog_checkbox",
+      "checked": false,
+      "text": "Don\u2019t show me this again",
+      "class": "android.widget.CheckBox",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "578*88",
+      "signature": "[class]android.widget.CheckBox[resource_id]org.wikipedia:id/dialog_checkbox[text]Don\u2019t show me this again[enabled,,]",
+      "view_str": "80f29b2b0d0ca9437a14b1b80218f31f",
+      "content_free_signature": "[class]android.widget.CheckBox[resource_id]org.wikipedia:id/dialog_checkbox"
+    }
+  },
+  "start_state": "dd1540b147b315effc86a353410c5815",
+  "stop_state": "8b5c6e04272dcc2cc346a9e5c58b78d1",
+  "event_str": "TouchEvent(state=dd1540b147b315effc86a353410c5815, view=80f29b2b0d0ca9437a14b1b80218f31f)"
+}
