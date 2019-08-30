@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_104432",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1713
+        ],
+        [
+          816,
+          1775
+        ]
+      ],
+      "resource_id": "com.duolingo:id/ribbonSolutionView",
+      "checked": false,
+      "text": "Usted bebe leche.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "772*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/ribbonSolutionView[text]Usted bebe leche.[enabled,,]",
+      "view_str": "75ac0d0df2b579b75f9812088a964636"
+    }
+  },
+  "start_state": "89dfa70b9822c84f654d2ab105ccd314",
+  "stop_state": "89dfa70b9822c84f654d2ab105ccd314",
+  "event_str": "TouchEvent(state=89dfa70b9822c84f654d2ab105ccd314, view=75ac0d0df2b579b75f9812088a964636)"
+}

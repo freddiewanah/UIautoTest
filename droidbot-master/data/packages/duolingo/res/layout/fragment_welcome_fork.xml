@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/juicySnow" android:padding="@dimen/juicyLength1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/welcomeForkTitle" android:text="@string/welcome_fork_title" app:layout_constraintTop_toTopOf="parent" style="@style/H1" />
+    <com.duolingo.core.ui.CardView android:orientation="horizontal" android:id="@id/startBasicsButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/juicyLength5" app:layout_constraintBottom_toTopOf="@id/startPlacementTestButton" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/SelectableCard">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLengthHalf" app:srcCompat="@drawable/duo_beginner" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/basicsHeader" android:padding="@dimen/juicyLengthHalf" style="@style/H2" />
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/basicsSubheader" android:paddingBottom="@dimen/juicyLengthHalf" android:text="@string/welcome_fork_basics_text_juicy" android:paddingStart="@dimen/juicyLengthHalf" android:paddingEnd="@dimen/juicyLengthHalf" style="@style/Caption2" />
+        </LinearLayout>
+    </com.duolingo.core.ui.CardView>
+    <com.duolingo.core.ui.CardView android:orientation="horizontal" android:id="@id/startPlacementTestButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:minHeight="@dimen/juicyLength5" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/startBasicsButton" style="@style/SelectableCard">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLengthHalf" app:srcCompat="@drawable/duo_placement" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/placementHeader" android:padding="@dimen/juicyLengthHalf" style="@style/H2" />
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/placementSubheader" android:paddingBottom="@dimen/juicyLengthHalf" android:text="@string/welcome_fork_placement_text_juicy" android:paddingStart="@dimen/juicyLengthHalf" android:paddingEnd="@dimen/juicyLengthHalf" style="@style/Caption2" />
+        </LinearLayout>
+    </com.duolingo.core.ui.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

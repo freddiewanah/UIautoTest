@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.CardView android:orientation="vertical" android:id="@id/penpalMessageCorrectionContainer" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" app:faceColor="#ffd7feb9" app:lipColor="@color/juicyTurtle" app:position="bottom" style="@style/UnclickableCard">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/penpalMessageCorrectionTextDivider" android:background="@color/juicyTurtle" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintTop_toTopOf="parent" />
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/penpalMessageCorrectionText" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:layout_width="0.0dip" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:autoSizeTextType="none" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/penpalMessageCorrectionTextDivider" style="@style/Paragraph" />
+            <com.duolingo.core.ui.JuicyButton android:textColor="@color/juicyOwl" android:layout_gravity="start" android:id="@id/penpalMessageHideCorrectionButton" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:text="@string/penpal_hide_correction" android:layout_marginStart="@dimen/juicyLength1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/penpalMessageCorrectionText" style="@style/Link" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.duolingo.core.ui.CardView>
+</merge>

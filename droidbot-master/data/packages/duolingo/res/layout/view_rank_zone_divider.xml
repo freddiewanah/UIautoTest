@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rankZoneDividerView" android:layout_width="fill_parent" android:layout_height="31.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/leftDividerView" android:layout_width="16.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/dividerTextView" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.duolingo.core.ui.JuicyTextView android:textStyle="bold" android:gravity="center" android:id="@id/dividerTextView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textAllCaps="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintEnd_toStartOf="@id/rightDividerView" app:layout_constraintStart_toEndOf="@id/leftDividerView" style="@style/Caption3" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/rightDividerView" android:layout_width="16.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/dividerTextView" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

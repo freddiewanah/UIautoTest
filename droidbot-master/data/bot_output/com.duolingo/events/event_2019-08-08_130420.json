@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_130420",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1461
+        ],
+        [
+          1036,
+          1604
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adCtaButton",
+      "checked": false,
+      "text": "\u8bbf\u95ee\u7f51\u7ad9",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 28,
+      "size": "992*143",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/adCtaButton[text]\u8bbf\u95ee\u7f51\u7ad9[enabled,,]",
+      "view_str": "5f03126d5bea1d39d23104a0cacac3bc"
+    }
+  },
+  "start_state": "701881e3a06e719c2818096c78b04657",
+  "stop_state": "701881e3a06e719c2818096c78b04657",
+  "event_str": "TouchEvent(state=701881e3a06e719c2818096c78b04657, view=5f03126d5bea1d39d23104a0cacac3bc)"
+}

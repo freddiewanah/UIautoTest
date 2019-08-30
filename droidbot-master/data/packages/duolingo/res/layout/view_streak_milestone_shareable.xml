@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/juicySnow" android:layout_width="992.0px" android:layout_height="996.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/streakMilestoneShareableImage" android:layout_width="400.0px" android:layout_height="610.0px" android:layout_marginTop="90.0px" android:src="@drawable/duo_milestone_30" />
+    <com.duolingo.core.ui.JuicyTextView android:textSize="90.0px" android:gravity="center" android:id="@id/streakMilestoneShareableTitle" android:layout_marginTop="18.0px" android:layout_marginBottom="10.0px" style="@style/H1" />
+    <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="54.0px" android:layout_margin="@dimen/juicyLength1" android:src="@drawable/logo_duolingo_350" android:tint="@color/light_gray" />
+</LinearLayout>

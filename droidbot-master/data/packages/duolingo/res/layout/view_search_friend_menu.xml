@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.DryEditText android:textColor="@color/black_text" android:textColorHint="@color/black25" android:id="@id/search_edit_text" android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/prompt_friend_search" android:drawablePadding="4.0dip" android:inputType="textWebEmailAddress|textNoSuggestions" android:imeOptions="actionSearch|flagNoExtractUi|flagNoFullscreen" android:drawableStart="@drawable/ic_2_action_search" style="@android:style/Widget.EditText" />
+</RelativeLayout>

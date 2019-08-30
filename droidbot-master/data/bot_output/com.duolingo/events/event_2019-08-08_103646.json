@@ -1,0 +1,60 @@
+{
+  "tag": "2019-08-08_103646",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 11,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11,
+        13,
+        17,
+        21,
+        25,
+        29,
+        33,
+        37,
+        41,
+        45,
+        49
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          198
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.duolingo:id/fromLanguageList",
+      "checked": false,
+      "text": null,
+      "class": "androidx.recyclerview.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 10,
+      "size": "1080*1830",
+      "signature": "[class]androidx.recyclerview.widget.RecyclerView[resource_id]com.duolingo:id/fromLanguageList[text]None[enabled,,]",
+      "view_str": "f69efd00cd7f00ca1e1e3c58ff13a362"
+    },
+    "direction": "LEFT"
+  },
+  "start_state": "e7cc1eda96ff5af06add24ca88aec8fb",
+  "stop_state": "b0f511a9ad31e179d2656ff70af98b07",
+  "event_str": "ScrollEvent(state=e7cc1eda96ff5af06add24ca88aec8fb, view=f69efd00cd7f00ca1e1e3c58ff13a362, direction=LEFT)"
+}

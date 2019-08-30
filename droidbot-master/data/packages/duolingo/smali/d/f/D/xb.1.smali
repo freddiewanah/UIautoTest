@@ -1,0 +1,93 @@
+.class public final synthetic Ld/f/D/xb;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final synthetic a:[I
+
+.field public static final synthetic b:[I
+
+
+# direct methods
+.method public static synthetic constructor <clinit>()V
+    .locals 5
+
+    invoke-static {}, Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;->values()[Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;
+
+    move-result-object v0
+
+    array-length v0, v0
+
+    new-array v0, v0, [I
+
+    sput-object v0, Ld/f/D/xb;->a:[I
+
+    sget-object v0, Ld/f/D/xb;->a:[I
+
+    sget-object v1, Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;->SIGN_IN:Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    aput v2, v0, v1
+
+    sget-object v0, Ld/f/D/xb;->a:[I
+
+    sget-object v1, Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;->SOFT_WALL_CREATE_PROFILE:Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v3, 0x2
+
+    aput v3, v0, v1
+
+    sget-object v0, Ld/f/D/xb;->a:[I
+
+    sget-object v1, Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;->HARD_WALL_CREATE_PROFILE:Lcom/duolingo/signuplogin/SignupActivity$Companion$IntentType;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v4, 0x3
+
+    aput v4, v0, v1
+
+    invoke-static {}, Lcom/duolingo/core/resourcemanager/model/NetworkResult;->values()[Lcom/duolingo/core/resourcemanager/model/NetworkResult;
+
+    move-result-object v0
+
+    array-length v0, v0
+
+    new-array v0, v0, [I
+
+    sput-object v0, Ld/f/D/xb;->b:[I
+
+    sget-object v0, Ld/f/D/xb;->b:[I
+
+    sget-object v1, Lcom/duolingo/core/resourcemanager/model/NetworkResult;->AUTHENTICATION_ERROR:Lcom/duolingo/core/resourcemanager/model/NetworkResult;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aput v2, v0, v1
+
+    sget-object v0, Ld/f/D/xb;->b:[I
+
+    sget-object v1, Lcom/duolingo/core/resourcemanager/model/NetworkResult;->FORBIDDEN_ERROR:Lcom/duolingo/core/resourcemanager/model/NetworkResult;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aput v3, v0, v1
+
+    return-void
+.end method

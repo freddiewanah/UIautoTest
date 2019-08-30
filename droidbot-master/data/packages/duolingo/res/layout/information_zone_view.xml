@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.stripe.android.stripe3ds2.views.ThreeDS2TextView android:id="@id/izv_why_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:id="@id/izv_why_arrow" android:background="@drawable/ic_arrow" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    </LinearLayout>
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView android:id="@id/izv_why_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/information_zone_label_padding" />
+    <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/information_zone_vertical_padding">
+        <com.stripe.android.stripe3ds2.views.ThreeDS2TextView android:id="@id/izv_expand_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:id="@id/izv_expand_arrow" android:background="@drawable/ic_arrow" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    </LinearLayout>
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView android:id="@id/izv_expand_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/information_zone_label_padding" />
+</LinearLayout>

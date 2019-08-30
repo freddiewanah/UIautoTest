@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_104529",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          606,
+          950
+        ],
+        [
+          992,
+          1012
+        ]
+      ],
+      "resource_id": "com.duolingo:id/imageText",
+      "checked": false,
+      "text": "la mujer",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 21,
+      "temp_id": 23,
+      "size": "386*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/imageText[text]la mujer[enabled,,selected]",
+      "view_str": "9fb4481a0f37db3156f9183916d65591"
+    }
+  },
+  "start_state": "764943098acc5ac9b9197e183603c895",
+  "stop_state": "764943098acc5ac9b9197e183603c895",
+  "event_str": "TouchEvent(state=764943098acc5ac9b9197e183603c895, view=9fb4481a0f37db3156f9183916d65591)"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.session.challenges.LessonLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_marginBottom="@dimen/juicyLength1" android:maxLines="2" app:autoSizeTextType="uniform" style="@style/H1" />
+    <com.duolingo.session.challenges.SpeakerCardView android:id="@id/playButton" android:padding="0.0dip" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginBottom="@dimen/juicyLength1" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" app:cornerRadius="@dimen/juicyLength2" style="@style/SolidButton" />
+    <com.duolingo.session.challenges.SelectChallengeSelectionView android:id="@id/selection" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.duolingo.core.ui.JuicyButton android:textColor="@color/juicyHare" android:id="@id/disableListenButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginBottom="@dimen/juicyLengthHalf" android:text="@string/button_listen_disable" style="@style/TransparentButton" />
+</com.duolingo.session.challenges.LessonLinearLayout>

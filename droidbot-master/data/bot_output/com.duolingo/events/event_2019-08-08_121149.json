@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_121149",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1118
+        ],
+        [
+          1008,
+          1250
+        ]
+      ],
+      "resource_id": "android:id/aerr_wait",
+      "checked": false,
+      "text": "Wait",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "936*132",
+      "signature": "[class]android.widget.Button[resource_id]android:id/aerr_wait[text]Wait[enabled,,]",
+      "view_str": "461886fffed04a8b5119ac754cf748cb"
+    }
+  },
+  "start_state": "46cbd6cac5d98f9618003878260947bd",
+  "stop_state": "c307d365c8a25acef70b681fb2e0cddc",
+  "event_str": "TouchEvent(state=46cbd6cac5d98f9618003878260947bd, view=461886fffed04a8b5119ac754cf748cb)"
+}

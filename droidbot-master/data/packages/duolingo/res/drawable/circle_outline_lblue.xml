@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="false" android:thickness="@dimen/plus_offline_progress_thickness">
+            <solid android:color="@color/blue_plus_light20" />
+        </shape>
+    </item>
+    <item android:left="@dimen/plus_offline_progress_margin" android:top="@dimen/plus_offline_progress_margin" android:right="@dimen/plus_offline_progress_margin" android:bottom="@dimen/plus_offline_progress_margin">
+        <shape>
+            <corners android:radius="@dimen/card_corner" />
+            <solid android:color="@color/blue_plus_light" />
+        </shape>
+    </item>
+</layer-list>

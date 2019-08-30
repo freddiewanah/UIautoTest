@@ -1,0 +1,79 @@
+.class public final Ld/i/b/b/g/i/L$a;
+.super Ld/i/b/b/g/i/ob$a;
+.source "SourceFile"
+
+# interfaces
+.implements Ld/i/b/b/g/i/Yb;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ld/i/b/b/g/i/L;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ld/i/b/b/g/i/ob$a<",
+        "Ld/i/b/b/g/i/L;",
+        "Ld/i/b/b/g/i/L$a;",
+        ">;",
+        "Ld/i/b/b/g/i/Yb;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Ld/i/b/b/g/i/L;->zzwf:Ld/i/b/b/g/i/L;
+
+    .line 2
+    invoke-direct {p0, v0}, Ld/i/b/b/g/i/ob$a;-><init>(Ld/i/b/b/g/i/ob;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ld/i/b/b/g/i/K;)V
+    .locals 0
+
+    .line 3
+    sget-object p1, Ld/i/b/b/g/i/L;->zzwf:Ld/i/b/b/g/i/L;
+
+    .line 4
+    invoke-direct {p0, p1}, Ld/i/b/b/g/i/ob$a;-><init>(Ld/i/b/b/g/i/ob;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Z)Ld/i/b/b/g/i/L$a;
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Ld/i/b/b/g/i/ob$a;->f()V
+
+    .line 2
+    iget-object v0, p0, Ld/i/b/b/g/i/ob$a;->b:Ld/i/b/b/g/i/ob;
+
+    check-cast v0, Ld/i/b/b/g/i/L;
+
+    .line 3
+    iget v1, v0, Ld/i/b/b/g/i/L;->zzue:I
+
+    or-int/lit8 v1, v1, 0x8
+
+    iput v1, v0, Ld/i/b/b/g/i/L;->zzue:I
+
+    .line 4
+    iput-boolean p1, v0, Ld/i/b/b/g/i/L;->zzwe:Z
+
+    return-object p0
+.end method

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.PointingCardView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength6" app:arrowDirection="start" style="@style/DialogueBubbleA"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/dialogueText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.duolingo.core.ui.PointingCardView>

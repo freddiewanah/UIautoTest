@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/skill_page_frame" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        <com.duolingo.home.treeui.SkillTreeView android:id="@id/skill_tree" android:paddingTop="@dimen/juicyLengthHalf" android:paddingBottom="@dimen/juicyLengthHalf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.duolingo.core.ui.CardView android:layout_gravity="end|bottom|center" android:id="@id/practiceFab" android:visibility="gone" android:layout_width="@dimen/juicyLength4" android:layout_height="@dimen/juicyLength4" android:layout_margin="@dimen/juicyLength1" app:borderWidth="2.0dip" app:cornerRadius="@dimen/juicyLength2" app:faceColor="@color/juicySnow" app:lipColor="@color/juicySwan" app:lipHeight="5.0dip" style="@style/ClickableCard">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/juicyLength1AndHalf" android:layout_height="@dimen/juicyLength1AndHalf" app:srcCompat="@drawable/strengthen_blue" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.home.treeui.TreePopupView android:layout_gravity="center" android:id="@id/popup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1" android:layout_marginStart="@dimen/juicyLength2" android:layout_marginEnd="@dimen/juicyLength2" style="@style/PointingCard" />
+        <FrameLayout android:layout_gravity="end|center|top" android:id="@id/badge_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/elevationSkillPlusBadge" android:outlineProvider="none">
+            <com.duolingo.core.ui.CardView android:layout_gravity="end|center|top" android:id="@id/try_plus_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/juicyLengthHalf" app:cornerRadius="@dimen/juicyLengthHalf" app:lipColor="@color/juicySnow">
+                <com.duolingo.core.ui.JuicyButton android:textSize="13.0sp" android:paddingTop="@dimen/juicyLengthHalf" android:paddingBottom="@dimen/juicyLengthHalf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:minHeight="0.0dip" android:text="@string/try_plus" android:paddingStart="@dimen/juicyLengthHalf" android:paddingEnd="@dimen/juicyLengthHalf" app:cornerRadius="@dimen/juicyLengthHalf" style="@style/SolidBlueButton" />
+            </com.duolingo.core.ui.CardView>
+            <com.duolingo.core.ui.CardView android:layout_gravity="end|center|top" android:id="@id/wechatBadge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/juicyLengthHalf" app:cornerRadius="@dimen/juicyLengthHalf" app:lipColor="@color/juicySnow">
+                <com.duolingo.core.ui.JuicyButton android:textSize="13.0sp" android:id="@id/followWeChatButton" android:paddingTop="@dimen/juicyLengthHalf" android:paddingBottom="@dimen/juicyLengthHalf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:minHeight="0.0dip" android:text="@string/follow_wechat_badge_text" android:paddingStart="@dimen/juicyLengthHalf" android:paddingEnd="@dimen/juicyLengthHalf" app:cornerRadius="@dimen/juicyLengthHalf" style="@style/SolidButton" />
+            </com.duolingo.core.ui.CardView>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

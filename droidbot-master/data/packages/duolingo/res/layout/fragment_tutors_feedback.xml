@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/juicyLength1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/tutorsFeedbackStarsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/tutorsFeedbackItemsContainer" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="spread">
+        <com.duolingo.core.ui.DryTextView android:id="@id/tutorsFeedbackStarsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tutors_feedback_stars_title" style="@style/TutorsFeedbackTitle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/tutorsFeedbackStars" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_margin">
+            <com.duolingo.core.ui.ActivatedSvgImageView android:id="@id/tutorsFeedbackStar1" android:layout_width="0.0dip" android:layout_height="@dimen/tutors_feedback_star_size" android:layout_weight="1.0" app:secondarySvgSrc="@drawable/tutors_feedback_star_unselected" app:svgSrc="@drawable/tutors_feedback_star_selected" style="@style/TutorsFeedbackStarIcon" />
+            <com.duolingo.core.ui.ActivatedSvgImageView android:id="@id/tutorsFeedbackStar2" android:layout_width="0.0dip" android:layout_height="@dimen/tutors_feedback_star_size" android:layout_weight="1.0" app:secondarySvgSrc="@drawable/tutors_feedback_star_unselected" app:svgSrc="@drawable/tutors_feedback_star_selected" style="@style/TutorsFeedbackStarIcon" />
+            <com.duolingo.core.ui.ActivatedSvgImageView android:id="@id/tutorsFeedbackStar3" android:layout_width="0.0dip" android:layout_height="@dimen/tutors_feedback_star_size" android:layout_weight="1.0" app:secondarySvgSrc="@drawable/tutors_feedback_star_unselected" app:svgSrc="@drawable/tutors_feedback_star_selected" style="@style/TutorsFeedbackStarIcon" />
+            <com.duolingo.core.ui.ActivatedSvgImageView android:id="@id/tutorsFeedbackStar4" android:layout_width="0.0dip" android:layout_height="@dimen/tutors_feedback_star_size" android:layout_weight="1.0" app:secondarySvgSrc="@drawable/tutors_feedback_star_unselected" app:svgSrc="@drawable/tutors_feedback_star_selected" style="@style/TutorsFeedbackStarIcon" />
+            <com.duolingo.core.ui.ActivatedSvgImageView android:id="@id/tutorsFeedbackStar5" android:layout_width="0.0dip" android:layout_height="@dimen/tutors_feedback_star_size" android:layout_weight="1.0" app:secondarySvgSrc="@drawable/tutors_feedback_star_unselected" app:svgSrc="@drawable/tutors_feedback_star_selected" style="@style/TutorsFeedbackStarIcon" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tutorsFeedbackItemsContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/tutorsFeedbackResponse" app:layout_constraintTop_toBottomOf="@id/tutorsFeedbackStarsContainer">
+        <com.duolingo.core.ui.DryTextView android:id="@id/tutorsFeedbackItemsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tutors_feedback_items_good_title" app:layout_constraintBottom_toTopOf="@id/tutorsFeedbackItems" app:layout_constraintTop_toBottomOf="@id/tutorsFeedbackStars" style="@style/TutorsFeedbackTitle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/tutorsFeedbackItems" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.core.ui.CardView android:id="@id/tutorsFeedbackCategoryTutor" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+                <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/tutors_feedback_item_tutor" style="@style/Paragraph" />
+            </com.duolingo.core.ui.CardView>
+            <com.duolingo.core.ui.CardView android:id="@id/tutorsFeedbackCategoryConnection" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+                <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/tutors_feedback_item_connection" style="@style/Paragraph" />
+            </com.duolingo.core.ui.CardView>
+            <com.duolingo.core.ui.CardView android:id="@id/tutorsFeedbackCategoryContent" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+                <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/tutors_feedback_item_content" style="@style/Paragraph" />
+            </com.duolingo.core.ui.CardView>
+            <com.duolingo.core.ui.CardView android:id="@id/tutorsFeedbackCategoryOther" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+                <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/tutors_feedback_item_other" style="@style/Paragraph" />
+            </com.duolingo.core.ui.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <com.duolingo.core.ui.JuicyEditText android:gravity="top" android:id="@id/tutorsFeedbackResponse" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/large_margin" android:layout_marginBottom="@dimen/large_margin" android:hint="@string/tutors_feedback_response" app:layout_constraintBottom_toTopOf="@id/tutorsFeedbackContinueButton" app:layout_constraintTop_toBottomOf="@id/tutorsFeedbackItemsContainer" style="@style/OutlineInput" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/tutorsFeedbackContinueButton" android:visibility="invisible" android:text="@string/action_next_caps" app:layout_constraintBottom_toBottomOf="parent" style="@style/SolidButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

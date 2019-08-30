@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/juicySnow" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/message_bar_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/messageIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/offline_message_icon_size" android:layout_marginStart="@dimen/huge_margin" app:srcCompat="@drawable/offline_icon" />
+    <com.duolingo.core.ui.DryTextView android:textStyle="bold" android:textColor="@color/juicyWolf" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/messageText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/generic_error" android:layout_weight="1.0" android:layout_marginStart="@dimen/huge_margin" android:layout_marginEnd="@dimen/huge_margin" />
+</LinearLayout>

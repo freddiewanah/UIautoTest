@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/imageFrame" android:layout_width="200.0dip" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/drawableImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/closeButton" android:visibility="gone" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/button_close" style="@style/NavigationIcon" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/title" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginBottom="@dimen/juicyLength1" app:layout_constraintBottom_toTopOf="@id/body" app:layout_constraintTop_toBottomOf="@id/imageFrame" app:layout_constraintVertical_chainStyle="packed" style="@style/H1" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/body" android:visibility="gone" android:layout_marginBottom="@dimen/juicyLength2" app:layout_constraintBottom_toTopOf="@id/oneButtonSpace" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Caption1" />
+    <Space android:id="@id/oneButtonSpace" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength2" app:layout_constraintBottom_toTopOf="@id/primaryButton" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/primaryButton" android:visibility="gone" app:layout_constraintBottom_toTopOf="@id/twoButtonSpace" style="@style/SolidButton" />
+    <Space android:id="@id/twoButtonSpace" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength1" app:layout_constraintBottom_toTopOf="@id/secondaryButton" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/secondaryButton" android:visibility="gone" app:layout_constraintBottom_toTopOf="@id/tertiaryButton" style="@style/OutlineButton" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/tertiaryButton" android:visibility="gone" app:layout_constraintBottom_toBottomOf="parent" style="@style/TransparentButton" />
+</merge>

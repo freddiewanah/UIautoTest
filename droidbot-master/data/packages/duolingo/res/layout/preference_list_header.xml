@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.duolingo.core.ui.DryTextView android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/lesson_activity_horizontal_margin" android:paddingEnd="@dimen/lesson_activity_horizontal_margin" style="@style/ListHeaderText" />
+    <View android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

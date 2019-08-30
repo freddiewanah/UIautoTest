@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.home.treeui.SkillTreeCheckpointTestRowView android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyButton android:id="@id/activeButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength3" android:layout_margin="@dimen/juicyLength1" android:text="@string/shortcut_prompt" android:drawableStart="@drawable/icon_checkpoint" app:lipHeight="4.0dip" style="@style/SolidYellowButton" />
+    <com.duolingo.core.ui.JuicyButton android:enabled="false" android:textColor="@color/juicyHare" android:id="@id/inactiveButton" android:visibility="gone" android:layout_height="52.0dip" android:layout_margin="@dimen/juicyLength1" android:text="@string/shortcut_passed" style="@style/TransparentButton" />
+</com.duolingo.home.treeui.SkillTreeCheckpointTestRowView>

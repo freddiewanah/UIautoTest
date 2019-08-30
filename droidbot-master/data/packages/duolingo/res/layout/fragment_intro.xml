@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.session.challenges.LessonLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shrinkableView="@id/flashcard_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app:autoSizeTextType="uniform" style="@style/H1" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="horizontal" android:id="@id/flashcard_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.core.ui.CardView android:id="@id/flashcard" android:padding="@dimen/juicyLength1AndHalf" android:layout_width="0.0dip" android:layout_height="0.0dip" app:cornerRadius="@dimen/juicyLength3" app:faceColor="@color/juicyMacaw" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_max="245.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="245.0dip" app:lipColor="@color/juicyWhale" style="@style/ClickableCard">
+            <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicySnow" android:gravity="center" android:id="@id/character" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="@dimen/juicyLength1" android:maxLines="1" app:autoSizeMaxTextSize="@dimen/juicyCharacterCard" app:autoSizeMinTextSize="16.0sp" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <com.duolingo.session.challenges.SpeakerView android:id="@id/playButton" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength1AndHalf" android:paddingStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.duolingo.core.ui.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.duolingo.session.challenges.FlexibleTableLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/options" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/juicyLengthHalf" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <include android:id="@id/button_spacer" android:visibility="gone" layout="@layout/lesson_element_spacer" />
+    <com.duolingo.core.ui.JuicyButton android:textStyle="bold" android:textColor="@color/juicyHare" android:gravity="center" android:id="@id/disable_listen_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLengthHalf" android:text="@string/button_listen_disable" style="@style/App_ButtonFlat" />
+</com.duolingo.session.challenges.LessonLinearLayout>

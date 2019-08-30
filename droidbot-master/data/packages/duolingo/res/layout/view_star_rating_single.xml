@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/rating_stars_size" android:layout_height="@dimen/rating_stars_size" android:scaleType="fitCenter" app:srcCompat="@drawable/empty_star"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

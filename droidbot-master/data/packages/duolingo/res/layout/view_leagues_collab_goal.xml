@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.PointingCardView android:orientation="vertical" android:id="@id/infoCard" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLengthQuarter" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:arrowDirection="bottom" app:faceColor="@color/juicySnow" app:layout_constraintBottom_toTopOf="@id/collabButton" app:lipColor="@color/juicySwan" style="@style/PointingCard">
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/infoCardTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" style="@style/H2" />
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/infoCardBody" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLength1" android:lineSpacingExtra="-4.0dip" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Caption2" />
+    </com.duolingo.core.ui.PointingCardView>
+    <com.duolingo.core.ui.CardView android:orientation="vertical" android:id="@id/collabButton" android:visibility="invisible" android:layout_width="@dimen/juicyLength7" android:layout_height="@dimen/juicyLength7" android:layout_marginBottom="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/ClickableCard">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/collabButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/goal_chest_closed" />
+        <com.duolingo.core.ui.JuicyProgressBarView android:id="@id/collabButtonProgressBar" android:layout_marginTop="@dimen/juicyLengthHalf" app:shineBarHorizontalMargin="@dimen/juicyLengthHalf" style="@style/ProgressBarGold" />
+    </com.duolingo.core.ui.CardView>
+</merge>

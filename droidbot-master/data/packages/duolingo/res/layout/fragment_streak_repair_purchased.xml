@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/juicyTransparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dialog_container" android:background="@drawable/background_white_all_corners_rounded" android:padding="@dimen/streak_repair_dialog_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/streak_repair_duo_size_half" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <com.duolingo.core.ui.DryTextView android:textSize="@dimen/large_font_size" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/streak_repair_dialog_margin" android:layout_marginBottom="@dimen/streak_repair_dialog_margin" android:paddingStart="@dimen/streak_repair_title_padding" android:paddingEnd="@dimen/streak_repair_title_padding" />
+        <com.duolingo.core.ui.DryTextView android:textSize="@dimen/small_font_size" android:gravity="center" android:layout_gravity="center" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/big_margin" android:paddingEnd="@dimen/big_margin" />
+        <com.duolingo.core.ui.DryTextView android:textSize="@dimen/small_font_size" android:textColor="@color/juicySnow" android:gravity="center" android:id="@id/continueButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/streak_repair_button_margin" android:layout_marginBottom="@dimen/streak_repair_dialog_margin_mid" android:text="@string/button_continue" app:buttonColor="@color/green_button_enabled" style="@style/App_ButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/duo_icon_happy" android:layout_width="fill_parent" android:layout_height="@dimen/streak_repair_duo_size_half">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="@dimen/streak_repair_duo_happy_size_half" android:scaleType="fitCenter" app:srcCompat="@drawable/duo_happy_top_half" />
+    </LinearLayout>
+</RelativeLayout>

@@ -8,11 +8,14 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 import numpy as np
+import sys
+
+args = sys.argv
 
 idList = ['@android:id', '@a:id']
-packageName = 'com.textra'
+packageName = args[1]
 # read res xml files
-xmlDir = os.path.join(os.pardir, 'data', 'packages', 'textra/res/layout/*.xml')
+xmlDir = os.path.join(os.pardir, 'data', 'packages', '{}/res/layout/*.xml'.format(packageName))
 
 xmlList = glob.glob(xmlDir)
 libs = {}
@@ -32,17 +35,19 @@ for xml in xmlList:
                 # print(key)
                 # check if node is valid to add to libs
                 if key[0] != '@' and key not in notList:
-                    for node in nodes.items():
-                        # print(node)
-                        if node[0] in idList:
-                            if not rex.match(key):
-                                libs[node[1]] = key
+                    if nodes:
+                        for node in nodes.items():
+                            # print(node)
+                            if node[0] in idList:
+                                if not rex.match(key):
+                                    libs[node[1]] = key
                 if key[0] != '@':
-                    for node in nodes.items():
-                    # print(node[1])
-                        if isinstance(node[1], dict):
-                            visited.append([node[0], node[1]])
-
+                    if nodes:
+                        for node in nodes.items():
+                        # print(node[1])
+                            if isinstance(node[1], dict):
+                                visited.append([node[0], node[1]])
+print(libs)
 # read json files through id and match
 addedView = []
 jsonDir = os.path.join(os.pardir, 'data', 'bot_output', '{}/states/*.json'.format(packageName))

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/lesson_activity_horizontal_margin" android:paddingEnd="@dimen/lesson_activity_horizontal_margin" style="@style/App_ButtonFlatNoStyle">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <com.duolingo.core.ui.DryTextView android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ListItemText" />
+        </RelativeLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/user_avatar" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/settings_avatar_size" android:layout_height="@dimen/settings_avatar_size" android:layout_marginTop="5.0dip" app:srcCompat="@drawable/avatar_none" />
+            <com.duolingo.core.ui.DryTextView android:textColor="@color/new_gray" android:id="@id/preference_edit_field" android:paddingTop="@dimen/medium_margin" android:paddingBottom="@dimen/medium_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.core.ui.DryTextView android:textColor="@color/new_gray_light" android:id="@id/preference_optional_text_field" android:paddingBottom="@dimen/medium_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

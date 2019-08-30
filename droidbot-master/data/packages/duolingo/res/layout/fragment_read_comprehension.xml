@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/lessonScroll" android:paddingTop="2.0dip" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/lessonContent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1" style="@style/H1" />
+            <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/passageContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1" />
+            <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/questionContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1" />
+            <com.duolingo.session.challenges.FormOptionsScrollView android:id="@id/optionsContainer" android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/scrollLine" android:background="@color/juicySwan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginStart="@dimen/juicyLengthNegative1" android:layout_marginEnd="@dimen/juicyLengthNegative1" />
+</FrameLayout>

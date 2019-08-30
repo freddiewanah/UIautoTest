@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:gravity="start" android:id="@id/xpGoalOptionTitle" android:layout_width="wrap_content" android:maxLines="1" style="@style/H2" />
+    <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicyWolf" android:id="@id/xpGoalOptionText" android:layout_width="0.0dip" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewEnd" android:layout_marginStart="@dimen/juicyLength1" style="@style/Caption2" />
+</merge>

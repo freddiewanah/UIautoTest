@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.PointingCardView android:padding="0.0dip" android:minWidth="@dimen/juicyLength3" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/PointingCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

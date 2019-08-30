@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.CardView android:id="@id/explanationAudioCard" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toStartOf="@id/guideline_40" app:layout_constraintStart_toStartOf="parent" style="@style/SolidClickableCard">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.duolingo.explanations.ExplanationAudioSampleTextView android:textColor="@color/juicySnow" android:gravity="center" android:id="@id/explanationAudioSampleText" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" app:autoSizeTextType="uniform" />
+            <androidx.appcompat.widget.AppCompatImageView android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/juicyLength1AndHalf" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/speaker_white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.duolingo.core.ui.CardView>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_40" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.4" />
+    <com.duolingo.explanations.ExplanationTextView android:id="@id/explanationAudioSampleDescriptionText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/large_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/guideline_40" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

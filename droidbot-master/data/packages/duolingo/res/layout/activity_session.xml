@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.DuoFrameLayout android:id="@id/sessionRoot" android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DuoRelativeLayout android:gravity="center" android:layout_gravity="center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/pageSlideMask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.duolingo.core.ui.DuoFrameLayout android:id="@id/challengeContainer" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/challengePadding" android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength1" />
+            <FrameLayout android:paddingTop="@dimen/juicyLength1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lessonRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1" app:layout_constraintBottom_toTopOf="@id/buttonsContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <View android:id="@id/headerPlaceholder" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength3" android:layout_marginBottom="@dimen/juicyLengthNegative1" />
+                        <include layout="@layout/challenge_container" />
+                    </LinearLayout>
+                    <com.duolingo.session.grading.GradedView android:id="@id/gradedView" android:paddingBottom="@dimen/juicyLength6" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                    <FrameLayout android:id="@id/buttonsContainer" android:paddingBottom="@dimen/juicyLength1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                        <LinearLayout android:id="@id/submitAndSkipContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.duolingo.core.ui.JuicyButton android:textColor="@color/juicyHare" android:id="@id/skipButton" android:visibility="gone" android:layout_width="wrap_content" android:text="@string/button_skip" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/juicyLength1" style="@style/OutlineButton" />
+                            <com.duolingo.core.ui.JuicyButton android:id="@id/submitButton" android:layout_width="0.0dip" android:text="@string/button_submit" android:layout_weight="1.0" style="@style/SolidGreenButton" />
+                            <com.duolingo.core.ui.JuicyButton android:id="@id/scrollButton" android:visibility="gone" android:layout_width="0.0dip" android:text="@string/action_next_caps" android:layout_weight="1.0" android:drawableStart="@drawable/arrow_down" style="@style/SolidButton" />
+                        </LinearLayout>
+                        <com.duolingo.core.ui.JuicyButton android:id="@id/continueButtonGreen" android:visibility="gone" android:text="@string/button_continue" style="@style/SolidGreenButton" />
+                        <com.duolingo.core.ui.JuicyButton android:id="@id/continueButtonRed" android:visibility="gone" android:text="@string/button_continue" style="@style/SolidRedButton" />
+                    </FrameLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/headerContainer" android:background="@color/juicySnow" android:paddingBottom="@dimen/juicyLength1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLengthNegative1" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/quitButton" android:layout_width="@dimen/juicyLength2" android:layout_height="@dimen/juicyLength2" app:srcCompat="@drawable/close" />
+                    <com.duolingo.session.LessonProgressBarView android:layout_gravity="center_vertical" android:id="@id/progress" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="@dimen/juicyLength1" android:layout_weight="1.0" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" />
+                    <FrameLayout android:id="@id/healthIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/quitButton">
+                        <com.duolingo.health.HealthSegmentsView android:id="@id/healthSegments" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" app:layout_constraintBottom_toBottomOf="@id/quitButton" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/quitButton" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/healthHeart" android:padding="8.0dip" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/health_heart" app:layout_constraintBottom_toBottomOf="@id/healthSegments" app:layout_constraintEnd_toEndOf="@id/healthSegments" app:layout_constraintStart_toStartOf="@id/healthSegments" app:layout_constraintTop_toTopOf="@id/healthSegments" />
+                        <androidx.appcompat.widget.AppCompatImageView android:id="@id/healthShield" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" app:layout_constraintBottom_toBottomOf="@id/quitButton" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/quitButton" app:srcCompat="@drawable/health_shield_plus" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </com.duolingo.core.ui.DuoFrameLayout>
+        <FrameLayout android:id="@id/fullscreenFragmentContainer" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/LessonFrame" />
+        <com.duolingo.loadingmessages.LoadingMessageView android:id="@id/loadingMessageView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.duolingo.home.SpotlightBackdropView android:id="@id/spotlightBackdrop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/healthInfo" android:background="@color/juicySnow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.duolingo.core.ui.JuicyTextView android:gravity="center_horizontal" android:id="@id/healthInfoTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/juicyLength1" style="@style/H1" />
+            <com.duolingo.core.ui.JuicyTextView android:gravity="center_horizontal" android:id="@id/healthInfoText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/juicyLength1" style="@style/Paragraph" />
+            <com.duolingo.core.ui.JuicyButton android:id="@id/healthInfoAction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/juicyLength1" android:textAllCaps="true" style="@style/SolidBlueButton" />
+        </LinearLayout>
+        <include layout="@layout/layout_mid_lesson_no_health" />
+    </com.duolingo.core.ui.DuoRelativeLayout>
+</com.duolingo.core.ui.DuoFrameLayout>

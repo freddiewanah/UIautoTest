@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s και %2$d ακόμα</item>
+        <item quantity="one">%1$s και %2$d ακόμα</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Ολοκλήρωσε %d ενότητες ενός μαθήματος</item>
+        <item quantity="one">Ολοκλήρωσε %d ενότητα ενός μαθήματος</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Ξόδεψε %d πετράδια</item>
+        <item quantity="one">Ξόδεψε %d πετράδι</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Ολοκλήρωσε %d μαθήματα ή πρακτικές χωρίς κανένα λάθος</item>
+        <item quantity="one">Ολοκλήρωσε %d μάθημα ή πρακτική χωρίς κανένα λάθος</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Ξόδεψε %d λίνγκοτ</item>
+        <item quantity="one">Ξόδεψε %d λίνγκοτ</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Διατήρησε ένα σερί %d ημερών</item>
+        <item quantity="one">Διατήρησε ένα σερί %d ημέρας</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Κέρδισε %d πόντους σε μια μέρα</item>
+        <item quantity="one">Κέρδισες %d πόντο σε μια μέρα</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Αυτό το κέρδισες γιατί ολοκλήρωσες %d ικανότητες του μαθήματος</item>
+        <item quantity="one">Αυτό το κέρδισες γιατί ολοκλήρωσες %d ικανότητα του μαθήματος</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Αυτό το κέρδισες γιατί ξόδεψες %d πετράδια</item>
+        <item quantity="one">Αυτό το κέρδισες γιατί ξόδεψες %d πετράδι</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Αυτό το κέρδισες γιατί ολοκλήρωσες %d μαθήματα ή πρακτικές χωρίς κανένα λάθος</item>
+        <item quantity="one">Αυτό το κέρδισες γιατί ολοκλήρωσες %d μάθημα ή πρακτική χωρίς κανένα λάθος</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Αυτό το κέρδισες γιατί ξόδεψες %d λίνγκοτ</item>
+        <item quantity="one">Αυτό το κέρδισες γιατί ξόδεψες %d λίνγκοτ</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Αυτό το κέρδισες γιατί διατήρησες ένα σερί %d ημερών</item>
+        <item quantity="one">Αυτό το κέρδισες γιατί διατήρησες ένα σερί %d ημέρας</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Αυτό το κέρδισες γιατί πήρες %d πόντους σε μία ημέρα</item>
+        <item quantity="one">Αυτό το κέρδισες γιατί πήρες %d πόντο σε μία ημέρα</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Έχεις τυπογραφικά λάθη στην απάντηση σου.</item>
+        <item quantity="one">Έχεις ένα τυπογραφικό λάθος στην απάντηση σου.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Απόκτησε ακόμα ένα για να προστατεύσεις το σερί των %d ημερών.</item>
+        <item quantity="one">Απόκτησε ακόμα ένα για να προστατεύσεις το σερί σου της %d ημέρας.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Εξετάσου σε %d ενότητες</item>
+        <item quantity="one">Εξετάσου σε %d ενότητα</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d λεπτά την ημέρα</item>
+        <item quantity="one">%d λεπτό την ημέρα</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Διαθέσιμα για λήψη</item>
+        <item quantity="one">Διαθέσιμο για λήψη</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d μέρες σερί</item>
+        <item quantity="one">%d μέρα σερί</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">πριν από %d ημέρες</item>
+        <item quantity="one">πριν από %d ημέρα</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d ημέρες ακόμα</item>
+        <item quantity="one">%d ημέρα ακόμα</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d Σχόλια</item>
+        <item quantity="one">%d Σχόλιο</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d κρυμμένα σχόλια</item>
+        <item quantity="one">%d κρυμμένο σχόλιο</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Κέρδισε άλλους %d βαθμούς ΧΡ για να επιτύχεις τον ημερήσιο στόχο σου</item>
+        <item quantity="one">Κέρδισε άλλο %d βαθμό ΧΡ σήμερα για να επιτύχεις τον ημερήσιο στόχο σου</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d ημέρες</item>
+        <item quantity="one">%1$d ημέρα</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d εβδομάδες</item>
+        <item quantity="one">%1$d εβδομάδα</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Κέρδισες %d πετράδια!</item>
+        <item quantity="one">Κέρδισες ένα πετράδι!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Κέρδισες %d λίνγκοτ!</item>
+        <item quantity="one">Κέρδισες ένα λίνγκοτ!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+        <item quantity="one">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Σήμερα κέρδισες %d πόντους</item>
+        <item quantity="one">Σήμερα κέρδισες %d πόντο</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Διατήρησε το σερί σου για άλλες 7 ημέρες και θα διπλασιάσουμε το στοίχημα των %d πετραδιών.</item>
+        <item quantity="one">Διατήρησε το σερί σου για άλλες 7 ημέρες και θα διπλασιάσουμε το στοίχημα του %d πετραδιού.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Διπλασίασες τα %d πετράδια σου. Θέλεις να βάλεις κι άλλο στοίχημα;</item>
+        <item quantity="one">Διπλασίασες το %d πετράδι σου. Θέλεις να βάλεις κι άλλο στοίχημα;</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Θα πάρεις αυτό το αντικείμενο για %d lingot;</item>
+        <item quantity="one">Θα πάρεις αυτό το αντικείμενο για %d lingot;</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Θες να αποκτήσεις αυτό το αντικείμενο για %d πετράδια;</item>
+        <item quantity="one">Θες να αποκτήσεις αυτό το αντικείμενο για %d πετράδι;</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Σωστές απαντήσεις:</item>
+        <item quantity="one">Σωστή απάντηση:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">πριν από %d ώρες</item>
+        <item quantity="one">πριν από %d ώρα</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Παράλειψη των Επιπέδων %d!</item>
+        <item quantity="one">Παράλειψη του Επιπέδου %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">Οι %1$d κορυφαίοι προχωρούν στο επόμενο επίπεδο.</item>
+        <item quantity="one">Ο κορυφαίος προχωρά στο επόμενο επίπεδο</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Συνεργάσου με τα άτομα στο επίπεδό σου για να κερδίσεις συνολικά %1$s βαθμούς XP και να ανοίξεις αυτό το σεντούκι</item>
+        <item quantity="one">Συνεργάσου με τα άτομα στο επίπεδό σου για να κερδίσεις συνολικά %1$s βαθμό XP και να ανοίξεις αυτό το σεντούκι</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Συνεργάσου για να κερδίσεις τους %1$s βαθμούς XP που απομένουν και να κατακτήσεις τον στόχο της ομάδας.</item>
+        <item quantity="one">Συνεργάσου για να κερδίσεις τον %1$s βαθμό XP που απομένει και να κατακτήσεις το στόχο της ομάδας.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Ο πίνακας κορυφαίων σου κατέκτησε τον στόχο ομάδας των %1$s XP!</item>
+        <item quantity="one">Ο πίνακας κορυφαίων σου κατέκτησε τον στόχο ομάδας του %1$s βαθμού XP!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Κέρδισες %1$d λίνγκοτ!</item>
+        <item quantity="one">Κέρδισες %1$d λίνγκοτ!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Κέρδισες %1$d πετράδια!</item>
+        <item quantity="one">Κέρδισες %1$d πετράδι!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d πόν.</item>
+        <item quantity="one">%1$d πόν.</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Ολοκλήρωσε ακόμα %1$d μαθήματα για να πάρεις μέρος</item>
+        <item quantity="one">Ολοκλήρωσε ακόμα %1$d μάθημα για να πάρεις μέρος</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Κέρδισες %1$d Lingot!</item>
+        <item quantity="one">Κέρδισες %1$d Lingot!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Κέρδισες %1$d πετράδια!</item>
+        <item quantity="one">Κέρδισες %1$d πετράδι!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">ΕΚΚΙΝΗΣΗ ΜΕ +%d XP</item>
+        <item quantity="one">ΕΚΚΙΝΗΣΗ ΜΕ +%d XP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Επίπεδο %1$s</item>
+        <item quantity="one">Επίπεδο %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Επίπεδο %1$s της ενότητας %2$s</item>
+        <item quantity="one">Επίπεδο %1$s της ενότητας %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">πριν από %d λεπτά</item>
+        <item quantity="one">πριν από %d λεπτό</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">ΜΗΝΕΣ</item>
+        <item quantity="one">ΜΗΝΑΣ</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">Στις %1$s θα χρεωθείς με %2$s για %3$s μήνες Duolingo Plus.</item>
+        <item quantity="one">Στις %1$s θα χρεωθείς με %2$s για έναν μήνα Duolingo Plus.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Επόμενη πληρωμή: στις %1$s θα χρεωθείς με %2$s για %3$s μήνες χρήσης του Duolingo Plus.</item>
+        <item quantity="one">Επόμενη πληρωμή: στις %1$s θα χρεωθείς με %2$s για 1 μήνα χρήσης του Duolingo Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">ΕΞΟΠΛΙΣΟΥ ΓΙΑ %d ΛΙΝΓΚΟΤ</item>
+        <item quantity="one">ΕΞΟΠΛΙΣΟΥ ΓΙΑ %d ΛΙΝΓΚΟΤ</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">Πέρασαν %d μήνες από το τελευταίο σου τεστ</item>
+        <item quantity="one">Πέρασε %d μήνας από το τελευταίο σου τεστ</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Κέρδισες %d εβδομάδες δωρεάν Duolingo Plus!</item>
+        <item quantity="one">Κέρδισες %d εβδομάδα δωρεάν Duolingo Plus!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Προσκάλεσε φίλους σε %1$d} ώρες για να συνεχίσεις με το Plus.</item>
+        <item quantity="one">Προσκάλεσε φίλους σε %1$d} ώρα για να συνεχίσεις με το Plus.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">Ο/Η %1$s και %2$d ακόμη φίλοι έγιναν μέλη χάρη σε εσένα. Απόλαυσε το Plus έως %3$s!</item>
+        <item quantity="one">Ο/Η %1$s και %2$d ακόμα φίλος έγιναν μέλη χάρη σε εσένα. Απόλαυσε το Plus έως %3$s!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">%1$d φίλοι έγιναν μέλη χάρη σε εσένα. Απόλαυσε το Plus έως %2$s!</item>
+        <item quantity="one">%1$d φίλος έγινε μέλος χάρη σε εσένα. Απόλαυσε το Plus έως %2$s!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Ολοκλήρωσες το Σημείο ελέγχου %d!</item>
+        <item quantity="one">Ολοκλήρωσες το Σημείο ελέγχου %d!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Συγχαρητήρια που χρησιμοποίησες το Duolingo για %d ημέρες στη σειρά</item>
+        <item quantity="one">Συγχαρητήρια για την πρώτη σου γνωριμία με το Duolingo</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">Σερί %d ημερών!</item>
+        <item quantity="one">Σερί %d ημέρας</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">Σερί %d ημερών!</item>
+        <item quantity="one">Σερί %d ημέρας!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">Σερί %d ημερών!</item>
+        <item quantity="one">Σερί %d ημέρας!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d θέσεις κενές</item>
+        <item quantity="one">%d θέση κενή</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Πέρασαν %1$d ημέρες!</item>
+        <item quantity="one">Πέρασε %1$d ημέρα!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Πέρασαν %1$d εβδομάδες!</item>
+        <item quantity="one">Πέρασε %1$d εβδομάδα!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Προστάτευσες χθες το σερί σου %d ημερών.</item>
+        <item quantity="one">Προστάτευσες χθες το σερί σου %d ημέρας.</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">ημέρες</item>
+        <item quantity="one">ημέρα</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">Το σερί %d ημερών χάθηκε!</item>
+        <item quantity="one">Το σερί %d ημέρας χάθηκε!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Έχεις κάνει σερί %d ημερών!</item>
+        <item quantity="one">Έχεις κάνει σερί %d ημέρας!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">Το σερί %d ημερών αποκαταστάθηκε!</item>
+        <item quantity="one">Το σερί %d ημέρας αποκαταστάθηκε!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Διπλασίασες τα %d λίνγκοτ σου. Θέλεις να βάλεις άλλο στοίχημα;</item>
+        <item quantity="one">Διπλασίασες το %d λίνγκοτ σου. Θέλεις να βάλεις άλλο στοίχημα;</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">ΣΤΟΙΧΗΜΑ %d ΠΕΤΡΑΔΙΑ</item>
+        <item quantity="one">ΣΤΟΙΧΗΜΑ %d ΠΕΤΡΑΔΙ</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Διάλεξε τους σωστούς χαρακτήρες για το «%s»&lt;/b></item>
+        <item quantity="one">&lt;b>Διάλεξε τον σωστό χαρακτήρα για το «%s»&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d μαθήματα για %2$s</item>
+        <item quantity="one">%1$d μάθημα για %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d βαθμοί XP</item>
+        <item quantity="one">+%d βαθμός XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">"Είσαι σ' ένα σερί %d ημερών!"</item>
+        <item quantity="one">"Είσαι σ' ένα σερί %d ημέρας!"</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">Απέχεις %d πόντους από το να πετύχεις τον ημερήσιο στόχο σου</item>
+        <item quantity="one">Απέχεις %d πόντο από το να πετύχεις τον ημερήσιο στόχο σου</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Βρήκες %d πετράδια!</item>
+        <item quantity="one">Βρήκες ένα πετράδι!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Βρήκες %d λίνγκοτ!</item>
+        <item quantity="one">Βρήκες ένα λίνγκοτ!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">"'Εχεις %d πετράδια για να αγοράσεις αντικείμενα στο κατάστημα!"</item>
+        <item quantity="one">Έχεις %d πετράδι για να αγοράσεις αντικείμενα στο κατάστημα!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Έχεις %d lingots για να αγοράσεις αντικείμενα στο κατάστημα!</item>
+        <item quantity="one">Έχεις %d lingot για να αγοράσεις αντικείμενα στο κατάστημα!</item>
+    </plurals>
+</resources>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s et %2$d autres</item>
+        <item quantity="one">%1$s et %2$d autre</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">"Termine %d unités d'un cours"</item>
+        <item quantity="one">"Termine %d unité d'un cours"</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Dépenser %d gemmes</item>
+        <item quantity="one">Dépenser %d gemme</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Termine %d leçons ou entraînements sans faute</item>
+        <item quantity="one">Termine %d leçon ou entraînement sans faute</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Dépense %d lingots</item>
+        <item quantity="one">Dépense %d lingot</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Conserve une série de %d jours</item>
+        <item quantity="one">Conserve une série de %d jour</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Gagne %d XP en un jour</item>
+        <item quantity="one">Gagne %d XP en un jour</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">"Tu as gagné ceci pour avoir terminé %d unités d'un cours"</item>
+        <item quantity="one">"Tu as gagné ceci pour avoir terminé %d unité d'un cours"</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Tu as gagné ceci pour avoir dépensé %d gemmes</item>
+        <item quantity="one">Tu as gagné ceci pour avoir dépensé %d gemme</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">"Tu as gagné ceci pour avoir terminé %d leçons ou sessions d'entraînement sans faire une seule faute"</item>
+        <item quantity="one">"Tu as gagné ceci pour avoir terminé %d leçon ou session d'entraînement sans faire une seule faute"</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Tu as gagné ceci pour avoir dépensé %d lingots</item>
+        <item quantity="one">Tu as gagné ceci pour avoir dépensé %d lingot</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Tu as gagné ceci pour avoir maintenu une série de %d jours</item>
+        <item quantity="one">Tu as gagné ceci pour avoir maintenu une série de %d jour</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Tu as gagné ceci pour avoir obtenu %d XP en un jour</item>
+        <item quantity="one">Tu as gagné ceci pour avoir obtenu %d XP en un jour</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">"Tu as des fautes d'orthographe dans ta réponse."</item>
+        <item quantity="one">"Il y a une faute d'orthographe dans ta réponse."</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Obtenir un autre pour protéger ta série de %d jours.</item>
+        <item quantity="one">Obtenir un autre pour protéger ta série de %d jour.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Passe le test pour %d unités</item>
+        <item quantity="one">Passe le test pour %d unité</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d minutes par jour</item>
+        <item quantity="one">%d minute par jour</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Disponibles pour téléchargement</item>
+        <item quantity="one">Disponible pour téléchargement</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">Série de %d jours</item>
+        <item quantity="one">Série de %d jour</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">il y a %d jours</item>
+        <item quantity="one">il y a %d jour</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d jours restants</item>
+        <item quantity="one">%d jour restant</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d commentaires</item>
+        <item quantity="one">%d commentaire</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d commentaires cachés</item>
+        <item quantity="one">%d commentaire caché</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">"Gagne encore %d XP aujourd'hui pour atteindre ton objectif quotidien"</item>
+        <item quantity="one">"Gagne encore %d XP aujourd'hui pour atteindre ton objectif quotidien"</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d jours</item>
+        <item quantity="one">%1$d jour</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d semaines</item>
+        <item quantity="one">%1$d semaine</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Tu as gagné %d gemmes !</item>
+        <item quantity="one">Tu as gagné une gemme !</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Tu as gagné %d lingots !</item>
+        <item quantity="one">Tu as gagné un lingot !</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+        <item quantity="one">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">"Tu as gagné %d XP aujourd'hui"</item>
+        <item quantity="one">"Tu as gagné %d XP aujourd'hui"</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Conserve ta série pendant 7 jours de plus et nous doublerons ton pari de {{number_1}} gemmes.</item>
+        <item quantity="one">Conserve ta série pendant 7 jours de plus et nous doublerons ton pari de {{number_1}} gemme.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Tu as doublé ton pari de %d gemmes. Tu veux faire un autre pari ?</item>
+        <item quantity="one">Tu as doublé ton pari de %d gemme. Tu veux faire un autre pari ?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Obtenir cet article pour %d lingots ?</item>
+        <item quantity="one">Obtenir cet article pour %d lingot ?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Acquérir cet article pour %d gemmes ?</item>
+        <item quantity="one">Acquérir cet article pour %d gemme ?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Bonne réponses :</item>
+        <item quantity="one">Bonne réponse :</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Il y a %d heures</item>
+        <item quantity="one">Il y a %d heure</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Passe directement au niveau %d !</item>
+        <item quantity="one">Passe directement au niveau %d !</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">Les %1$d premiers rejoignent la division supérieure</item>
+        <item quantity="one">Le premier rejoint la division supérieure</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Gagnez un total de %1$s XP au sein de ta ligue pour déverrouiller ce coffre.</item>
+        <item quantity="one">Gagnez un total de %1$s XP au sein de ta ligue pour déverrouiller ce coffre.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">"Unissez vos forces ! Il manque %1$s XP avant d'atteindre l'objectif commun."</item>
+        <item quantity="one">"Unissez vos forces ! Il manque %1$s XP avant d'atteindre l'objectif commun."</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">"Ta ligue a atteint l'objectif commun de %1$s XP !"</item>
+        <item quantity="one">"Ta ligue a atteint l'objectif commun de %1$s XP !"</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Tu as gagné %1$d lingots !</item>
+        <item quantity="one">Tu as gagné %1$d lingot !</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Tu as gagné %1$d gemmes !</item>
+        <item quantity="one">Tu as gagné %1$d gemme !</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+        <item quantity="one">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Termine %1$d leçons de plus pour pouvoir te lancer dans la compétition</item>
+        <item quantity="one">Termine %1$d leçon de plus pour pouvoir te lancer dans la compétition</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Tu as gagné %1$d lingots !</item>
+        <item quantity="one">Tu as gagné %1$d lingot !</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Tu as gagné %1$d gemmes !</item>
+        <item quantity="one">Tu as gagné %1$d gemme !</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">COMMENCER +%d XP</item>
+        <item quantity="one">COMMENCER +%d XP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Niveau %1$s</item>
+        <item quantity="one">Niveau %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Le Niveau %1$s de %2$s</item>
+        <item quantity="one">Le Niveau %1$s de %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">il y a %d minutes</item>
+        <item quantity="one">il y a %d minute</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">MOIS</item>
+        <item quantity="one">MOIS</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">Le %1$s, tu seras facturé de %2$s pour %3$s mois de Duolingo Plus.</item>
+        <item quantity="one">Le %1$s, tu seras facturé de %2$s pour un mois de Duolingo Plus.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Prochain paiement : le %1$s il te sera facturé %2$s pour %3$s mois de Duolingo Plus.</item>
+        <item quantity="one">Prochain paiement : le %1$s il te sera facturé %2$s pour un mois de Duolingo Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">ACQUÉRIR POUR %d LINGOTS</item>
+        <item quantity="one">ACQUÉRIR POUR %d LINGOT</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">%d mois depuis ton dernier quiz</item>
+        <item quantity="one">%d mois depuis ton dernier quiz</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Tu as gagné %d semaines gratuites de Duolingo Plus !</item>
+        <item quantity="one">Tu as gagné %d semaine gratuite de Duolingo Plus !</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">"Invite plus d'amis dans les %1$d prochaines heures pour continuer à utiliser Plus."</item>
+        <item quantity="one">"Invite plus d'amis dans la prochaine heure pour continuer à utiliser Plus."</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">"%1$s et %2$d autres amis ont rejoint Duolingo grâce à toi. Profite de Plus jusqu'au %3$s !"</item>
+        <item quantity="one">"%1$s et %2$d autre ami ont rejoint Duolingo grâce à toi. Profite de Plus jusqu'au %3$s !"</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">"%1$d amis ont rejoint Duolingo grâce à toi. Profite de Plus jusqu'au %2$s !"</item>
+        <item quantity="one">"%1$d ami a rejoint Duolingo grâce à toi. Profite de Plus jusqu'au %2$s !"</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Tu as franchi le Point de contrôle %d !</item>
+        <item quantity="one">Tu as franchi le Point de contrôle %d !</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">"Félicitations ! Tu utilises Duolingo depuis %d jours d'affilée"</item>
+        <item quantity="one">Félicitations pour ton premier jour sur Duolingo</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">Série de %d jours !</item>
+        <item quantity="one">Série de %d jour !</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">Série de %d jours !</item>
+        <item quantity="one">Série de %d jour !</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">Série de %d jours !</item>
+        <item quantity="one">Série de %d jour !</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d emplacements disponibles</item>
+        <item quantity="one">%d emplacement disponible</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Déjà %1$d jours !</item>
+        <item quantity="one">Déjà %1$d jour !</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Déjà %1$d semaines !</item>
+        <item quantity="one">Déjà %1$d semaine !</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Hier, tu as protégé ta série de %d jours</item>
+        <item quantity="one">Hier, tu as protégé ta série de %d jour</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">jours</item>
+        <item quantity="one">jour</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">Série de %d jours rompue !</item>
+        <item quantity="one">Série de %d jour rompue !</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Tu as une série de %d jours !</item>
+        <item quantity="one">Tu as une série de %d jour !</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">Série de %d jours réparée !</item>
+        <item quantity="one">Série de %d jour réparée !</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Tu as doublé tes %d lingots. Tu veux faire un autre pari ?</item>
+        <item quantity="one">Tu as doublé ton %d lingot. Tu veux faire un autre pari ?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">PARI DE %d GEMMES</item>
+        <item quantity="one">PARI DE %d GEMME</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Choisis les bons caractères pour « %s »&lt;/b></item>
+        <item quantity="one">&lt;b>Choisis le bon caractère pour « %s »&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d leçons pour %2$s</item>
+        <item quantity="one">%1$d leçon pour %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d XP</item>
+        <item quantity="one">+%d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">Tu as une série de %d jours !</item>
+        <item quantity="one">Tu as une série de %d jour !</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">"%d XP avant d'atteindre ton objectif quotidien"</item>
+        <item quantity="one">"%d XP avant d'atteindre ton objectif quotidien"</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Tu as trouvé %d gemmes !</item>
+        <item quantity="one">Tu as trouvé une gemme !</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Tu as trouvé %d lingots !</item>
+        <item quantity="one">Tu as trouvé un lingot !</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Tu as %d gemmes pour acheter des articles dans la boutique !</item>
+        <item quantity="one">Tu as %d gemme pour acheter des articles dans la boutique !</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Tu as %d lingots pour acheter des articles dans la boutique !</item>
+        <item quantity="one">Tu as %d lingot pour acheter des articles dans la boutique !</item>
+    </plurals>
+</resources>

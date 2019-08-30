@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_105410",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          88,
+          950
+        ],
+        [
+          474,
+          1012
+        ]
+      ],
+      "resource_id": "com.duolingo:id/imageText",
+      "checked": false,
+      "text": "el ni\u00f1o",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 20,
+      "size": "386*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/imageText[text]el ni\u00f1o[enabled,,]",
+      "view_str": "43a4b31cfce6f11e5f51f4e340d87f2c"
+    }
+  },
+  "start_state": "aa485f32e5419d7308bcd1e6a2955a04",
+  "stop_state": "aa485f32e5419d7308bcd1e6a2955a04",
+  "event_str": "TouchEvent(state=aa485f32e5419d7308bcd1e6a2955a04, view=43a4b31cfce6f11e5f51f4e340d87f2c)"
+}

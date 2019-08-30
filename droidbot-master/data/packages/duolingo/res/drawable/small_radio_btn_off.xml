@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/small_pick_btn_margin">
+        <shape android:shape="ring" android:useLevel="false" android:thickness="@dimen/radio_btn_outer_ring_thickness">
+            <solid android:color="@color/select_radio_off" />
+            <size android:height="@dimen/small_radio_btn_size" android:width="@dimen/small_radio_btn_size" />
+        </shape>
+    </item>
+</layer-list>

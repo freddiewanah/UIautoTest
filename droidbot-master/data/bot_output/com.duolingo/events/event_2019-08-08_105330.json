@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_105330",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          242
+        ],
+        [
+          1036,
+          323
+        ]
+      ],
+      "resource_id": "com.duolingo:id/welcomeForkTitle",
+      "checked": false,
+      "text": "\u9009\u62e9\u5b66\u4e60\u65b9\u5f0f",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "992*81",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/welcomeForkTitle[text]\u9009\u62e9\u5b66\u4e60\u65b9\u5f0f[enabled,,]",
+      "view_str": "58e832966cde07b004a90dc31cf3df7e"
+    }
+  },
+  "start_state": "c307d365c8a25acef70b681fb2e0cddc",
+  "stop_state": "c307d365c8a25acef70b681fb2e0cddc",
+  "event_str": "TouchEvent(state=c307d365c8a25acef70b681fb2e0cddc, view=58e832966cde07b004a90dc31cf3df7e)"
+}

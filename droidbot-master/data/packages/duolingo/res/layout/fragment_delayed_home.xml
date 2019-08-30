@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/juicyLength1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/message" style="@style/Paragraph" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/create_profile" android:layout_marginTop="@dimen/juicyLength2" android:text="@string/create_profile_button" style="@style/SolidButton" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/sign_in" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/action_sign_in" style="@style/OutlineButton" />
+</LinearLayout>

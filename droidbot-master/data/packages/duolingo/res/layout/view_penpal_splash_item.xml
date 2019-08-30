@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/penpalSplashItemIcon" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginTop="@dimen/juicyLength1" android:adjustViewBounds="true" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" />
+    <com.duolingo.core.ui.JuicyTextView android:layout_gravity="center" android:id="@id/penpalSplashItemTitle" android:layout_width="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/penpal_name" android:drawablePadding="@dimen/juicyLengthHalf" android:drawableEnd="@drawable/plus_badge_juicy" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/H1" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/penpalSplashItemMessage" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Paragraph" />
+</merge>

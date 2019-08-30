@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragmentContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/welcomeActionBar" />
+    <com.duolingo.core.ui.ActionBarView android:id="@id/welcomeActionBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/loginStatusBackground" android:background="@color/black25" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/elevationWelcomeActionBar" />
+    <ProgressBar android:id="@id/loginStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/elevationWelcomeLoginStatus" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyleLarge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

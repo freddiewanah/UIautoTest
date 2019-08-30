@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/czv_label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThreeDS2TextInputStyle">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/czv_text_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

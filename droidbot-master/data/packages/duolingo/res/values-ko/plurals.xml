@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s 및 기타 %2$d</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">과정의 스킬을 %d개를 완료하세요</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">%d개 보석 사용</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">틀린 내용 없이 %d 레슨이나 연습을 진행하세요.</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">%d개의 링곳을 사용합니다.</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">%d-일 연속 학습을 유지하세요.</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">하루에 %d XP를 획득하세요.</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">과정의 %d 단계를 완료하여 이를 획득했습니다.</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">%d개의 보석을 사용하여 이를 획득하셨습니다.</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">틀린 내용 없이 %d개의 레슨이나 연습을 완료하여 이를 획득했습니다.</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">%d개의 링곳을 사용하여 이를 획득하셨습니다.</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">%d일 동안 연속 학습을 유지하여 이를 획득했습니다.</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">하루 만에 %dXP에 도달하여 이를 획득했습니다.</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">답에 오타가 있네요.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">%d일 연속 학습 상태를 보호하려면 하나 더 얻으세요.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">%d개 역량 테스트</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">하루에 %d분</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">다운로드 가능</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d일째</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d일 전</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d일 남았습니다</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d 댓글</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d 숨겨진 댓글</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">%d XP를 추가로 더 획득하여 오늘의 일일 목표에 달성하세요.</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d 일</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d 주</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">%d개 보석을 획득하셨습니다!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">%d 링곳을 획득하셨습니다!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">오늘 %d XP를 획득하셨습니다.</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">7일 이상 연속 참여를 유지하시면 회원님의 %d보석 내기를 두 배로 드리겠습니다.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">회원님의 %d보석이 두 배가 되었습니다. 또 다른 내기를 하시겠습니까?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">%d 링곳으로 이 아이템을 구매하시겠어요?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">%d개의 보석으로 이 아이템을 획득하시겠습니까?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">정답:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d시간 전</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">%d 레벨로 건너뛰기</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">상위 %1$d등은 다음 리그로 진출합니다</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">이 상자의 잠금을 해제하려면 리그에서 팀을 만들어 총 %1$sXP를 획득하세요.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">멤버들이랑 함께 힘을 합쳐 남은 %1$sXP를 획득해 그룹 목표를달성하세요!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">리더보드에서 그룹 목표인 %1$sXP에 도달했습니다!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">%1$d개의 링곳을 획득하셨습니다!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">%1$d개 보석을 획득하셨습니다!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">%1$d개 이상의 레슨을 완료하여 경쟁을 시작하세요</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">%1$d개의 링곳을 획득하셨습니다!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">%1$d개 보석을 획득하셨습니다!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">시작 +%d XP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">레벨 %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">%2$s 레벨 %1$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%dMB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">개월</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">%1$s에 듀오링고 플러스 한 개월 구독료 %2$s(이)가 청구됩니다. %1$s에 듀오링고 플러스 %3$s개월 구독료 %2$s(이)가 청구됩니다.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">다음 결제: %1$s에 %3$s개월 듀오링고 플러스 이용료인 %2$s이/가 청구됩니다.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">%d 링곳에 맞게 준비</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">마지막으로 퀴즈를 푼 지 %d달이 지났습니다</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">듀오링고 플러스 %d주 무료 이용권을 얻었습니다.</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">%1$d시간 동안 더 많은 친구를 초대하여 플러스를 계속 이용하세요.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">초대로 %1$s님 외 %2$d명의 친구가 가입했습니다. %3$s까지 플러스를 즐기세요!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">초대로 %1$d명의 친구가 가입했습니다. %2$s까지 플러스를 즐기세요.</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">%d 체크포인트를 완료했습니다!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">%d일 연속으로 듀오링고로 학습하신 걸 축하드려요.</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d일 연속 학습!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d일 연속 학습</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d일 연속 학습!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d 슬롯 열기</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">%1$d일이 지났어요!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">%1$d주가 지났어요!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">어제 %d일 연속 학습을 보호했습니다.</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">일</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">%d일 연속 학습을 잃었습니다!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">회원님은 %d째 연속 학습 중입니다!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">%d일 연속 학습 기록이 복구되었습니다!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">회원님의 %d 링곳이 두 배가 되었습니다. 또 다른 내기를 하시겠습니까?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">%d 보석 내기</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>\"%s\"에 대한 올바른 문자 선택&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%2$s당 레슨 %1$d개</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">%d일째 연속 학습 중입니다!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">일일 목표를 달성하기까지 %dXP가 남았습니다.</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">%d개의 보석을 찾았습니다!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">1링곳을 획득했습니다! %d링곳을 획득했습니다!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">보석이 %d개가 있어 상점에서 아이템을 살 수 있습니다.</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">링곳 %d개가 있어 상점에서 아이템을 살 수 있습니다!</item>
+    </plurals>
+</resources>

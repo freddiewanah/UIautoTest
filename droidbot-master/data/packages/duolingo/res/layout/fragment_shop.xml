@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/shopContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.duolingo.shop.ShopPlusOfferView android:id="@id/premiumOfferView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.shop.ShopSectionView android:id="@id/limitedTimeOffersSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.shop.ShopSectionView android:id="@id/tutorsSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.shop.ShopSectionView android:id="@id/specialOffersSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.shop.ShopSectionView android:id="@id/powerUpsSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.shop.ShopSectionView android:id="@id/outfitsSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.duolingo.shop.ShopSectionView android:id="@id/bonusSkillsSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/progressContainer" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</FrameLayout>

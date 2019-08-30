@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_103942",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          150,
+          1286
+        ],
+        [
+          333,
+          1348
+        ]
+      ],
+      "resource_id": "com.duolingo:id/optionText",
+      "checked": false,
+      "text": "persona",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "183*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/optionText[text]persona[enabled,,]",
+      "view_str": "54bdc76cbefa16b5b574dd3ad85e367d"
+    }
+  },
+  "start_state": "9b9c80b74b58554281cf8069c11799c8",
+  "stop_state": "12c8e17ea3f73cf47e13d292ba1423e8",
+  "event_str": "TouchEvent(state=9b9c80b74b58554281cf8069c11799c8, view=54bdc76cbefa16b5b574dd3ad85e367d)"
+}

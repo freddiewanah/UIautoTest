@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:horizontalPadding="@fraction/activity_horizontal_padding_percent" app:pushPadding="true">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/comment_list" android:background="@color/new_gray_lightest" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/juicyTransparent" />
+    </com.duolingo.core.ui.PercentFrameLayout>
+    <View android:id="@id/reply_divider" android:background="@color/new_gray_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <include android:id="@id/post_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_reply_item" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:dither="true" android:shape="rectangle">
+            <corners android:radius="@dimen/select_button_corner_radius" />
+            <solid android:color="@color/blue75" />
+            <stroke android:width="2.0dip" android:color="@color/blue_button_enabled" />
+        </shape>
+    </item>
+</layer-list>

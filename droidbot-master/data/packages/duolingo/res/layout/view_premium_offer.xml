@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/text_container" android:background="@drawable/shop_premium_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/juicyLength2" android:paddingBottom="@dimen/juicyLength2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLengthHalf" android:layout_weight="13.0" android:paddingStart="@dimen/juicyLength1AndHalf">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength2" android:layout_marginBottom="@dimen/juicyLengthHalf" android:scaleType="fitStart" app:srcCompat="@drawable/duolingo_plus_logo" />
+        <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicySnow" android:id="@id/message" android:layout_marginBottom="@dimen/juicyLength1" android:text="@string/premium_offer_message" android:lineSpacingMultiplier="1.3" style="@style/Caption2" />
+        <com.duolingo.core.ui.JuicyButton android:layout_gravity="start" android:id="@id/learnMore" android:layout_width="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:minHeight="@dimen/juicyLength3" style="@style/SolidWhiteButton" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:paddingTop="@dimen/juicyLength2" android:paddingBottom="@dimen/juicyLength1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0" android:paddingEnd="@dimen/juicyLengthHalf" app:srcCompat="@drawable/duo_plus_shop_with_stars" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.session.challenges.LessonLinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_name" android:maxLines="1" app:autoSizeTextType="uniform" style="@style/H1" />
+    <View android:id="@id/titleSpacer" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength1" />
+    <com.duolingo.core.ui.DuoSvgImageView android:id="@id/imageSvg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" app:iconScale="0.8" />
+    <View android:id="@id/articlesSpacer" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength1" />
+    <com.duolingo.session.challenges.FlexibleTableLayout android:id="@id/articlesContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalSpacing="5.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength1" />
+    <com.duolingo.core.ui.JuicyEditText android:id="@id/wordInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:imeOptions="flagNoExtractUi" android:imeActionLabel="@string/button_submit" style="@style/CredentialInput" />
+    <View android:id="@id/submitSpacer" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength4" />
+</com.duolingo.session.challenges.LessonLinearLayout>

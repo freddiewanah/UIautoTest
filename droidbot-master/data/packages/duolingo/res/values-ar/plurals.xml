@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s و %2$d آخرين</item>
+        <item quantity="zero">%1$s و %2$d آخر</item>
+        <item quantity="one">%1$s و %2$d آخر</item>
+        <item quantity="two">%1$s و %2$d آخران</item>
+        <item quantity="few">%1$s و %2$d آخر</item>
+        <item quantity="many">%1$s و %2$d آخرين</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">أكمل %d مهارات من منهج</item>
+        <item quantity="zero">أكمل %d مهارات من منهج</item>
+        <item quantity="one">أكمل %d مهارات من منهج</item>
+        <item quantity="two">أكمل مهارتين من منهج</item>
+        <item quantity="few">أكمل %d مهارات من منهج</item>
+        <item quantity="many">أكمل %d مهارة من منهج</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">أنفق %d جواهر</item>
+        <item quantity="zero">أنفق %d جوهرة</item>
+        <item quantity="one">أنفق %d جوهرة</item>
+        <item quantity="two">أنفق %d جوهرة</item>
+        <item quantity="few">أنفق %d جواهر</item>
+        <item quantity="many">أنفق %d جوهرة</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">أكمل %d درس أو تمرين دون الإخطاء في شيء</item>
+        <item quantity="zero">أكمل %d درس أو تمرين دون الإخطاء في شيء</item>
+        <item quantity="one">أكمل %d درس أو تمرين دون الإخطاء في شيء</item>
+        <item quantity="two">أكمل درسين أو تمرينين دون الإخطاء في شيء</item>
+        <item quantity="few">أكمل %d درس أو تمرين دون الإخطاء في شيء</item>
+        <item quantity="many">أكمل %d درس أو تمرين دون الإخطاء في شيء</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">أنفق %d لينجوت</item>
+        <item quantity="zero">أنفق %d لينجوت</item>
+        <item quantity="one">أنفق %d لينجوت</item>
+        <item quantity="two">أنفق لينجوتين</item>
+        <item quantity="few">أنفق %d لينجوت</item>
+        <item quantity="many">أنفق %d لينجوت</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">احتفظ بـ %d أيام حماسة</item>
+        <item quantity="zero">احتفظ بـ %d أيام حماسة</item>
+        <item quantity="one">احتفظ بـ %d أيام حماسة</item>
+        <item quantity="two">احتفظ بيومين حماسة</item>
+        <item quantity="few">احتفظ بـ %d أيام حماسة</item>
+        <item quantity="many">احتفظ بـ %d يوم حماسة</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">احصل على %d XP في نفس اليوم</item>
+        <item quantity="zero">احصل على %d XP في نفس اليوم</item>
+        <item quantity="one">احصل على %d XP في نفس اليوم</item>
+        <item quantity="two">احصل على %d XP في نفس اليوم</item>
+        <item quantity="few">احصل على %d XP في نفس اليوم</item>
+        <item quantity="many">احصل على %d XP في نفس اليوم</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">لقد حصلت على هذا لإتمامك %d مهارة في منهج</item>
+        <item quantity="zero">لقد حصلت على هذا لإتمامك %d مهارة في منهج</item>
+        <item quantity="one">لقد حصلت على هذا لإتمامك مهارة واحدة في منهج</item>
+        <item quantity="two">لقد حصلت على هذا لإتمامك %d مهارة في منهج</item>
+        <item quantity="few">لقد حصلت على هذا لإتمامك %d مهارات في منهج</item>
+        <item quantity="many">لقد حصلت على هذا لإتمامك %d مهارة في منهج</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">لقد حصلت على هذا لإنفاقك %d جوهرة</item>
+        <item quantity="zero">لقد حصلت على هذا لإنفاقك %d جوهرة</item>
+        <item quantity="one">لقد حصلت على هذا لإنفاقك جوهرة واحدة</item>
+        <item quantity="two">لقد حصلت على هذا لإنفاقك جوهرتين</item>
+        <item quantity="few">لقد حصلت على هذا لإنفاقك %d جواهر</item>
+        <item quantity="many">لقد حصلت على هذا لإنفاقك %d جوهرة</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">لقد حصلت على هذا لإتمامك %d درس أو تدريب دون أي أخطاء</item>
+        <item quantity="zero">لقد حصلت على هذا لإتمامك %d درس أو تدريب دون أي أخطاء</item>
+        <item quantity="one">لقد حصلت على هذا لإتمامك درسًا أو تدريبًا واحدًا دون أي أخطاء</item>
+        <item quantity="two">لقد حصلت على هذا لإتمامك %d درس أو تدريب دون أي أخطاء</item>
+        <item quantity="few">لقد حصلت على هذا لإتمامك %d دروس أو تدريبات دون أي أخطاء</item>
+        <item quantity="many">لقد حصلت على هذا لإتمامك %d درسًا أو تدريبًا دون أي أخطاء</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">لقد حصلت على هذا لإنفاقك %d لينجوت</item>
+        <item quantity="zero">لقد حصلت على هذا لإنفاقك %d لينجوت</item>
+        <item quantity="one">لقد حصلت على هذا لإنفاقك %d لينجوت</item>
+        <item quantity="two">لقد حصلت على هذا لإنفاقك %d لينجوت</item>
+        <item quantity="few">لقد حصلت على هذا لإنفاقك %d لينجوت</item>
+        <item quantity="many">لقد حصلت على هذا لإنفاقك %d لينجوت</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">لقد حصلت على هذا لحفاظك على حماستك لمدة %d يوم</item>
+        <item quantity="zero">لقد حصلت على هذا لحفاظك على حماستك لمدة %d يوم</item>
+        <item quantity="one">لقد حصلت على هذا لحفاظك على حماستك لمدة يوم واحد</item>
+        <item quantity="two">لقد حصلت على هذا لحفاظك على حماستك لمدة %d يوم</item>
+        <item quantity="few">لقد حصلت على هذا لحفاظك على حماستك لمدة %d أيام</item>
+        <item quantity="many">لقد حصلت على هذا لحفاظك على حماستك لمدة %d يومًا</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">لقد حصلت على هذا لحصولك على %d XP في يوم واحد</item>
+        <item quantity="zero">لقد حصلت على هذا لحصولك على %d XP في يوم واحد</item>
+        <item quantity="one">لقد حصلت على هذا لحصولك على %d XP في يوم واحد</item>
+        <item quantity="two">لقد حصلت على هذا لحصولك على %d XP في يوم واحد</item>
+        <item quantity="few">لقد حصلت على هذا لحصولك على %d XP في يوم واحد</item>
+        <item quantity="many">لقد حصلت على هذا لحصولك على %d XP في يوم واحد</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">لديك أخطاء في إجابتك.</item>
+        <item quantity="zero">ليس لديك أي خطأ في إجابتك.</item>
+        <item quantity="one">لديك خطأ في إجابتك.</item>
+        <item quantity="two">لديك خطآن في إجابتك.</item>
+        <item quantity="few">لديك أخطاء في إجابتك.</item>
+        <item quantity="many">لديك أخطاء في إجابتك.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">احصل على واحدة أخرى للحفاظ على أيام حماستك الـ%d .</item>
+        <item quantity="zero">احصل على واحدة أخرى للحفاظ على أيام حماستك الـ%d .</item>
+        <item quantity="one">احصل على واحدة أخرى للحفاظ على أيام حماستك الـ%d .</item>
+        <item quantity="two">احصل على واحدة أخرى للحفاظ على يومي حماستك .</item>
+        <item quantity="few">احصل على واحدة أخرى للحفاظ على أيام حماستك الـ%d .</item>
+        <item quantity="many">احصل على واحدة أخرى للحفاظ على أيام حماستك الـ%d .</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">تخطَّ %d مهارة باختبار</item>
+        <item quantity="zero">تخطَّ %d مهارة باختبار</item>
+        <item quantity="one">تخطَّ مهارة واحدة باختبار</item>
+        <item quantity="two">تخطَّ مهارتين باختبار</item>
+        <item quantity="few">تخطَّ %d مهارات باختبار</item>
+        <item quantity="many">تخطَّ %d مهارة باختبار</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d دقيقة يومياً</item>
+        <item quantity="zero">%d دقيقة يومياً</item>
+        <item quantity="one">دقيقة يومياً</item>
+        <item quantity="two">دقيقتان يومياً</item>
+        <item quantity="few">%d دقائق يومياً</item>
+        <item quantity="many">%d دقيقة يومياً</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">متاح للتنزيل</item>
+        <item quantity="zero">متاح للتنزيل</item>
+        <item quantity="one">متاح للتنزيل</item>
+        <item quantity="two">متاحة للتنزيل</item>
+        <item quantity="few">متاحة للتنزيل</item>
+        <item quantity="many">متاحة للتنزيل</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d يوم حماسة</item>
+        <item quantity="zero">%d يوم حماسة</item>
+        <item quantity="one">يوم حماسة</item>
+        <item quantity="two">يوما حماسة</item>
+        <item quantity="few">%d أيام حماسة</item>
+        <item quantity="many">%d يوم حماسة</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">منذ %d يوم</item>
+        <item quantity="zero">منذ %d يوم</item>
+        <item quantity="one">منذ يوم واحد</item>
+        <item quantity="two">منذ يومين</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يومًا</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d يوم متبقٍ</item>
+        <item quantity="zero">%d يوم متبقٍ</item>
+        <item quantity="one">يوم واحد متبقٍ</item>
+        <item quantity="two">يومان متبقيان</item>
+        <item quantity="few">%d أيام متبقية</item>
+        <item quantity="many">%d يومًا متبقيًا</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d تعليقات</item>
+        <item quantity="zero">%d تعليقات</item>
+        <item quantity="one">تعليق %d</item>
+        <item quantity="two">%d تعليقات</item>
+        <item quantity="few">%d تعليقات</item>
+        <item quantity="many">%d تعليقاً</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d تعليق مخفي</item>
+        <item quantity="zero">%d تعليق مخفي</item>
+        <item quantity="one">%d تعليق مخفي</item>
+        <item quantity="two">تعليقان مخفيان</item>
+        <item quantity="few">%d تعليقات مخفية</item>
+        <item quantity="many">%d تعليقاً مخفياً</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">احصل على %d نقطة XP أخرى اليوم للوصول إلى هدفك اليومي</item>
+        <item quantity="zero">احصل على %d نقطة XP أخرى اليوم للوصول إلى هدفك اليومي</item>
+        <item quantity="one">احصل على نقطة XP أخرى اليوم للوصول إلى هدفك اليومي</item>
+        <item quantity="two">احصل على نقطتين XP أخرى اليوم للوصول إلى هدفك اليومي</item>
+        <item quantity="few">احصل على %d نقاط XP أخرى اليوم للوصول إلى هدفك اليومي</item>
+        <item quantity="many">احصل على %d نقطة XP أخرى اليوم للوصول إلى هدفك اليومي</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d يوم</item>
+        <item quantity="zero">%1$d يوم</item>
+        <item quantity="one">يوم</item>
+        <item quantity="two">%1$d يوم</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d يومًا</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d أسبوع</item>
+        <item quantity="zero">%1$d أسبوع</item>
+        <item quantity="one">أسبوع</item>
+        <item quantity="two">%1$d أسبوع</item>
+        <item quantity="few">%1$d أسابيع</item>
+        <item quantity="many">%1$d أسبوعًا</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">لقد حصلت على %d جوهرة!</item>
+        <item quantity="zero">لقد حصلت على %d جوهرة!</item>
+        <item quantity="one">لقد حصلت على جوهرة!</item>
+        <item quantity="two">لقد حصلت على جوهرتين!</item>
+        <item quantity="few">لقد حصلت على %d جواهر!</item>
+        <item quantity="many">لقد حصلت على %d جوهرة!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">كسبتَ %d لينجوت!</item>
+        <item quantity="zero">كسبتَ لينجوت!</item>
+        <item quantity="one">كسبتَ لينجوت!</item>
+        <item quantity="two">كسبتَ %d لينجوت!</item>
+        <item quantity="few">كسبتَ %d لينجوت!</item>
+        <item quantity="many">كسبتَ %d لينجوت!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+        <item quantity="zero">%d XP</item>
+        <item quantity="one">%d XP</item>
+        <item quantity="two">%d XP</item>
+        <item quantity="few">%d XP</item>
+        <item quantity="many">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">لقد حصلت على %d XP اليوم</item>
+        <item quantity="zero">لقد حصلت على %d XP اليوم</item>
+        <item quantity="one">لقد حصلت على %d XP اليوم</item>
+        <item quantity="two">لقد حصلت على %d XP اليوم</item>
+        <item quantity="few">لقد حصلت على %d XP اليوم</item>
+        <item quantity="many">لقد حصلت على %d XP اليوم</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">حافظ على حماستك لسبعة أيام وسنضاعف رهان الـ %d جواهر الخاص بك.</item>
+        <item quantity="zero">حافظ على حماستك لسبعة أيام وسنضاعف رهان الـ %d جوهرة الخاص بك.</item>
+        <item quantity="one">حافظ على حماستك لسبعة أيام وسنضاعف رهان الـ %d جوهرة الخاص بك.</item>
+        <item quantity="two">حافظ على حماستك لسبعة أيام وسنضاعف رهان الـ %d جوهرة الخاص بك.</item>
+        <item quantity="few">حافظ على حماستك لسبعة أيام وسنضاعف رهان الـ %d جواهر الخاص بك.</item>
+        <item quantity="many">حافظ على حماستك لسبعة أيام وسنضاعف رهان الـ %d جوهرة الخاص بك.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">لقد ضاعفت رهان الـ %d جواهر الخاص بك. هل تريد المراهنة مرة أخرى؟</item>
+        <item quantity="zero">لقد ضاعفت رهان الـ %d جوهرة الخاص بك. هل تريد المراهنة مرة أخرى؟</item>
+        <item quantity="one">لقد ضاعفت رهان الـ %d جوهرة الخاص بك. هل تريد المراهنة مرة أخرى؟</item>
+        <item quantity="two">لقد ضاعفت رهان الـ %d جوهرة الخاص بك. هل تريد المراهنة مرة أخرى؟</item>
+        <item quantity="few">لقد ضاعفت رهان الـ %d جواهر الخاص بك. هل تريد المراهنة مرة أخرى؟</item>
+        <item quantity="many">لقد ضاعفت رهان الـ %d جوهرة الخاص بك. هل تريد المراهنة مرة أخرى؟</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">هل تريد الحصول على هذا الغرض مقابل %d لينجوت؟</item>
+        <item quantity="zero">هل تريد الحصول على هذا الغرض مقابل %d لينجوت؟</item>
+        <item quantity="one">هل تريد الحصول على هذا الغرض مقابل %d لينجوت؟</item>
+        <item quantity="two">هل تريد الحصول على هذا الغرض مقابل %d لينجوت؟</item>
+        <item quantity="few">هل تريد الحصول على هذا الغرض مقابل %d لينجوت؟</item>
+        <item quantity="many">هل تريد الحصول على هذا الغرض مقابل %d لينجوت؟</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">احصل عليه بـ %d جوهرة؟</item>
+        <item quantity="zero">احصل عليه بـ %d جوهرة؟</item>
+        <item quantity="one">احصل عليه بـ %d جوهرة؟</item>
+        <item quantity="two">احصل عليه بـ %d جوهرة؟</item>
+        <item quantity="few">احصل عليه بـ %d جواهر؟</item>
+        <item quantity="many">احصل عليه بـ %d جوهرة؟</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">الإجابات الصحيحة</item>
+        <item quantity="zero">خطأ</item>
+        <item quantity="one">الإجابة الصحيحة</item>
+        <item quantity="two">الإجابتان الصحيحتان</item>
+        <item quantity="few">الإجابات الصحيحة</item>
+        <item quantity="many">الإجابات الصحيحة</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">منذ %d ساعة</item>
+        <item quantity="zero">منذ %d ساعة</item>
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتين</item>
+        <item quantity="few">منذ %d ساعات</item>
+        <item quantity="many">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">اقفز إلى المستوى %d!</item>
+        <item quantity="zero">اقفز إلى المستوى %d!</item>
+        <item quantity="one">اقفز إلى المستوى %d!</item>
+        <item quantity="two">اقفز إلى المستوى %d!</item>
+        <item quantity="few">اقفز إلى المستوى %d!</item>
+        <item quantity="many">اقفز إلى المستوى %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">يتقدم الـ%1$d الأوائل إلى المستوى التالي</item>
+        <item quantity="zero">يتقدم الـ%1$d الأوائل إلى المستوى التالي</item>
+        <item quantity="one">يتقدم صاحب المركز الأول إلى المستوى التالي</item>
+        <item quantity="two">يتقدم الـ%1$d الأوائل إلى المستوى التالي</item>
+        <item quantity="few">يتقدم الـ%1$d الأوائل إلى المستوى التالي</item>
+        <item quantity="many">يتقدم الـ%1$d الأوائل إلى المستوى التالي</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">تعاون مع المستخدمين في نفس المستوى للوصول إلى إجمالي %1$s XP لفتح هذا الصندوق.</item>
+        <item quantity="zero">تعاون مع المستخدمين في نفس المستوى للوصول إلى إجمالي %1$s XP لفتح هذا الصندوق.</item>
+        <item quantity="one">تعاون مع المستخدمين في نفس المستوى للوصول إلى إجمالي %1$s XP لفتح هذا الصندوق.</item>
+        <item quantity="two">تعاون مع المستخدمين في نفس المستوى للوصول إلى إجمالي %1$s XP لفتح هذا الصندوق.</item>
+        <item quantity="few">تعاون مع المستخدمين في نفس المستوى للوصول إلى إجمالي %1$s XP لفتح هذا الصندوق.</item>
+        <item quantity="many">تعاون مع المستخدمين في نفس المستوى للوصول إلى إجمالي %1$s XP لفتح هذا الصندوق.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">اعملوا معًا لحصد نقاط الـXP الـ%1$s المتبقية والوصول إلى هدف المجموعة.</item>
+        <item quantity="zero">اعملوا معًا لحصد نقاط الـXP الـ%1$s المتبقية والوصول إلى هدف المجموعة.</item>
+        <item quantity="one">اعملوا معًا لحصد نقاط الـXP الـ%1$s المتبقية والوصول إلى هدف المجموعة.</item>
+        <item quantity="two">اعملوا معًا لحصد نقاط الـXP الـ%1$s المتبقية والوصول إلى هدف المجموعة.</item>
+        <item quantity="few">اعملوا معًا لحصد نقاط الـXP الـ%1$s المتبقية والوصول إلى هدف المجموعة.</item>
+        <item quantity="many">اعملوا معًا لحصد نقاط الـXP الـ%1$s المتبقية والوصول إلى هدف المجموعة.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">لقد وصلت لائحة المتصدرين الخاصة بك إلى هدف المجموعة، %1$s XP!</item>
+        <item quantity="zero">لقد وصلت لائحة المتصدرين الخاصة بك إلى هدف المجموعة، %1$s XP!</item>
+        <item quantity="one">لقد وصلت لائحة المتصدرين الخاصة بك إلى هدف المجموعة، %1$s XP!</item>
+        <item quantity="two">لقد وصلت لائحة المتصدرين الخاصة بك إلى هدف المجموعة، %1$s XP!</item>
+        <item quantity="few">لقد وصلت لائحة المتصدرين الخاصة بك إلى هدف المجموعة، %1$s XP!</item>
+        <item quantity="many">لقد وصلت لائحة المتصدرين الخاصة بك إلى هدف المجموعة، %1$s XP!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="zero">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="one">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="two">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="few">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="many">لقد حصلت على %1$d لينجوت!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">لقد حصلت على %1$d جوهرة!</item>
+        <item quantity="zero">لقد حصلت على %1$d جوهرة!</item>
+        <item quantity="one">لقد حصلت على جوهرة!</item>
+        <item quantity="two">لقد حصلت على جوهرتين!</item>
+        <item quantity="few">لقد حصلت على %1$d جواهر!</item>
+        <item quantity="many">لقد حصلت على %1$d جوهرة!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+        <item quantity="zero">%1$d XP</item>
+        <item quantity="one">%1$d XP</item>
+        <item quantity="two">%1$d XP</item>
+        <item quantity="few">%1$d XP</item>
+        <item quantity="many">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">أكمل %1$d درس إضافي لتبدأ المنافسة</item>
+        <item quantity="zero">أكمل %1$d درس إضافي لتبدأ المنافسة</item>
+        <item quantity="one">أكمل درسًا واحدًا إضافيًا لتبدأ المنافسة</item>
+        <item quantity="two">أكمل درسين إضافيين لتبدأ المنافسة</item>
+        <item quantity="few">أكمل %1$d دروس إضافية لتبدأ المنافسة</item>
+        <item quantity="many">أكمل %1$d درسًا إضافيًا لتبدأ المنافسة</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="zero">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="one">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="two">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="few">لقد حصلت على %1$d لينجوت!</item>
+        <item quantity="many">لقد حصلت على %1$d لينجوت!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">لقد حصلت على %1$d جوهرة!</item>
+        <item quantity="zero">لقد حصلت على %1$d جوهرة!</item>
+        <item quantity="one">لقد حصلت على جوهرة!</item>
+        <item quantity="two">لقد حصلت على جوهرتين!</item>
+        <item quantity="few">لقد حصلت على %1$d جواهر!</item>
+        <item quantity="many">لقد حصلت على %1$d جوهرة!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">ابدأ +%dXP</item>
+        <item quantity="zero">ابدأ +%dXP</item>
+        <item quantity="one">ابدأ +%dXP</item>
+        <item quantity="two">ابدأ +%dXP</item>
+        <item quantity="few">ابدأ +%dXP</item>
+        <item quantity="many">ابدأ +%dXP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">المستوى %1$s</item>
+        <item quantity="zero">المستوى %1$s</item>
+        <item quantity="one">المستوى %1$s</item>
+        <item quantity="two">المستوى %1$s</item>
+        <item quantity="few">المستوى %1$s</item>
+        <item quantity="many">المستوى %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">المستوى %1$s في %2$s</item>
+        <item quantity="zero">المستوى %1$s في %2$s</item>
+        <item quantity="one">المستوى %1$s في %2$s</item>
+        <item quantity="two">المستوى %1$s في %2$s</item>
+        <item quantity="few">المستوى %1$s في %2$s</item>
+        <item quantity="many">المستوى %1$s في %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d ميجابايت</item>
+        <item quantity="zero">%d ميجابايت</item>
+        <item quantity="one">%d ميجابايت</item>
+        <item quantity="two">%d ميجابايت</item>
+        <item quantity="few">%d ميجابايت</item>
+        <item quantity="many">%d ميجابايت</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">منذ %d دقيقة</item>
+        <item quantity="zero">منذ %d دقيقة</item>
+        <item quantity="one">منذ دقيقة واحدة</item>
+        <item quantity="two">منذ دقيقتين</item>
+        <item quantity="few">منذ %d دقائق</item>
+        <item quantity="many">منذ %d دقيقة</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">أشهر</item>
+        <item quantity="zero">شهر</item>
+        <item quantity="one">شهر</item>
+        <item quantity="two">شهر</item>
+        <item quantity="few">أشهر</item>
+        <item quantity="many">شهر</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">في %1$s سيتم تحصيل مبلغ %2$s مقابل اشتراك %3$s أشهر في دوولينجو بلس.</item>
+        <item quantity="zero">في %1$s سيتم تحصيل مبلغ %2$s مقابل اشتراك %3$s شهر في دوولينجو بلس.</item>
+        <item quantity="one">في %1$s سيتم تحصيل مبلغ %2$s مقابل اشتراك شهر في دوولينجو بلس.</item>
+        <item quantity="two">في %1$s سيتم تحصيل مبلغ %2$s مقابل اشتراك شهرين في دوولينجو بلس.</item>
+        <item quantity="few">في %1$s سيتم تحصيل مبلغ %2$s مقابل اشتراك %3$s أشهر في دوولينجو بلس.</item>
+        <item quantity="many">في %1$s سيتم تحصيل مبلغ %2$s مقابل اشتراك %3$s شهرًا في دوولينجو بلس.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">سيحين موعد الدفع القادم في %1$s حيث ستتم محاسبتك بقيمة %2$s اشتراك %3$s شهر في دوولينجو بلس.</item>
+        <item quantity="zero">سيحين موعد الدفع القادم في %1$s حيث ستتم محاسبتك بقيمة %2$s اشتراك %3$s شهر في دوولينجو بلس.</item>
+        <item quantity="one">سيحين موعد الدفع القادم في %1$s حيث ستتم محاسبتك بقيمة %2$s اشتراك شهر واحد في دوولينجو بلس.</item>
+        <item quantity="two">سيحين موعد الدفع القادم في %1$s حيث ستتم محاسبتك بقيمة %2$s اشتراك شهرين في دوولينجو بلس.</item>
+        <item quantity="few">سيحين موعد الدفع القادم في %1$s حيث ستتم محاسبتك بقيمة %2$s اشتراك %3$s أشهر في دوولينجو بلس.</item>
+        <item quantity="many">سيحين موعد الدفع القادم في %1$s حيث ستتم محاسبتك بقيمة %2$s اشتراك %3$s شهرًا في دوولينجو بلس.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="zero">%d</item>
+        <item quantity="one">%d</item>
+        <item quantity="two">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">تزوّد بها بـ %d لينجوت</item>
+        <item quantity="zero">تزوّد بها بـ %d لينجوت</item>
+        <item quantity="one">تزوّد بها بـ %d لينجوت</item>
+        <item quantity="two">تزوّد بها بـ %d لينجوت</item>
+        <item quantity="few">تزوّد بها بـ %d لينجوت</item>
+        <item quantity="many">تزوّد بها بـ %d لينجوت</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">%d شهر منذ اختبارك الأخير</item>
+        <item quantity="zero">%d شهر منذ اختبارك الأخير</item>
+        <item quantity="one">شهر واحد منذ اختبارك الأخير</item>
+        <item quantity="two">شهران منذ اختبارك الأخير</item>
+        <item quantity="few">%d أشهر منذ اختبارك الأخير</item>
+        <item quantity="many">%d شهرًا منذ اختبارك الأخير</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">لقد حصلت على %d أسبوع مجاني من دوولينجو بلس!</item>
+        <item quantity="zero">لقد حصلت على %d أسبوع مجاني من دوولينجو بلس!</item>
+        <item quantity="one">لقد حصلت على أسبوع مجاني من دوولينجو بلس!</item>
+        <item quantity="two">لقد حصلت على أسبوعين مجانيين من دوولينجو بلس!</item>
+        <item quantity="few">لقد حصلت على %d أسابيع مجانية من دوولينجو بلس!</item>
+        <item quantity="many">لقد حصلت على %d أسبوعًا مجانيًا من دوولينجو بلس!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">ادعُ المزيد من الأصدقاء خلال الـ%1$d ساعة التالية لتستمر في استخدام بلس.</item>
+        <item quantity="zero">ادعُ المزيد من الأصدقاء خلال الـ%1$d ساعة التالية لتستمر في استخدام بلس.</item>
+        <item quantity="one">ادعُ المزيد من الأصدقاء خلال الساعة التالية لتستمر في استخدام بلس.</item>
+        <item quantity="two">ادعُ المزيد من الأصدقاء خلال الـ%1$d ساعة التالية لتستمر في استخدام بلس.</item>
+        <item quantity="few">ادعُ المزيد من الأصدقاء خلال الـ%1$d ساعات التالية لتستمر في استخدام بلس.</item>
+        <item quantity="many">ادعُ المزيد من الأصدقاء خلال الـ%1$d ساعة التالية لتستمر في استخدام بلس.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">انضم %1$s و%2$d صديق آخر إلى دوولينجو بفضلك. استمتع باشتراك بلس حتى %3$s!</item>
+        <item quantity="zero">انضم %1$s و%2$d صديق آخر إلى دوولينجو بفضلك. استمتع باشتراك بلس حتى %3$s!</item>
+        <item quantity="one">انضم %1$s وصديق آخر إلى دوولينجو بفضلك. استمتع باشتراك بلس حتى %3$s!</item>
+        <item quantity="two">انضم %1$s و%2$d صديق آخر إلى دوولينجو بفضلك. استمتع باشتراك بلس حتى %3$s!</item>
+        <item quantity="few">انضم %1$s و%2$d أصدقاء آخرين إلى دوولينجو بفضلك. استمتع باشتراك بلس حتى %3$s!</item>
+        <item quantity="many">انضم %1$s و%2$d صديقًا آخر إلى دوولينجو بفضلك. استمتع باشتراك بلس حتى %3$s!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">انضم %1$d صديق بفضلك إلى دوولينجو. استمتع باشتراك بلس حتى %2$s!</item>
+        <item quantity="zero">انضم %1$d صديق بفضلك إلى دوولينجو. استمتع باشتراك بلس حتى %2$s!</item>
+        <item quantity="one">انضم صديق واحد بفضلك إلى دوولينجو. استمتع باشتراك بلس حتى %2$s!</item>
+        <item quantity="two">انضم %1$d صديق بفضلك إلى دوولينجو. استمتع باشتراك بلس حتى %2$s!</item>
+        <item quantity="few">انضم %1$d أصدقاء بفضلك إلى دوولينجو. استمتع باشتراك بلس حتى %2$s!</item>
+        <item quantity="many">انضم %1$d صديقًا بفضلك إلى دوولينجو. استمتع باشتراك بلس حتى %2$s!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">لقد أكملت نقطة العبور %d!</item>
+        <item quantity="zero">لقد أكملت نقطة العبور %d!</item>
+        <item quantity="one">لقد أكملت نقطة العبور %d!</item>
+        <item quantity="two">لقد أكملت نقطة العبور %d!</item>
+        <item quantity="few">لقد أكملت نقطة العبور %d!</item>
+        <item quantity="many">لقد أكملت نقطة العبور %d!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">تهانينا على محافظتك على حماستك في استخدام دوولينجو لـ%d يوم على التوالي</item>
+        <item quantity="zero">تهانينا على محافظتك على حماستك في استخدام دوولينجو لـ%d يوم على التوالي</item>
+        <item quantity="one">تهانينا على يومك الأول من استخدام دوولينجو</item>
+        <item quantity="two">تهانينا على محافظتك على حماستك في استخدام دوولينجو ليومين على التوالي</item>
+        <item quantity="few">تهانينا على محافظتك على حماستك في استخدام دوولينجو لـ%d أيام على التوالي</item>
+        <item quantity="many">تهانينا على محافظتك على حماستك في استخدام دوولينجو لـ%d يومًا على التوالي</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">حماسة %d يوم!</item>
+        <item quantity="zero">حماسة %d يوم!</item>
+        <item quantity="one">حماسة يوم واحد!</item>
+        <item quantity="two">حماسة يومين!</item>
+        <item quantity="few">حماسة %d أيام!</item>
+        <item quantity="many">حماسة %d يومًا!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">حماسة %d يوم!</item>
+        <item quantity="zero">حماسة %d يوم!</item>
+        <item quantity="one">حماسة يوم واحد!</item>
+        <item quantity="two">حماسة يومين!</item>
+        <item quantity="few">حماسة %d أيام!</item>
+        <item quantity="many">حماسة %d يومًا!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">حماسة %d يوم!</item>
+        <item quantity="zero">حماسة %d يوم!</item>
+        <item quantity="one">حماسة يوم واحد!</item>
+        <item quantity="two">حماسة يومين!</item>
+        <item quantity="few">حماسة %d أيام!</item>
+        <item quantity="many">حماسة %d يومًا!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d خانة مفتوحة</item>
+        <item quantity="zero">لا خانة مفتوحة</item>
+        <item quantity="one">%d خانة مفتوحة</item>
+        <item quantity="two">خانتَين مفتوحتَين</item>
+        <item quantity="few">%d خانات مفتوحة</item>
+        <item quantity="many">%d خانة مفتوحة</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">لقد مر %1$d يوم!</item>
+        <item quantity="zero">لقد مر %1$d يوم!</item>
+        <item quantity="one">لقد مر يوم واحد!</item>
+        <item quantity="two">لقد مر يومان!</item>
+        <item quantity="few">لقد مر %1$d أيام!</item>
+        <item quantity="many">لقد مر %1$d يومًا!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">لقد مر %1$d أسبوع!</item>
+        <item quantity="zero">لقد مر %1$d أسبوع!</item>
+        <item quantity="one">لقد مر أسبوع!</item>
+        <item quantity="two">لقد مر أسبوعان!</item>
+        <item quantity="few">لقد مر %1$d أسابيع!</item>
+        <item quantity="many">لقد مر %1$d أسبوعًا!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">لقد حافظت على حماسة الـ%d يوم الخاصة بك أمس</item>
+        <item quantity="zero">لقد حافظت على حماسة الـ%d يوم الخاصة بك أمس</item>
+        <item quantity="one">لقد حافظت على حماسة اليوم الواحد الخاصة بك أمس</item>
+        <item quantity="two">لقد حافظت على حماسة الـ%d يوم الخاصة بك أمس</item>
+        <item quantity="few">لقد حافظت على حماسة الـ%d أيام الخاصة بك أمس</item>
+        <item quantity="many">لقد حافظت على حماسة الـ%d يومًا الخاصة بك أمس</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">أيام</item>
+        <item quantity="zero">أيام</item>
+        <item quantity="one">يوم</item>
+        <item quantity="two">أيام</item>
+        <item quantity="few">أيام</item>
+        <item quantity="many">أيام</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">ضاع %d أيام حماسة !</item>
+        <item quantity="zero">ضاع %d أيام حماسة !</item>
+        <item quantity="one">ضاع %d أيام حماسة !</item>
+        <item quantity="two">ضاع %d أيام حماسة !</item>
+        <item quantity="few">ضاع %d أيام حماسة !</item>
+        <item quantity="many">ضاع %d يوم حماسة !</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">لقد وصلت حماستك إلى %d يوم!</item>
+        <item quantity="zero">لقد وصلت حماستك إلى %d يوم!</item>
+        <item quantity="one">لقد وصلت حماستك إلى يوم واحد!</item>
+        <item quantity="two">لقد وصلت حماستك إلى يومين!</item>
+        <item quantity="few">لقد وصلت حماستك إلى %d أيام!</item>
+        <item quantity="many">لقد وصلت حماستك إلى %d يومًا!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">تم إصلاح %d أيام حماسة!</item>
+        <item quantity="zero">تم إصلاح %d أيام حماسة!</item>
+        <item quantity="one">تم إصلاح %d أيام حماسة!</item>
+        <item quantity="two">تم إصلاح %d أيام حماسة!</item>
+        <item quantity="few">تم إصلاح %d أيام حماسة!</item>
+        <item quantity="many">تم إصلاح %d يوم حماسة!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">لقد ضاعفت ال%d لينجوت الخاصة بك. هل تريد أن تراهن مرة أخرة ؟</item>
+        <item quantity="zero">لم تضاعف اللينجوت الخاص بك. هل تريد أن تراهن مرة أخرة ؟</item>
+        <item quantity="one">لقد ضاعفت اللينجوت الخاص بك. هل تريد أن تراهن مرة أخرة ؟</item>
+        <item quantity="two">لقد ضاعفت ال %d لينجوت الخاصين بك. هل تريد أن تراهن مرة أخرة ؟</item>
+        <item quantity="few">لقد ضاعفت ال%d لينجوت الخاصة بك. هل تريد أن تراهن مرة أخرة ؟</item>
+        <item quantity="many">لقد ضاعفت ال%d لينجوت الخاصة بك. هل تريد أن تراهن مرة أخرة ؟</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">رهان بـ %d جواهر</item>
+        <item quantity="zero">رهان بـ %d جوهرة</item>
+        <item quantity="one">رهان بـ %d جوهرة</item>
+        <item quantity="two">رهان بـ %d جوهرة</item>
+        <item quantity="few">رهان بـ %d جواهر</item>
+        <item quantity="many">رهان بـ %d جوهرة</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>اختر الأحرف الصحيحة لـ \"%s\"&lt;/b></item>
+        <item quantity="zero">&lt;b>اختر الحرف الصحيح لـ \"%s\"&lt;/b></item>
+        <item quantity="one">&lt;b>اختر الحرف الصحيح لـ \"%s\"&lt;/b></item>
+        <item quantity="two">&lt;b>اختر الحرفين الصحيحين لـ \"%s\"&lt;/b></item>
+        <item quantity="few">&lt;b>اختر الأحرف الصحيحة لـ \"%s\"&lt;/b></item>
+        <item quantity="many">&lt;b>اختر الحرف الصحيح لـ \"%s\"&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d درس مقابل %2$s</item>
+        <item quantity="zero">%1$d درس مقابل %2$s</item>
+        <item quantity="one">درس واحد مقابل %2$s</item>
+        <item quantity="two">%1$d درس مقابل %2$s</item>
+        <item quantity="few">%1$d دروس مقابل %2$s</item>
+        <item quantity="many">%1$d درسًا مقابل %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+ %d XP</item>
+        <item quantity="zero">+ %d XP</item>
+        <item quantity="one">+ %d XP</item>
+        <item quantity="two">+ %d XP</item>
+        <item quantity="few">+ %d XP</item>
+        <item quantity="many">+ %d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">لديك %d يوم من الحماسة!</item>
+        <item quantity="zero">لديك %d يوم من الحماسة!</item>
+        <item quantity="one">لديك يوم واحد من الحماسة!</item>
+        <item quantity="two">لديك يومان من الحماسة!</item>
+        <item quantity="few">لديك %d أيام من الحماسة!</item>
+        <item quantity="many">لديك %d يومًا من الحماسة!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">أنت على بعد %d XP من هدفك اليومي</item>
+        <item quantity="zero">أنت على بعد %d XP من هدفك اليومي</item>
+        <item quantity="one">أنت على بعد %d XP من هدفك اليومي</item>
+        <item quantity="two">أنت على بعد %d XP من هدفك اليومي</item>
+        <item quantity="few">أنت على بعد %d XP من هدفك اليومي</item>
+        <item quantity="many">أنت على بعد %d XP من هدفك اليومي</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">%d</item>
+        <item quantity="zero">وجدت %d جواهر!</item>
+        <item quantity="one">وجدت جوهرة!</item>
+        <item quantity="two">%d</item>
+        <item quantity="few">%d</item>
+        <item quantity="many">%d</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">عثرت على %d لينجوت!</item>
+        <item quantity="zero">عثرت على %d لينجوت!</item>
+        <item quantity="one">عثرت على لينجوت!</item>
+        <item quantity="two">عثرت على %d لينجوت!</item>
+        <item quantity="few">عثرت على %d لينجوت!</item>
+        <item quantity="many">عثرت على %d لينجوت!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">لديك %d جوهرة لشراء أشياء من المتجر!</item>
+        <item quantity="zero">لديك %d جوهرة لشراء أشياء من المتجر!</item>
+        <item quantity="one">لديك جوهرة واحدة لشراء أشياء من المتجر!</item>
+        <item quantity="two">لديك جوهرتان لشراء أشياء من المتجر!</item>
+        <item quantity="few">لديك %d جواهر لشراء أشياء من المتجر!</item>
+        <item quantity="many">لديك %d جوهرة لشراء أشياء من المتجر!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">لديك %d لينجوت لشراء أشياء من المتجر!</item>
+        <item quantity="zero">لديك %d لينجوت لشراء أشياء من المتجر!</item>
+        <item quantity="one">لديك %d لينجوت لشراء أشياء من المتجر!</item>
+        <item quantity="two">لديك %d لينجوت لشراء أشياء من المتجر!</item>
+        <item quantity="few">لديك %d لينجوت لشراء أشياء من المتجر!</item>
+        <item quantity="many">لديك %d لينجوت لشراء أشياء من المتجر!</item>
+    </plurals>
+</resources>

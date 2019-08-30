@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/juicySnow" android:paddingTop="@dimen/juicyLengthHalf" android:paddingBottom="@dimen/juicyLength2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/motivationTitle" android:layout_width="fill_parent" android:text="@string/why_learning_heading" android:lineSpacingMultiplier="1.1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H1" />
+    <FrameLayout android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/juicyLength2" android:layout_marginBottom="@dimen/juicyLength1" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/motivationList" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </FrameLayout>
+    <com.duolingo.core.ui.JuicyButton android:id="@id/motivationContinueButton" android:text="@string/button_continue" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/SolidGreenButton" />
+</LinearLayout>

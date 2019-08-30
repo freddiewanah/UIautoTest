@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialogContainer" android:background="@color/juicySnow" android:paddingTop="@dimen/juicyLength1AndHalf" android:paddingBottom="@dimen/juicyLength1AndHalf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:paddingBottom="@dimen/juicyLength1" android:text="@string/use_data" style="@style/H1" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:paddingBottom="@dimen/juicyLength1" android:text="@string/use_data_explanation" style="@style/Caption1" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/useData" android:layout_marginBottom="@dimen/juicyLength1" android:text="@string/yes_use_data" style="@style/OutlineButton" />
+    <com.duolingo.core.ui.JuicyButton android:id="@id/useWifi" android:text="@string/no_use_wifi" style="@style/SolidButton" />
+</LinearLayout>

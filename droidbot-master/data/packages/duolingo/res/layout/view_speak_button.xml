@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.CardView android:id="@id/speakCard" android:layout_width="0.0dip" android:layout_height="0.0dip" app:borderWidth="0.0dip" app:cornerRadius="@dimen/juicyLength3" app:faceColor="@color/juicyMacaw" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="192.0dip" app:lipColor="@color/juicyWhale" app:styleDisabledState="true" style="@style/ClickableCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/microphoneImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/juicyLength2" app:srcCompat="@drawable/microphone_white" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/loadingImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/juicyLength2" app:srcCompat="@drawable/microphone_loading" />
+    <View android:id="@id/volumeMeter" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.duolingo.core.ui.CardView>

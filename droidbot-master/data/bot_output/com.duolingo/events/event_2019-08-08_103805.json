@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_103805",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          855
+        ],
+        [
+          942,
+          980
+        ]
+      ],
+      "resource_id": "android:id/alertTitle",
+      "checked": false,
+      "text": "Toto zm\u011bn\u00ed rozhran\u00ed aplikace do \u010d\u00edn\u0161tiny.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "804*125",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/alertTitle[text]Toto zm\u011bn\u00ed rozhran\u00ed aplikace do \u010d\u00edn\u0161tiny.[enabled,,]",
+      "view_str": "738da5fcc364aabb5450fee71d8da2c8"
+    }
+  },
+  "start_state": "f998a9f633619eb1eba890c67ce625f0",
+  "stop_state": "f998a9f633619eb1eba890c67ce625f0",
+  "event_str": "TouchEvent(state=f998a9f633619eb1eba890c67ce625f0, view=738da5fcc364aabb5450fee71d8da2c8)"
+}

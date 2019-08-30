@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_125230",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1841
+        ],
+        [
+          1036,
+          1984
+        ]
+      ],
+      "resource_id": "com.duolingo:id/noThanksButton",
+      "checked": false,
+      "text": "\u4e0d\uff0c\u8c22\u8c22",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 33,
+      "size": "992*143",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/noThanksButton[text]\u4e0d\uff0c\u8c22\u8c22[enabled,,]",
+      "view_str": "e1d5ea105db2901c3a45e6ce483b2e78"
+    }
+  },
+  "start_state": "701881e3a06e719c2818096c78b04657",
+  "stop_state": "af9c1311d053f25e9151c0a77a8f716a",
+  "event_str": "TouchEvent(state=701881e3a06e719c2818096c78b04657, view=e1d5ea105db2901c3a45e6ce483b2e78)"
+}

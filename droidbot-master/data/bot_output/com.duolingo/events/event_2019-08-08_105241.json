@@ -1,0 +1,49 @@
+{
+  "tag": "2019-08-08_105241",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          121,
+          1182
+        ],
+        [
+          270,
+          1310
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "149*128",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "4319dfa2305357aa9626be522fd7a4bc"
+    }
+  },
+  "start_state": "93251ac922fbbb8a4e6b2c8df2c49873",
+  "stop_state": "f8d0881a06463c5141f169ca3b556407",
+  "event_str": "TouchEvent(state=93251ac922fbbb8a4e6b2c8df2c49873, view=4319dfa2305357aa9626be522fd7a4bc)"
+}

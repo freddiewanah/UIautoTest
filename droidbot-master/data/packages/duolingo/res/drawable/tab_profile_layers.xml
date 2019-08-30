@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/active_icon" android:drawable="@drawable/tab_bar_profile_active" android:top="4.0dip" android:right="4.0dip" />
+    <item android:id="@id/inactive_icon" android:drawable="@drawable/tab_bar_profile_inactive" android:top="4.0dip" android:right="4.0dip" />
+    <item android:gravity="end|center|top" android:id="@id/dot" android:drawable="@drawable/tab_indicator_dot" />
+</layer-list>

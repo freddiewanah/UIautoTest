@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/title_notifications" android:key="@string/pref_key_cat_notifications">
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_practice_reminder" android:key="@string/pref_key_practice" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.settings.NotificationTimePreference android:layout="@layout/preference_item" android:title="@string/setting_notification_time" android:key="@string/pref_key_notification_time" android:widgetLayout="@layout/preference_widget_notification_time" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_new_follower" android:key="@string/pref_key_follow" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_passed" android:key="@string/pref_key_passed" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_leaderboards" android:key="@string/pref_key_leaderboards" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/setting_streak_saver" android:key="@string/pref_key_streak_saver" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/penpal_name" android:key="@string/pref_key_penpal_notification" android:widgetLayout="@layout/preference_widget_notification" />
+        <com.duolingo.settings.NotificationPreference android:layout="@layout/preference_item" android:title="@string/word_of_the_day_notification_name" android:key="@string/pref_key_word_of_the_day_notification" android:widgetLayout="@layout/preference_widget_notification" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

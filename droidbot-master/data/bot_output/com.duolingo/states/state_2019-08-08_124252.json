@@ -1,0 +1,1431 @@
+{
+  "tag": "2019-08-08_124252",
+  "state_str": "a4d8d0fd4285359a6a7b6c562b67c53a",
+  "state_str_content_free": "f81590604931f73ba19aa9a218d6ab58",
+  "foreground_activity": "com.duolingo/.session.LessonActivity",
+  "activity_stack": [
+    "com.duolingo/.session.LessonActivity",
+    "com.duolingo/.onboarding.WelcomeFlowActivity",
+    "com.duolingo/.home.HomeActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.google.android.gms/com.google.android.location.places.service.PlaceDetectionAsyncService",
+    "com.duolingo/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.google.android.gms/.measurement.service.MeasurementBrokerService",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService11",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService12",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService13",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService14",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService15",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.usagereporting.service.UsageReportingService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.setupwizard/.logging.ScreenOnClock",
+    "com.google.android.gms/.ads.AdRequestBrokerService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService1",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService3",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService6",
+    "com.android.systemui/.SystemUIService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "com.google.android.gms/org.chromium.content.app.SandboxedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.googlequicksearchbox/com.google.android.ssb.service.SsbService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.reporting.service.ReportingAndroidService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.gms/.ads.cache.CacheBrokerService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.smspush/.WapPushManager",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.google.android.setupwizard/.predeferred.PreDeferredUpdateService",
+    "com.google.android.gms/.lockbox.service.LockboxBrokerService",
+    "android/com.android.server.content.SyncJobService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.videos/.service.pinning.TransferService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.breel.geswallpapers/.wallpapers.KentWallpaperService"
+  ],
+  "views": [
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        34,
+        35
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2160
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*2160",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2e5afb014642bebcc068701ce251af44"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*2028",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "5949a7cedfca7262af2b46ed5b0b3797"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "f54d8bbb48acff8db8e5e9eb8057225e"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.duolingo:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.duolingo:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "15fadc1e0f26814429d804cceab424fa"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "d0e767ac85886470fe41b02a92ad7afe"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.duolingo:id/sessionRoot",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/sessionRoot[text]None[enabled,,]",
+      "view_str": "8cf7c94c78a84dbc85d7972f8224e730"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4e71d5fc6fe71061f36374741e0e087a"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          66
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": "com.duolingo:id/fullscreenFragmentContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*1962",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/fullscreenFragmentContainer[text]None[enabled,,]",
+      "view_str": "c040b46d1d3bd471cd023de9c2a0f52a"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9,
+        10,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          110
+        ],
+        [
+          1080,
+          1984
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "1080*1874",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "734f567d51e5ba7b9b4e5f079cbaa402"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          22,
+          242
+        ],
+        [
+          1058,
+          323
+        ]
+      ],
+      "resource_id": "com.duolingo:id/title",
+      "checked": false,
+      "text": "\u672c\u6761\u5e7f\u544a\u4e3a\u514d\u8d39\u6559\u80b2\u52a9\u529b",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "1036*81",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/title[text]\u672c\u6761\u5e7f\u544a\u4e3a\u514d\u8d39\u6559\u80b2\u52a9\u529b[enabled,,]",
+      "view_str": "a2aa55424aa04db9f618a303e1ecb421"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          345
+        ],
+        [
+          1080,
+          1819
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adNative",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "1080*1474",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/adNative[text]None[enabled,,]",
+      "view_str": "dfbde5bb921dfefebf4a3b2c5c2340d5"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0f509e531f568822939714e7f2f3e7c7"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": "com.duolingo:id/innerView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/innerView[text]None[enabled,,]",
+      "view_str": "f86a26638d027f5a797fc6defaee4b7a"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14,
+        15,
+        29
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ba5e18aad0f2150039be02fe65d37b56"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          378
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1080*0",
+      "signature": "[class]android.view.View[resource_id]None[text]None[enabled,,]",
+      "view_str": "09f9c2d2ea0d2888f138cb94a4a02491"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 15,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "57f502280cd257bb4c5d59dd87a5d3aa"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        23,
+        28
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "3170f12bdc75514de9310b808ac40d34"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18,
+        19,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1217
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adImageContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1080*839",
+      "signature": "[class]android.view.ViewGroup[resource_id]com.duolingo:id/adImageContainer[text]None[enabled,,]",
+      "view_str": "a0e38bac242b67ad01a149bcb9c5fc15"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1080,
+          378
+        ],
+        [
+          1080,
+          378
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adChoicesContainer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "0*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/adChoicesContainer[text]None[enabled,,]",
+      "view_str": "2bb1d33ceea13c629a2550f90e46ebe1"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1217
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adImageWrapper",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 19,
+      "size": "1080*839",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/adImageWrapper[text]None[enabled,,]",
+      "view_str": "e2066863583ad4b996a1bf42af570ce4"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "adMedia",
+      "children": [
+        21
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1217
+        ]
+      ],
+      "resource_id": "com.duolingo:id/ad_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1080*839",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.duolingo:id/ad_image[text]None[enabled,,]",
+      "view_str": "4c26e2b9dfeb41002f434a175be5d689"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1217
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1080*839",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "497a3d8133853790c76c50e9e821ab93"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          381
+        ]
+      ],
+      "resource_id": "com.duolingo:id/myRectangleView",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 22,
+      "size": "1080*3",
+      "signature": "[class]android.view.View[resource_id]com.duolingo:id/myRectangleView[text]None[enabled,,]",
+      "view_str": "085ea827c0e9e888f2e75c79db73f12a"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1261
+        ],
+        [
+          1036,
+          1555
+        ]
+      ],
+      "resource_id": "com.duolingo:id/ad_content_container",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 23,
+      "size": "992*294",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.duolingo:id/ad_content_container[text]None[enabled,,]",
+      "view_str": "636e625e50705b8f15c8dbfe6145ae66"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1261
+        ],
+        [
+          1036,
+          1345
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "992*84",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b8667cbc17e35a61e9e69bfdfbb3edcb"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1261
+        ],
+        [
+          1036,
+          1345
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "992*84",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "b59f42a2d5c91b8538d6cc40efaf6139"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1261
+        ],
+        [
+          934,
+          1323
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adHeadlineText",
+      "checked": false,
+      "text": "\u6d4b\u8bd5\u5e7f\u544a : NBN\u5149\u7ea4 \u65e0\u9650\u6d41\u91cf \u9650\u65f6\u7279\u60e0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 25,
+      "temp_id": 26,
+      "size": "890*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/adHeadlineText[text]\u6d4b\u8bd5\u5e7f\u544a : NBN\u5149\u7ea4 \u65e0\u9650\u6d41\u91cf \u9650\u65f6\u7279\u60e0[enabled,,]",
+      "view_str": "eee7516f3e642c55242217f9e7c95aff"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1389
+        ],
+        [
+          1036,
+          1555
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adBodyText",
+      "checked": false,
+      "text": "\u6fb3\u4e16\u7f51\u7edc - \u54cd\u5e94\u5feb\uff0c\u5f00\u901a\u5feb\uff0c\u7f51\u901f\u5feb\uff0c\u6392\u969c\u5feb",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 27,
+      "size": "992*166",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/adBodyText[text]\u6fb3\u4e16\u7f51\u7edc - \u54cd\u5e94\u5feb\uff0c\u5f00\u901a\u5feb\uff0c\u7f51\u901f\u5feb\uff0c\u6392\u969c\u5feb[enabled,,]",
+      "view_str": "d8647fa335949dfd7acabe4723e69912"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1599
+        ],
+        [
+          1036,
+          1742
+        ]
+      ],
+      "resource_id": "com.duolingo:id/adCtaButton",
+      "checked": false,
+      "text": "\u8bbf\u95ee\u7f51\u7ad9",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 28,
+      "size": "992*143",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/adCtaButton[text]\u8bbf\u95ee\u7f51\u7ad9[enabled,,]",
+      "view_str": "5f03126d5bea1d39d23104a0cacac3bc"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 29,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ed858445cc75611a5e91c8478648f4f4"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          1786
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 29,
+      "temp_id": 30,
+      "size": "1080*1408",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "5dd1ad5b4d2eddb26e0432343b5a42fc"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Ad Choices Icon",
+      "children": [
+        32
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1039,
+          378
+        ],
+        [
+          1080,
+          419
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 30,
+      "temp_id": 31,
+      "size": "41*41",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9f22b996a653c369d9a9f03d11d9ed48"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1039,
+          378
+        ],
+        [
+          1080,
+          419
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "41*41",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "706c09ee9ee774c1dda3a5d23a0142b1"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1841
+        ],
+        [
+          1036,
+          1984
+        ]
+      ],
+      "resource_id": "com.duolingo:id/noThanksButton",
+      "checked": false,
+      "text": "\u4e0d\uff0c\u8c22\u8c22",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 33,
+      "size": "992*143",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/noThanksButton[text]\u4e0d\uff0c\u8c22\u8c22[enabled,,]",
+      "view_str": "e1d5ea105db2901c3a45e6ce483b2e78"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          66
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 34,
+      "size": "1080*66",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "9bb5270366c4b22780bd2cb8f7a73cde"
+    },
+    {
+      "package": "com.duolingo",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2028
+        ],
+        [
+          1080,
+          2160
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 35,
+      "size": "1080*132",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "3314ec7b9800594ee33367520ba05fef"
+    }
+  ]
+}

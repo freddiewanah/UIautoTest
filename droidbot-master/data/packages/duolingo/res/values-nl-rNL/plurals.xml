@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s en nog %2$d</item>
+        <item quantity="one">%1$s en nog %2$d</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Voltooi %d vaardigheden van een cursus</item>
+        <item quantity="one">Voltooi %d vaardigheden van een cursus</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Geef %d juwelen uit</item>
+        <item quantity="one">Geef %d juweel uit</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Doe %d lessen of oefeningen zonder fouten te maken</item>
+        <item quantity="one">Doe %d les of oefening zonder fouten te maken</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Besteed %d lingots</item>
+        <item quantity="one">Besteed %d lingot</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Houd een %d-daagse reeks vast</item>
+        <item quantity="one">Houd een %d-daagse reeks vast</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Verdien %d XP in één dag</item>
+        <item quantity="one">Verdien %d XP in één dag</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Je hebt dit verdiend voor het voltooien van %d vaardigheden van een cursus</item>
+        <item quantity="one">Je hebt dit verdiend voor het voltooien van %d vaardigheid van een cursus</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Je hebt dit verdiend voor het besteden van %d juwelen</item>
+        <item quantity="one">Je hebt dit verdiend voor het besteden van %d juweel</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Je hebt dit verdiend voor het voltooien van %d lessen of oefeningen zonder een fout te maken</item>
+        <item quantity="one">Je hebt dit verdiend voor het voltooien van %d les of oefening zonder een fout te maken</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Je hebt dit verdiend omdat je %d lingots hebt besteed</item>
+        <item quantity="one">Je hebt dit verdiend omdat je %d lingot hebt besteed</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Je hebt dit verdiend voor het behouden van een reeks van %d dagen</item>
+        <item quantity="one">Je hebt dit verdiend voor het behouden van een reeks van %d dag</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Je hebt dit verdiend voor het behalen van %d XP in een dag</item>
+        <item quantity="one">Je hebt dit verdiend voor het behalen van %d XP in een dag</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Je hebt typefouten in je antwoord.</item>
+        <item quantity="one">Je hebt een typefout in je antwoord.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Haal er nog één om je reeks van %d dagen veilig te stellen.</item>
+        <item quantity="one">Haal er nog één om je reeks van %d dag veilig te stellen.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Toets %d vaardigheden</item>
+        <item quantity="one">Toets %d vaardigheid</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d minuten per dag</item>
+        <item quantity="one">%d minuut per dag</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Beschikbaar om te downloaden</item>
+        <item quantity="one">Beschikbaar om te downloaden</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">Reeks van %d dagen</item>
+        <item quantity="one">Reeks van %d dag</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="one">%d dag geleden</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d dagen over</item>
+        <item quantity="one">%d dag over</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d opmerkingen</item>
+        <item quantity="one">%d opmerking</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d antwoorden veborgen</item>
+        <item quantity="one">%d antwoord verborgen</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Verdien vandaag nog %d XP om je dagelijkse doel te bereiken</item>
+        <item quantity="one">Verdien vandaag nog %d XP om je dagelijkse doel te bereiken</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d dagen</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d weken</item>
+        <item quantity="one">%1$d week</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Je hebt %d juwelen verdiend!</item>
+        <item quantity="one">Je hebt een juweel verdiend!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Je hebt %d lingots verdiend!</item>
+        <item quantity="one">Je hebt een lingot verdiend!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">"%d XP's"</item>
+        <item quantity="one">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Je hebt %d XP verdiend vandaag</item>
+        <item quantity="one">Je hebt %d XP verdiend vandaag</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Houd je reeks nog 7 dagen vast en wij verdubbelen je weddenschap van %d juwelen</item>
+        <item quantity="one">Houd je reeks nog 7 dagen vast en wij verdubbelen je weddenschap van %d juweel</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Je hebt je weddenschap van %d juwelen verdubbeld. Nog een weddenschap?</item>
+        <item quantity="one">Je hebt je weddenschap van %d juweel verdubbeld. Nog een weddenschap?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Ontvang dit item voor %d lingots?</item>
+        <item quantity="one">Ontvang dit item voor %d lingot?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Haal dit item voor %d juwelen?</item>
+        <item quantity="one">Haal dit item voor %d juweel?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Juiste antwoorden:</item>
+        <item quantity="one">Juiste oplossing:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d uur geleden</item>
+        <item quantity="one">%d uur geleden</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Ga door naar niveau %d!</item>
+        <item quantity="one">Ga door naar niveau %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">Top %1$d gaan door naar de volgende divisie</item>
+        <item quantity="one">Eerste plek gaat door naar de volgende divisie</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Werk samen met je divisie om in totaal %1$s te verdienen om deze kist te ontgrendelen.</item>
+        <item quantity="one">Werk samen met je divisie om in totaal %1$s te verdienen om deze kist te ontgrendelen.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Werk samen om de laatste %1$s XP te verdienen om het groepsdoel te bereiken.</item>
+        <item quantity="one">Werk samen om de laatste %1$s XP te verdienen om het groepsdoel te bereiken.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Je klassement heeft het groepsdoel van %1$s XP gehaald!</item>
+        <item quantity="one">Je klassement heeft het groepsdoel van %1$s XP gehaald!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Je hebt %1$d lingots verdiend!</item>
+        <item quantity="one">Je hebt %1$d lingot verdiend!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Je hebt %1$d juwelen verdiend!</item>
+        <item quantity="one">Je hebt %1$d juweel verdiend!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+        <item quantity="one">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Voltooi nog %1$d lessen voor een plek in het klassement</item>
+        <item quantity="one">Voltooi nog %1$d les voor een plek in het klassement</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Je hebt %1$d lingots verdiend!</item>
+        <item quantity="one">Je hebt %1$d lingot verdiend!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Je hebt %1$d juwelen verdiend!</item>
+        <item quantity="one">Je hebt %1$d juweel verdiend!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">START +%d XP</item>
+        <item quantity="one">START +%d XP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Niveau %1$s</item>
+        <item quantity="one">Niveau %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Niveau %1$s van %2$s</item>
+        <item quantity="one">Niveau %1$s van %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d minuten geleden</item>
+        <item quantity="one">%d minuut geleden</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">MAANDEN</item>
+        <item quantity="one">MAAND</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">Op %1$s wordt %2$s in rekening gebracht voor %3$s maanden Duolingo Plus.</item>
+        <item quantity="one">Op %1$s wordt %2$s in rekening gebracht voor %3$s maand Duolingo Plus.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Volgende betaling op %1$s er wordt %2$s in rekening gebracht bij je voor %3$s maand Duolingo Plus.</item>
+        <item quantity="one">Volgende betaling op %1$s er wordt %2$s in rekening gebracht bij je voor 1 maand Duolingo Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">HALEN VOOR %d LINGOTS</item>
+        <item quantity="one">HALEN VOOR %d LINGOT</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">%d maanden sinds je laatste quiz</item>
+        <item quantity="one">%d maand sinds je laatste quiz</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Je hebt %d weken gratis Duolingo Plus verdiend!</item>
+        <item quantity="one">Je hebt %d week gratis Duolingo Plus verdiend!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Nodig meer vrienden uit de komende %1$d uur om Plus te blijven gebruiken.</item>
+        <item quantity="one">Nodig meer vrienden uit het komende %1$d uur om Plus te blijven gebruiken.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">%1$s en %2$d andere vrienden/vriendinnen zijn nu dankzij jou lid. Veel plezier met Plus tot %3$s!</item>
+        <item quantity="one">%1$s en %2$d andere vriend(in) zijn nu dankzij jou lid. Veel plezier met Plus tot %3$s!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">%1$d vrienden/vriendinnen zijn dankzij jou lid geworden. Veel plezier met Plus tot %2$s!</item>
+        <item quantity="one">%1$d vriend(in) is dankzij jou lid geworden. Veel plezier met Plus tot %2$s!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Je hebt checkpoint %d voltooid!</item>
+        <item quantity="one">Je hebt checkpoint %d voltooid!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Gefeliciteerd met %d dagen op rij bij Duolingo</item>
+        <item quantity="one">Gefeliciteerd met je eerst dag bij Duolingo</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">Reeks van %d dagen!</item>
+        <item quantity="one">Reeks van %d dag!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">Reeks van %d dagen!</item>
+        <item quantity="one">Reeks van %d dag!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">Reeks van %d dagen!</item>
+        <item quantity="one">Reeks van %d dag!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d openingen</item>
+        <item quantity="one">%d opening</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Het is %1$d dagen geleden!</item>
+        <item quantity="one">Het is %1$d dag geleden!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Het is %1$d weken geleden!</item>
+        <item quantity="one">Het is %1$d week geleden!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Je hebt je reeks van %d dagen gisteren beschermd</item>
+        <item quantity="one">Je hebt je reeks van %d dag gisteren beschermd</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">dagen</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">Reeks van %d dagen verloren!</item>
+        <item quantity="one">Reeks van %d dag verloren!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Je hebt een reeks van %d dagen!</item>
+        <item quantity="one">Je hebt een reeks van %d dag!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">Reeks van %d dagen hersteld!</item>
+        <item quantity="one">Reeks van %d dag hersteld!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Je hebt je weddenschap van %d lingots verdubbeld. Wil je nog een weddenschap aangaan?</item>
+        <item quantity="one">Je hebt je weddenschap van %d lingot verdubbeld. Wil je nog een weddenschap aangaan?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">WED %d JUWELEN</item>
+        <item quantity="one">WED %d JUWEEL</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Selecteer de juiste karakters voor “%s”&lt;/b></item>
+        <item quantity="one">&lt;b>Selecteer het juiste karakter voor “%s”&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d lessen voor %2$s</item>
+        <item quantity="one">%1$d les voor %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d XP</item>
+        <item quantity="one">+%d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">Je hebt een reeks van %d dagen!</item>
+        <item quantity="one">Je hebt een reeks van %d dag!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">Je bent %d XP verwijderd van je dagdoel</item>
+        <item quantity="one">Je bent %d XP verwijderd van je dagdoel</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Je hebt %d juwelen gevonden!</item>
+        <item quantity="one">Je hebt een juweel gevonden!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Je hebt %d lingots gevonden!</item>
+        <item quantity="one">Je hebt een lingot gevonden!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Je hebt %d juwelen om items in de winkel te kopen!</item>
+        <item quantity="one">Je hebt %d juweel om items in de winkel te kopen!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Je hebt %d lingots om dingen in de winkel te kopen!</item>
+        <item quantity="one">Je hebt %d lingot om dingen in de winkel te kopen!</item>
+    </plurals>
+</resources>

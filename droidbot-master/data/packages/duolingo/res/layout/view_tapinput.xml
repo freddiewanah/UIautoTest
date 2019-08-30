@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.session.challenges.LinedFlowLayout android:gravity="top" android:id="@id/solutionContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <include android:id="@id/playButton" android:visibility="gone" layout="@layout/view_speaker_small_w_margin" />
+    </com.duolingo.session.challenges.LinedFlowLayout>
+    <com.duolingo.session.challenges.BalancedFlowLayout android:gravity="center" android:id="@id/tokensContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

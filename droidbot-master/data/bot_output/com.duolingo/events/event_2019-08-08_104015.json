@@ -1,0 +1,10 @@
+{
+  "tag": "2019-08-08_104015",
+  "event": {
+    "event_type": "key",
+    "name": "MENU"
+  },
+  "start_state": "ef916c51114533d63e730dc1ec6540e3",
+  "stop_state": "ef916c51114533d63e730dc1ec6540e3",
+  "event_str": "KeyEvent(state=ef916c51114533d63e730dc1ec6540e3, name=MENU)"
+}

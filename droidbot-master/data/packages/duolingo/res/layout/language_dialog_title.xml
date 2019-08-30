@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.DryTextView android:textSize="@dimen/medium_font_size" android:gravity="center" android:id="@id/unsupported_language" android:background="@color/new_gray_lightest" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    <View android:background="@color/new_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.duolingo.core.ui.DryTextView android:textSize="@dimen/default_font_size" android:gravity="center" android:id="@id/unsupportedLanguageMessage" android:background="@color/juicySnow" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+</LinearLayout>

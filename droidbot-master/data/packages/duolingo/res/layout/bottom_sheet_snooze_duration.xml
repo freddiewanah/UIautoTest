@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1AndHalf" android:text="@string/snooze_practice_reminders_duration_title" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/H1" />
+    <com.duolingo.core.ui.CardView android:id="@id/threeDaysCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength2" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/SelectableCard">
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/threeDaysText" style="@style/Paragraph" />
+    </com.duolingo.core.ui.CardView>
+    <com.duolingo.core.ui.CardView android:id="@id/oneWeekCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/SelectableCard">
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/oneWeekText" style="@style/Paragraph" />
+    </com.duolingo.core.ui.CardView>
+    <com.duolingo.core.ui.CardView android:id="@id/twoWeeksCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/SelectableCard">
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/twoWeeksText" style="@style/Paragraph" />
+    </com.duolingo.core.ui.CardView>
+    <com.duolingo.core.ui.JuicyButton android:id="@id/continueButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1AndHalf" android:layout_marginBottom="@dimen/juicyLength1" android:text="@string/button_select" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/SolidButton" />
+</LinearLayout>

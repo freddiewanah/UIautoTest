@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_122430",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.apps.nexuslauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "Voice search",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          857,
+          1868
+        ],
+        [
+          1011,
+          2022
+        ]
+      ],
+      "resource_id": "com.google.android.apps.nexuslauncher:id/mic_icon",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 23,
+      "size": "154*154",
+      "signature": "[class]android.view.View[resource_id]com.google.android.apps.nexuslauncher:id/mic_icon[text]None[enabled,,]",
+      "view_str": "f037e051f6c4ec1462010139be834be5"
+    }
+  },
+  "start_state": "955dbd63bc52e2a8b4b9ab148140f2eb",
+  "stop_state": "837a62f5ddbce823c4d5eff4b05dd8ef",
+  "event_str": "TouchEvent(state=955dbd63bc52e2a8b4b9ab148140f2eb, view=f037e051f6c4ec1462010139be834be5)"
+}

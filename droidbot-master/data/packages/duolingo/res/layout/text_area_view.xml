@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/text_area_background_rounded" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyEditText android:id="@id/textArea" android:paddingBottom="@dimen/juicyLengthHalf" android:layout_width="fill_parent" android:layout_height="0.0dip" android:inputType="textCapSentences|textMultiLine" app:layout_constraintBottom_toTopOf="@id/line" app:layout_constraintTop_toTopOf="parent" style="@style/Input" />
+    <View android:id="@id/line" android:background="@color/juicySwan" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintBottom_toTopOf="@id/charCount" app:layout_constraintTop_toBottomOf="@id/textArea" />
+    <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicyWolf" android:gravity="end" android:id="@id/charCount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLengthHalf" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/line" style="@style/Paragraph" />
+</androidx.constraintlayout.widget.ConstraintLayout>

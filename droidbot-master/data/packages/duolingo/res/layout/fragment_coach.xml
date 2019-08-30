@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.session.challenges.LessonLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/coachContainer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.duolingo.core.ui.LottieAnimationView android:layout_gravity="start|center" android:id="@id/coachView" android:layout_width="153.0dip" android:layout_height="233.0dip" android:scaleType="fitCenter" />
+        <com.duolingo.core.ui.PointingCardView android:layout_gravity="start|center" android:id="@id/duoSpeechBubbleInLesson" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:arrowDirection="start" style="@style/SpeechBubble">
+            <com.duolingo.core.ui.JuicyTextView android:gravity="start" android:id="@id/duoSpeechBubbleInLessonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" app:trimViewSize="true" style="@style/Paragraph" />
+        </com.duolingo.core.ui.PointingCardView>
+    </FrameLayout>
+</com.duolingo.session.challenges.LessonLinearLayout>

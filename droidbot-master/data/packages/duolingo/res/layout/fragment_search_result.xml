@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:horizontalPadding="@fraction/activity_horizontal_padding_percent" app:pushPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/list_divider" android:dividerHeight="1.0px" />
+    <com.duolingo.core.ui.DryTextView android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.duolingo.core.ui.PercentFrameLayout>

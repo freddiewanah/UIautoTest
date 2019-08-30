@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.core.ui.ActionBarView android:id="@id/toolbarTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/current_plan" android:layout_marginStart="@dimen/juicyLength1" style="@style/H1" />
+        <com.duolingo.core.ui.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/UnclickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/currentPlanTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Paragraph" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.JuicyButton android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/stripe_cancel_subscription" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/OutlineButton" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength2" android:text="@string/stripe_next_payment" android:layout_marginStart="@dimen/juicyLength1" style="@style/H1" />
+        <com.duolingo.core.ui.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/UnclickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/nextPaymentTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Paragraph" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.JuicyTextView android:id="@id/paymentMethodTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength2" android:text="@string/stripe_payment_method" android:layout_marginStart="@dimen/juicyLength1" style="@style/H1" />
+        <com.duolingo.core.ui.CardView android:id="@id/methodCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/UnclickableCard">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/brandIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.duolingo.core.ui.JuicyTextView android:id="@id/paymentMethodTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Paragraph" />
+            </LinearLayout>
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.JuicyButton android:id="@id/updateMethodButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/stripe_update_payment_method" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/OutlineButton" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.session.challenges.LessonLinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1" style="@style/H1" />
+    <org.apmem.tools.layouts.FlowLayout android:id="@id/prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength2" />
+    <FrameLayout android:layout_gravity="center|top" android:background="@drawable/text_area_background_rounded" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.duolingo.session.challenges.BlankableFlowLayout android:layout_gravity="top" android:id="@id/translation" android:padding="@dimen/juicyLength1" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.duolingo.session.challenges.LessonLinearLayout>

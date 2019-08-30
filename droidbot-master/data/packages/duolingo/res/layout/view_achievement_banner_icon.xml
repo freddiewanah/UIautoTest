@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.DuoSvgImageView android:id="@id/achievementBanner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <com.duolingo.achievements.AchievementStarView android:id="@id/firstStar" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+    <com.duolingo.achievements.AchievementStarView android:id="@id/secondStar" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+    <com.duolingo.achievements.AchievementStarView android:id="@id/thirdStar" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+</merge>

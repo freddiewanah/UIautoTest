@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" android:installLocation="auto" package="com.duolingo" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:isSplitRequired="true" android:label="@string/app_name" android:largeHeap="true" android:name="com.duolingo.core.DuoApp" android:networkSecurityConfig="@xml/network_security_config" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <activity android:alwaysRetainTaskState="true" android:icon="@mipmap/ic_launcher" android:label="@string/launcher_activity_name" android:name="com.duolingo.splash.LaunchActivity" android:screenOrientation="portrait" android:theme="@style/AppSplashTheme" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="home"/>
+                <data android:host="lesson"/>
+                <data android:host="o"/>
+                <data android:host="practice"/>
+                <data android:host="premium"/>
+                <data android:host="profile"/>
+                <data android:host="skill"/>
+                <data android:host="switch_course"/>
+                <data android:scheme="duolingo"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="duolingo"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <data android:host="www.duolingo.com"/>
+                <data android:host="ar.duolingo.com"/>
+                <data android:host="cs.duolingo.com"/>
+                <data android:host="de.duolingo.com"/>
+                <data android:host="el.duolingo.com"/>
+                <data android:host="es.duolingo.com"/>
+                <data android:host="fr.duolingo.com"/>
+                <data android:host="hi.duolingo.com"/>
+                <data android:host="hu.duolingo.com"/>
+                <data android:host="id.duolingo.com"/>
+                <data android:host="it.duolingo.com"/>
+                <data android:host="ja.duolingo.com"/>
+                <data android:host="ko.duolingo.com"/>
+                <data android:host="nl-nl.duolingo.com"/>
+                <data android:host="pl.duolingo.com"/>
+                <data android:host="pt.duolingo.com"/>
+                <data android:host="ro.duolingo.com"/>
+                <data android:host="ru.duolingo.com"/>
+                <data android:host="th.duolingo.com"/>
+                <data android:host="tr.duolingo.com"/>
+                <data android:host="uk.duolingo.com"/>
+                <data android:host="vi.duolingo.com"/>
+                <data android:scheme="https"/>
+                <data android:path="/"/>
+                <data android:pathPrefix="/course/"/>
+                <data android:pathPrefix="/skill/"/>
+                <data android:pathPrefix="/users/"/>
+                <data android:pathPrefix="/u/"/>
+                <data android:pathPrefix="/c/"/>
+                <data android:pathPrefix="/p/"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="blast.duolingo.com" android:pathPrefix="/redirect/" android:scheme="https"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:icon="@mipmap/ic_launcher" android:label="@string/launcher_activity_name" android:name="com.duolingo.app.LoginActivity" android:targetActivity="com.duolingo.splash.LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/support_activity_title" android:name="zendesk.support.guide.HelpCenterActivity" android:screenOrientation="portrait" android:theme="@style/ZendeskHelpCenterTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/zs_view_article_loading_title" android:name="zendesk.support.guide.ViewArticleActivity" android:screenOrientation="portrait" android:theme="@style/ZendeskHelpCenterTheme"/>
+        <activity android:name="zendesk.support.request.RequestActivity" android:screenOrientation="portrait" android:theme="@style/ZendeskHelpCenterTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/request_list_activity_title" android:name="zendesk.support.requestlist.RequestListActivity" android:screenOrientation="portrait" android:theme="@style/ZendeskHelpCenterTheme"/>
+        <activity android:name="com.duolingo.home.HomeActivity" android:parentActivityName="com.duolingo.splash.LaunchActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTransparentStatusBarTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_lesson" android:launchMode="singleTop" android:name="com.duolingo.session.LessonActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.duolingo.session.Api2SessionActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.session.TestActivity" android:parentActivityName="com.duolingo.session.LevelTestExplainedActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.home.SkillPracticeActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_coach" android:launchMode="singleTop" android:name="com.duolingo.onboarding.WelcomeFlowActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarShadowTheme"/>
+        <activity android:label="@string/title_activity_coach" android:launchMode="singleTop" android:name="com.duolingo.onboarding.FromLanguageActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.session.GlobalPracticeActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.session.ShortcutActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.session.LevelTestExplainedActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme"/>
+        <activity android:label="@string/title_activity_test" android:name="com.duolingo.onboarding.PlacementTestExplainedActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.session.PlacementActivity" android:parentActivityName="com.duolingo.onboarding.PlacementTestExplainedActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="@string/title_activity_test" android:launchMode="singleTop" android:name="com.duolingo.session.CheckpointShortcutExplainedActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.duolingo.tutors.TutorsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.tutors.TutorsIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.tutors.TutorsPurchaseActivity" android:parentActivityName="com.duolingo.tutors.TutorsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.penpal.PenpalDiscussionsArchiveActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.penpal.PenpalTeacherActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.duolingo.penpal.PenpalTranslateActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.duolingo.penpal.PenpalPictureActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.penpal.PenpalTopicOptionsActivity" android:parentActivityName="com.duolingo.home.HomeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/title_activity_settings" android:name="com.duolingo.settings.SettingsActivity" android:screenOrientation="portrait" android:theme="@style/SettingsTheme"/>
+        <activity android:label="@string/title_activity_friendsearch" android:name="com.duolingo.profile.FriendSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.profile.ProfileActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_schools" android:name="com.duolingo.profile.SchoolsActivity" android:screenOrientation="portrait" android:theme="@style/SchoolsTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/save_progress" android:name="com.duolingo.signuplogin.SignupActivity" android:screenOrientation="portrait" android:theme="@style/SignupTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/add_phone" android:name="com.duolingo.signuplogin.AddPhoneActivity" android:screenOrientation="portrait" android:theme="@style/SignupTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/discuss_sentence_title" android:name="com.duolingo.forum.SentenceDiscussionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/discuss_sentence_reply_header_title" android:name="com.duolingo.forum.SentenceDiscussionReplyActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.sessionend.ItemOfferActivity" android:screenOrientation="portrait" android:theme="@style/LessonTheme"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.nps.NPSSurveyActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.PlusPurchaseActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.StripePurchaseActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.PlusActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.PlusSettingsActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.ManageSubscriptionActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.StripeSelectMethodActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.progressquiz.ProgressQuizHistoryActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.AutoUpdateSettingActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.OfflineCoursesActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.FreeTrialIntroActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.shop.ShopActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.WelcomeToPlusActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.referral.ReferralInviteeBonusActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.duolingo.referral.ReferralInviterBonusActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.duolingo.sessionend.ProgressQuizOfferActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.duolingo.referral.ReferralInterstitialActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.duolingo.leagues.LeaguesCollabRewardActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.duolingo.leagues.LeaguesPlacementActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.referral.ReferralExpiringActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.ads.PodcastPromoActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.plus.WelcomeRegistrationActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.explanations.ExplanationListDebugActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.duolingo.explanations.ExplanationActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.health.HealthWithRewardedVideoActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.snoozereminders.SnoozeOfferActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <activity android:name="com.duolingo.debug.DebugActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.debug.DesignGuidelinesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.duolingo.session.SessionDebugActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:name="com.duolingo.wechat.WeChatReceiverActivity" android:screenOrientation="portrait"/>
+        <activity-alias android:exported="true" android:name="com.duolingo.wxapi.WXEntryActivity" android:targetActivity="com.duolingo.wechat.WeChatReceiverActivity"/>
+        <activity android:label="@string/app_name" android:name="com.duolingo.wechat.WeChatFollowInstructionsActivity" android:screenOrientation="portrait" android:theme="@style/NoActionBarTheme"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="@string/admob_learning_app_id"/>
+        <activity android:name="com.duolingo.core.util.FacebookUtils$WrapperActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <provider android:authorities="com.duolingo.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:name="com.duolingo.notifications.FcmIntentService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.duolingo.notifications.NotificationIntentService">
+            <intent-filter>
+                <action android:name="com.duolingo.action.FOLLOW_BACK"/>
+                <action android:name="com.duolingo.action.REMIND_LATER"/>
+                <action android:name="com.duolingo.action.PRACTICE_LATER_ALARM"/>
+                <action android:name="com.duolingo.action.PRACTICE_ALARM"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.duolingo.core.DuoInstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.duolingo.referral.ReferralShareReceiver"/>
+        <service android:enabled="true" android:exported="true" android:name="com.duolingo.notifications.NotificationUtils$NotificationIntentServiceProxy"/>
+        <service android:enabled="true" android:exported="true" android:name="com.duolingo.notifications.NotificationUtils$DeletedNotificationIntentService"/>
+        <service android:exported="false" android:name="com.duolingo.stickers.AppIndexingUpdateService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="true" android:name="com.duolingo.session.SessionPreloadService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.duolingo.core.account.AccountService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="f666d15136be7b1577fd0ee596e056f67b9f54d1"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adunit.AdUnitActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="true" android:name="com.unity3d.ads.adunit.AdUnitTransparentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.unity3d.ads.adunit.AdUnitTransparentSoftwareActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.stripe.android.view.AddPaymentMethodActivity" android:theme="@style/StripeDefaultTheme" android:windowSoftInputMode="stateVisible"/>
+        <activity android:name="com.stripe.android.view.PaymentMethodsActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:name="com.stripe.android.view.PaymentFlowActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:name="com.stripe.android.view.PaymentAuthWebViewActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:name="com.stripe.android.view.PaymentRelayActivity" android:theme="@style/StripeDefaultTheme"/>
+        <receiver android:exported="false" android:name="zendesk.support.DeepLinkingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zendesk.support"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.duolingo.zendesk.support.SupportSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.SupportSdkStartupProvider"/>
+        <activity android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity" android:theme="@style/Theme.Default"/>
+        <activity android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity" android:theme="@style/Theme.Default"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <service android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.duolingo.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="com.duolingo.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <provider android:authorities="com.duolingo.belvedere2.attachments" android:exported="false" android:grantUriPermissions="true" android:name="zendesk.belvedere.BelvedereFileProvider" android:readPermission="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/belvedere_attachment_storage_v2"/>
+        </provider>
+        <provider android:authorities="com.duolingo.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.facebook.CampaignTrackingReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.duolingo.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.duolingo.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <provider android:authorities="com.duolingo.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

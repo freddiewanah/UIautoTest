@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/small_margin" android:paddingBottom="@dimen/small_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:gravity="center_vertical" android:id="@id/autoUpdateRadioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/CoachRadioButtonStyle" />
+    <com.duolingo.core.ui.DryTextView android:textSize="@dimen/small_font_size" android:textColor="@color/gray_clubs_darker" android:id="@id/autoUpdateOptionTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

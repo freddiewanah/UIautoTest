@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.ActionBarView android:id="@id/penpalTopicOptionsActionBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/penpalMessagesPlusIcon" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength1AndHalf" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/juicyLength1" app:layout_constraintBottom_toBottomOf="@id/penpalTopicOptionsActionBar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/penpalTopicOptionsActionBar" app:srcCompat="@drawable/plus_badge_juicy" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/penpalTopicsRecyclerView" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingStart="@dimen/juicyLengthHalf" android:paddingEnd="@dimen/juicyLengthHalf" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/penpalTopicOptionsActionBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

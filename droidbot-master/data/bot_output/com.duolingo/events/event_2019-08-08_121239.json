@@ -1,0 +1,51 @@
+{
+  "tag": "2019-08-08_121239",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "brain",
+      "children": [
+        25,
+        26,
+        27
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          910
+        ],
+        [
+          1036,
+          1119
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 24,
+      "size": "992*209",
+      "signature": "[class]android.view.ViewGroup[resource_id]None[text]None[enabled,,]",
+      "view_str": "3b7fbaef1cee130b01b4b0a92a97ab4b"
+    }
+  },
+  "start_state": "66a2515c5f7693a9cc5241f57db9cd6c",
+  "stop_state": "c307d365c8a25acef70b681fb2e0cddc",
+  "event_str": "TouchEvent(state=66a2515c5f7693a9cc5241f57db9cd6c, view=3b7fbaef1cee130b01b4b0a92a97ab4b)"
+}

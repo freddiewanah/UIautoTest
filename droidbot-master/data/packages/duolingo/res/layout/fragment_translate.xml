@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.session.challenges.LessonLinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_marginBottom="@dimen/juicyLength1" android:text="@string/title_translate" android:maxLines="2" app:autoSizeTextType="uniform" style="@style/H1" />
+    <org.apmem.tools.layouts.FlowLayout android:gravity="center_vertical" android:id="@id/sentenceContainer" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1">
+        <com.duolingo.session.challenges.SpeakerCardView android:id="@id/playButton" style="@style/SpeakerButton" />
+    </org.apmem.tools.layouts.FlowLayout>
+    <com.duolingo.core.ui.CardView android:id="@id/textInputContainer" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/InputCard">
+        <com.duolingo.core.ui.JuicyEditText android:gravity="top" android:id="@id/textInput" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minLines="1" android:inputType="textCapSentences|textMultiLine" style="@style/Input" />
+    </com.duolingo.core.ui.CardView>
+    <com.duolingo.session.challenges.TapInputView android:id="@id/tapInputView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.duolingo.core.ui.JuicyButton android:textColor="@color/juicyHare" android:id="@id/inputSwitchKeyboard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginBottom="@dimen/juicyLengthNegative1" android:text="@string/input_switch_to_keyboard" android:drawableStart="@drawable/ic_keyboard" style="@style/TransparentButton" />
+    <com.duolingo.core.ui.JuicyButton android:textColor="@color/juicyHare" android:id="@id/inputSwitchWordBank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginBottom="@dimen/juicyLengthNegative1" android:text="@string/input_switch_to_wordbank" android:drawableStart="@drawable/ic_wordbank" style="@style/TransparentButton" />
+</com.duolingo.session.challenges.LessonLinearLayout>

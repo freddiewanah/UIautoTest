@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bzv_issuer_image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="@dimen/brand_zone_max_height" android:layout_weight="1.0" android:contentDescription="@string/bzv_issuer_image_description" />
+    <View android:layout_margin="@dimen/brand_zone_horizontal_margin" style="@style/Divider.Vertical" />
+    <ImageView android:id="@id/bzv_payment_system_image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="@dimen/brand_zone_max_height" android:layout_weight="1.0" android:contentDescription="@string/bzv_payment_system_image_description" />
+</merge>

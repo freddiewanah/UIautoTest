@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/inline_speaker_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_speaker_small" />
+</FrameLayout>

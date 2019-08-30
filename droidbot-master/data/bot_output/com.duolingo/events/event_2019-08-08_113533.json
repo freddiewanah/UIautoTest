@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_113533",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.android.chrome",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          2028
+        ],
+        [
+          1080,
+          2028
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1080*0",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0ac03a459921d20af9852d904f48c1c3"
+    }
+  },
+  "start_state": "4e43b56d25e12afb9af3c1493cb6e6bf",
+  "stop_state": "4e43b56d25e12afb9af3c1493cb6e6bf",
+  "event_str": "TouchEvent(state=4e43b56d25e12afb9af3c1493cb6e6bf, view=0ac03a459921d20af9852d904f48c1c3)"
+}

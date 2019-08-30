@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s 和其他 %2$d 项成就</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">完成了课程中的 %d 项技能</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">使用 %d 颗宝石</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">正确无误地完成了 %d 个课程单元或练习</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">使用 %d 邻角</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">保持 %d 天连胜</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">一天赚取 %d 经验</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">这是你完成了一门课程里 %d 项技能的奖励</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">这是你使用了 %d 个宝石的奖励</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">这是你正确无误完成了 %d 个单元或练习的奖励</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">这是你使用了 %d 个邻角的奖励</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">这是你保持了 %d 天连胜的成绩的奖励</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">这是你一天赚取了 %d 经验的奖励</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">你有错别字哦</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">再去买一个连胜激冻，保持你 %d 天连胜的地位。</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">通过测试跳过 %d 项技能</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">每天 %d 分钟</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">可供下载</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d 天连胜</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">还剩 %d 天</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d 条评论</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">隐藏了%d条评论</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">今天内获得额外 %d 经验，以达到你的每日目标</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d 周</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">你已赚取 %d 颗宝石！</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">你获得了 %d 邻角！</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d 经验</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">你今天赚取了 %d 经验</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">保持 7 天连胜，使你的 %d 颗宝石筹码翻倍。</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">你的 %d 颗宝石翻倍了。是否要押其他筹码？</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">使用 %d 邻角购买？</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">要使用 %d 颗宝石获取此物品吗？</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">正确答案：</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d 小时前</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">跳到第 %d 级！</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">前 %1$d 位能跃升到下一个等级</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">跟队友们并肩作战，一起获得 %1$s 经验来打开这个宝箱吧！</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">不再是孤独的坚持！一起奋斗获得剩余的 %1$s 经验！</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">你跟队友们已达到目标，获得了 %1$s 经验！</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">你获得了 %1$d 个邻角！</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">你已赚取 %1$d 颗宝石！</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d 经验</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">再完成 %1$d 个单元，开始参加挑战</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">你获得了 %1$d 个邻角！</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">你已赚取 %1$d 颗宝石！</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">开始 +%d 经验</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">%1$s 级</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">%2$s 第 %1$s 级</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d 分钟前</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">个月</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">在 %1$s，将会向你收取 %2$s 的 Duolingo Plus %3$s 个月费用。</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">下次付款：在 %1$s，将会向你收取 %2$s 的 Duolingo Plus %3$s 个月费用。</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">装备 %d 邻角</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">离你上次的小测验已过了 %d 个月</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">你现在可以免费体验 Duolingo Plus %d 个星期！</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">在 %1$d 小时内邀请更多好友加入多邻国，继续体验 Plus。</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">%1$s还有你邀请的 %2$d 个好友都已加入多邻国啦！在 %3$s 以前，请尽情体验 Plus 吧！</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">你邀请的 %1$d 个好友已加入多邻国啦！在 %2$s 以前，请尽情体验 Plus 吧！</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">你刚完成了关口%d！</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">恭喜你在多邻国上连胜 %d 天</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d 天连胜！</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d 天连胜！</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d 天连胜！</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">还可添加 %d 个特殊技能</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">%1$d 天过去了！</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">%1$d 周过去了！</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">昨天你保持了 %d 天连胜的成绩</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">天</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">失去了 %d 天连胜的战绩！</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">你已保持 %d 天连胜！</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">已修复 %d 天连胜！</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">你的 %d 邻角翻倍了。是否要押其他筹码？</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">让 %d 颗宝石筹码翻倍</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>请为“%s”选择正确的字符&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d 课／%2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d 经验</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">你已经保持 %d 天连胜啦！</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">距离每日目标还差 %d 经验</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">你找到了 %d 颗宝石！</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">你找到了 %d 邻角！</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">你有 %d 颗宝石，可以用来在宝石小店中购买物品！</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">你有 %d 个邻角，可以用来在宝石小店中购买物品！</item>
+    </plurals>
+</resources>

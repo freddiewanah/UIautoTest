@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SkillTreeWidth">
+        <item name="android:layout_width">600.0dip</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="_CheckpointNumber">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="autoSizeMaxTextSize">30.0sp</item>
+    </style>
+</resources>

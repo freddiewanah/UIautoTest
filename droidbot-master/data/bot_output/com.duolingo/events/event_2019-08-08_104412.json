@@ -1,0 +1,48 @@
+{
+  "tag": "2019-08-08_104412",
+  "event": {
+    "event_type": "set_text",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          554
+        ],
+        [
+          1036,
+          1759
+        ]
+      ],
+      "resource_id": "com.duolingo:id/textInput",
+      "checked": false,
+      "text": "Humanoid",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "992*1205",
+      "signature": "[class]android.widget.EditText[resource_id]com.duolingo:id/textInput[text]Humanoid[enabled,,]",
+      "view_str": "a992c1daf6af033b02e121dbccc1dde2"
+    },
+    "text": "Humanoid"
+  },
+  "start_state": "89dfa70b9822c84f654d2ab105ccd314",
+  "stop_state": "89dfa70b9822c84f654d2ab105ccd314",
+  "event_str": "SetTextEvent(state=89dfa70b9822c84f654d2ab105ccd314, view=a992c1daf6af033b02e121dbccc1dde2, text=Humanoid)"
+}

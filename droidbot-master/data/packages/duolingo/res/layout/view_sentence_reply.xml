@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/comment_container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/lesson_activity_horizontal_margin" android:paddingEnd="@dimen/lesson_activity_horizontal_margin">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/user_avatar" android:layout_width="@dimen/comment_avatar_size" android:layout_height="@dimen/comment_avatar_size" android:layout_marginTop="5.0dip" app:srcCompat="@drawable/avatar_none" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="0.0dip">
+                <com.duolingo.core.ui.DryTextView android:textSize="@dimen/challenge_text_size" android:textStyle="bold" android:textColor="@color/juicyMacaw" android:id="@id/user_name" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/App_ButtonFlatNoStyle" />
+                <com.duolingo.core.ui.DryTextView android:textSize="@dimen/challenge_text_size" android:autoLink="web" android:id="@id/user_comment" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/new_gray_light" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <include android:layout_gravity="center" android:id="@id/post_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_reply_item" />
+</LinearLayout>

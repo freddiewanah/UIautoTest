@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/big_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/score_container" android:layout_width="fill_parent" android:layout_height="@dimen/square_rating_height" android:layout_marginBottom="@dimen/big_margin" />
+    <SeekBar android:id="@id/score_slider" android:layout_width="fill_parent" android:layout_height="@dimen/square_rating_height" android:max="1100" android:progressDrawable="@null" android:thumb="@null" />
+    <com.duolingo.core.ui.DryTextView android:textColor="@color/juicySnow" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nps_not_likely" android:layout_below="@id/score_container" style="@style/NPSSurveyEndpointDescription" />
+    <com.duolingo.core.ui.DryTextView android:textColor="@color/juicySnow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nps_likely" android:layout_below="@id/score_container" android:layout_alignParentEnd="true" style="@style/NPSSurveyEndpointDescription" />
+</RelativeLayout>

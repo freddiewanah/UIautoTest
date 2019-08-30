@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/juicyLength1AndHalf"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/sectionName" android:paddingTop="@dimen/juicyLength1AndHalf" android:paddingBottom="@dimen/juicyLength1" android:text="@string/title_register_language" style="@style/H1" />
+</FrameLayout>

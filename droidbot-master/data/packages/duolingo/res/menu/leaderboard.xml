@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_find_friend" android:title="@string/action_find_friend" android:contentDescription="@string/action_find_friend" app:showAsAction="never" />
+    <item android:id="@id/menu_invite_friend" android:title="@string/action_invite_friend" android:contentDescription="@string/action_invite_friend" app:showAsAction="never" />
+</menu>

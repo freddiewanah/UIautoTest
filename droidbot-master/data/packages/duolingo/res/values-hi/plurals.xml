@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s और %2$d अन्य</item>
+        <item quantity="one">%1$s और %2$d अन्य</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">एक कोर्स के %d खंड पूरे करें</item>
+        <item quantity="one">एक कोर्स का %d खंड पूरा करें</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">%d हीरे खर्च करें</item>
+        <item quantity="one">%d हीरा खर्च करें</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">बिना गलत जवाब दिए %d पाठ या अभ्यास पूरे करें</item>
+        <item quantity="one">बिना गलत जवाब दिए %d पाठ या अभ्यास पूरा करें</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">%d मणि खर्च करें</item>
+        <item quantity="one">%d मणि खर्च करें</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">%d दिन की पारी बनाए रखें</item>
+        <item quantity="one">%d दिन की पारी बनाए रखें</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">एक दिन में %d अंक कमाएं</item>
+        <item quantity="one">एक दिन में %d अंक कमाएं</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">आपने एक कोर्स के %d खंड पूरे करके यह कमाया</item>
+        <item quantity="one">आपने एक कोर्स का %d खंड पूरा करके यह कमाया</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">आपने %d हीरे खर्च करके यह कमाया</item>
+        <item quantity="one">आपने %d हीरा खर्च करके यह कमाया</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">आपने कुछ भी ग़लत किए बिना %d पाठ या अभ्यास पूरे करके यह कमाया</item>
+        <item quantity="one">आपने कुछ भी ग़लत किए बिना %d पाठ या अभ्यास पूरा करके यह कमाया</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">आपने %d मणियाँ खर्च करके यह कमाया</item>
+        <item quantity="one">आपने %d मणि खर्च करके यह कमाया</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">आपने %d दिन की पारी बनाकर यह कमाया</item>
+        <item quantity="one">आपने %d दिन की पारी बनाकर यह कमाया</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">आपने एक दिन में %d अंक पाकर यह कमाया</item>
+        <item quantity="one">आपने एक दिन में %d अंक पाकर यह कमाया</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">आपके जवाब में लेखन की गलतियाँ हैं</item>
+        <item quantity="one">आपके जवाब में लेखन की गलती है</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">अपनी %d दिनों की पारी को सुरक्षित रखने के लिए एक और लें।</item>
+        <item quantity="one">अपनी %d दिन की पारी को सुरक्षित रखने के लिए एक और लें।</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">परीक्षा देकर %d खंड पार करें</item>
+        <item quantity="one">परीक्षा देकर %d खंड पार करें</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">दिन में %d मिनट</item>
+        <item quantity="one">दिन में %d मिनट</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">डाउनलोड के लिये उपलब्ध</item>
+        <item quantity="one">डाउनलोड के लिये उपलब्ध</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d दिनों की पारी</item>
+        <item quantity="one">%d दिन की पारी</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d दिन पहले</item>
+        <item quantity="one">%d दिन पहले</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d दिन बाकी</item>
+        <item quantity="one">%d दिन बाकी</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d टिप्पणियाँ</item>
+        <item quantity="one">%d टिप्पणी</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d अप्रत्यक्ष टिप्पणियाँ</item>
+        <item quantity="one">%d अप्रत्यक्ष टिप्पणी</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">अपने रोज़ के लक्ष्य तक पहुँचने के लिए %d अंक और कमाएँ</item>
+        <item quantity="one">अपने रोज़ के लक्ष्य तक पहुँचने के लिए %d अंक और कमाएँ</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d दिन</item>
+        <item quantity="one">%1$d दिन</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d हफ़्ते</item>
+        <item quantity="one">%1$d हफ़्ता</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">आपने %d हीरे कमाए!</item>
+        <item quantity="one">आपने एक हीरा कमाया!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">आपने %d मणि कमाए!</item>
+        <item quantity="one">आपने एक मणि कमाया!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d अंक</item>
+        <item quantity="one">%d अंक</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">आपने आज %d अंक कमाये हैं</item>
+        <item quantity="one">आपने आज %d अंक कमाया है</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">अपनी 7 दिन की पारी बनाए रखें और हम आपका %d हीरे का दाँव दोगुना कर देंगे।</item>
+        <item quantity="one">अपनी 7 दिन की पारी बनाए रखें और हम आपका %d हीरे का दाँव दोगुना कर देंगे।</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">आपने अपना %d हीरों का दाँव दोगुना कर लिया। एक और दाँव लगाना चाहते हैं?</item>
+        <item quantity="one">आपने अपना %d हीरे का दाँव दोगुना कर लिया। एक और दाँव लगाना चाहते हैं?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">क्या %d मणियों में इसे लेंगे?</item>
+        <item quantity="one">क्या %d मणि में इसे लेंगे?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">यह सामान %d हीरों में लें?</item>
+        <item quantity="one">यह सामान %d हीरे में लें?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">सही जवाब :</item>
+        <item quantity="one">सही जवाब :</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d घंटे पहले</item>
+        <item quantity="one">%d घंटे पहले</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">आगे बढ़कर स्तर %d पर जाएँ!</item>
+        <item quantity="one">आगे बढ़कर स्तर %d पर जाएँ!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">सबसे ऊपर के 10 लोग अगली लीग में पहुँचेंगे</item>
+        <item quantity="one">सबसे ऊपर आने वाला अगली लीग में पहुँचेगा</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">यह पिटारा खोलने के लिए अपनी लीग के साथ मिलकर %1$s अंक कमाएँ।</item>
+        <item quantity="one">यह पिटारा खोलने के लिए अपनी लीग के साथ मिलकर %1$s अंक कमाएँ।</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">समूह के लक्ष्य तक पहुँचने के लिए मिलकर काम करें और बचे हुए %1$s अंक कमाएँ।</item>
+        <item quantity="one">समूह के लक्ष्य तक पहुँचने के लिए मिलकर काम करें और बचा हुआ %1$s अंक कमाएँ।</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">आपके मुकाबले ने %1$s अंक का समूह का लक्ष्य पा लिया!</item>
+        <item quantity="one">आपके मुकाबले ने %1$s अंक का समूह का लक्ष्य पा लिया!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">आपने %1$d मणि कमाये!</item>
+        <item quantity="one">आपने %1$d मणि कमाया!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">आपने %1$d हीरे कमाये!</item>
+        <item quantity="one">आपने %1$d हीरा कमाया!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d अंक</item>
+        <item quantity="one">%1$d अंक</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">मुकाबला शुरू करने के लिए %1$d और पाठ पूरे करें</item>
+        <item quantity="one">मुकाबला शुरू करने के लिए %1$d और पाठ पूरा करें</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">आपने %1$d मणि कमाये</item>
+        <item quantity="one">आपने %1$d मणि कमाया</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">आपने %1$d हीरे कमाये!</item>
+        <item quantity="one">आपने %1$d हीरा कमाया!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">शुरू करें +%d अंक</item>
+        <item quantity="one">शुरू करें +%d अंक</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">स्तर %1$s</item>
+        <item quantity="one">स्तर %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">%2$s का स्तर %1$s</item>
+        <item quantity="one">%2$s का स्तर %1$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d मिनट पहले</item>
+        <item quantity="one">%d मिनट पहले</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">महीने</item>
+        <item quantity="one">महीना</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">%1$s को आपसे %3$s महीनों के डुओलिंगो प्लस के लिए %2$s का भुगतान लिया जाएगा।</item>
+        <item quantity="one">%1$s को आपसे एक महीने के डुओलिंगो प्लस के लिए %2$s का भुगतान लिया जाएगा।</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">अगला भुगतान: आपसे %1$s को %3$s महीने के डुओलिंगो प्लस के लिये %2$s का शुल्क लिया जायेगा</item>
+        <item quantity="one">अगला भुगतान: आपसे %1$s को 1 महीने के डुओलिंगो प्लस के लिये %2$s का शुल्क लिया जायेगा</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">%d मणि में लें</item>
+        <item quantity="one">%d मणि में लें</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">आपकी पिछली परीक्षा को %d महीने बीत चुके हैं</item>
+        <item quantity="one">आपकी पिछली परीक्षा को %d महीना बीत चुका है</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">आपने मुफ़्त डुओलिंगो प्लस के %d हफ़्ता कमाये!</item>
+        <item quantity="one">आपने मुफ़्त डुओलिंगो प्लस का %d हफ़्ता कमाया!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">प्लस इस्तेमाल करना जारी रखने के लिए %1$d घंटों के अंदर और दोस्तों को आमंत्रित करें।</item>
+        <item quantity="one">प्लस इस्तेमाल करना जारी रखने के लिए %1$d घंटे के अंदर और दोस्तों को आमंत्रित करें।</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">आपके कारण %1$s और %2$d अन्य दोस्त डुओलिंगो से जुड़े। %3$s तक प्लस का आनंद लें!</item>
+        <item quantity="one">आपके कारण %1$s और %2$d अन्य दोस्त डुओलिंगो से जुड़े। %3$s तक प्लस का आनंद लें!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">आपके कारण %1$d दोस्त डुओलिंगो से जुड़े। %2$s तक प्लस का आनंद लें!</item>
+        <item quantity="one">आपके कारण %1$d दोस्त डुओलिंगो से जुड़े। %2$s तक प्लस का आनंद लें!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">आपने पड़ाव %d पार कर लिया है!</item>
+        <item quantity="one">आपने पड़ाव %d पार कर लिया है!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">%d दिन लगातार डुओलिंगो इस्तेमाल करने पर बधाई</item>
+        <item quantity="one">आपके डुओलिंगो इस्तेमाल करने के पहले दिन पर बधाई</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d दिन की पारी!</item>
+        <item quantity="one">%d दिन की पारी!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d दिन की पारी!</item>
+        <item quantity="one">%d दिन की पारी!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d दिन की पारी!</item>
+        <item quantity="one">%d दिन की पारी!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d स्लॉट खुले हैं</item>
+        <item quantity="one">%d स्लॉट खुला है</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">%1$d दिन हो गये हैं!</item>
+        <item quantity="one">%1$d दिन हो गया है!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">%1$d हफ़्ते हो गये हैं!</item>
+        <item quantity="one">%1$d हफ़्ता हो गया है!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">आपने कल अपनी %d दिन की बारी को बचाया</item>
+        <item quantity="one">आपने कल अपनी %d दिन की बारी को बचाया</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">दिन</item>
+        <item quantity="one">दिन</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">%d दिनों की पारी समाप्त।</item>
+        <item quantity="one">%d दिन की पारी समाप्त।</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">आप %d दिनों की पारी पर हैं।</item>
+        <item quantity="one">आप %d दिन की पारी पर हैं।</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">%d दिनों की पारी वापस मिली।</item>
+        <item quantity="one">%d दिन की पारी वापस मिली।</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">आपने अपना %d मणि का दाँव दोगुना कर लिया। एक और दाँव लगाना चाहते हैं?</item>
+        <item quantity="one">आपने अपना %d मणि का दाँव दोगुना कर लिया। एक और दाँव लगाना चाहते हैं?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">%d हीरों का दाँव लगाएँ</item>
+        <item quantity="one">%d हीरे का दाँव लगाएँ</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>\"%s\" के लिए सही अक्षरों को चुनें&lt;/b></item>
+        <item quantity="one">&lt;b>\"%s\" के लिए सही अक्षर को चुनें&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%2$s में %1$d पाठ</item>
+        <item quantity="one">%2$s में %1$d पाठ</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d अंक</item>
+        <item quantity="one">+%d अंक</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">आप %d दिन की पारी पर हैं!</item>
+        <item quantity="one">आप %d दिन की पारी पर हैं!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">आप अपने हर दिन के लक्ष्य से %d अंक से दूर हैं</item>
+        <item quantity="one">आप अपने हर दिन के लक्ष्य से %d अंक से दूर हैं</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">आपको %d हीरे मिले!</item>
+        <item quantity="one">आपको एक हीरा मिला!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">आपको %d मणि मिले!</item>
+        <item quantity="one">आपको एक मणि मिला!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">आपके पास बाज़ार से सामान ख़रीदने के लिए %d हीरे हैं!</item>
+        <item quantity="one">आपके पास बाज़ार से सामान ख़रीदने के लिए %d हीरा है!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">बाज़ार से खरीदारी करने के लिए आपके पास %d मणि हैं।</item>
+        <item quantity="one">बाज़ार से खरीदारी करने के लिए आपके पास %d मणि है।</item>
+    </plurals>
+</resources>

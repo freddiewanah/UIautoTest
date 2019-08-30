@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s và %2$d mục khác</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Hoàn tất %d kỹ năng của khóa học</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Sử dụng %d đá quý</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Làm %d bài học hoặc luyện tập mà không bị sai gì cả</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Sử dụng %d lingot</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Duy trì streak %d ngày</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Đạt %d điểm KN trong một ngày</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Bạn đã nhận được nhờ hoàn thành %d kỹ năng của khóa học</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Bạn đã nhận được nhờ sử dụng %d đá quý</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Bạn đã nhận được nhờ hoàn thành %d bài học hoặc bài luyện tập mà không mắc lỗi sai nào</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Bạn đã nhận được nhờ sử dụng %d lingot</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Bạn đã nhận được nhờ duy trì chuỗi %d-ngày streak</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Bạn đã nhận được nhờ đạt %d KN trong một ngày</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Bạn có lỗi một lỗi nhỏ.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Lấy một cái khác để bảo vệ streak %d ngày của bạn.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Thi vượt %d kỹ năng</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d phút một ngày</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Sẵn sàng để Tải về</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">chuỗi %d ngày</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">Còn %d ngày</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">Bình luận</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d bình luận ẩn</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Kiếm thêm %d KN trong hôm nay để đạt mục tiêu hàng ngày của bạn</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d tuần</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Bạn đã kiếm được %d đá quý!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Bạn đã nhận được %d lingot!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d Điểm KN</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Hôm nay bạn nhận được %d KN</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Duy trì streak của bạn thêm 7 ngày nữa và chúng tôi sẽ tăng gấp đôi khoản cược %d đá quý của bạn.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Bạn đã tăng gấp đôi %d đá quý của mình. Muốn đặt cược nữa chăng?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Mua vật phẩm này với %d lingot?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Lấy vật phẩm này bằng %d đá quý?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Giải pháp đúng:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d tiếng trước</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Nhảy tới Cấp độ %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">Tốp %1$d được thăng hạng lên giải đấu cao hơn</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Hợp lực cùng đồng đội kiếm tổng %1$s KN để mở khóa rương này.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Cùng nỗ lực kiếm %1$s KN còn thiếu để đạt mục tiêu của nhóm.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Mọi người trong bảng xếp hạng của bạn đã đạt được mục tiêu nhóm là %1$s KN!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Bạn đã nhận được %1$d lingot!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Bạn đã kiếm được %1$d đá quý!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d KN</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Hoàn thành thêm %1$d bài học để bắt đầu thi đua</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Bạn đã kiếm được %1$d Lingot!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Bạn đã kiếm được %1$d đá quý!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">BẮT ĐẦU +%d KN</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Cấp độ %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Cấp độ %1$s của %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">THÁNG</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">Vào %1$s chúng tôi sẽ thu %2$s cho %3$s tháng sử dụng Duolingo Plus của bạn.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Lần thanh toán tiếp theo: vào ngày %1$s bạn sẽ trả phí %2$s cho %3$s tháng sử dụng Duolingo Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">TRANG BỊ VỚI %d LINGOT</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">Bài kiểm tra gần nhất của bạn cách đây %d tháng</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Bạn đã nhận được %d tuần dùng Duolingo Plus miễn phí!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Mời thêm bạn bè trong %1$d tiếng sắp tới để tiếp tục dùng Plus.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">Nhờ bạn, %1$s và %2$d bạn khác đã tham gia. Bạn có thể sử dụng Plus tới %3$s!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">Nhờ có bạn %1$d người bạn khác đã tham gia. Bạn có thể dùng Plus cho tới %2$s!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Bạn đã hoàn thành Điểm kiểm tra %d!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Chúc mừng bạn đạt được chuỗi %d ngày sử dụng Duolingo</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d-Ngày Streak!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d Ngày Streak!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d-ngày streak!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d mục đang mở</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Đã %1$d ngày rồi!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Đã %1$d tuần rồi!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Hôm qua bạn đã bảo vệ được chuỗi %d ngày streak của mình</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">ngày</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">Đã mất %d ngày streak!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Bạn đang có %d ngày streak!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">Đã sửa %d ngày streak!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Bạn đã được gấp đôi %d lingot. Muốn đặt cược nữa chăng?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">CƯỢC %d ĐÁ QUÝ</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Chọn đúng ký tự cho “%s”&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%2$s cho %1$d bài học</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d KN</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">Bạn đang có chuỗi %d ngày streak!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">Bạn còn cần %d KN để đạt mục tiêu hàng ngày</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Bạn đã tìm thấy %d đá quý!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Bạn đã tìm được %d lingot!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Bạn có %d đá quý để mua vật phẩm trong cửa hàng!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Bạn có %d lingot để mua vật phẩm trong cửa hàng!</item>
+    </plurals>
+</resources>

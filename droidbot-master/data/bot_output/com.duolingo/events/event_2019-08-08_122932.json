@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_122932",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          378
+        ],
+        [
+          1080,
+          381
+        ]
+      ],
+      "resource_id": "com.duolingo:id/myRectangleView",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 22,
+      "size": "1080*3",
+      "signature": "[class]android.view.View[resource_id]com.duolingo:id/myRectangleView[text]None[enabled,,]",
+      "view_str": "085ea827c0e9e888f2e75c79db73f12a"
+    }
+  },
+  "start_state": "50c2586a464e2ae85486c5db1dd4d242",
+  "stop_state": "50c2586a464e2ae85486c5db1dd4d242",
+  "event_str": "TouchEvent(state=50c2586a464e2ae85486c5db1dd4d242, view=085ea827c0e9e888f2e75c79db73f12a)"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.PointingCardView android:orientation="vertical" android:id="@id/penpalMessageRemoteBubble" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLengthHalf" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="@dimen/juicyLengthHalf" android:layout_marginEnd="@dimen/juicyLength3" app:arrowDirection="start" app:arrowHeight="12.0dip" app:arrowOffset="0.0dip" app:arrowWidth="12.0dip" app:faceColor="@color/juicySnow" app:lipColor="@color/juicySwan" style="@style/SpeechBubble">
+        <include android:id="@id/penpalMessageRemoteInner" layout="@layout/view_penpal_message_inner" />
+    </com.duolingo.core.ui.PointingCardView>
+</merge>

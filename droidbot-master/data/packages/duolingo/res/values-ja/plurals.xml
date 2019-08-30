@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$sとその他%2$dつ</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">コースのスキルを%d個完了する</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">%dジェムを使う</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">レッスンかトレーニングを%d個間違わずにクリアする</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">%dリンゴットを使う</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">連続日数を%d日間保つ</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">1日に%dXPを獲得する</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">コースのスキルを%d個完了しました</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">%dジェムを使いました</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">%d個のレッスンか練習を間違わずにクリアしました</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">%dリンゴットを使いました</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">%d日連続で学習しました</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">1日に%dXPを獲得しました</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">回答に誤字脱字があります。</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">もう一つゲットして%d日連続をキープしよう。</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">%d個まとめて飛び級テスト</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d 分/日</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">ダウンロード可能</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d日連続</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">残り%d日</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d個のコメント</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">隠されたコメント：%d件</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">あと%dXP獲得して今日の目標を達成しましょう！</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d日</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d週間</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">%dジェムを獲得しました！</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">%dリンゴット獲得しました！</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">今日%dXP獲得しました</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">連続日数をあと7日間続けるとあなたの賭けた%dジェムを2倍にします。</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">あなたの%dジェムは2倍になりました。再びジェムを賭けますか？</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">このアイテムを%dリンゴットでゲットしますか？</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">%dジェムでこのアイテムをゲットしますか？</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">正解</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">レベル%dへ飛び級！</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">上位%1$d名は次のリーグへ進めます</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">リーグのみんなで合計%1$sXPを獲得すると、この宝箱が開きます。</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">グループゴール達成に向けて、みんなであと%1$sXP獲得しましょう。</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">あなたのランキングがグループゴール%1$sXPを達成しました！</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">%1$dリンゴット獲得しました！</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">%1$dジェムを獲得しました！</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">あと%1$dレッスン完了してランキングに参加しよう</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">%1$dリンゴット獲得しました！</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">%1$dジェムを獲得しました！</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">開始 + %dXP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">レベル %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">%2$sのレベル%1$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%dMB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">ヶ月</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">%1$sにDuolingo Plusの%3$sヶ月分%2$sが請求されます。</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">次回のお支払：%1$sにDuolingo Plusの%3$sヶ月分%2$sが請求されます。</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">%dリンゴットで装備する</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">最後のクイズから%dヶ月経過</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">%d週間分のDuolingo Plus無料体験を獲得しました！</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">%1$d時間以内にさらに友達を招待してPlusを使い続けよう。</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">あなたのおかげで%1$sとその他%2$d人が参加しました。%3$sまでPlusをお楽しみください！</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">あなたのおかげで%1$d人がDuolingoに参加しました。%2$sまでPlusをお楽しみください！</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">チェックポイント%dを完了しました！</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Duolingo%d日連続記録おめでとう！</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d日連続記録です！</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d日連続！</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d日連続記録です！</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">空いてるスペース%d個</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">もう%1$d日たちました！</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">もう%1$d週間たちました！</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">昨日%d日連続記録が守られました</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">日</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">%d日連続が失われました！</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">%d日連続です！</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">%d日連続記録が回復しました！</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">あなたの%dリンゴットは2倍になりました。再びリンゴットを賭けますか？</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">%dジェムを賭ける</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>「%s」に正しく当てはまる文字を選んでください&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$dレッスン %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+ %d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">あなたは%d日連続記録更新中です！</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">あなたの目標達成まであと%d XPです</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">ジェムを%d個見つけました！</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">%dリンゴットを見つけました！</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">ショップ内でアイテム購入に使えるジェムが%d個あります！</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">ショップ内でアイテム購入に使えるリンゴットが%d個あります！</item>
+    </plurals>
+</resources>

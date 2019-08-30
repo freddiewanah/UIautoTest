@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:dither="true" android:shape="rectangle">
+            <corners android:radius="@dimen/tutors_corner_radius" />
+            <stroke android:width="2.0dip" android:color="@color/new_gray_light" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/new_gray_lightest" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/blue_plus_light" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/ic_arrow_back_black_24dp">
+        <com.duolingo.core.ui.DryTextView android:textSize="@dimen/menu_font_size" android:textStyle="bold" android:textColor="@color/juicySnow" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/auto_update" android:maxLines="1" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.duolingo.core.ui.DryTextView android:textSize="@dimen/small_font_size" android:textColor="@color/gray_clubs" android:gravity="center" android:id="@id/autoUpdateExplanation" android:paddingTop="@dimen/huge_margin" android:paddingBottom="@dimen/huge_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_update_explanation" android:layout_marginStart="@dimen/huge_margin" android:layout_marginEnd="@dimen/huge_margin" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <com.duolingo.plus.AutoUpdatePreferenceView android:id="@id/autoUpdateOptionsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/huge_margin" android:layout_marginEnd="@dimen/huge_margin" app:layout_constraintTop_toBottomOf="@id/autoUpdateExplanation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

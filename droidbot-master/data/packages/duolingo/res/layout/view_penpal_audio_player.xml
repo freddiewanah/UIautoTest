@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/penpalAudioPlayerPlayButton" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:layout_width="wrap_content" android:layout_height="@dimen/juicyLength3" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1" app:srcCompat="@drawable/play_icon" />
+    <com.duolingo.core.ui.JuicyProgressBarView android:layout_gravity="center_vertical" android:id="@id/penpalAudioPlayerProgressBar" android:layout_width="0.0dip" android:layout_height="12.0dip" android:layout_weight="1.0" style="@style/ProgressBarBlue" />
+    <com.duolingo.core.ui.JuicyTextView android:textStyle="bold" android:textColor="@color/juicyHare" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/penpalAudioPlayerTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/juicyLength2" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Caption3" />
+</merge>

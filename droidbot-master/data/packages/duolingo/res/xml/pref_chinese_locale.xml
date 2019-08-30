@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/chinese_locale_preference_category" android:title="@string/title_chinese_locale">
+        <com.duolingo.settings.DuoChineseLocalePreference android:layout="@layout/preference_item_frame" android:key="@string/pref_key_chinese_locale" android:widgetLayout="@layout/preference_chinese_locale" />
+    </PreferenceCategory>
+</PreferenceScreen>

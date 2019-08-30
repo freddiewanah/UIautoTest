@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_131351",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1362
+        ],
+        [
+          1036,
+          1528
+        ]
+      ],
+      "resource_id": "com.duolingo:id/middleMessageLabel",
+      "checked": false,
+      "text": "\u6211\u4eec\u6559\u6fd2\u5371\u8bed\u8a00\uff0c\u5305\u62ec\u590f\u5a01\u5937\u8bed\u548c\u7eb3\u74e6\u970d\u8bed\u3002",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 10,
+      "size": "992*166",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/middleMessageLabel[text]\u6211\u4eec\u6559\u6fd2\u5371\u8bed\u8a00\uff0c\u5305\u62ec\u590f\u5a01\u5937\u8bed\u548c\u7eb3\u74e6\u970d\u8bed\u3002[enabled,,]",
+      "view_str": "b97098c2b2ba4ed5e13122988f089675"
+    }
+  },
+  "start_state": "ef916c51114533d63e730dc1ec6540e3",
+  "stop_state": "ef916c51114533d63e730dc1ec6540e3",
+  "event_str": "TouchEvent(state=ef916c51114533d63e730dc1ec6540e3, view=b97098c2b2ba4ed5e13122988f089675)"
+}

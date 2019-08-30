@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s dan %2$d lainnya</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Selesaikan %d keterampilan dari satu kursus</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Belanja %d permata</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Selesaikan %d pelajaran atau berlatih tanpa kesalahan</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Belanjakan %d lingot</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Pertahankan %d hari beruntun</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Dapatkan %d XP sehari</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Kamu telah memperolehnya untuk menyelesaikan %d skill kursus</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Kamu telah memperolehnya untuk belanja %d permata</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Kamu telah memperolehnya untuk menyelesaikan %d pelajaran atau latihan tanpa kesalahan</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Kamu telah memperolehnya untuk belanja %d lingot</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Kamu telah memperolehnya untuk mempertahankan %d hari runtun</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Kamu telah memperolehnya untuk menjangkau %d XP dalam sehari</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Ada salah eja di jawabanmu.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Dapatkan runtun beku lainnya agar %d hari beruntunmu terjaga.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Tes %d skill</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d menit sehari</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Tersedia untuk Diunduh</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d hari beruntun</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d hari lagi</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d Komentar</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d komentar disembunyikan</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Dapatkan %d XP lainnya hari ini untuk dapatkan target harianmu</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d minggu</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Kamu mendapatkan %d permata!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Kamu mendapat %d lingot!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Kamu telah memperoleh %d XP hari ini</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Pertahankan tetap runtun selama 7 hari lagi dan kami akan lipatgandakan taruhan %d permatamu.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Kamu telah melipatgandakan %d permatamu. Mau buat taruhan lainnya?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Dapatkan ini untuk %d lingot?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Dapatkan item ini seharga %d permata?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Jawaban benar:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d jam lalu</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Lompat ke Level %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">%1$d teratas maju ke liga berikutnya</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Bekerjalah bersama-sama dengan ligamu untuk meraih total %1$s XP untuk membuka kunci laci ini.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Bekerjalah bersama-sama untuk meraih %1$s XP lagi agar target grupmu tercapai.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Papan skormu telah mencapai target grup %1$s XP!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Kamu mendapatkan %1$d lingot!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Kamu mendapatkan %1$d permata!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Selesaikan %1$d pelajaran lainnya untuk mulai berkompetisi</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Kamu memperoleh %1$d Lingot!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Kamu mendapatkan %1$d permata!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">MULAI XP +%d</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Level %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Level %1$s untuk %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">BULAN</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">Pada tanggal %1$s kamu akan dikenakan biaya sebesar %2$s untuk %3$s bulan Duolingo Plus.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Pembayaran Selanjutnya: pada tanggal %1$s Anda akan dikenakan biaya sebesar %2$s untuk %3$s bulan Duolingo Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">GUNAKAN UNTUK %d LINGOT</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">%d bulan sejak kuis terakhirmu</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Kamu memperoleh %d minggu Duolingo Plus gratis!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Undang lebih banyak teman dalam %1$d jam berikutnya untuk terus menggunakan Plus.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">%1$s dan %2$d teman lainnya telah bergabung lewat undanganmu. Nikmati Plus sampai %3$s!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">%1$d teman telah bergabung lewat undanganmu. Nikmati Plus sampai %2$s!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Kamu telah menyelesaikan Cekpoin %d!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Selamat karena telah menggunakan Duolingo selama %d hari berturut-turut</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d Hari Beruntun!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d Hari Runtun!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d hari beruntun!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d slot tersedia</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Sudah %1$d hari!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Sudah %1$d minggu!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Kamu telah memproteksi %d hari runtun kemarin.</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">hari</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">%d hari runtun telah hilang!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Kamu ada di %d hari beruntun!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">%d hari beruntun sudah dikoreksi!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Kamu telah melipatgandakan %d lingotmu. Mau buat taruhan lainnya?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">TARUHAN %d PERMATA</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Pilih karakter yang tepat untuk “%s”&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d pelajaran seharga %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">Kamu di posisi %d hari runtun!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">%d XP lagi untuk mencapai target harianmu</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Kamu menemukan %d permata!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Kamu telah menemukan %d lingot!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Kamu memiliki %d permata untuk membeli barang di toko!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Kamu punya %d lingot untuk membeli item di toko!</item>
+    </plurals>
+</resources>

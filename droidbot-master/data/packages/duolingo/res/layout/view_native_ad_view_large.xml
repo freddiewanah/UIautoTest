@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/adImageContainer" android:visibility="gone" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/adImageWrapper" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:gravity="start|center" android:layout_gravity="end" android:id="@id/adLogoWrapper" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="-1.0dip" android:layout_marginEnd="1.0dip" />
+        <View android:layout_gravity="bottom" android:id="@id/myRectangleView" android:background="@drawable/ad_image_border" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <FrameLayout android:id="@id/adChoicesContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ad_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_weight="0.0" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1">
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLength1">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ad_icon" android:visibility="gone" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength3" android:contentDescription="adIcon" android:layout_marginEnd="@dimen/juicyLength1" />
+            <FrameLayout android:id="@id/adIconWrapper" android:visibility="gone" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength3" android:contentDescription="adIcon" android:layout_marginEnd="@dimen/juicyLength1" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.duolingo.core.ui.JuicyTextView android:layout_gravity="start" android:id="@id/adHeadlineText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLengthHalf" android:textAlignment="textStart" style="@style/H2" />
+                <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/adStatsView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:layout_gravity="center" android:id="@id/adTaglineText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="textStart" style="@style/Paragraph" />
+                    <com.duolingo.sessionend.StarRatingView android:id="@id/adStarRatingView" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="20.0dip" />
+                    <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicySwan" android:id="@id/adPriceSeparatorText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pipe_character" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1" style="@style/Paragraph" />
+                    <com.duolingo.core.ui.JuicyTextView android:id="@id/adPriceText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lessonEndAdPrice" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/adBodyText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/Paragraph" />
+    </LinearLayout>
+    <com.duolingo.core.ui.JuicyButton android:gravity="center" android:layout_gravity="center" android:id="@id/adCtaButton" android:paddingTop="@dimen/juicyLengthHalf" android:paddingBottom="@dimen/juicyLengthHalf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/juicyLength1" android:layout_weight="0.0" android:textAllCaps="true" style="@style/SolidButton" />
+</LinearLayout>

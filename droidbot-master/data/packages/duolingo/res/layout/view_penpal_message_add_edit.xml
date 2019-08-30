@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.CardView android:id="@id/penpalMessageAddEditContainer" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" app:faceColor="@color/juicyIguana" app:lipColor="@color/juicyAnchovy" app:position="bottom" style="@style/UnclickableCard">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/penpalMessageAddEditEditTextDivider" android:background="@color/juicyAnchovy" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintTop_toTopOf="parent" />
+            <com.duolingo.core.ui.JuicyEditText android:id="@id/penpalMessageAddEditEditText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:inputType="textMultiLine" android:imeOptions="actionSend" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/penpalMessageAddEditEditTextDivider" style="@style/Input" />
+            <View android:id="@id/penpalMessageAddEditButtonsContainerDivider" android:background="@color/juicyAnchovy" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintTop_toBottomOf="@id/penpalMessageAddEditEditText" />
+            <com.duolingo.core.ui.JuicyButton android:textColor="@color/juicyWolf" android:id="@id/penpalMessageAddEditCancel" android:layout_width="wrap_content" android:text="@string/action_cancel" app:layout_constraintEnd_toEndOf="@id/penpalMessageAddEditButtonsDivider" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/penpalMessageAddEditEditText" style="@style/TransparentButton" />
+            <View android:id="@id/penpalMessageAddEditButtonsDivider" android:background="@color/juicyAnchovy" android:layout_width="2.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/penpalMessageAddEditCancel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/penpalMessageAddEditCancel" />
+            <com.duolingo.core.ui.JuicyButton android:id="@id/penpalMessageAddEditSend" android:layout_width="wrap_content" android:text="@string/action_send" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/penpalMessageAddEditButtonsDivider" app:layout_constraintTop_toBottomOf="@id/penpalMessageAddEditEditText" style="@style/TransparentButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.duolingo.core.ui.CardView>
+</merge>

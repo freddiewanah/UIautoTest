@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.DryTextView android:textStyle="bold" android:textColor="@color/juicySnow" android:gravity="center" android:id="@id/barTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/ActionBarTitle" />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_114341",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          88,
+          861
+        ],
+        [
+          296,
+          923
+        ]
+      ],
+      "resource_id": "com.duolingo:id/xpGoalOptionTitle",
+      "checked": false,
+      "text": "\u5b66\u9738\u6a21\u5f0f",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "208*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/xpGoalOptionTitle[text]\u5b66\u9738\u6a21\u5f0f[enabled,,selected]",
+      "view_str": "aa53c937736b1f28758481a2723e598f"
+    }
+  },
+  "start_state": "d4124eff8ba52ae8dbf53c8b51930943",
+  "stop_state": "d4124eff8ba52ae8dbf53c8b51930943",
+  "event_str": "TouchEvent(state=d4124eff8ba52ae8dbf53c8b51930943, view=aa53c937736b1f28758481a2723e598f)"
+}

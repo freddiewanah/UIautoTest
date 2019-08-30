@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.ActionBarView android:id="@id/actionBarView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/signin_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/LessonFrameNoPadding" />
+</LinearLayout>

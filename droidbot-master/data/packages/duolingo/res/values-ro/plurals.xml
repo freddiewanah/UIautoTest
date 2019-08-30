@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s şi %2$d alte obiective atinse</item>
+        <item quantity="one">%1$s şi %2$d alt obiectiv atins</item>
+        <item quantity="few">%1$s şi %2$d alte obiective atinse</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Finalizează %d capitole din curs</item>
+        <item quantity="one">Finalizează %d capitol din curs</item>
+        <item quantity="few">Finalizează %d capitole din curs</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Cheltuie %d nestemate</item>
+        <item quantity="one">Cheltuie %d nestemată</item>
+        <item quantity="few">Cheltuie %d nestemate</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Fă %d lecții sau antrenează-te fără a greși ceva</item>
+        <item quantity="one">Fă %d lecție sau antrenează-te fără a greși ceva</item>
+        <item quantity="few">Fă %d lecții sau antrenează-te fără a greși ceva</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Folosește %d lingoturi</item>
+        <item quantity="one">Folosește %d lingot</item>
+        <item quantity="few">Folosește %d lingoturi</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Menține o succesiune de %d zile</item>
+        <item quantity="one">Menține o succesiune de %d zi</item>
+        <item quantity="few">Menține o succesiune de %d zile</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Câștigă %d XP într-o zi</item>
+        <item quantity="one">Câștigă %d XP într-o zi</item>
+        <item quantity="few">Câștigă %d XP într-o zi</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Ai câștigat recompensa pentru că ai terminat %d de capitole dintr-un curs</item>
+        <item quantity="one">Ai câștigat recompensa pentru că ai terminat %d capitol dintr-un curs</item>
+        <item quantity="few">Ai câștigat recompensa pentru că ai terminat %d capitole dintr-un curs</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Ai câștigat recompensa pentru că ai cheltuit %d de nestemate</item>
+        <item quantity="one">Ai câștigat recompensa pentru că ai cheltuit %d nestemată</item>
+        <item quantity="few">Ai câștigat recompensa pentru că ai cheltuit %d nestemate</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Ai câștigat recompensa pentru că ai terminat %d de lecții sau exerciții fără a greși</item>
+        <item quantity="one">Ai câștigat recompensa pentru că ai terminat %d lecție sau un exercițiu fără a greși</item>
+        <item quantity="few">Ai câștigat recompensa pentru că ai terminat %d lecții sau exerciții fără a greși</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Ai câștigat recompensa pentru că ai cheltuit %d de lingoturi</item>
+        <item quantity="one">Ai câștigat recompensa pentru că ai cheltuit %d lingot</item>
+        <item quantity="few">Ai câștigat recompensa pentru că ai cheltuit %d lingoturi</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Ai câștigat recompensa pentru că ai întreținut o serie de %d de zile</item>
+        <item quantity="one">Ai câștigat recompensa pentru că ai întreținut o serie de %d zi</item>
+        <item quantity="few">Ai câștigat recompensa pentru că ai întreținut o serie de %d zile</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Ai câștigat recompensa pentru că ai obținut %d XP într-o zi</item>
+        <item quantity="one">Ai câștigat recompensa pentru că ai obținut %d XP într-o zi</item>
+        <item quantity="few">Ai câștigat recompensa pentru că ai obținut %d XP într-o zi</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Ai greșeli de scriere în răspuns.</item>
+        <item quantity="one">Ai o greșeală de scriere în răspuns.</item>
+        <item quantity="few">Ai greșeli de scriere în răspuns.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Obține încă una pentru a-ți proteja seria de %d de zile.</item>
+        <item quantity="one">Obține încă una pentru a-ți proteja seria de %d zi.</item>
+        <item quantity="few">Obține încă una pentru a-ți proteja seria de %d zile.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Testează %d de capitole</item>
+        <item quantity="one">Testează %d capitol</item>
+        <item quantity="few">Testează %d capitole</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d de minute pe zi</item>
+        <item quantity="one">%d minut pe zi</item>
+        <item quantity="few">%d minute pe zi</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Disponibile pentru descărcare</item>
+        <item quantity="one">Disponibil pentru descărcare</item>
+        <item quantity="few">Disponibile pentru descărcare</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">serie de %d de zile</item>
+        <item quantity="one">serie de %d zi</item>
+        <item quantity="few">serie de %d zile</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">cu %d de zile în urmă</item>
+        <item quantity="one">cu %d zi în urmă</item>
+        <item quantity="few">cu %d zile în urmă</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d de zile rămase</item>
+        <item quantity="one">%d zi rămasă</item>
+        <item quantity="few">%d zile rămase</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d De comentarii</item>
+        <item quantity="one">%d Comentariu</item>
+        <item quantity="few">%d Comentarii</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d de comentarii ascunse</item>
+        <item quantity="one">%d comentariu ascuns</item>
+        <item quantity="few">%d comentarii ascunse</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Câștigă astăzi încă %d XP pentru a atinge obiectivul tău zilnic</item>
+        <item quantity="one">Câștigă astăzi încă %d XP pentru a atinge obiectivul tău zilnic</item>
+        <item quantity="few">Câștigă astăzi încă %d XP pentru a atinge obiectivul tău zilnic</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d de zile</item>
+        <item quantity="one">%1$d zi</item>
+        <item quantity="few">%1$d zile</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d de săptămâni</item>
+        <item quantity="one">%1$d săptămână</item>
+        <item quantity="few">%1$d săptămâni</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Ai câștigat %d nestemate!</item>
+        <item quantity="one">Ai câștigat o nestemată!</item>
+        <item quantity="few">Ai câștigat %d nestemate!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Ai câștigat %d de lingoturi!</item>
+        <item quantity="one">Ai câștigat 1 lingot!</item>
+        <item quantity="few">Ai câștigat %d lingoturi!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+        <item quantity="one">%d XP</item>
+        <item quantity="few">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Ai câștigat %d XP astăzi</item>
+        <item quantity="one">Ai câștigat %d XP astăzi</item>
+        <item quantity="few">Ai câștigat %d XP astăzi</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Menţine-ţi seria pentru încă 7 zile şi vom dubla pariul tău de %d nestemate.</item>
+        <item quantity="one">Menţine-ţi seria pentru încă 7 zile şi vom dubla pariul tău de %d nestemată.</item>
+        <item quantity="few">Menţine-ţi seria pentru încă 7 zile şi vom dubla pariul tău de %d nestemate.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Ai dublat %d nestemate. Vrei să faci alt pariu?</item>
+        <item quantity="one">Ai dublat %d nestemată. Vrei să faci alt pariu?</item>
+        <item quantity="few">Ai dublat %d nestemate. Vrei să faci alt pariu?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Vrei să obții acest articol cu %d de lingoturi?</item>
+        <item quantity="one">Vrei să obții acest articol cu %d lingot?</item>
+        <item quantity="few">Vrei să obții acest articol cu %d lingoturi?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Cumperi acest articol cu {{number_1}} nestemate?</item>
+        <item quantity="one">Cumperi acest articol cu {{number_1}} nestemată?</item>
+        <item quantity="few">Cumperi acest articol cu {{number_1}} nestemate?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Soluții corecte:</item>
+        <item quantity="one">Soluție corectă:</item>
+        <item quantity="few">Soluții corecte:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">cu %d de ore în urmă</item>
+        <item quantity="one">cu %d oră în urmă</item>
+        <item quantity="few">cu %d ore în urmă</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Sari la nivelul %d!</item>
+        <item quantity="one">Sari la nivelul %d!</item>
+        <item quantity="few">Sari la nivelul %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">Primii %1$d avansează în următoarea ligă</item>
+        <item quantity="one">Primul loc avansează în următoarea ligă</item>
+        <item quantity="few">Primii %1$d avansează în următoarea ligă</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Fă echipă cu liga ta pentru a câștiga %1$s XP total pentru a deblocat acest cufăr.</item>
+        <item quantity="one">Fă echipă cu liga ta pentru a câștiga %1$s XP total pentru a deblocat acest cufăr.</item>
+        <item quantity="few">Fă echipă cu liga ta pentru a câștiga %1$s XP total pentru a deblocat acest cufăr.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Lucrați împreună pentru a câștiga cele %1$s XP rămase până la atingerea obiectivului.</item>
+        <item quantity="one">Lucrați împreună pentru a câștiga %1$s XP rămas până la atingerea obiectivului.</item>
+        <item quantity="few">Lucrați împreună pentru a câștiga cele %1$s XP rămase până la atingerea obiectivului.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Clasamentul tău a atins obiectivul grupului de %1$s XP!</item>
+        <item quantity="one">Clasamentul tău a atins obiectivul grupului de %1$s XP!</item>
+        <item quantity="few">Clasamentul tău a atins obiectivul grupului de %1$s XP!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Ai câștigat %1$d de lingoturi!</item>
+        <item quantity="one">Ai câștigat %1$d lingot!</item>
+        <item quantity="few">Ai câștigat %1$d lingoturi!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Ai câștigat %1$d de nestemate!</item>
+        <item quantity="one">Ai câștigat %1$d nestemată!</item>
+        <item quantity="few">Ai câștigat %1$d nestemate!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+        <item quantity="one">%1$d XP</item>
+        <item quantity="few">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Termină încă %1$d de lecții pentru a începe să concurezi</item>
+        <item quantity="one">Termină încă %1$d lecție pentru a începe să concurezi</item>
+        <item quantity="few">Termină încă %1$d lecții pentru a începe să concurezi</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Ai câștigat %1$d de lingoturi!</item>
+        <item quantity="one">Ai câștigat %1$d lingot!</item>
+        <item quantity="few">Ai câștigat %1$d lingoturi!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Ai câștigat %1$d de nestemate!</item>
+        <item quantity="one">Ai câștigat %1$d nestemată!</item>
+        <item quantity="few">Ai câștigat %1$d nestemate!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">START +%d XP</item>
+        <item quantity="one">START +%d XP</item>
+        <item quantity="few">START +%d XP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Nivel %1$s</item>
+        <item quantity="one">Nivel %1$s</item>
+        <item quantity="few">Nivel %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Nivelul %1$s pentru %2$s</item>
+        <item quantity="one">Nivelul %1$s pentru %2$s</item>
+        <item quantity="few">Nivelul %1$s pentru %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+        <item quantity="few">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">cu %d de minute în urmă</item>
+        <item quantity="one">cu %d minut în urmă</item>
+        <item quantity="few">cu %d minute în urmă</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">LUNI</item>
+        <item quantity="one">LUNĂ</item>
+        <item quantity="few">LUNI</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">În data de %1$s, veți fi taxat(ă) cu %2$s pentru %3$s de luni de Duolingo Plus.</item>
+        <item quantity="one">În data de %1$s, veți fi taxat(ă) cu %2$s pentru o lună de Duolingo Plus.</item>
+        <item quantity="few">În data de %1$s, veți fi taxat(ă) cu %2$s pentru %3$s luni de Duolingo Plus.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Următoarea plată: pe %1$s vei fi taxat(ă) cu %2$s pentru %3$s de luni de Duolingo Plus.</item>
+        <item quantity="one">Următoarea plată: pe %1$s vei fi taxat(ă) cu %2$s pentru 1 lună de Duolingo Plus.</item>
+        <item quantity="few">Următoarea plată: pe %1$s vei fi taxat(ă) cu %2$s pentru %3$s luni de Duolingo Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">ECHIPEAZĂ PENTRU %d DE LINGOTURI</item>
+        <item quantity="one">ECHIPEAZĂ PENTRU %d LINGOT</item>
+        <item quantity="few">ECHIPEAZĂ PENTRU %d LINGOTURI</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">%d de luni de la ultimul tău test</item>
+        <item quantity="one">%d lună de la ultimul tău test</item>
+        <item quantity="few">%d luni de la ultimul tău test</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Ai câștigat %d de săptămâni gratuite de Duolingo Plus!</item>
+        <item quantity="one">Ai câștigat %d săptămână gratuită de Duolingo Plus!</item>
+        <item quantity="few">Ai câștigat %d săptămâni gratuite de Duolingo Plus!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Invită mai mulți prieteni în următoarele %1$d de ore pentru a continua să folosești Plus.</item>
+        <item quantity="one">Invită mai mulți prieteni în următoarea %1$d oră pentru a continua să folosești Plus.</item>
+        <item quantity="few">Invită mai mulți prieteni în următoarele %1$d ore pentru a continua să folosești Plus.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">%1$s și %2$d alți prieteni s-au alăturat datorită ție. Bucură-te de Plus până pe data de %3$s!</item>
+        <item quantity="one">%1$s și %2$d alt prieten s-au alăturat datorită ție. Bucură-te de Plus până pe data de %3$s!</item>
+        <item quantity="few">%1$s și %2$d alți prieteni s-au alăturat datorită ție. Bucură-te de Plus până pe data de %3$s!</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">%1$d de prieteni s-au alăturat datorită ție. Bucură-te de Plus până la %2$s!</item>
+        <item quantity="one">%1$d prieten s-a alăturat datorită ție. Bucură-te de Plus până la %2$s!</item>
+        <item quantity="few">%1$d prieteni s-au alăturat datorită ție. Bucură-te de Plus până la %2$s!</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Ai terminat punctul de control %d!</item>
+        <item quantity="one">Ai terminat punctul de control %d!</item>
+        <item quantity="few">Ai terminat punctul de control %d!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Felicitări pentru seria ta de %d de zile pe Duolingo</item>
+        <item quantity="one">Felicitări pentru prima zi în care folosești Duolingo</item>
+        <item quantity="few">Felicitări pentru seria ta de %d zile pe Duolingo</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">Serie de %d de zile!</item>
+        <item quantity="one">Serie de %d zi!</item>
+        <item quantity="few">Serie de %d zile!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">Serie de %d de zile!</item>
+        <item quantity="one">Serie de %d zi!</item>
+        <item quantity="few">Serie de %d zile!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">Serie de %d de zile!</item>
+        <item quantity="one">Serie de %d zi!</item>
+        <item quantity="few">Serie de %d zile!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d de spații disponibile</item>
+        <item quantity="one">%d spațiu disponibil</item>
+        <item quantity="few">%d spații disponibile</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Au trecut %1$d de zile!</item>
+        <item quantity="one">A trecut %1$d zi!</item>
+        <item quantity="few">Au trecut %1$d zile!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Au trecut %1$d de săptămâni!</item>
+        <item quantity="one">A trecut %1$d săptămână!</item>
+        <item quantity="few">Au trecut %1$d săptămâni!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Ai protejat seria ta de %d de zile ieri</item>
+        <item quantity="one">Ai protejat seria ta de %d zi ieri</item>
+        <item quantity="few">Ai protejat seria ta de %d zile ieri</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">de zile</item>
+        <item quantity="one">zi</item>
+        <item quantity="few">zile</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">Serie de %d de zile pierdută!</item>
+        <item quantity="one">Serie de %d zi pierdută!</item>
+        <item quantity="few">Serie de %d zile pierdută!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Ești într-o serie de %d de zile!</item>
+        <item quantity="one">Ești într-o serie de %d zi!</item>
+        <item quantity="few">Ești într-o serie de %d zile!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">Serie de %d de zile restabilită!</item>
+        <item quantity="one">Serie de %d zi restabilită!</item>
+        <item quantity="few">Serie de %d zile restabilită!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Ai dublat %d de lingoturi. Vrei să faci un alt pariu?</item>
+        <item quantity="one">Ai dublat %d lingot. Vrei să faci un alt pariu?</item>
+        <item quantity="few">Ai dublat %d lingoturi. Vrei să faci un alt pariu?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">PARIAZĂ %d NESTEMATE</item>
+        <item quantity="one">PARIAZĂ %d NESTEMATĂ</item>
+        <item quantity="few">PARIAZĂ %d NESTEMATE</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Selectează caracterele corecte pentru \"%s\"&lt;/b></item>
+        <item quantity="one">&lt;b>Selectează caracterul corect pentru “%s”&lt;/b></item>
+        <item quantity="few">&lt;b>Selectează caracterele corecte pentru \"%s\"&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d de lecții pentru %2$s</item>
+        <item quantity="one">%1$d lecție pentru %2$s</item>
+        <item quantity="few">%1$d lecții pentru %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d XP</item>
+        <item quantity="one">+%d XP</item>
+        <item quantity="few">+%d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">Ai o serie neîntreruptă de %d de zile!</item>
+        <item quantity="one">Ai o serie neîntreruptă de %d zi!</item>
+        <item quantity="few">Ai o serie neîntreruptă de %d zile!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">Mai ai %d XP până la obiectivul tău zilnic</item>
+        <item quantity="one">Mai ai %d XP până la obiectivul tău zilnic</item>
+        <item quantity="few">Mai ai %d XP până la obiectivul tău zilnic</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Ai găsit %d nestemate!</item>
+        <item quantity="one">Ai găsit o nestemată!</item>
+        <item quantity="few">Ai găsit %d nestemate!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">%d</item>
+        <item quantity="one">Ai găsit un lingou!</item>
+        <item quantity="few">Ai găsit %d lingouri!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Ai %d de nestemate pentru a cumpăra articole din magazin!</item>
+        <item quantity="one">Ai %d nestemată pentru a cumpăra articole din magazin!</item>
+        <item quantity="few">Ai %d nestemate pentru a cumpăra articole din magazin!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Ai %d lingoturi pentru a cumpăra articole din magazin!</item>
+        <item quantity="one">Ai %d lingot pentru a cumpăra articole din magazin!</item>
+        <item quantity="few">Ai %d lingoturi pentru a cumpăra articole din magazin!</item>
+    </plurals>
+</resources>

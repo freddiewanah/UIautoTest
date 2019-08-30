@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/juicyLength3" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/divider" android:background="@color/juicySwan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+        <com.duolingo.core.ui.JuicyButton android:id="@id/topicOptionsLink" android:padding="@dimen/juicyLengthHalf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/topic_introduction" android:textAllCaps="false" android:layout_marginEnd="@dimen/juicyLength1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Link" />
+        <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicyHare" android:id="@id/topicsBarTitle" android:layout_height="wrap_content" android:text="@string/topic_title" android:maxLines="1" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength3" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Caption1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

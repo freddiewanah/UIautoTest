@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="@dimen/small_radio_btn_inner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/select_radio_on" />
+    <size android:height="@dimen/small_radio_btn_size" android:width="@dimen/small_radio_btn_size" />
+</shape>

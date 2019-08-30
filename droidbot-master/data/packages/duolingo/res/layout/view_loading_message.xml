@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.LottieAnimationView android:id="@id/duoWalking" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" app:lottie_loop="true" app:lottie_rawRes="@raw/duo_walking" />
+    <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicyHare" android:gravity="center" android:id="@id/loadingText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength2" android:text="@string/loading_dots" android:textAllCaps="true" android:letterSpacing="0.05" style="@style/H1" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/middleMessageLabel" android:layout_marginTop="@dimen/juicyLength2" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Caption1" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/bottomMessageLabel" android:layout_marginTop="@dimen/juicyLengthThird" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Caption1" />
+</merge>

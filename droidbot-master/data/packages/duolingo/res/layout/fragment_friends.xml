@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.profile.ProfileBannerView android:id="@id/profilePageBanner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1">
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/leaderboardHeader" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/profile_all_time_xp" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/H1" />
+            <com.duolingo.core.ui.JuicyTextView android:id="@id/addFriend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/profile_action_add_friend" app:layout_constraintBaseline_toBaselineOf="@id/leaderboardHeader" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Link" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/leaderboard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.duolingo.core.ui.JuicyTextView android:id="@id/showMoreButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLengthHalf" android:text="@string/see_more_courses" android:layout_marginStart="@dimen/juicyLengthHalf" android:layout_marginEnd="@dimen/juicyLengthHalf" style="@style/OutlineButton" />
+        <include android:id="@id/aloneContainer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/leaderboard" layout="@layout/view_leaderboard_alone" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

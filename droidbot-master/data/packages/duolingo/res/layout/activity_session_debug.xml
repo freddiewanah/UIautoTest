@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_session_debug_0" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:padding="@dimen/juicyLength1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.core.ui.JuicyButton android:tag="binding_1" android:text="@string/session_debug_start_debug_session" style="@style/SolidButton" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1">
+            <com.duolingo.core.ui.JuicyEditText android:tag="binding_2" android:layout_width="@dimen/juicyLength3" android:inputType="number" android:textAlignment="center" style="@style/OutlineInput" />
+            <com.duolingo.core.ui.JuicyButton android:tag="binding_3" android:layout_width="0.0dip" android:text="@string/session_debug_start_learning_quiz" android:layout_weight="1.0" android:layout_marginStart="@dimen/juicyLengthHalf" style="@style/SolidButton" />
+        </LinearLayout>
+        <com.duolingo.core.ui.CardView android:tag="binding_4" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+            <com.duolingo.core.ui.JuicyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/session_debug_force_api2" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.CardView android:tag="binding_5" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+            <com.duolingo.core.ui.JuicyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/session_debug_always_grade_correct" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1">
+            <com.duolingo.core.ui.JuicyEditText android:id="@id/maxSessionLengthInput" android:tag="binding_6" android:layout_width="@dimen/juicyLength3" android:inputType="number" android:textAlignment="center" style="@style/OutlineInput" />
+            <com.duolingo.core.ui.CardView android:tag="binding_7" android:layout_width="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/juicyLengthHalf" style="@style/SelectableCard">
+                <com.duolingo.core.ui.JuicyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/session_debug_max_session_length" style="@style/Caption1" />
+            </com.duolingo.core.ui.CardView>
+        </LinearLayout>
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/session_debug_challenge_types" style="@style/CardCap" />
+        <com.duolingo.core.ui.CardView android:tag="binding_8" app:position="center_vertical" style="@style/SelectableCard">
+            <com.duolingo.core.ui.JuicyTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/session_debug_all_challenge_types" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s a %2$d dalších</item>
+        <item quantity="one">%1$s a %2$d další</item>
+        <item quantity="few">%1$s a %2$d další</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Dokončit %d dovedností kurzu</item>
+        <item quantity="one">Dokončit %d dovednost kurzu</item>
+        <item quantity="few">Dokončit %d dovednosti kurzu</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">Uhraďte %d drahokamů.</item>
+        <item quantity="one">Uhraďte %d drahokam.</item>
+        <item quantity="few">Uhraďte %d drahokamy.</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Udělat %d lekcí nebo procvičovat bez chyby</item>
+        <item quantity="one">Udělat %d lekci nebo procvičovat bez chyby</item>
+        <item quantity="few">Udělat %d lekce nebo procvičovat bez chyby</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">Zaplatit %d lingotů</item>
+        <item quantity="one">Zaplatit %d lingot</item>
+        <item quantity="few">Zaplatit %d lingoty</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">Udržet %ddenní řadu</item>
+        <item quantity="one">Udržet %ddenní řadu</item>
+        <item quantity="few">Udržet %ddenní řadu</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Získat %d bodů XP za den</item>
+        <item quantity="one">Získat %d bod XP za den</item>
+        <item quantity="few">Získat %d body XP za den</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Získali jste to za dokončení %d dovedností v kurzu</item>
+        <item quantity="one">Získali jste to za dokončení %d dovednosti v kurzu</item>
+        <item quantity="few">Získali jste to za dokončení %d dovedností v kurzu</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Získali jste to za utracení %d drahokamů</item>
+        <item quantity="one">Získali jste to za utracení %d drahokamu</item>
+        <item quantity="few">Získali jste to za utracení %d drahokamů</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Získali jste to za bezchybné dokončení %d lekcí nebo cvičení</item>
+        <item quantity="one">Získali jste to za bezchybné dokončení %d lekce nebo cvičení</item>
+        <item quantity="few">Získali jste to za bezchybné dokončení %d lekcí nebo cvičení</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Získali jste to za utracení %d lingotů</item>
+        <item quantity="one">Získali jste to za utracení %d lingotu</item>
+        <item quantity="few">Získali jste to za utracení %d lingotů</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Získali jste to za udržení %ddenní řady</item>
+        <item quantity="one">Získali jste to za udržení %ddenní řady</item>
+        <item quantity="few">Získali jste to za udržení %ddenní řady</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Získali jste to za dosažení %d XP během jednoho dne</item>
+        <item quantity="one">Získali jste to za dosažení %d XP během jednoho dne</item>
+        <item quantity="few">Získali jste to za dosažení %d XP během jednoho dne</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Ve vaší odpovědi jsou překlepy.</item>
+        <item quantity="one">Ve vaší odpovědi je překlep.</item>
+        <item quantity="few">Ve vaší odpovědi jsou překlepy.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">Zakupte si další a ochraňte svou %ddenní řadu.</item>
+        <item quantity="one">Zakupte si další a ochraňte svou %ddenní řadu.</item>
+        <item quantity="few">Zakupte si další a ochraňte svou %ddenní řadu.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">Otestujte si %d dovedností</item>
+        <item quantity="one">Otestujte si %d dovednost</item>
+        <item quantity="few">Otestujte si %d dovednosti</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">%d minut denně</item>
+        <item quantity="one">%d minutu denně</item>
+        <item quantity="few">%d minuty denně</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">Ke stažení</item>
+        <item quantity="one">Ke stažení</item>
+        <item quantity="few">Ke stažení</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%ddenní řada</item>
+        <item quantity="one">%ddenní řada</item>
+        <item quantity="few">%ddenní řada</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">před %d dnem</item>
+        <item quantity="few">před %d dny</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">Zbývá %d dnů</item>
+        <item quantity="one">Zbývá %d den</item>
+        <item quantity="few">Zbývají %d dny</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d komentářů</item>
+        <item quantity="one">%d komentář</item>
+        <item quantity="few">%d komentáře</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d skrytých komentářů</item>
+        <item quantity="one">%d skrytý komentář</item>
+        <item quantity="few">%d skryté komentáře</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Získejte dnes dalších %d XP a dosáhněte svého denního cíle</item>
+        <item quantity="one">Získejte dnes další %d XP a dosáhněte svého denního cíle</item>
+        <item quantity="few">Získejte dnes další %d XP a dosáhněte svého denního cíle</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">dnů</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">týdnů</item>
+        <item quantity="one">týden</item>
+        <item quantity="few">týdny</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">Získali jste %d drahokamů!</item>
+        <item quantity="one">Získali jste drahokam!</item>
+        <item quantity="few">Získali jste %d drahokamy!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">Získali jste %d lingotů!</item>
+        <item quantity="one">Získali jste lingot!</item>
+        <item quantity="few">Získali jste %d lingoty!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d XP</item>
+        <item quantity="one">%d XP</item>
+        <item quantity="few">%d XP</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Dnes jste získali %d XP</item>
+        <item quantity="one">Dnes jste získali %d XP</item>
+        <item quantity="few">Dnes jste získali %d XP</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Udržte svou řadu ještě 7 dní a my vám zdvojnásobíme váš vklad ve výši %d drahokamů.</item>
+        <item quantity="one">Udržte svou řadu ještě 7 dní a my vám zdvojnásobíme váš vklad ve výši %d drahokam.</item>
+        <item quantity="few">Udržte svou řadu ještě 7 dní a my vám zdvojnásobíme váš vklad ve výši %d drahokamů.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">Zdvojnásobili jste svých %d drahokamů. Chcete provést další vklad?</item>
+        <item quantity="one">Zdvojnásobili jste svůj %d drahokam. Chcete provést další vklad?</item>
+        <item quantity="few">Zdvojnásobili jste svoje %d drahokamy. Chcete provést další vklad?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Získat tuto položku za %d lingotů?</item>
+        <item quantity="one">Získat tuto položku za %d lingot?</item>
+        <item quantity="few">Získat tuto položku za %d lingoty?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">Získat tuto položku za %d drahokamů?</item>
+        <item quantity="one">Získat tuto položku za %d drahokam?</item>
+        <item quantity="few">Získat tuto položku za %d drahokamy?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Správná řešení:</item>
+        <item quantity="one">Správné řešení:</item>
+        <item quantity="few">Správná řešení:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">před %d hodinami</item>
+        <item quantity="one">před %d hodinou</item>
+        <item quantity="few">před %d hodinami</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">Přeskočte na úroveň %d!</item>
+        <item quantity="one">Přeskočte na úroveň %d!</item>
+        <item quantity="few">Přeskočte na úroveň %d!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">Prvních %1$d postupuje do vyšší ligy.</item>
+        <item quantity="one">Z prvního místa se postupuje do vyšší ligy.</item>
+        <item quantity="few">První %1$d postupují do vyšší ligy.</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Spojte se ve své lize a získejte celkem %1$s XP na odemknutí této truhly.</item>
+        <item quantity="one">Spojte se ve své lize a získejte celkem %1$s XP na odemknutí této truhly.</item>
+        <item quantity="few">Spojte se ve své lize a získejte celkem %1$s XP na odemknutí této truhly.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Spolupracujte, abyste získali zbývajících %1$s XP a dosáhli tak cíle skupiny.</item>
+        <item quantity="one">Spolupracujte, abyste získali zbývající %1$s XP a dosáhli tak cíle skupiny.</item>
+        <item quantity="few">Spolupracujte, abyste získali zbývající %1$s XP a dosáhli tak cíle skupiny.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Váš žebříček dosáhl cíle skupiny ve výši %1$s XP!</item>
+        <item quantity="one">Váš žebříček dosáhl cíle skupiny ve výši %1$s XP!</item>
+        <item quantity="few">Váš žebříček dosáhl cíle skupiny ve výši %1$s XP!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">Získali jste %1$d lingotů!</item>
+        <item quantity="one">Získali jste %1$d lingot!</item>
+        <item quantity="few">Získali jste %1$d lingoty!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">Získali jste %1$d drahokamů!</item>
+        <item quantity="one">Získali jste %1$d drahokam!</item>
+        <item quantity="few">Získali jste %1$d drahokamy!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d XP</item>
+        <item quantity="one">%1$d XP</item>
+        <item quantity="few">%1$d XP</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Dokončete ještě %1$d lekcí a můžete začít soutěžit</item>
+        <item quantity="one">Dokončete ještě %1$d lekci a můžete začít soutěžit</item>
+        <item quantity="few">Dokončete ještě %1$d lekce a můžete začít soutěžit</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">Získali jste %1$d lingotů!</item>
+        <item quantity="one">Získali jste %1$d lingot!</item>
+        <item quantity="few">Získali jste %1$d lingoty!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">Získali jste %1$d drahokamů!</item>
+        <item quantity="one">Získali jste %1$d drahokam!</item>
+        <item quantity="few">Získali jste %1$d drahokamy!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">ZAČÍT +%d XP</item>
+        <item quantity="one">ZAČÍT +%d XP</item>
+        <item quantity="few">ZAČÍT +%d XP</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Úroveň %1$s</item>
+        <item quantity="one">Úroveň %1$s</item>
+        <item quantity="few">Úroveň %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">Úroveň %1$s dovednosti %2$s</item>
+        <item quantity="one">Úroveň %1$s dovednosti %2$s</item>
+        <item quantity="few">Úroveň %1$s dovednosti %2$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+        <item quantity="few">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">před %d minutami</item>
+        <item quantity="one">před %d minutou</item>
+        <item quantity="few">před %d minutami</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">MĚSÍCŮ</item>
+        <item quantity="one">MĚSÍC</item>
+        <item quantity="few">MĚSÍCE</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">Dne %1$s vám bude strženo %2$s za %3$směsíční předplatné Duolinga Plus.</item>
+        <item quantity="one">Dne %1$s vám bude strženo %2$s za měsíční předplatné Duolinga Plus.</item>
+        <item quantity="few">Dne %1$s vám bude strženo %2$s za %3$směsíční předplatné Duolinga Plus.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Další platba: %1$s vám bude účtováno %2$s za %3$s měsíců Duolinga Plus.</item>
+        <item quantity="one">Další platba: %1$s vám bude účtováno %2$s za 1 měsíc Duolinga Plus.</item>
+        <item quantity="few">Další platba: %1$s vám bude účtováno %2$s za %3$s měsíce Duolinga Plus.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+        <item quantity="few">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">ZÍSKAT ZA %d LINGOTŮ</item>
+        <item quantity="one">ZÍSKAT ZA %d LINGOT</item>
+        <item quantity="few">ZÍSKAT ZA %d LINGOTY</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">Uplynulo %d měsíců od vašeho posledního testu</item>
+        <item quantity="one">Uplynul %d měsíc od vašeho posledního testu</item>
+        <item quantity="few">Uplynuly %d měsíce od vašeho posledního testu</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">Získal(a) jste %d týdnů používání Duolingo Plus zdarma!</item>
+        <item quantity="one">Získal(a) jste %d týden používání Duolingo Plus zdarma!</item>
+        <item quantity="few">Získal(a) jste %d týdny používání Duolingo Plus zdarma!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Pozvěte do %1$d hodin další přátele a používejte dál Plus.</item>
+        <item quantity="one">Pozvěte do %1$d hodiny další přátele a používejte dál Plus.</item>
+        <item quantity="few">Pozvěte do %1$d hodin další přátele a používejte dál Plus.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">%1$s a %2$d se přidali díky Vám. Užijte si proto Duolingo PLUS až do %3$s.</item>
+        <item quantity="one">%1$s a %2$d se přidali díky Vám. Užijte si proto Duolingo PLUS až do %3$s.</item>
+        <item quantity="few">%1$s a %2$d se přidali díky Vám. Užijte si proto Duolingo PLUS až do %3$s.</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">%1$d se přidali díky Vám. Užijte si proto Duolingo PLUS až do %2$s</item>
+        <item quantity="one">%1$d se přidal/a díky Vám. Užijte si proto Duolingo PLUS až do %2$s</item>
+        <item quantity="few">%1$d se přidali díky Vám. Užijte si proto Duolingo PLUS až do %2$s</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">Dokončili jste stanoviště %d!</item>
+        <item quantity="one">Dokončili jste stanoviště %d!</item>
+        <item quantity="few">Dokončili jste stanoviště %d!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">Gratulujeme vám k používání Duolinga %d dní v řadě</item>
+        <item quantity="one">Gratulujeme vám k prvnímu dni používání Duolinga</item>
+        <item quantity="few">Gratulujeme vám k používání Duolinga %d dny v řadě</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%ddenní řada!</item>
+        <item quantity="one">%ddenní řada!</item>
+        <item quantity="few">%ddenní řada!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%ddenní řada!</item>
+        <item quantity="one">%ddenní řada!</item>
+        <item quantity="few">%ddenní řada!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%ddenní řada!</item>
+        <item quantity="one">%ddenní řada!</item>
+        <item quantity="few">%ddenní řada!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d neobsazených slotů</item>
+        <item quantity="one">%d neobsazený slot</item>
+        <item quantity="few">%d neobsazené sloty</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">Je to už %1$d dnů!</item>
+        <item quantity="one">Je to už %1$d den!</item>
+        <item quantity="few">Jsou to už %1$d dny!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">Je to už %1$d týdnů!</item>
+        <item quantity="one">Je to už %1$d týden!</item>
+        <item quantity="few">Jsou to už %1$d týdny!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Včera jste ochránili svou %ddenní řadu</item>
+        <item quantity="one">Včera jste ochránili svou %ddenní řadu</item>
+        <item quantity="few">Včera jste ochránili svou %ddenní řadu</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">dnů</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">%ddenní řada ztracena!</item>
+        <item quantity="one">%ddenní řada ztracena!</item>
+        <item quantity="few">%ddenní řada ztracena!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">Jste na %ddenní řadě!</item>
+        <item quantity="one">Jste na %ddenní řadě!</item>
+        <item quantity="few">Jste na %ddenní řadě!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">%ddenní řada opravena!</item>
+        <item quantity="one">%ddenní řada opravena!</item>
+        <item quantity="few">%ddenní řada opravena!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">Vložit: %d</item>
+        <item quantity="one">Zdvojnásobili jste svůj %d lingot. Chcete uzavřít další sázku?</item>
+        <item quantity="few">Zdvojnásobili jste svoje %d lingoty. Chcete uzavřít další sázku?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">VKLAD %d DRAHOKAMŮ</item>
+        <item quantity="one">VKLAD %d DRAHOKAM</item>
+        <item quantity="few">VKLAD %d DRAHOKAMY</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>Vyberte správné znaky pro „%s“&lt;/b></item>
+        <item quantity="one">&lt;b>Vyberte správný znak pro „%s“&lt;/b></item>
+        <item quantity="few">&lt;b>Vyberte správné znaky pro „%s“&lt;/b></item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%1$d lekcí za %2$s</item>
+        <item quantity="one">%1$d lekce za %2$s</item>
+        <item quantity="few">%1$d lekce za %2$s</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d XP</item>
+        <item quantity="one">+%d XP</item>
+        <item quantity="few">+%d XP</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">Jste na %d denní řadě!</item>
+        <item quantity="one">Jste na %d denní řadě!</item>
+        <item quantity="few">Jste na %d denní řadě!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">Do splnění denního cíle vám zbývá ještě %d XP bodů.</item>
+        <item quantity="one">Do splnění denního cíle vám zbývá ještě %d XP bod.</item>
+        <item quantity="few">Do splnění denního cíle vám zbývají ještě %d XP body.</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">Našli jste %d drahokamů!</item>
+        <item quantity="one">Našli jste drahokam!</item>
+        <item quantity="few">Našli jste %d drahokamy!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">Našli jste %d lingotů!</item>
+        <item quantity="one">Našli jste lingot!</item>
+        <item quantity="few">Našli jste %d lingoty!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Máte %d drahokamů, za které si můžete nakoupit v obchodě!</item>
+        <item quantity="one">Máte %d drahokam, za který si můžete nakoupit v obchodě!</item>
+        <item quantity="few">Máte %d drahokamy, za které si můžete nakoupit v obchodě!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Máte %d lingotů, můžete nakupovat v obchodě.</item>
+        <item quantity="one">Máte %d lingot, můžete nakupovat v obchodě.</item>
+        <item quantity="few">Máte %d lingoty, můžete nakupovat v obchodě.</item>
+    </plurals>
+</resources>

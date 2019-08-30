@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DuoCarouselView android:id="@id/tutorsFreeTrialOfferCarousel" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/huge_margin" android:layout_marginBottom="@dimen/gigantic_margin" app:layout_constraintBottom_toTopOf="@id/tutorsFreeTrialOfferConfirmButton" app:layout_constraintTop_toTopOf="parent" />
+    <com.duolingo.core.ui.DryTextView android:textColor="@color/juicySnow" android:id="@id/tutorsFreeTrialOfferConfirmButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/tutors_free_trial_button" android:textAllCaps="true" app:buttonColor="@color/juicyMacaw" app:layout_constraintBottom_toTopOf="@id/tutorsFreeTrialOfferDismissButton" style="@style/App_ButtonStyle" />
+    <com.duolingo.core.ui.DryTextView android:textColor="@color/juicyMacaw" android:id="@id/tutorsFreeTrialOfferDismissButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_now" app:layout_constraintBottom_toBottomOf="parent" style="@style/App_ButtonFlat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

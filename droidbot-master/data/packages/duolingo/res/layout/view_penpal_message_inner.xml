@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.penpal.PenpalAudioPlayerView android:id="@id/penpalMessageAudioPlayer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.duolingo.core.ui.JuicyTextView android:gravity="start" android:layout_gravity="start" android:id="@id/penpalMessageText" android:layout_width="wrap_content" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:autoSizeTextType="none" style="@style/Paragraph" />
+    <com.duolingo.core.ui.JuicyButton android:layout_gravity="start" android:id="@id/penpalMessageTranslateButton" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:visibility="gone" android:text="@string/penpal_translate" android:drawablePadding="@dimen/juicyLengthHalf" android:drawableStart="@drawable/icon_translate_blue" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Link" />
+    <com.duolingo.core.ui.JuicyButton android:layout_gravity="start" android:id="@id/penpalMessageAddCorrectionButton" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:visibility="gone" android:text="@string/penpal_make_correction" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Link" />
+    <com.duolingo.core.ui.JuicyButton android:layout_gravity="start" android:id="@id/penpalMessageSeeCorrectionButton" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:visibility="gone" android:text="@string/penpal_see_correction" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Link" />
+    <include android:id="@id/penpalMessageTranslation" layout="@layout/view_penpal_message_translation" />
+    <include android:id="@id/penpalMessageAddCorrection" layout="@layout/view_penpal_message_add_correction" />
+    <include android:id="@id/penpalMessageAddEdit" layout="@layout/view_penpal_message_add_edit" />
+    <include android:id="@id/penpalMessageCorrection" layout="@layout/view_penpal_message_correction" />
+</merge>

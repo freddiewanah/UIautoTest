@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/biggest_margin" android:paddingEnd="@dimen/biggest_margin" app:horizontalPadding="@fraction/activity_horizontal_padding_percent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_margin" android:layout_marginEnd="@dimen/large_margin">
+        <com.duolingo.core.ui.DryTextView android:textAppearance="@style/NPSSurveyTitle" android:textStyle="bold" android:gravity="center" android:id="@id/nps_title" android:paddingBottom="@dimen/lesson_end_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.duolingo.nps.DuoSquareRatingView android:id="@id/square_rating_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.core.ui.DryTextView android:textSize="@dimen/nps_survey_button_skip_text" android:textStyle="bold" android:textColor="@color/nps_score_skip_button_text" android:gravity="center" android:layout_gravity="center" android:id="@id/skip_button" android:paddingTop="@dimen/submit_button_padding" android:paddingBottom="@dimen/submit_button_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_skip" />
+        <com.duolingo.core.ui.DryTextView android:textColor="@color/btn_light_text_colors" android:gravity="center" android:id="@id/continue_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/button_continue" app:buttonColor="@color/juicyOwl" style="@style/SubmitButtonStyle" />
+    </LinearLayout>
+</FrameLayout>

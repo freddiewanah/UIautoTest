@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/userSlideView" android:layout_width="fill_parent" android:layout_height="@dimen/cohortedUserHeight" android:weightSum="1.0" style="@style/App_ButtonFlatNoStyle">
+        <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/rankView" android:layout_width="45.0dip" android:layout_height="fill_parent" style="@style/H2" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/avatarView" android:layout_width="45.0dip" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <TableLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:stretchColumns="3" android:shrinkColumns="0" android:layout_weight="1.0">
+            <TableRow>
+                <com.duolingo.core.ui.JuicyTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/usernameView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:textDirection="locale" android:layout_marginStart="@dimen/juicyLength1" style="@style/H2" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/rewardImageView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:srcCompat="@drawable/leaderboard_chest_gold" />
+            </TableRow>
+        </TableLayout>
+        <com.duolingo.core.ui.JuicyTextView android:gravity="end|center" android:id="@id/xpView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/juicyLengthHalf" android:layout_marginEnd="@dimen/juicyLength1" style="@style/Caption1" />
+    </LinearLayout>
+</LinearLayout>

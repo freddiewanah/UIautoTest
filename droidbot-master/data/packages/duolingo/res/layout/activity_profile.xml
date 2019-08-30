@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.ActionBarView android:id="@id/profileActionBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/profilePlusIndicator" android:paddingTop="@dimen/juicyLength1" android:paddingBottom="@dimen/juicyLength1" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/juicyLengthHalf" android:paddingEnd="@dimen/juicyLengthHalf" android:layout_marginEnd="@dimen/juicyLengthHalf" app:layout_constraintBottom_toBottomOf="@id/profileActionBar" app:layout_constraintEnd_toEndOf="@id/profileActionBar" app:layout_constraintTop_toTopOf="@id/profileActionBar" app:srcCompat="@drawable/plus_badge_juicy" />
+    <FrameLayout android:id="@id/profileContainer" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/profileActionBar" />
+    <ProgressBar android:id="@id/profileLoadingStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyleLarge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

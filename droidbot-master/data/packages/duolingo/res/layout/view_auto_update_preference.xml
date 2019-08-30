@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/wifiOnlyOption" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_auto_update_option" />
+        <View android:background="@color/new_gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:id="@id/alwaysOption" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_auto_update_option" />
+        <View android:background="@color/new_gray_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:id="@id/neverOption" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_auto_update_option" />
+    </RadioGroup>
+</merge>

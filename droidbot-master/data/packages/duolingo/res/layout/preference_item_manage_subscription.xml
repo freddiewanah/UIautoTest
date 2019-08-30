@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/juicySnow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/settings_spinner_margin" android:paddingEnd="@dimen/settings_spinner_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.DryTextView android:textSize="@dimen/medium_font_size" android:textStyle="bold" android:textColor="@color/juicyMacaw" android:id="@id/manageSubscription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_manage_subscription" android:layout_centerVertical="true" />
+</RelativeLayout>

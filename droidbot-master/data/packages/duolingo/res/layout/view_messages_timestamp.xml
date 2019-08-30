@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.JuicyTextView android:textStyle="bold" android:textColor="@color/juicyHare" android:gravity="center" android:id="@id/penpalMessagesTimestampText" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLengthHalf" style="@style/Caption3" />
+</merge>

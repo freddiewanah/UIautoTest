@@ -120,5 +120,6 @@ notList = [
     'include',
     'AutoCompleteTextView',
     'WebView',
-    'fragment'
+    'fragment',
+    'TextureView'
 ]

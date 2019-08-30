@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="start" android:id="@id/penpalPictureMessageImage" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLengthHalf" android:adjustViewBounds="true" android:layout_marginStart="@dimen/juicyLength1AndHalf" android:layout_marginEnd="@dimen/juicyLength1AndHalf" />
+</merge>

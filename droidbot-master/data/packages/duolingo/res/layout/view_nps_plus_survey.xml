@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/gradient_linear_blue_reverse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/stars_bg" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/biggest_margin" android:layout_marginEnd="@dimen/biggest_margin">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/biggest_margin" app:srcCompat="@drawable/duolingo_branded_plus_logo" />
+        <com.duolingo.core.ui.DryTextView android:textAppearance="@style/NPSSurveyTitle" android:textStyle="bold" android:textColor="@color/juicySnow" android:gravity="center" android:id="@id/nps_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/biggest_margin" />
+        <com.duolingo.plus.PlusSquareRatingView android:id="@id/square_rating_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large_margin" android:layout_marginStart="@dimen/biggest_margin" android:layout_marginEnd="@dimen/biggest_margin">
+        <com.duolingo.core.ui.DryTextView android:textColor="@color/juicySnow" android:layout_gravity="center" android:id="@id/skip_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_skip" android:layout_weight="1.0" android:layout_marginEnd="@dimen/large_margin" style="@style/App_ButtonWhiteOutline" />
+        <com.duolingo.core.ui.DryTextView android:textColor="@color/btn_blue_text_colors" android:id="@id/continue_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_continue" android:layout_weight="1.0" style="@style/App_ButtonWhiteLightDisabled" />
+    </LinearLayout>
+</FrameLayout>

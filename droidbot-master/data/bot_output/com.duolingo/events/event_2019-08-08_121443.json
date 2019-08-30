@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_121443",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          88,
+          1649
+        ],
+        [
+          474,
+          1711
+        ]
+      ],
+      "resource_id": "com.duolingo:id/imageText",
+      "checked": false,
+      "text": "il ragazzo",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": true,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 26,
+      "size": "386*62",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/imageText[text]il ragazzo[enabled,,selected]",
+      "view_str": "2e99016f19aadcb5226c0b2661d20141"
+    }
+  },
+  "start_state": "6f9ff76587aa157693bda47167f200dc",
+  "stop_state": "6f9ff76587aa157693bda47167f200dc",
+  "event_str": "TouchEvent(state=6f9ff76587aa157693bda47167f200dc, view=2e99016f19aadcb5226c0b2661d20141)"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DuoViewPager android:id="@id/carouselPager" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/carouselDots" app:layout_constraintTop_toTopOf="parent" />
+    <com.duolingo.core.ui.ScrollCirclesView android:id="@id/carouselDots" android:layout_width="@dimen/tutors_purchase_pager_dots_width" android:layout_height="@dimen/tutors_purchase_pager_dots_height" android:layout_marginTop="@dimen/large_margin" app:circleColor="@color/new_gray" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/carouselPager" app:scaleOnScroll="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

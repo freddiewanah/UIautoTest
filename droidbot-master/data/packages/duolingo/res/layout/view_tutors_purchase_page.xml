@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/tutorsPurchasePageImage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/huge_margin" android:layout_weight="1.0" android:layout_marginStart="@dimen/biggest_margin" android:layout_marginEnd="@dimen/biggest_margin" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/tutorsPurchasePageLiveIcon" android:layout_width="fill_parent" android:layout_height="@dimen/tutors_purchase_logo_height" android:layout_marginTop="@dimen/big_margin" android:layout_marginBottom="@dimen/medium_margin" app:srcCompat="@drawable/logo_duolingo_live" />
+    <com.duolingo.core.ui.DryTextView android:gravity="center" android:id="@id/tutorsPurchasePageMessage" android:layout_width="fill_parent" android:layout_height="@dimen/tutors_purchase_text_height" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/ChallengeBoldText" />
+</merge>

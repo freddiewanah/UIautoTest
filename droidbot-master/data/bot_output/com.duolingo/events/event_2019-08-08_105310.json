@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_105310",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          44,
+          1841
+        ],
+        [
+          230,
+          1984
+        ]
+      ],
+      "resource_id": "com.duolingo:id/skipButton",
+      "checked": false,
+      "text": "\u8df3\u8fc7",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "186*143",
+      "signature": "[class]android.widget.TextView[resource_id]com.duolingo:id/skipButton[text]\u8df3\u8fc7[enabled,,]",
+      "view_str": "c43903f520d9f0843724cc17411bb05b"
+    }
+  },
+  "start_state": "497ba348c35177e1ff385e63395b22d9",
+  "stop_state": "9472a2f8211e9f47492229b7eb898447",
+  "event_str": "TouchEvent(state=497ba348c35177e1ff385e63395b22d9, view=c43903f520d9f0843724cc17411bb05b)"
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "2019-08-08_104632",
+  "event": {
+    "event_type": "intent",
+    "intent": "am start com.duolingo/com.duolingo.app.LoginActivity"
+  },
+  "start_state": "bacf8cfd47ed367cc86a3fbcbeccd625",
+  "stop_state": "a5ea83393de81fd92851bab0ff16c81c",
+  "event_str": "IntentEvent(intent='am start com.duolingo/com.duolingo.app.LoginActivity')"
+}

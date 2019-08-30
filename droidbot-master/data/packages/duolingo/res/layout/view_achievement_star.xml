@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DuoSvgImageView android:id="@id/star_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:alpha="0.2" app:svgSrc="@raw/star_black" />
+    <com.duolingo.core.ui.DuoSvgImageView android:id="@id/star" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:svgSrc="@raw/star" />
+</FrameLayout>

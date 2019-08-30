@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/user_settings_pref_category" android:title="@string/title_your_profile">
+        <com.duolingo.settings.DuoClickablePreference android:layout="@layout/preference_item" android:title="@string/action_create_a_profile" android:key="@string/pref_key_create_profile" />
+    </PreferenceCategory>
+</PreferenceScreen>

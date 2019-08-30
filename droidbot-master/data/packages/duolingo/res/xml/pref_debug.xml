@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/debug_options">
+        <com.duolingo.settings.DuoClickablePreference android:layout="@layout/preference_item" android:key="@string/pref_key_developer_options" android:summary="@string/debug_options_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

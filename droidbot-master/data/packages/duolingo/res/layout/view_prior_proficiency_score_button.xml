@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.CardView android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lipHeight="4.0dip" app:unselectedTextColor="@color/juicyHare" style="@style/SelectableCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/juicyHare" android:gravity="center" android:id="@id/selectableText" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength3" android:singleLine="true" android:textAllCaps="true" />
+</com.duolingo.core.ui.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.forum.CommentReplyView android:orientation="horizontal" android:id="@id/reply_container" android:background="@color/new_gray_lightest" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DryEditText android:textSize="@dimen/medium_font_size" android:id="@id/user_input" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/discuss_sentence_title" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine|textNoSuggestions" android:imeOptions="actionDone" android:imeActionId="@id/submit_action" />
+    <com.duolingo.core.ui.DryTextView android:textSize="@dimen/medium_font_size" android:id="@id/submit_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discuss_sentence_clutter" />
+    <View android:id="@id/post_submit_separator" android:layout_width="10.0dip" android:layout_height="0.0dip" />
+    <com.duolingo.core.ui.DryTextView android:textAppearance="@style/ChallengeBoldText" android:textColor="@color/btn_light_text_colors" android:id="@id/comment_submit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discuss_sentence_post_button" app:buttonColor="@color/juicyOwl" style="@style/SubmitButtonStyle" />
+    <RelativeLayout android:gravity="center" android:id="@id/locked_container" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.core.ui.DryTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/new_gray" android:id="@id/locked_comments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discuss_sentence_locked" android:layout_toEndOf="@id/lock" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/lock" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="5.0dip" app:srcCompat="@drawable/lock" />
+    </RelativeLayout>
+</com.duolingo.forum.CommentReplyView>

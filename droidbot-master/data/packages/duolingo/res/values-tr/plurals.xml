@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="achievement_multi_unlock_subtitle">
+        <item quantity="other">%1$s ve %2$d başarı düzeyi daha</item>
+        <item quantity="one">%1$s ve %2$d başarı düzeyi daha</item>
+    </plurals>
+    <plurals name="achievement_requirement_completion">
+        <item quantity="other">Bir kursun %d becerisini tamamla</item>
+        <item quantity="one">Bir kursun %d becerisini tamamla</item>
+    </plurals>
+    <plurals name="achievement_requirement_gems_spending">
+        <item quantity="other">%d taş harca</item>
+        <item quantity="one">%d taş harca</item>
+    </plurals>
+    <plurals name="achievement_requirement_perfect">
+        <item quantity="other">Hatasız bir şekilde %d ders tamamla veya alıştırma yap</item>
+        <item quantity="one">Hatasız bir şekilde %d ders tamamla veya alıştırma yap</item>
+    </plurals>
+    <plurals name="achievement_requirement_spending">
+        <item quantity="other">%d lingot harca</item>
+        <item quantity="one">%d lingot harca</item>
+    </plurals>
+    <plurals name="achievement_requirement_streak">
+        <item quantity="other">%d günlük bir seri yakala</item>
+        <item quantity="one">%d günlük bir seri yakala</item>
+    </plurals>
+    <plurals name="achievement_requirement_xp">
+        <item quantity="other">Günde %d puan kazan</item>
+        <item quantity="one">Günde %d puan kazan</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_completion">
+        <item quantity="other">Bunu, bir kursun %d becerisini tamamladığın için kazandın</item>
+        <item quantity="one">Bunu, bir kursun %d becerisini tamamladığın için kazandın</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_gems_spending">
+        <item quantity="other">Bunu %d mücevher harcadığın için kazandın</item>
+        <item quantity="one">Bunu %d mücevher harcadığın için kazandın</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_perfect">
+        <item quantity="other">Bunu, %d dersi veya alıştırmayı yanlışsız tamamladığın için kazandın</item>
+        <item quantity="one">Bunu, %d dersi veya alıştırmayı hatasız tamamladığın için kazandın</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_spending">
+        <item quantity="other">Bunu %d lingot harcadığın için kazandın</item>
+        <item quantity="one">Bunu %d lingot harcadığın için kazandın</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_streak">
+        <item quantity="other">Bunu %d günlük bir seri yaptığın için kazandın</item>
+        <item quantity="one">Bunu %d günlük bir seri yaptığın için kazandın</item>
+    </plurals>
+    <plurals name="achievement_unlocked_description_xp">
+        <item quantity="other">Bunu bir günde %d deneyim puanına ulaştığın için kazandın</item>
+        <item quantity="one">Bunu bir günde %d deneyim puanına ulaştığın için kazandın</item>
+    </plurals>
+    <plurals name="blame_typo">
+        <item quantity="other">Cevabınızda yazım hataları var.</item>
+        <item quantity="one">Cevabınızda bir yazım hatası var.</item>
+    </plurals>
+    <plurals name="buy_another_streak_freeze">
+        <item quantity="other">%d günlük serinin korunması için bir tane daha al.</item>
+        <item quantity="one">%d günlük serinin korunması için bir tane daha al.</item>
+    </plurals>
+    <plurals name="checkpoint_shortcut_explanation_title">
+        <item quantity="other">%d beceriyi testle geç</item>
+        <item quantity="one">%d beceriyi testle geç</item>
+    </plurals>
+    <plurals name="coach_minutes_per_day">
+        <item quantity="other">günde %d dakika</item>
+        <item quantity="one">günde %d dakika</item>
+    </plurals>
+    <plurals name="courses_available_for_download_header">
+        <item quantity="other">İndirilebilir</item>
+        <item quantity="one">İndirilebilir</item>
+    </plurals>
+    <plurals name="day_streak">
+        <item quantity="other">%d günlük seri</item>
+        <item quantity="one">%d günlük seri</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="other">%d gün kaldı</item>
+        <item quantity="one">%d gün kaldı</item>
+    </plurals>
+    <plurals name="discuss_comments">
+        <item quantity="other">%d Yorum</item>
+        <item quantity="one">%d Yorum</item>
+    </plurals>
+    <plurals name="discuss_comments_hidden">
+        <item quantity="other">%d gizli yorum</item>
+        <item quantity="one">%d gizli yorum</item>
+    </plurals>
+    <plurals name="distance_from_meeting_daily_goal">
+        <item quantity="other">Günlük hedefine ulaşmak için bugün bir %d puan daha kazan</item>
+        <item quantity="one">Günlük hedefine ulaşmak için bugün bir %d puan daha kazan</item>
+    </plurals>
+    <plurals name="duration_day">
+        <item quantity="other">%1$d gün</item>
+        <item quantity="one">%1$d gün</item>
+    </plurals>
+    <plurals name="duration_week">
+        <item quantity="other">%1$d hafta</item>
+        <item quantity="one">%1$d hafta</item>
+    </plurals>
+    <plurals name="earned_gems">
+        <item quantity="other">%d mücevher kazandın!</item>
+        <item quantity="one">Bir mücevher kazandın!</item>
+    </plurals>
+    <plurals name="earned_lingots">
+        <item quantity="other">%d lingot kazandın!</item>
+        <item quantity="one">Bir lingot kazandın!</item>
+    </plurals>
+    <plurals name="exp_points">
+        <item quantity="other">%d Puan</item>
+        <item quantity="one">%d Puan</item>
+    </plurals>
+    <plurals name="experience_earned_today">
+        <item quantity="other">Bugün %d Deneyim Puanı kazandın</item>
+        <item quantity="one">Bugün %d Deneyim Puanı kazandın</item>
+    </plurals>
+    <plurals name="gem_wager_offer_explanation">
+        <item quantity="other">Serini 7 gün daha devam ettir ve biz de senin %d taşlık iddianı iki katına çıkaralım.</item>
+        <item quantity="one">Serini 7 gün daha devam ettir ve biz de senin %d taşlık iddianı iki katına çıkaralım.</item>
+    </plurals>
+    <plurals name="gem_wager_won_message">
+        <item quantity="other">%d mücevherini iki katına çıkardın. Başka bir bahis ister misin?</item>
+        <item quantity="one">%d mücevherini iki katına çıkardın. Başka bir bahis ister misin?</item>
+    </plurals>
+    <plurals name="get_this_item">
+        <item quantity="other">Bunu %d lingota almak istiyor musun?</item>
+        <item quantity="one">Bunu %d lingota almak istiyor musun?</item>
+    </plurals>
+    <plurals name="get_this_item_gems">
+        <item quantity="other">%d cevhere bu öğeyi almak istiyor musun?</item>
+        <item quantity="one">%d cevhere bu öğeyi almak istiyor musun?</item>
+    </plurals>
+    <plurals name="grade_correct_solution">
+        <item quantity="other">Doğru cevaplar:</item>
+        <item quantity="one">Doğru cevap:</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">%d saat önce</item>
+    </plurals>
+    <plurals name="jump_to_level">
+        <item quantity="other">%d. Düzeye Atla!</item>
+        <item quantity="one">%d. Düzeye Atla!</item>
+    </plurals>
+    <plurals name="leagues_banner_body">
+        <item quantity="other">İlk %1$d kişi sonraki lige çıkar</item>
+        <item quantity="one">İlk sıradaki kişi sonraki lige çıkar</item>
+    </plurals>
+    <plurals name="leagues_collab_explain_body">
+        <item quantity="other">Bu sandığın kilidini açmak için gereken toplam %1$s puanı liginde ekip çalışması yaparak kazan.</item>
+        <item quantity="one">Bu sandığın kilidini açmak için gereken toplam %1$s puanı liginde ekip çalışması yaparak kazan.</item>
+    </plurals>
+    <plurals name="leagues_collab_progress_body">
+        <item quantity="other">Grup hedefine ulaşmak için gereken %1$s puanı birlikte çalışarak kazanın.</item>
+        <item quantity="one">Grup hedefine ulaşmak için gereken %1$s puanı birlikte çalışarak kazanın.</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_body">
+        <item quantity="other">Puan tablon %1$s puanlık grup hedefine ulaştı!</item>
+        <item quantity="one">Puan tablon %1$s puanlık grup hedefine ulaştı!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title">
+        <item quantity="other">%1$d lingot kazandın!</item>
+        <item quantity="one">%1$d lingot kazandın!</item>
+    </plurals>
+    <plurals name="leagues_collab_reward_title_gems">
+        <item quantity="other">%1$d mücevher kazandın!</item>
+        <item quantity="one">%1$d mücevher kazandın!</item>
+    </plurals>
+    <plurals name="leagues_current_xp">
+        <item quantity="other">%1$d Puan</item>
+        <item quantity="one">%1$d Puan</item>
+    </plurals>
+    <plurals name="leagues_locked_body">
+        <item quantity="other">Yarışmaya başlamak için %1$d ders daha tamamla</item>
+        <item quantity="one">Yarışmaya başlamak için %1$d ders daha tamamla</item>
+    </plurals>
+    <plurals name="leagues_rewards_title">
+        <item quantity="other">%1$d Lingot kazandın!</item>
+        <item quantity="one">%1$d Lingot kazandın!</item>
+    </plurals>
+    <plurals name="leagues_rewards_title_gems">
+        <item quantity="other">%1$d mücevher kazandın!</item>
+        <item quantity="one">%1$d mücevher kazandın!</item>
+    </plurals>
+    <plurals name="lesson_start_button_with_xp">
+        <item quantity="other">"+%d XP'Yİ BAŞLAT"</item>
+        <item quantity="one">"+%d XP'Yİ BAŞLAT"</item>
+    </plurals>
+    <plurals name="level_label">
+        <item quantity="other">Düzey %1$s</item>
+        <item quantity="one">Düzey %1$s</item>
+    </plurals>
+    <plurals name="level_of_skill">
+        <item quantity="other">%2$s Düzey %1$s</item>
+        <item quantity="one">%2$s Düzey %1$s</item>
+    </plurals>
+    <plurals name="megabytes">
+        <item quantity="other">%d MB</item>
+        <item quantity="one">%d MB</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">%d dakika önce</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">AY</item>
+        <item quantity="one">AY</item>
+    </plurals>
+    <plurals name="next_payment">
+        <item quantity="other">%1$s tarihinde senden %3$s aylık Duolingo Plus ücreti (%2$s) alınacak.</item>
+        <item quantity="one">%1$s tarihinde senden bir aylık Duolingo Plus ücreti (%2$s) alınacak.</item>
+    </plurals>
+    <plurals name="next_renewal">
+        <item quantity="other">Gelecek Ödeme: %1$s tarihinde %3$s aylık Duolingo Plus için %2$s ödeyeceksiniz.</item>
+        <item quantity="one">Gelecek Ödeme: %1$s tarihinde 1 aylık Duolingo Plus için %2$s ödeyeceksiniz.</item>
+    </plurals>
+    <plurals name="number_of_gems">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="offer_item_purchase">
+        <item quantity="other">%d LİNGOTA EDİN</item>
+        <item quantity="one">%d LİNGOTA EDİN</item>
+    </plurals>
+    <plurals name="progress_quiz_month_since_last_quiz">
+        <item quantity="other">Son sınavından bu yana %d ay geçti</item>
+        <item quantity="one">Son sınavından bu yana %d ay geçti</item>
+    </plurals>
+    <plurals name="referral_bonus_ready_to_consume1">
+        <item quantity="other">%d haftalık ücretsiz Duolingo Plus kazandın!</item>
+        <item quantity="one">%d haftalık ücretsiz Duolingo Plus kazandın!</item>
+    </plurals>
+    <plurals name="referral_expiring_text">
+        <item quantity="other">Plus kullanmaya devam etmek için önümüzdeki %1$d saat içinde daha fazla arkadaş davet et.</item>
+        <item quantity="one">Plus kullanmaya devam etmek için önümüzdeki %1$d saat içinde daha fazla arkadaş davet et.</item>
+    </plurals>
+    <plurals name="referral_success_named_friends">
+        <item quantity="other">"Sayende %1$s ve %2$d arkadaşın daha katıldı. %3$s tarihine kadar Plus'ı güle güle kullan!"</item>
+        <item quantity="one">"Sayende %1$s ve %2$d arkadaşın daha katıldı. %3$s tarihine kadar Plus'ı güle güle kullan!"</item>
+    </plurals>
+    <plurals name="referral_success_unnamed_friend">
+        <item quantity="other">"Sayende %1$d arkadaşın katıldı. %2$s tarihine kadar Plus'ı güle güle kullan!"</item>
+        <item quantity="one">"Sayende %1$d arkadaşın katıldı. %2$s tarihine kadar Plus'ı güle güle kullan!"</item>
+    </plurals>
+    <plurals name="session_end_checkpoint_complete">
+        <item quantity="other">%d. Kontrol Noktasını geçtin!</item>
+        <item quantity="one">%d. Kontrol Noktasını geçtin!</item>
+    </plurals>
+    <plurals name="session_end_milestone_body">
+        <item quantity="other">"Duolingo'yu art arda %d gün kullandın, tebrikler"</item>
+        <item quantity="one">"Duolingo'yu kullandığın ilk günün, tebrikler"</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital">
+        <item quantity="other">%d Günlük Seri!</item>
+        <item quantity="one">%d Günlük Seri!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_capital_no_dash">
+        <item quantity="other">%d Günlük Seri!</item>
+        <item quantity="one">%d Günlük Seri!</item>
+    </plurals>
+    <plurals name="session_end_milestone_title_lower">
+        <item quantity="other">%d günlük seri!</item>
+        <item quantity="one">%d günlük seri!</item>
+    </plurals>
+    <plurals name="slots_open">
+        <item quantity="other">%d yer var</item>
+        <item quantity="one">%d yer var</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_days">
+        <item quantity="other">%1$d gün geçti!</item>
+        <item quantity="one">%1$d gün geçti!</item>
+    </plurals>
+    <plurals name="snooze_practice_reminders_expiration_weeks">
+        <item quantity="other">%1$d hafta geçti!</item>
+        <item quantity="one">%1$d hafta geçti!</item>
+    </plurals>
+    <plurals name="streak_freeze_used_can_not_afford_another">
+        <item quantity="other">Dün %d günlük serini korudun</item>
+        <item quantity="one">Dün %d günlük serini korudun</item>
+    </plurals>
+    <plurals name="streak_label_days">
+        <item quantity="other">gün</item>
+        <item quantity="one">gün</item>
+    </plurals>
+    <plurals name="streak_repair_title">
+        <item quantity="other">%d günlük seri kaybedildi!</item>
+        <item quantity="one">%d günlük seri kaybedildi!</item>
+    </plurals>
+    <plurals name="streak_repaired_and_continued_title">
+        <item quantity="other">%d günlük bir seri yakaladın!</item>
+        <item quantity="one">%d günlük bir seri yakaladın!</item>
+    </plurals>
+    <plurals name="streak_repaired_title">
+        <item quantity="other">%d günlük seri onarıldı!</item>
+        <item quantity="one">%d günlük seri onarıldı!</item>
+    </plurals>
+    <plurals name="streak_wager_home_explanation_plural">
+        <item quantity="other">%d lingotluk iddianı ikiye katladın. Başka bir iddiaya girmek ister misin?</item>
+        <item quantity="one">%d lingotluk iddianı ikiye katladın. Başka bir iddiaya girmek ister misin?</item>
+    </plurals>
+    <plurals name="take_gem_wager">
+        <item quantity="other">%d MÜCEVHERİNE BAHSE GİR</item>
+        <item quantity="one">%d MÜCEVHERİNE BAHSE GİR</item>
+    </plurals>
+    <plurals name="title_character_select">
+        <item quantity="other">&lt;b>\"%s\"&lt;/b> için doğru karakterleri seç</item>
+        <item quantity="one">&lt;b>\"%s\"&lt;/b> için doğru karakteri seç</item>
+    </plurals>
+    <plurals name="tutors_purchase_button">
+        <item quantity="other">%2$s ile %1$d ders</item>
+        <item quantity="one">%2$s ile %1$d ders</item>
+    </plurals>
+    <plurals name="xp_gain">
+        <item quantity="other">+%d Puan</item>
+        <item quantity="one">+%d Puan</item>
+    </plurals>
+    <plurals name="you_are_on_streak">
+        <item quantity="other">%d günlük bir seri yakaladın!</item>
+        <item quantity="one">%d günlük bir seri yakaladın!</item>
+    </plurals>
+    <plurals name="you_are_xp_away">
+        <item quantity="other">Günlük hedefine erişmene %d deneyim puanı kaldı</item>
+        <item quantity="one">Günlük hedefine erişmene %d deneyim puanı kaldı</item>
+    </plurals>
+    <plurals name="you_found_gems">
+        <item quantity="other">%d cevher buldun!</item>
+        <item quantity="one">Bir cevher buldun!</item>
+    </plurals>
+    <plurals name="you_found_lingots">
+        <item quantity="other">%d lingot buldun!</item>
+        <item quantity="one">Bir lingot buldun!</item>
+    </plurals>
+    <plurals name="you_have_n_gems">
+        <item quantity="other">Mağazadan öğe satın almak için %d mücevherin var!</item>
+        <item quantity="one">Mağazadan öğe satın almak için %d mücevherin var!</item>
+    </plurals>
+    <plurals name="you_have_n_lingots">
+        <item quantity="other">Mağazadan eşya almak için %d lingotun var!</item>
+        <item quantity="one">Mağazadan eşya almak için %d lingotun var!</item>
+    </plurals>
+</resources>

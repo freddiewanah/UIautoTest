@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/juicyLength1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.duolingo.core.ui.JuicyTextView android:text="@string/design_guidelines_action_bar" style="@style/H1" />
+        <com.duolingo.core.ui.ActionBarView android:id="@id/toolbarProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/juicyLengthNegative1" android:layout_marginEnd="@dimen/juicyLengthNegative1" />
+        <com.duolingo.core.ui.ActionBarView android:id="@id/toolbarTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/juicyLengthNegative1" android:layout_marginEnd="@dimen/juicyLengthNegative1" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_buttons" style="@style/H1" />
+        <com.duolingo.core.ui.JuicyButton android:id="@id/solidButton" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_solid_button" style="@style/SolidButton" />
+        <com.duolingo.core.ui.JuicyButton android:id="@id/outlineButton" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_outline_button" style="@style/OutlineButton" />
+        <com.duolingo.core.ui.JuicyButton android:id="@id/googleButton" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_google_button" android:drawableStart="@drawable/ic_google_icon_multi_colored" style="@style/OutlineButton" />
+        <com.duolingo.core.ui.JuicyButton android:id="@id/transparentButton" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_transparent_button" style="@style/TransparentButton" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1">
+            <com.duolingo.core.ui.JuicyTextView android:layout_width="wrap_content" android:text="@string/design_guidelines_link_before" android:layout_marginEnd="@dimen/juicyLengthHalf" style="@style/Caption1" />
+            <com.duolingo.core.ui.JuicyButton android:id="@id/link" android:text="@string/design_guidelines_link" style="@style/Link" />
+        </LinearLayout>
+        <com.duolingo.core.ui.JuicyButton android:enabled="false" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_disabled_button" style="@style/SolidButton" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_width="wrap_content" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_progressable_button" style="@style/Caption1" />
+        <com.duolingo.core.ui.JuicyButton android:id="@id/progressButton" android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_tap_progress" style="@style/SolidBlueButton" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_text" style="@style/H1" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_h1" style="@style/H1" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_h2" style="@style/H2" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_paragraph" style="@style/Paragraph" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_caption1" style="@style/Caption1" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_caption2" style="@style/Caption2" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_cards" style="@style/H1" />
+        <com.duolingo.core.ui.CardView android:layout_marginTop="@dimen/juicyLength1" style="@style/UnclickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:text="@string/design_guidelines_card_plain" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.CardView android:id="@id/selectableCard" android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard">
+            <com.duolingo.core.ui.JuicyTextView android:text="@string/design_guidelines_card_select" style="@style/Paragraph" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.CardView android:layout_marginTop="@dimen/juicyLength1" app:borderWidth="0.0dip" app:faceColor="@color/juicyIguana" app:lipColor="@color/juicyBlueJay" style="@style/FullWidthClickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:text="@string/design_guidelines_card_cap_title" style="@style/CardCap" />
+            <com.duolingo.core.ui.JuicyTextView android:padding="@dimen/juicyLength1" android:text="@string/design_guidelines_card_cap" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_input" style="@style/H1" />
+        <com.duolingo.core.ui.CardView android:layout_marginTop="@dimen/juicyLength1" style="@style/InputCard">
+            <com.duolingo.core.ui.JuicyEditText android:hint="@string/design_guidelines_card_input" style="@style/Input" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_forms_title" style="@style/H2" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_forms_text" style="@style/Caption1" />
+        <com.duolingo.signuplogin.CredentialInput android:layout_marginTop="@dimen/juicyLength1" android:hint="@string/design_guidelines_form_style" style="@style/CredentialInput" />
+        <com.duolingo.signuplogin.CredentialInput android:layout_marginTop="@dimen/juicyLength1" android:hint="@string/design_guidelines_form_style_password" style="@style/PasswordInput" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_progress_bars" style="@style/H1" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1">
+            <com.duolingo.core.ui.JuicyProgressBarView android:id="@id/progressBar" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/ProgressBarGreen" />
+            <com.duolingo.core.ui.JuicyButton android:id="@id/progressBarAnimateButton" android:layout_width="wrap_content" android:text="@string/design_guidelines_progress_bar_animate" android:layout_marginStart="@dimen/juicyLengthHalf" style="@style/SolidButton" />
+        </LinearLayout>
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_position_title" style="@style/H1" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength1" android:text="@string/design_guidelines_position_text" style="@style/Caption1" />
+        <com.duolingo.core.ui.CardView android:layout_marginTop="@dimen/juicyLength1" app:position="top" style="@style/UnclickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/design_guidelines_position_top" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.CardView app:position="center_vertical" style="@style/UnclickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/design_guidelines_position_center_vertical" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <com.duolingo.core.ui.CardView app:position="bottom" style="@style/UnclickableCard">
+            <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/design_guidelines_position_bottom" style="@style/Caption1" />
+        </com.duolingo.core.ui.CardView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1">
+            <com.duolingo.core.ui.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:position="left" style="@style/UnclickableCard">
+                <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/design_guidelines_position_left" style="@style/Caption1" />
+            </com.duolingo.core.ui.CardView>
+            <com.duolingo.core.ui.CardView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:position="right" style="@style/UnclickableCard">
+                <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:text="@string/design_guidelines_position_right" style="@style/Caption1" />
+            </com.duolingo.core.ui.CardView>
+        </LinearLayout>
+        <com.duolingo.signuplogin.CredentialInput android:layout_marginTop="@dimen/juicyLength1" android:hint="@string/design_guidelines_position_top" app:position="top" style="@style/CredentialInput" />
+        <com.duolingo.signuplogin.CredentialInput android:hint="@string/design_guidelines_position_center_vertical" app:position="center_vertical" style="@style/CredentialInput" />
+        <com.duolingo.signuplogin.CredentialInput android:hint="@string/design_guidelines_position_bottom" app:position="bottom" style="@style/CredentialInput" />
+        <com.duolingo.core.ui.JuicyTextView android:layout_marginTop="@dimen/juicyLength2" android:text="@string/design_guidelines_speech_title" style="@style/H1" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength1">
+            <com.duolingo.core.ui.LottieAnimationView android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="fitCenter" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/duo_walking" />
+            <com.duolingo.core.ui.PointingCardView android:layout_marginStart="@dimen/juicyLength1" style="@style/SpeechBubble">
+                <com.duolingo.core.ui.JuicyTextView android:text="@string/design_guidelines_speech_left" style="@style/Paragraph" />
+            </com.duolingo.core.ui.PointingCardView>
+        </LinearLayout>
+        <com.duolingo.core.ui.PointingCardView android:layout_marginTop="@dimen/juicyLength1" style="@style/PointingCard">
+            <com.duolingo.core.ui.JuicyTextView android:text="@string/design_guidelines_speech_top" style="@style/Paragraph" />
+        </com.duolingo.core.ui.PointingCardView>
+    </LinearLayout>
+</ScrollView>

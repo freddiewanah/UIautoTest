@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/coach_preference_category" android:title="@string/title_daily_goal">
+        <com.duolingo.settings.DuoGoalPreference android:layout="@layout/preference_item_frame" android:key="@string/pref_key_daily_goal" android:widgetLayout="@layout/preference_spinner" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_general" android:key="@string/pref_category_key_general">
+        <com.duolingo.settings.DuoSwitchPreference android:layout="@layout/preference_item" android:title="@string/sound_effects" android:key="@string/pref_key_sound" android:widgetLayout="@layout/preference_switch" android:defaultValue="true" />
+        <com.duolingo.settings.DuoSwitchPreference android:layout="@layout/preference_item" android:title="@string/lesson_coach" android:key="@string/pref_key_lesson_coach" android:widgetLayout="@layout/preference_switch" android:defaultValue="true" />
+        <com.duolingo.settings.DuoClickablePreference android:layout="@layout/preference_item" android:title="@string/action_help_center" android:key="@string/pref_key_help_center" />
+        <com.duolingo.settings.DuoClickablePreference android:layout="@layout/preference_item" android:title="@string/action_feedback" android:key="@string/pref_key_feedback" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_accessibility" android:key="@string/pref_category_key_accessibility">
+        <com.duolingo.settings.DuoSwitchPreference android:id="@id/microphone_preference" android:layout="@layout/preference_item" android:title="@string/setting_speaking" android:key="@string/pref_key_microphone" android:widgetLayout="@layout/preference_switch" android:defaultValue="false" />
+        <com.duolingo.settings.DuoSwitchPreference android:layout="@layout/preference_item" android:title="@string/setting_listening" android:key="@string/pref_key_listen" android:widgetLayout="@layout/preference_switch" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

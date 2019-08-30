@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="challenge_text_size">19.0sp</dimen>
+    <dimen name="choice_token_padding">12.0dip</dimen>
+    <dimen name="choice_token_padding_top">10.0dip</dimen>
+    <item type="dimen" name="juicyPurchaseMargin">@dimen/juicyLength2</item>
+    <dimen name="lesson_end_title_text_size">25.0sp</dimen>
+</resources>

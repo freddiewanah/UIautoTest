@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_text_secondary_default">#ffe1e1e1</color>
+    <color name="color_text_unselected_primary_default">#ffe1e1e1</color>
+    <color name="color_text_unselected_secondary_default">#ffa5a5a5</color>
+    <color name="control_normal_color_default">#ffe1e1e1</color>
+    <color name="toolbar_color_default">#ff1f1f1f</color>
+    <color name="toolbar_color_default_dark">#ff000000</color>
+</resources>

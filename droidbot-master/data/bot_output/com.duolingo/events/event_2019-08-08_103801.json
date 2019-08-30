@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_103801",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.duolingo",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          72,
+          1002
+        ],
+        [
+          1008,
+          1113
+        ]
+      ],
+      "resource_id": "android:id/message",
+      "checked": false,
+      "text": "Vyberte si tuto mo\u017enost pouze v p\u0159\u00edpad\u011b, \u017ee ji\u017e um\u00edte \u010d\u00ednsky.",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 10,
+      "temp_id": 11,
+      "size": "936*111",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/message[text]None[enabled,,]",
+      "view_str": "c57d9357065d85d7a26fb42128216381"
+    }
+  },
+  "start_state": "f998a9f633619eb1eba890c67ce625f0",
+  "stop_state": "f998a9f633619eb1eba890c67ce625f0",
+  "event_str": "TouchEvent(state=f998a9f633619eb1eba890c67ce625f0, view=c57d9357065d85d7a26fb42128216381)"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/duolingo_plus" android:title="@string/title_duolingo_plus_membership">
+        <com.duolingo.settings.DuoPlusSubscriptionPreference android:layout="@layout/preference_item" android:widgetLayout="@layout/preference_item_manage_subscription" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.CardView android:orientation="horizontal" android:id="@id/topicClickableCardView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" style="@style/ClickableCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.duolingo.core.ui.DuoSvgImageView android:layout_gravity="center_horizontal" android:id="@id/topicClickableThumbnail" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength3" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginStart="@dimen/juicyLengthHalf" android:layout_marginEnd="@dimen/juicyLength2" />
+    <com.duolingo.core.ui.JuicyTextView android:layout_gravity="center_vertical" android:id="@id/topicClickableOptionText" style="@style/Caption2" />
+</com.duolingo.core.ui.CardView>

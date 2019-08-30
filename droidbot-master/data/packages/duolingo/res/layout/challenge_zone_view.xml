@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.stripe.android.stripe3ds2.views.ThreeDS2HeaderTextView android:id="@id/czv_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_zone_vertical_padding" style="@style/ThreeDS2HeaderTextViewStyle" />
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView android:id="@id/czv_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_zone_vertical_padding" android:drawablePadding="@dimen/challenge_zone_text_indicator_padding" style="@style/ThreeDS2TextViewStyle" />
+    <FrameLayout android:id="@id/czv_entry_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_zone_vertical_padding" />
+    <com.stripe.android.stripe3ds2.views.ThreeDS2Button android:id="@id/czv_submit_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_zone_vertical_padding" style="@style/ThreeDS2ButtonStyle" />
+    <com.stripe.android.stripe3ds2.views.ThreeDS2Button android:id="@id/czv_resend_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThreeDS2TextButtonStyle" />
+    <com.stripe.android.stripe3ds2.views.ThreeDS2TextView android:id="@id/czv_whitelisting_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/challenge_zone_select_button_vertical_margin" style="@style/ThreeDS2TextViewStyle" />
+    <RadioGroup android:orientation="vertical" android:id="@id/czv_whitelist_radio_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/challenge_zone_vertical_padding">
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/czv_whitelist_yes_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_zone_select_button_vertical_margin" android:text="@string/czv_whitelist_yes_label" android:paddingStart="@dimen/challenge_zone_select_button_label_padding" android:layout_marginStart="@dimen/challenge_zone_select_button_offset_margin" />
+        <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/czv_whitelist_no_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/czv_whitelist_no_label" android:paddingStart="@dimen/challenge_zone_select_button_label_padding" android:layout_marginStart="@dimen/challenge_zone_select_button_offset_margin" />
+    </RadioGroup>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.CardView android:layout_marginTop="@dimen/juicyLength1" style="@style/SelectableCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:gravity="center" android:id="@id/optionText" style="@style/Paragraph" />
+</com.duolingo.core.ui.CardView>

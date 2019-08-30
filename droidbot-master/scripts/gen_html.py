@@ -2,8 +2,11 @@ from yattag import Doc
 import glob
 import json
 import os
+import sys
 
-packageName = 'com.textra'
+args = sys.argv
+
+packageName = args[1]
 # get all the pic files in the current folder
 picDir = os.path.join(os.pardir, 'output', '{}/*png'.format(packageName))
 picList = glob.glob(picDir)
@@ -32,3 +35,6 @@ with tag('html'):
 						doc.stag('br')
 
 print(doc.getvalue())
+
+with open('{}.html'.format(packageName), 'w') as file:
+	file.write(doc.getvalue())

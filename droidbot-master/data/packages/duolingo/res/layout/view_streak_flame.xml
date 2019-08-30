@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1.2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/fireProgressAnimation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateOnly="false" android:progressDrawable="@drawable/flame_progress" app:layout_constraintDimensionRatio="1:1.2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.52" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.duolingo.core.ui.JuicyTextView android:textStyle="bold" android:textColor="@color/juicySnow" android:gravity="center" android:id="@id/streakLabel" android:layout_width="0.0dip" android:layout_height="0.0dip" android:maxLines="1" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="@id/fireProgressAnimation" app:layout_constraintEnd_toEndOf="@id/fireProgressAnimation" app:layout_constraintHeight_percent="0.55" app:layout_constraintStart_toStartOf="@id/fireProgressAnimation" app:layout_constraintTop_toTopOf="@id/fireProgressAnimation" app:layout_constraintVertical_bias="0.7" app:layout_constraintWidth_percent="0.75" />
+</merge>

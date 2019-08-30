@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DuoViewPager android:id="@id/featureViewPager" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/huge_margin" android:layout_above="@id/paginationDots" />
+    <com.duolingo.core.ui.ScrollCirclesView android:id="@id/paginationDots" android:layout_width="wrap_content" android:layout_height="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:dotSize="@dimen/premium_pagination_single_dot_width" app:scaleOnScroll="0.25" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:paddingStart="@dimen/juicyLength1" android:paddingEnd="@dimen/juicyLength1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.DuoSvgImageView android:id="@id/profileFriendAvatar" android:layout_width="@dimen/juicyLength3" android:layout_height="@dimen/juicyLength3" android:layout_marginTop="@dimen/juicyLengthHalf" android:layout_marginBottom="@dimen/juicyLengthHalf" />
+    <com.duolingo.core.ui.JuicyTextView android:textColor="@color/juicyEel" android:layout_gravity="center_vertical" android:id="@id/profileFriendName" android:layout_width="wrap_content" android:layout_marginStart="@dimen/juicyLength1" app:autoSizeTextType="none" style="@style/H2" />
+</LinearLayout>

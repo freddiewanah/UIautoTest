@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:paddingTop="@dimen/generic_margin" android:paddingBottom="@dimen/generic_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/generic_margin" android:paddingEnd="@dimen/generic_margin" style="@style/App_ButtonFlatNoStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/avatar_with_frame" android:layout_width="@dimen/leaderboard_avatar_frame" android:layout_height="@dimen/leaderboard_avatar_frame" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentStart="true">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="@dimen/leaderboard_avatar_size" android:layout_height="@dimen/leaderboard_avatar_size" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/avatar_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:srcCompat="@drawable/leaderboard_avatar_frame" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textDirection="locale" android:layout_toEndOf="@id/avatar_with_frame">
+        <com.duolingo.core.ui.JuicyTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/juicyLengthHalf" style="@style/H2" />
+        <com.duolingo.core.ui.JuicyTextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/leaderboard_alone_subtitle" style="@style/Caption2" />
+    </LinearLayout>
+</RelativeLayout>

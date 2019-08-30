@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:id="@id/user_settings_pref_category" android:title="@string/title_your_profile">
+        <com.duolingo.settings.DuoAvatarPreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_photo" android:key="@string/pref_key_avatar" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" android:dialogLayout="@layout/preference_password_dialog" />
+        <com.duolingo.settings.DuoFullnamePreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_name" android:key="@string/pref_key_fullname" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.settings.DuoUsernamePreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_username" android:key="@string/pref_key_username" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.settings.DuoEmailPreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_email" android:key="@string/pref_key_email" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" />
+        <com.duolingo.settings.DuoPasswordPreference android:layout="@layout/preference_item_user_setting" android:title="@string/setting_password" android:key="@string/pref_key_password" android:positiveButtonText="@string/action_ok" android:negativeButtonText="@string/action_cancel" android:dialogLayout="@layout/preference_password_dialog" />
+        <com.duolingo.settings.DuoClickablePreference android:layout="@layout/preference_item" android:title="@string/title_activity_schools" android:key="@string/pref_key_progress_sharing" />
+        <com.duolingo.settings.DuoClickablePreference android:layout="@layout/preference_item" android:title="@string/action_logout" android:key="@string/pref_key_logout" />
+    </PreferenceCategory>
+</PreferenceScreen>

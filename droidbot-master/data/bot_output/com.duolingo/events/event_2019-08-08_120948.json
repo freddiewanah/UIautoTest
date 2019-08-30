@@ -1,0 +1,47 @@
+{
+  "tag": "2019-08-08_120948",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "android",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          138,
+          871
+        ],
+        [
+          942,
+          945
+        ]
+      ],
+      "resource_id": "android:id/alertTitle",
+      "checked": false,
+      "text": "Duolingo isn't responding",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "804*74",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/alertTitle[text]Duolingo isn't responding[enabled,,]",
+      "view_str": "f642d174bb3022d7cf7552f928ecf366"
+    }
+  },
+  "start_state": "46cbd6cac5d98f9618003878260947bd",
+  "stop_state": "46cbd6cac5d98f9618003878260947bd",
+  "event_str": "TouchEvent(state=46cbd6cac5d98f9618003878260947bd, view=f642d174bb3022d7cf7552f928ecf366)"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/juicyLength1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.duolingo.core.ui.JuicyTextView android:id="@id/xpGoalTitle" android:text="@string/xp_goal_pick_a_goal" app:layout_constraintTop_toTopOf="parent" style="@style/H1" />
+    <com.duolingo.core.ui.XpGoalOptionView android:id="@id/xpGoalOptionCasual" android:layout_marginTop="@dimen/juicyLength1" app:layout_constraintTop_toBottomOf="@id/xpGoalTitle" app:position="top" app:selectable="true" style="@style/UnclickableCard" />
+    <com.duolingo.core.ui.XpGoalOptionView android:id="@id/xpGoalOptionRegular" app:layout_constraintTop_toBottomOf="@id/xpGoalOptionCasual" app:position="center_vertical" app:selectable="true" style="@style/UnclickableCard" />
+    <com.duolingo.core.ui.XpGoalOptionView android:id="@id/xpGoalOptionSerious" app:layout_constraintTop_toBottomOf="@id/xpGoalOptionRegular" app:position="center_vertical" app:selectable="true" style="@style/UnclickableCard" />
+    <com.duolingo.core.ui.XpGoalOptionView android:id="@id/xpGoalOptionInsane" app:layout_constraintTop_toBottomOf="@id/xpGoalOptionSerious" app:position="bottom" app:selectable="true" style="@style/UnclickableCard" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/xpGoalDuo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/juicyLength2" android:layout_marginBottom="@dimen/juicyLength2" android:scaleType="fitCenter" android:adjustViewBounds="true" app:layout_constraintBottom_toTopOf="@id/xpGoalContinueButton" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/xpGoalOptionInsane" app:layout_constraintWidth_percent="0.35" app:srcCompat="@drawable/xp_goal_duo" />
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/xpGoalDuo" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/xpGoalDuo" app:layout_constraintTop_toTopOf="@id/xpGoalDuo" app:layout_constraintVertical_bias="0.3">
+        <com.duolingo.core.ui.PointingCardView android:id="@id/xpGoalDuoSpeechBubble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/juicyLength1" android:layout_marginEnd="@dimen/juicyLength1" app:arrowOffset="@dimen/juicyLength1" style="@style/SpeechBubble">
+            <com.duolingo.core.ui.JuicyTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coach_change_later_reassurance" android:includeFontPadding="false" app:autoSizeTextType="none" app:trimViewSize="true" style="@style/Paragraph" />
+        </com.duolingo.core.ui.PointingCardView>
+    </LinearLayout>
+    <com.duolingo.core.ui.JuicyButton android:id="@id/xpGoalContinueButton" android:text="@string/button_continue" app:layout_constraintBottom_toBottomOf="parent" style="@style/SolidGreenButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

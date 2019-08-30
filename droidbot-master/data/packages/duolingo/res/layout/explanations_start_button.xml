@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duolingo.core.ui.JuicyButton android:id="@id/explanationsStartButton" android:layout_marginTop="@dimen/juicyLength1" android:layout_marginBottom="@dimen/juicyLength1" android:text="@string/tips_lesson_start_button" style="@style/SolidButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
