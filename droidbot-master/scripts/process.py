@@ -20,7 +20,7 @@ xmlDir = os.path.join(os.pardir, 'data', 'packages', '{}/res/layout/*.xml'.forma
 xmlList = glob.glob(xmlDir)
 libs = {}
 
-rex = re.compile('^androidx|^android|^{}|^com\.google'.format(packageName))
+rex = re.compile('^androidx|^android|^{}|^com\.google|^com\.android'.format(packageName))
 
 for xml in xmlList:
     with open(xml) as fd:
@@ -40,6 +40,11 @@ for xml in xmlList:
                             # print(node)
                             if node[0] in idList:
                                 if not rex.match(key):
+                                    key_node = key.split('.')
+                                    package_node = packageName.split('.')
+                                    for keN in key_node:
+                                        if len(keN) > 5 and (keN == package_node[1] or keN == package_node[0]):
+                                            continue
                                     libs[node[1]] = key
                 if key[0] != '@':
                     if nodes:

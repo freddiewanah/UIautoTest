@@ -6,7 +6,7 @@ for file in ../apk/*; do
   echo "${baseName}"
 
   printf "Prepare droidbot\n"
-  droidbot -a ../apk/${baseName}.apk -o ../data/bot_output/${baseName} -is_emulator
+  timeout 1800 droidbot -a ../apk/${baseName}.apk -o ../data/bot_output/${baseName} -is_emulator
 
   printf "Finished droidbot\n"
 
