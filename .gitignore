@@ -4,5 +4,6 @@ droidbot-master/.idea/
 droidbot-master/bin
 droidbot-master/lib
 droidbot-master/include
-
+droidbot-master/data
+droidbot-master/output
 droidbot-master/.DS_Store
