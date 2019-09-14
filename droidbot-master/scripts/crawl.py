@@ -57,9 +57,6 @@ def craw_apks(self, count=30):
 
         c = 0
         for link in links:
-            if c < 14:
-                c += 1
-                continue
             try:
                 detail_link = _root_url + str(link["href"])
                 # print(detail_link)
@@ -68,6 +65,9 @@ def craw_apks(self, count=30):
                     known_links.append(detail_link)
                     print(detail_link)
                     download_page = requests.get(detail_link).json()
+                    if 'category' in download_page.keys():
+                        if 'game' in download_page['category'].lower():
+                            continue
                     print(download_page)
                     if 'url' in download_page.keys() and 'package_name' in download_page.keys():
                         print("Start downloading apk: " + download_page['package_name'])

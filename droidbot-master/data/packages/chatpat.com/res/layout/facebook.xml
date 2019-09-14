@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0dip" android:textColor="@android:color/holo_blue_dark" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Creating a Facebook account is free. All you need to get started is an email address and a few minutes of your time." android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/linearlayout_bg" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <Button android:textColor="#fff5f5f5" android:layout_gravity="center" android:id="@id/btnFbLogin" android:background="@android:color/holo_blue_dark" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="Login now" android:drawableLeft="@drawable/facebook" style="@style/DefaultButtonText" />
+    </LinearLayout>
+</RelativeLayout>

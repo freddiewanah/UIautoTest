@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/circle_shape" />
+    <ImageView android:layout_gravity="center" android:id="@id/logo" android:layout_width="32.0dip" android:layout_height="26.0dip" android:src="@drawable/login_google_logo" />
+</FrameLayout>

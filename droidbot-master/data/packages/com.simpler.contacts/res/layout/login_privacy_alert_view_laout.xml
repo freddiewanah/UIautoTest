@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_privacy_dialog" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/color_primary" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/accept_terms" android:textAllCaps="true" />
+    <TextView android:textColor="@color/subtitle_extra_light" android:gravity="center" android:id="@id/message" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/by_creating_an_account_you_agree_to_the_simpler_terms_of_use_and_privacy_policy" />
+    <View android:id="@id/divider_bottom" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="32.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons_layout" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <TextView android:textAppearance="?android:textAppearance" android:gravity="center" android:id="@id/button_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/Cancel" android:layout_weight="1.0" android:textAllCaps="true" />
+        <View android:background="?android:listDivider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearance" android:textStyle="bold" android:textColor="@color/color_primary" android:gravity="center" android:id="@id/button_ok" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/i_agree" android:layout_weight="1.0" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

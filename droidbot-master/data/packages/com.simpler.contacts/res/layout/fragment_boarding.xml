@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_primary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:padding="56.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/boarding_caller_id" android:scaleType="centerCrop" android:layout_weight="3.0" android:layout_above="@id/title" />
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/identify_unknown_callers" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/know_who_calls_you_in_real_time" />
+    </LinearLayout>
+</LinearLayout>

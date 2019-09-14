@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/list_view_item_padding" android:paddingRight="@dimen/list_view_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/account_icon" android:visibility="invisible" android:layout_width="?android:listPreferredItemHeightSmall" android:layout_height="?android:listPreferredItemHeightSmall" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/account_icon" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/checkbox" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_view_item_half_padding" android:src="@drawable/btn_check_off_holo" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

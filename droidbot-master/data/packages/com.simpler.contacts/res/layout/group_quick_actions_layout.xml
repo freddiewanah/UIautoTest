@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/text_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+        <ImageView android:id="@id/text_image_view" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_message_grey600_24dp" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="11.0sp" android:id="@id/text_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/email_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+        <ImageView android:id="@id/email_image_view" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_email_black_24dp" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="11.0sp" android:id="@id/email_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Email" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/edit_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+        <ImageView android:id="@id/edit_image_view" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_edit_white_24dp" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="11.0sp" android:id="@id/edit_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Edit" />
+    </LinearLayout>
+</LinearLayout>

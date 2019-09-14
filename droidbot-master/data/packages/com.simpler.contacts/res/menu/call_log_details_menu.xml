@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_contact_details" android:orderInCategory="1" android:title="@string/Info" app:showAsAction="never" />
+    <item android:id="@id/menu_edit_contact" android:orderInCategory="2" android:title="@string/Edit_contact" app:showAsAction="never" />
+    <item android:id="@id/menu_delete_calllog" android:orderInCategory="3" android:title="@string/Delete" app:showAsAction="never" />
+</menu>

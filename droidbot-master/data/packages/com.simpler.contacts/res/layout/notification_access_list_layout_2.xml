@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightLarge" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:foreground="?selectableItemBackground" card_view:cardCornerRadius="4.0dip" card_view:cardElevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/missed_call_layout" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="@dimen/list_view_item_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/missed_image_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_contact_background" android:scaleType="centerInside" />
+            <ImageView android:id="@id/missed_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_call_missed_white_24dp" android:scaleType="centerInside" />
+        </RelativeLayout>
+        <ImageView android:id="@id/cancel_image" android:padding="@dimen/activity_horizontal_margin" android:layout_width="?android:listPreferredItemHeightSmall" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:src="@drawable/ic_close_white_24dp" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/texts_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/list_view_item_padding" android:layout_toLeftOf="@id/cancel_image" android:layout_toRightOf="@id/missed_call_layout">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center|left" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/let_us_identify" />
+            <TextView android:textColor="@android:color/white" android:gravity="center|left" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allow_simpler_to_identify_missed_calls" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

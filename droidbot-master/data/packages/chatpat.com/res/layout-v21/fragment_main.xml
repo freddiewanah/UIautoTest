@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tool_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/tool_bar" />
+    <fragments.SlidingTabLayout android:id="@id/tabs" android:background="@color/ColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <com.google.android.gms.ads.AdView android:id="@id/mainAdView" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="@string/chatar_Banner" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" style="?android:attr/progressBarStyleLarge" />
+</LinearLayout>

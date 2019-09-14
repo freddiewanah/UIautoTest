@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preposition_for_date">kuupäeval %s</string>
+    <string name="preposition_for_time">kell %s</string>
+    <string name="relative_time">%1$s, %2$s</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">o %d dní</item>
+        <item quantity="one">zajtra</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">o %d hodín</item>
+        <item quantity="one">o 1 hodinu</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">o %d min.</item>
+        <item quantity="one">o 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">o %d s</item>
+        <item quantity="one">o 1 s</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">pred %d hodinami</item>
+        <item quantity="one">pred 1 hodinou</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">pred %d min.</item>
+        <item quantity="one">pred 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">pred %d s</item>
+        <item quantity="one">pred 1 s</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d hod.</item>
+        <item quantity="one">1 hod.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">o %d dní</item>
+        <item quantity="one">zajtra</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">o %d hodín</item>
+        <item quantity="one">o 1 hodinu</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">o %d minút</item>
+        <item quantity="one">o 1 minútu</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">o %d s</item>
+        <item quantity="one">o 1 sekundu</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">pred %d dňami</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">pred %d hodinami</item>
+        <item quantity="one">pred 1 hodinou</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">pred %d minútami</item>
+        <item quantity="one">Pred minútou</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">pred %d s</item>
+        <item quantity="one">pred 1 sekundou</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">články</item>
+        <item quantity="one">článok</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">komentáre</item>
+        <item quantity="one">komentár</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">nápady</item>
+        <item quantity="one">nápad</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">Tento nápad sa páči %1$s používateľovi</item>
+        <item quantity="one">Tento nápad sa páči %1$s používateľom</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">ľudia</item>
+        <item quantity="one">osoba</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">odoberatelia</item>
+        <item quantity="one">odoberateľ</item>
+    </plurals>
+</resources>

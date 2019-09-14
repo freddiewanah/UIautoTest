@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+        <TextView android:textColor="@color/welcome_skip_text_color" android:gravity="center|right" android:id="@id/skip_textView" android:background="@drawable/background_selector_light" android:paddingLeft="@dimen/listview_item_double_padding" android:paddingRight="@dimen/list_view_item_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Skip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0">
+        <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="@color/subtitle_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/Duplicate_Contacts" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/subtitle_light" android:id="@id/subtitle_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/Searching_" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="60.0">
+        <ImageView android:id="@id/imageButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/merge_find_duplicates_normal" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/counter_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="42.0sp" android:textColor="@color/color_primary" android:layout_gravity="center_horizontal" android:id="@id/counter_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/color_primary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Duplicate_Contacts" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress_bar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" style="@style/Widget.AppCompat.ProgressBar" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0">
+        <Button android:textColor="@android:color/white" android:id="@id/button" android:background="@color/color_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/listview_item_double_padding" android:layout_marginRight="@dimen/listview_item_double_padding" android:text="@string/Next" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/attachment_image_view" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_attachment_white_24dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/delete_image_view" android:padding="8.0dip" android:layout_width="36.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:src="@drawable/ic_close_grey600_24dp" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="text text" android:singleLine="true" android:layout_toLeftOf="@id/delete_image_view" android:layout_toRightOf="@id/attachment_image_view" android:layout_centerVertical="true" />
+    <View android:id="@id/divider" android:background="@color/divider_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:alpha="0.5" />
+</RelativeLayout>

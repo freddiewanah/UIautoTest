@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_content" android:background="@color/color_primary" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/headline_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/welcome_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Welcome_to_s" android:textAllCaps="true" android:letterSpacing="0.2" />
+        <TextView android:textSize="28.0sp" android:textColor="@android:color/white" android:id="@id/app_name_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/Simpler" android:textAllCaps="true" android:letterSpacing="0.2" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button" android:layout_below="@id/headline_layout" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <me.relex.circleindicator.CircleIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_above="@id/button" />
+    <Button android:textColor="@color/color_primary" android:layout_gravity="bottom" android:id="@id/button" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightLarge" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/Get_started" android:layout_alignParentBottom="true" android:textAllCaps="true" android:letterSpacing="0.2" style="?android:borderlessButtonStyle" />
+</RelativeLayout>

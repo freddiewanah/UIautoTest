@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="24.0sp" android:gravity="center" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Show_possible_merges" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <ImageView android:id="@id/button_background" android:visibility="gone" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/big_button_background" />
+            <ImageView android:id="@id/button" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/merge_find_duplicates_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="60.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Widget.AppCompat.ProgressBar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/counter_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="42.0sp" android:layout_gravity="center_horizontal" android:id="@id/counter_text_view" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center_horizontal" android:id="@id/duplicate_contacts_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Duplicate_Contacts" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="?android:listPreferredItemHeightSmall" android:layout_height="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_contact_background" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="37" android:singleLine="true" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/facebook" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/facebook_round" />
+    <ImageView android:id="@id/alert" android:padding="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_warning_white_24dp" />
+</RelativeLayout>

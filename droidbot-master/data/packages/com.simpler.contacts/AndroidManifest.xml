@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.simpler.contacts" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@drawable/ic_launcher_contacts" android:label="@string/Simpler" android:name="com.simpler.application.SimplerApplication" android:networkSecurityConfig="@xml/network_security_config" android:supportsRtl="false" android:theme="@style/AppLightTheme">
+        <activity android:name="com.simpler.ui.activities.ContactsAppActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:label="@string/Simpler_contacts">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter android:label="@string/Simpler_contacts">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:label="@string/Simpler_contacts">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:label="@string/Simpler_contacts">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter android:label="@string/Simpler_contacts">
+                <action android:name="com.android.phone.action.RECENT_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="optly5016730956"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.simpler.ui.activities.MergeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.ContactDetailsActivity" android:screenOrientation="portrait">
+            <intent-filter android:label="@string/Simpler_contacts">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="contacts" android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.simpler.ui.activities.CallLogDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.BackupsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/LightNoActionBar"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.PortalActivity" android:screenOrientation="portrait" android:theme="@style/UserVoiceTheme"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.ForumActivity" android:screenOrientation="portrait" android:theme="@style/UserVoiceTheme"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.ArticleActivity" android:screenOrientation="portrait" android:theme="@style/UserVoiceTheme"/>
+        <activity android:name="com.uservoice.uservoicesdk.activity.TopicActivity" android:screenOrientation="portrait" android:theme="@style/UserVoiceTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.uservoice.uservoicesdk.activity.ContactActivity" android:screenOrientation="portrait" android:theme="@style/UserVoiceTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.uservoice.uservoicesdk.activity.PostIdeaActivity" android:screenOrientation="portrait" android:theme="@style/UserVoiceTheme"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/simpler_contacts_facebook_app_id"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="5d9b496ddb3a120929365bd42b5b5d2423b05748"/>
+        <receiver android:enabled="true" android:name="com.simpler.receivers.CallLogReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.simpler.receivers.MergeNotificationPublisher"/>
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_ihoO7GYnNJZ4SaB81uGtMgiauuhRXlI1"/>
+        <service android:label="@string/Simpler" android:name="com.simpler.services.MissedCallNotificationListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true" android:name="com.simpler.receivers.MissedCallsNotificationClickReceiver"/>
+        <provider android:authorities="com.simpler.contacts.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:label="@string/Contacts_to_display" android:name="com.simpler.ui.activities.ContactsToDisplayActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/Simpler" android:name="com.facebook.FacebookActivity" android:theme="@style/FacebookActivity"/>
+        <activity android:name="com.simpler.ui.activities.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.WebActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="com.simpler.ui.activities.MergeAppActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.BackupAppActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.FragmentParamActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.BaseAppLauncherActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.GroupsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.AppPermissionsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.ChooseFavoritesActivity" android:screenOrientation="portrait"/>
+        <receiver android:name="com.simpler.receivers.AutoBackupReceiver"/>
+        <activity android:name="com.simpler.ui.activities.DummyActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.MyGroupsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.OnBoardingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.LoginBottomSheetActivity" android:theme="@style/Theme.AppCompat.Translucent"/>
+        <activity android:name="com.simpler.ui.activities.BlockedNumbersActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.simpler.ui.activities.LoginActivity" android:screenOrientation="portrait" android:theme="@style/LightNoActionBar"/>
+        <service android:exported="false" android:name="com.simpler.services.SilentBackupJob">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>
+        </service>
+        <activity android:name="zendesk.support.request.RequestActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/zs_view_article_loading_title" android:name="zendesk.support.guide.ViewArticleActivity"/>
+        <activity android:label="@string/support_activity_title" android:name="zendesk.support.guide.HelpCenterActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/request_list_activity_title" android:name="zendesk.support.requestlist.RequestListActivity"/>
+        <receiver android:exported="false" android:name="zendesk.support.DeepLinkingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zendesk.support"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.simpler.contacts.zendesk.support.SupportSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.SupportSdkStartupProvider"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:name="com.facebook.CustomTabActivity"/>
+        <service android:exported="true" android:name="com.firebase.jobdispatcher.GooglePlayReceiver" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.simpler.contacts.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.simpler.contacts.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.simpler.contacts.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <provider android:authorities="com.simpler.contacts.belvedere2.attachments" android:exported="false" android:grantUriPermissions="true" android:name="zendesk.belvedere.BelvedereFileProvider" android:readPermission="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/belvedere_attachment_storage_v2"/>
+        </provider>
+        <provider android:authorities="com.simpler.contacts.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

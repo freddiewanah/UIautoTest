@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/app_icon_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_logo_contacts" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="26.0sp" android:id="@id/app_name_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/version_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Version" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/link_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/Simpler_apps" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/link_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Simpler_website" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/debug_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="32.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Develop" />
+            <android.support.v7.widget.SwitchCompat android:id="@id/server_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Production" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/subtitle_extra_light" android:gravity="center" android:id="@id/terms_textView" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/terms_of_use_and_privacy_policy" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

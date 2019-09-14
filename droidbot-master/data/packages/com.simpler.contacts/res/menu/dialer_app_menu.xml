@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_theme_color" android:orderInCategory="4" android:title="@string/Theme_color" app:showAsAction="never" />
+    <item android:id="@id/menu_blocked_numbers" android:orderInCategory="4" android:title="@string/blocked_numbers" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_settings_white_24dp" android:id="@id/menu_settings" android:orderInCategory="6" android:title="@string/Settings" app:showAsAction="never" />
+</menu>

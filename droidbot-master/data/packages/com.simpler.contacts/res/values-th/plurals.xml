@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">ใน %d วัน</item>
+        <item quantity="one">พรุ่งนี้</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+        <item quantity="one">ใน 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">ใน %d นาที</item>
+        <item quantity="one">ใน 1 นาที</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">ใน %d วินาที</item>
+        <item quantity="one">ใน 1 วินาที</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">เมื่อวาน</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">1 ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">1 นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d วินาทีที่ผ่านมา</item>
+        <item quantity="one">1 วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">1 วินาที</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">ใน %d วัน</item>
+        <item quantity="one">พรุ่งนี้</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+        <item quantity="one">ใน 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">ใน %d นาที</item>
+        <item quantity="one">ใน 1 นาที</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">ใน %d วินาที</item>
+        <item quantity="one">ใน 1 วินาที</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">เมื่อวาน</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">1 ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">1 นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d วินาทีที่แล้ว</item>
+        <item quantity="one">1 วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">บทความต่างๆ</item>
+        <item quantity="one">บทความ</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">ข้อคิดเห็น</item>
+        <item quantity="one">ข้อคิดเห็น</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">แนวคิดต่างๆ</item>
+        <item quantity="one">แนวคิด</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s ต้องการแนวคิดนี้</item>
+        <item quantity="one">%1$s ต้องการแนวคิดนี้</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">บุคคล</item>
+        <item quantity="one">คน</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">ผู้สมัครสมาชิก</item>
+        <item quantity="one">ผู้สมัครสมาชิก</item>
+    </plurals>
+</resources>

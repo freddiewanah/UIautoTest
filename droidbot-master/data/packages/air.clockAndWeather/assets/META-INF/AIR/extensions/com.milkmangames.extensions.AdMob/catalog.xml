@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/milkmangames/nativeextensions/AdMob" mod="1457051745279" signatureChecksum="1939576744" >
+        <def id="com.milkmangames.nativeextensions:AdMob" /> 
+        <dep id="com.milkmangames.nativeextensions:AdMobAdType" type="e" /> 
+        <dep id="com.milkmangames.nativeextensions.events:AdMobEvent" type="e" /> 
+        <dep id="com.milkmangames.nativeextensions.events:AdMobErrorEvent" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="e" /> 
+        <dep id="com.milkmangames.nativeextensions:AdMobAlignment" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.milkmangames.nativeextensions.events:AdMobEvent" type="s" /> 
+        <dep id="com.milkmangames.nativeextensions.events:AdMobErrorEvent" type="s" /> 
+        <dep id="flash.events:EventDispatcher" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/milkmangames/nativeextensions/AdMobAdType" mod="1395983785589" signatureChecksum="1201830275" >
+        <def id="com.milkmangames.nativeextensions:AdMobAdType" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/milkmangames/nativeextensions/events/AdMobErrorEvent" mod="1393461148655" signatureChecksum="1729472833" >
+        <def id="com.milkmangames.nativeextensions.events:AdMobErrorEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/milkmangames/nativeextensions/AdMobAlignment" mod="1347818881865" signatureChecksum="4274475084" >
+        <def id="com.milkmangames.nativeextensions:AdMobAlignment" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_8ea6d1ef3fe64dc698e5db711d00d02e71b0e2d3be270ee6e0221c776cfad7f0_flash_display_Sprite" mod="1462485758065" signatureChecksum="3655302231" >
+        <def id="_8ea6d1ef3fe64dc698e5db711d00d02e71b0e2d3be270ee6e0221c776cfad7f0_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/milkmangames/nativeextensions/events/AdMobEvent" mod="1434482179641" signatureChecksum="3861016952" >
+        <def id="com.milkmangames.nativeextensions.events:AdMobEvent" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="5688dc8458b4a540023bcbe18473ca78aa0a284e990257cbbf355e8d3cd33a5f"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

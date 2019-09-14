@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar_layout" />
+    <RelativeLayout android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/buttons_layout">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:id="@id/avatar_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:layout_gravity="center" android:layout_width="126.0dip" android:layout_height="126.0dip" android:src="@drawable/circle_stroke_layout" />
+                    <com.simpler.ui.views.ContactAvatar android:layout_gravity="center" android:id="@id/avatar" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+                </FrameLayout>
+                <ImageView android:id="@id/user_type_logo_background" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ic_pro_color_pick_bg" android:layout_alignRight="@id/avatar_view" android:layout_alignBottom="@id/avatar_view" />
+                <ImageView android:id="@id/user_type_logo" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/about_logo_contacts" android:scaleType="centerCrop" android:layout_alignRight="@id/avatar_view" android:layout_alignBottom="@id/avatar_view" />
+            </RelativeLayout>
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="name" android:layout_below="@id/avatar_view" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="email" android:layout_below="@id/username" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/buttons_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:id="@id/dividerTop" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <Button android:textSize="16.0sp" android:id="@id/change_photo" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:text="@string/Update_profile_photo" style="@style/BorderlessButtonStyle" />
+            <Button android:textSize="16.0sp" android:id="@id/reset_password" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:text="@string/Reset_password" style="@style/BorderlessButtonStyle" />
+            <Button android:textSize="16.0sp" android:id="@id/sign_out" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:text="@string/Sign_Out" style="@style/BorderlessButtonStyle" />
+            <View android:id="@id/dividerBottom" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

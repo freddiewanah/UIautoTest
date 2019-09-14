@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:padding="@dimen/list_view_item_half_padding" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:gravity="bottom" android:id="@id/headline01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Existing_names" android:singleLine="true" />
+            <Spinner android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_view_item_padding">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/radioButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:gravity="bottom" android:id="@id/headline02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/New_name" android:singleLine="true" />
+            <EditText android:id="@id/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords|textNoSuggestions" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/share" android:id="@id/action_share" android:title="@string/action_share" app:showAsAction="always" />
+    <item android:icon="@drawable/inlove" android:id="@id/action_you_tube" android:title="@string/action_you_tube" app:showAsAction="always" />
+    <item android:icon="@drawable/refresh_icon" android:id="@id/action_refresh" android:title="@string/action_refresh" app:showAsAction="always" />
+    <item android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha" android:id="@id/action_privacy" android:visible="false" android:title="App privacy" app:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/favorites" android:id="@id/action_rate_app" android:title="Rate App" app:showAsAction="always" />
+            <item android:icon="@drawable/exit" android:id="@id/action_logout_app" android:title="Sign Out" app:showAsAction="always" />
+            <item android:icon="@drawable/deactivate" android:id="@id/action_deactivate_app" android:title="Deactivate Account" app:showAsAction="always" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/abc_ic_search_api_mtrl_alpha" android:id="@id/action_search" android:title="@string/abc_search_hint" app:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/user" android:id="@id/action_all_users" android:title="@string/action_all" app:showAsAction="always" />
+            <item android:icon="@drawable/online" android:id="@id/action_online_users" android:title="@string/action_online" app:showAsAction="always" />
+            <item android:icon="@drawable/away" android:id="@id/action_new_users" android:title="@string/action_new" app:showAsAction="always" />
+            <item android:icon="@drawable/search" android:id="@id/action_user_search" android:title="@string/action_user_search" app:showAsAction="always" />
+        </menu>
+    </item>
+    <item android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha" android:id="@id/action_settings" android:title="@string/action_settings" app:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/profile" android:id="@id/action_profile_id" android:title="@string/action_profile" app:showAsAction="always" />
+            <item android:icon="@drawable/visitors" android:id="@id/action_visitor_id" android:title="@string/action_visitors" app:showAsAction="always" />
+            <item android:icon="@drawable/favorites" android:id="@id/action_favorite_id" android:title="@string/action_favorites" app:showAsAction="always" />
+            <item android:icon="@drawable/menu_settings" android:id="@id/action_setting_id" android:title="@string/action_settings" app:showAsAction="always" />
+        </menu>
+    </item>
+    <item android:icon="@android:drawable/ic_delete" android:id="@id/action_menu_remove_user" android:visible="false" android:title="Delete" app:showAsAction="always" />
+    <item android:icon="@drawable/notifications" android:id="@id/action_menu_chat" android:visible="false" android:title="Chat" app:showAsAction="always" />
+    <item android:icon="@drawable/thumb_up" android:id="@id/action_menu_like" android:visible="false" android:title="Like" app:showAsAction="always" />
+    <item android:icon="@drawable/thumb_down" android:id="@id/action_menu_dislike" android:visible="false" android:title="Dislike" app:showAsAction="always" />
+    <item android:icon="@drawable/photos" android:id="@id/action_menu_exist_photo" android:visible="false" android:title="Exist Photos" app:showAsAction="always" />
+    <item android:icon="@drawable/camera" android:id="@id/action_menu_take_photo" android:visible="false" android:title="Take a photo" app:showAsAction="always" />
+    <item android:icon="@drawable/my_state" android:id="@id/action_menu_set_status" android:visible="false" android:title="My Status" app:showAsAction="always" />
+    <item android:icon="@drawable/edit_profile" android:id="@id/action_menu_edit_profile" android:visible="false" android:title="Edit" app:showAsAction="always" />
+    <item android:icon="@drawable/done" android:id="@id/action_menu_done" android:visible="false" android:title="Done" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">daqui a %d dias</item>
+        <item quantity="one">amanhã</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">em %d horas</item>
+        <item quantity="one">daqui a 1 hora</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">daqui a %d min</item>
+        <item quantity="one">daqui a 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">daqui a %d seg</item>
+        <item quantity="one">daqui a 1 seg</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Há %d dias</item>
+        <item quantity="one">ontem</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Há %d horas</item>
+        <item quantity="one">Há 1 hora</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Há %d min</item>
+        <item quantity="one">há 1 min</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Há %d seg</item>
+        <item quantity="one">Há 1 seg</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">daqui a %d dias</item>
+        <item quantity="one">amanhã</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">daqui a %d horas</item>
+        <item quantity="one">daqui a 1 hora</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">daqui a %d minutos</item>
+        <item quantity="one">daqui a 1 minuto</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">daqui a %d segundos</item>
+        <item quantity="one">daqui a 1 segundo</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Há %d dias</item>
+        <item quantity="one">ontem</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Há %d horas</item>
+        <item quantity="one">Há 1 hora</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Há %d minutos</item>
+        <item quantity="one">Há 1 minuto</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Há %d segundos</item>
+        <item quantity="one">Há 1 segundo</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">artigos</item>
+        <item quantity="one">artigo</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">comentários</item>
+        <item quantity="one">comentário</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ideias</item>
+        <item quantity="one">ideia</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s querem esta ideia</item>
+        <item quantity="one">%1$s quer esta ideia</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">pessoas</item>
+        <item quantity="one">pessoa</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">subscritores</item>
+        <item quantity="one">subscritor</item>
+    </plurals>
+</resources>

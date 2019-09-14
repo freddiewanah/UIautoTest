@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">po %d d.</item>
+        <item quantity="one">rytoj</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">po %d val.</item>
+        <item quantity="one">po 1 val.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">po %d min.</item>
+        <item quantity="one">po 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">po %d sek.</item>
+        <item quantity="one">po 1 sek.</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">Prieš 1 valandą</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš 1 min.</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Prieš %d sek.</item>
+        <item quantity="one">Prieš 1 sek.</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">1 sek.</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">po %d d.</item>
+        <item quantity="one">rytoj</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">po %d val.</item>
+        <item quantity="one">po 1 val.</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">po %d min.</item>
+        <item quantity="one">po 1 min.</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">po %d sek.</item>
+        <item quantity="one">po 1 sek.</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Prieš %d d.</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">Prieš 1 valandą</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">Prieš 1 minutę</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Prieš %d sek.</item>
+        <item quantity="one">Prieš 1 sek.</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">straipsniai</item>
+        <item quantity="one">straipsnis</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">komentarai</item>
+        <item quantity="one">komentaras</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">idėjos</item>
+        <item quantity="one">idėja</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s nori šios idėjos</item>
+        <item quantity="one">%1$s nori šios idėjos</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">žmonės</item>
+        <item quantity="one">žmogus</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">prenumeratoriai</item>
+        <item quantity="one">prenumeratorius</item>
+    </plurals>
+</resources>

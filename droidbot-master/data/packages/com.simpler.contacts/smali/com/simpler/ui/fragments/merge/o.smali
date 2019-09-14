@@ -1,0 +1,102 @@
+.class Lcom/simpler/ui/fragments/merge/o;
+.super Ljava/lang/Object;
+.source "MergeDetailsFragment.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;->e()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+
+# direct methods
+.method constructor <init>(Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/simpler/ui/fragments/merge/o;->a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 2
+
+    .line 1
+    iget-object p1, p0, Lcom/simpler/ui/fragments/merge/o;->a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+    invoke-virtual {p1}, Landroid/support/v4/app/Fragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/simpler/utils/PermissionUtils;->getBackupMergePermission(Landroid/content/Context;)[Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 2
+    iget-object v0, p0, Lcom/simpler/ui/fragments/merge/o;->a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+    invoke-virtual {v0}, Landroid/support/v4/app/Fragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v0
+
+    invoke-static {v0, p1}, Lcom/simpler/utils/PermissionUtils;->shouldShowRequestPermissionRationale(Landroid/app/Activity;[Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    iget-object v0, p0, Lcom/simpler/ui/fragments/merge/o;->a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+    const/16 v1, 0xcc
+
+    invoke-virtual {v0, p1, v1}, Landroid/support/v4/app/Fragment;->requestPermissions([Ljava/lang/String;I)V
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    iget-object p1, p0, Lcom/simpler/ui/fragments/merge/o;->a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+    invoke-virtual {p1}, Landroid/support/v4/app/Fragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/simpler/ui/fragments/merge/o;->a:Lcom/simpler/ui/fragments/merge/MergeDetailsFragment;
+
+    .line 5
+    invoke-virtual {v0}, Landroid/support/v4/app/Fragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/simpler/utils/PermissionUtils;->getMergePermissionDetailedMessage(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/simpler/ui/fragments/merge/n;
+
+    invoke-direct {v1, p0}, Lcom/simpler/ui/fragments/merge/n;-><init>(Lcom/simpler/ui/fragments/merge/o;)V
+
+    .line 6
+    invoke-static {p1, v0, v1}, Lcom/simpler/utils/PermissionUtils;->showOpenAppSettingsDialog(Landroid/app/Activity;Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V
+
+    :goto_0
+    return-void
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/list_view_item_half_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/checkbox" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_check_off_holo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.simpler.ui.views.ContactAvatar android:id="@id/icon" android:focusable="false" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="8.0dip" android:scaleType="centerCrop" android:layout_toRightOf="@id/checkbox" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/info_image_view" android:focusable="false" android:layout_width="?android:listPreferredItemHeightSmall" android:layout_height="?android:listPreferredItemHeight" android:src="@drawable/ic_action_about" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/info_image_view" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/title_light" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/subtitle_light" android:ellipsize="marquee" android:gravity="center|left" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

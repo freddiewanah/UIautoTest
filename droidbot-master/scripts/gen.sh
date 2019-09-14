@@ -14,6 +14,8 @@ for file in ../apk/*; do
   apktool d ../apk/${baseName}.apk -o ../data/packages/${baseName}
   printf "Finished apktool\n"
 
+  rm ../apk/${baseName}.apk
+
   printf "run process\n"
   python3 ./process.py ${baseName}
   printf "Finished process\n"

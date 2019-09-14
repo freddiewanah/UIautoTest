@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="chatpat.com" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="chatpat.com.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="chatpat.com.permission.C2D_MESSAGE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:label="@string/app_name" android:name="fragments.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="chatpat.com.MainActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SplashScreen"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.SignUpActivity" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SignUpActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.LostPassword" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.LostPassword"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.facebook" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.facebook"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.Settings" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.Settings"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.MyProfileView" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MyProfileView"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.UserProfileView" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.UserProfileView"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.ImagePreview" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.ImagePreview"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.ChatView" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.ChatView"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="upload.UploadActivity" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.UploadActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="upload.ChatUploadActivity" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.ChatUploadActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.Favorites" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.Favorites"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.Visitors" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.Visitors"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.YouTube" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.YouTube"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.editProfile" android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.editProfile"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="fragments.ChatImagePreview" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.ChatImagePreview"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:name="include.BackgroundService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="chatpat.com.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="chatpat.com"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

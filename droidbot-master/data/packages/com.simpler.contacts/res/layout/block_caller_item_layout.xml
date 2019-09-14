@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:foreground="?android:selectableItemBackground" android:minHeight="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_block_white_24dp" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/block_this_caller" />
+</LinearLayout>

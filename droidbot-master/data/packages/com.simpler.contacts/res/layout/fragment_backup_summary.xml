@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/backup_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Full_Backup" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/contacts_num_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/S_contacts" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/date_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Yesterday" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <RelativeLayout android:id="@id/cloud_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/cloud_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cloud_icon_big" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/action_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/upload_arrow" android:scaleType="centerCrop" android:layout_alignBottom="@id/cloud_image" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/local_image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/backup_summary_full" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextSwitcher android:textAppearance="?android:textAppearanceSmall" android:gravity="center_horizontal" android:id="@id/headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/cloud_layout" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="136.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/headline" android:layout_centerHorizontal="true" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/status_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/Simply_restore_at_any_time" android:layout_below="@id/headline" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:gravity="center" android:id="@id/export_info_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/You_can_simply_export_your_contacts_to" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/buttons_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/preview_layout" android:layout_width="96.0dip" android:layout_height="?android:listPreferredItemHeight">
+                <ImageView android:id="@id/preview_image_view" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_backup_preview" android:scaleType="centerCrop" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:id="@id/preview_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Preview" android:singleLine="true" />
+            </LinearLayout>
+            <View android:id="@id/vertical_divider" android:layout_width="1.0dip" android:layout_height="?android:listPreferredItemHeightSmall" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/email_layout" android:layout_width="96.0dip" android:layout_height="?android:listPreferredItemHeight">
+                <ImageView android:id="@id/email_image_view" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_backup_email" android:scaleType="centerCrop" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:id="@id/email_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Email" android:singleLine="true" />
+            </LinearLayout>
+            <View android:id="@id/vertical_divider2" android:layout_width="1.0dip" android:layout_height="?android:listPreferredItemHeightSmall" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/export_layout" android:layout_width="96.0dip" android:layout_height="?android:listPreferredItemHeight">
+                <ImageView android:id="@id/backup_image_view" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_backup_export" android:scaleType="centerCrop" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:id="@id/export_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Export" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

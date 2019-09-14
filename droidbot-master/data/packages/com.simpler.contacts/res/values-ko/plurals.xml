@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d일 후</item>
+        <item quantity="one">내일</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d시간 후</item>
+        <item quantity="one">1시간 후</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d분 후</item>
+        <item quantity="one">1분 후</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d초 후</item>
+        <item quantity="one">1초 후</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">어제</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d시간 전</item>
+        <item quantity="one">1시간 전</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">1분 전</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d초 전</item>
+        <item quantity="one">1초 전</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">1시간</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">1분</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d초</item>
+        <item quantity="one">1초</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d일 후</item>
+        <item quantity="one">내일</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d시간 후</item>
+        <item quantity="one">1시간 후</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d분 후</item>
+        <item quantity="one">1분 후</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d초 후</item>
+        <item quantity="one">1초 내</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">어제</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d시간 전</item>
+        <item quantity="one">1시간 전</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">1분 전</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d초 전</item>
+        <item quantity="one">1초 전</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">문서</item>
+        <item quantity="one">문서</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">댓글</item>
+        <item quantity="one">댓글</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">아이디어</item>
+        <item quantity="one">아이디어</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s가 이 아이디어를 원함</item>
+        <item quantity="one">%1$s가 이 아이디어를 원함</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">명의 사용자</item>
+        <item quantity="one">명의 사용자</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">명의 구독자</item>
+        <item quantity="one">명의 구독자</item>
+    </plurals>
+</resources>

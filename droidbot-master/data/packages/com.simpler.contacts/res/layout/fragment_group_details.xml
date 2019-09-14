@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/search_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_layout" android:paddingBottom="50.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_contacts" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/no_contacts_found_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/No_contacts_found" />
+    </LinearLayout>
+</RelativeLayout>

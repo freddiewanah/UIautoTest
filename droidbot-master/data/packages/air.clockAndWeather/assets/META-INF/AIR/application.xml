@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/26.0">
+  <id>clockAndWeather</id>
+  <versionNumber>4.300.000</versionNumber>
+  <versionLabel>Dragon Fruit</versionLabel>
+  <filename>Cloky</filename>
+  <description/>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+  <name>Cloky</name>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+  <copyright/>
+  <initialWindow>
+    <content>clockAndWeather.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>cpu</renderMode>
+    <autoOrients>false</autoOrients>
+  </initialWindow>
+  <icon>
+    
+    
+    
+    <image36x36>icon/icon36.png</image36x36>
+    <image48x48>icon/icon48.png</image48x48>
+    <image72x72>icon/icon72.png</image72x72>
+    <image96x96>icon/icon96.png</image96x96>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <android>
+    <manifestAdditions>
+      <![CDATA[<manifest>
+        <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19" />
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <uses-permission android:name="android.permission.VIBRATE"/>
+        <application android:enabled="true" android:persistent="true">
+          <activity android:excludeFromRecents="false">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN"/>
+                  <category android:name="android.intent.category.LAUNCHER"/>
+              </intent-filter>
+          </activity>
+          <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+          <!-- this meta-data tag is required for AdMob --> 
+          <meta-data android:name="com.google.android.gms.version" android:value="8487000"/>
+          <!-- this activity is required for AdMob -->
+          <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        </application>
+      </manifest>]]>
+    </manifestAdditions>
+  </android>
+  
+  
+  <supportedLanguages>en zh cs nl fr de it ja ko pl pt ru es sv tr</supportedLanguages>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <extensions>
+    <extensionID>com.adobe.Vibration</extensionID>
+    <extensionID>com.milkmangames.extensions.AdMob</extensionID>
+    <extensionID>com.milkmangames.extensions.GoogleServices</extensionID>
+  </extensions>
+</application>

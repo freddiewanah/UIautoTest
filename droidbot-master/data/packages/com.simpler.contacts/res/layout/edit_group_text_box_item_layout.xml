@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/list_view_item_padding" android:paddingRight="@dimen/list_view_item_padding" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatEditText android:id="@id/edit_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/Insert_group_name" android:inputType="textAutoCorrect|textCapWords"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <View android:id="@id/divider" android:background="@color/divider_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" android:alpha="0.5" />
+</RelativeLayout>

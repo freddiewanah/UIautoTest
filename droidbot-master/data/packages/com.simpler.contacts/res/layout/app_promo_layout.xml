@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/list_view_item_padding" android:paddingBottom="48.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/app_icon" android:layout_width="?android:listPreferredItemHeight" android:layout_height="?android:listPreferredItemHeight" android:src="@drawable/ic_launcher_contacts" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/Simpler_contacts" />
+</LinearLayout>

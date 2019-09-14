@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/digits_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:state_enabled="false" android:id="@id/add_contact_button" android:paddingLeft="@dimen/dialpad_digits_padding" android:paddingRight="@dimen/dialpad_digits_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_action_add_contact" android:alpha="0.0" />
+    <view android:textSize="@dimen/dialpad_digits_text_size" android:textStyle="normal" android:gravity="center" android:id="@id/digits" android:background="@android:color/transparent" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:cursorVisible="false" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:editable="true" android:freezesText="true" android:layout_weight="1.0" android:textCursorDrawable="@null" class="com.simpler.ui.views.DigitsEditText" />
+    <ImageButton android:state_enabled="false" android:id="@id/deleteButton" android:paddingLeft="@dimen/dialpad_digits_padding" android:paddingRight="@dimen/dialpad_digits_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_action_backspace" android:alpha="0.0" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/chat_upload" android:layout_width="20.0dip" android:layout_height="32.0dip" android:drawableLeft="@android:drawable/ic_menu_camera" android:layout_weight="0.15" />
+    <ImageView android:id="@id/emoticons_button" android:layout_width="0.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_smiley" android:layout_weight="0.15" android:contentDescription="@string/button_description" />
+    <EditText android:id="@id/msg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/chat_hint" android:layout_weight="0.85" android:inputType="textAutoComplete|textAutoCorrect|textCapSentences|textMultiLine" />
+    <Button android:id="@id/send" android:background="#fff5f5f5" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:drawableLeft="@android:drawable/ic_menu_send" android:layout_weight="0.2" />
+</LinearLayout>

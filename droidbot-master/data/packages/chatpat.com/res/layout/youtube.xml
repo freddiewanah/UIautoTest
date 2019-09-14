@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/list_parent" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.ads.AdView android:id="@id/youtubeAdView" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="SMART_BANNER" ads:adUnitId="@string/chatar_Banner" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/list_youtube" android:background="#ffffffff" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" style="?android:attr/progressBarStyleLarge" />
+</LinearLayout>
