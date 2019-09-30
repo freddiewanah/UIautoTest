@@ -121,5 +121,10 @@ notList = [
     'AutoCompleteTextView',
     'WebView',
     'fragment',
-    'TextureView'
+    'TextureView',
+    'customview',
+    "dnx",
+    "ajb",
+    "ajs"
+    ""
 ]

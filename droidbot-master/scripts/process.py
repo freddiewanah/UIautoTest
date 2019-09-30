@@ -42,9 +42,13 @@ for xml in xmlList:
                                 if not rex.match(key):
                                     key_node = key.split('.')
                                     package_node = packageName.split('.')
+                                    same = False
                                     for keN in key_node:
                                         if len(keN) > 5 and (keN == package_node[1] or keN == package_node[0]):
-                                            continue
+                                            same = True
+                                            break
+                                    if same:
+                                        continue
                                     libs[node[1]] = key
                 if key[0] != '@':
                     if nodes:
@@ -54,6 +58,7 @@ for xml in xmlList:
                                 visited.append([node[0], node[1]])
 print(libs)
 # read json files through id and match
+count = 0
 addedView = []
 jsonDir = os.path.join(os.pardir, 'data', 'bot_output', '{}/states/*.json'.format(packageName))
 outputDir = os.path.join(os.pardir, 'output', packageName)
@@ -92,6 +97,10 @@ for js in jsonList:
                 ax.add_patch(rect)
             plt.savefig(os.path.join(outputDir, '{}.png'.format(state['tag'])), dpi = 200)
             plt.close()
+if len(addedView) > 0 or len(libs) == 0:
+    apkPath = os.path.join(os.pardir, 'apk/{}.apk'.format(packageName))
+    if os.path.exists(apkPath):
+        os.remove(apkPath)
 # save the img and json view
 # https://stackoverflow.com/questions/37435369/matplotlib-how-to-draw-a-rectangle-on-image
 # select the certain area from img and draw with np

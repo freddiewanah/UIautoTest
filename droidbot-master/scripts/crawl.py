@@ -4,7 +4,7 @@ import re
 import os
 import play_scraper
 from bs4 import BeautifulSoup
-import json
+import time
 
 # def parser_apks(self, count=30):
 #     _root_url = "http://app.mi.com"  # 应用市场主页网址
@@ -38,7 +38,7 @@ import json
 #             page_num = page_num + 1
 #     print("爬取apk数量为: " + str(len(res_parser)))
 #     return res_parser
-_root_url = 'https://ext.apk.support/ext_api.php?com=https://play.google.com'
+_root_url = 'https://ext.apk.support/ext_api.php?com='
 def craw_apks(self, count=30):
     #read html
     read_path = os.path.join(os.pardir, os.pardir, 'googlePlayApps', 'medicalTop.html')
@@ -51,8 +51,8 @@ def craw_apks(self, count=30):
         'Accept-Language': 'en-US,en;q=0.8',
         'Connection': 'keep-alive'}
     with open(read_path, 'r') as target_file:
-        soup = BeautifulSoup(target_file, "html.parser")
-        links = soup.find_all("a", href=re.compile("/store/apps/details?"), class_="", alt="")
+        # soup = BeautifulSoup(target_file, "html.parser")
+        # links = soup.find_all("a", href=re.compile("/store/apps/details?"), class_="", alt="")
         known_links = []
 
         c = 0
@@ -89,6 +89,7 @@ def craw_apks(self, count=30):
                             r = requests.get(download_link, allow_redirects=True, headers=hdr)
                             open(save_path + download_page['package_name'] + ".apk", 'wb').write(r.content)
                             print("Finished")
+                            time.sleep(5)
             except:
                 pass
             c += 1
