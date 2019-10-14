@@ -50,7 +50,7 @@ def parser_apks(count=300):
     _root_url = "https://www.apkmirror.com"  # 应用市场主页网址
     res_parser = {}
     # 设置爬取的页面，从第一页开始爬取，第一页爬完爬取第二页，以此类推
-    page_num = 1
+    page_num = 12
     while count:
         # 获取应用列表页面
         print("count=" + str(count))
@@ -122,6 +122,6 @@ def craw_apks(count=300,save_path=os.path.join(os.pardir,"apk")):
 if __name__ == "__main__":
     category = 27
     # while category<=10:
-    craw_apks(100)
+    craw_apks(150)
 
 

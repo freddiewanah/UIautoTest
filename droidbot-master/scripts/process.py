@@ -43,12 +43,12 @@ for xml in xmlList:
                                     key_node = key.split('.')
                                     package_node = packageName.split('.')
                                     same = False
-                                    for keN in key_node:
-                                        if len(keN) > 5 and (keN == package_node[1] or keN == package_node[0]):
-                                            same = True
-                                            break
-                                    if same:
-                                        continue
+                                    # for keN in key_node:
+                                    #     if len(keN) > 5 and (keN == package_node[1] or keN == package_node[0]):
+                                    #         same = True
+                                    #         break
+                                    # if same:
+                                    #     continue
                                     libs[node[1]] = key
                 if key[0] != '@':
                     if nodes:
